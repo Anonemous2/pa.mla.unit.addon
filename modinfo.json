@@ -2,7 +2,7 @@
 	"identifier": "pa.mla.unit.addon",
 	"display_name": "MLA Units Addon",
 	"description": "This mod adds new unit, with unique roles and specialization. See forums for more details.",
-	"author": "Anonemous2 BilltheBlueBot CyberPanda",
+	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch",
 	"signature": "not yet implemented",
 	"forum": "https://forums.planetaryannihilation.com/threads/wip-casual-mla-unit-addon.73484/#post-1151453",
 	"priority": 100,
@@ -25,5 +25,5 @@
 	"context": "server",
 	"date": "2020-06-27",
 	"build": "114618",
-	"version": "0.0.2"
+	"version": "0.0.4"
 }
