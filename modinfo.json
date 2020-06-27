@@ -1,0 +1,28 @@
+{
+	"identifier": "pa.mla.unit.addon",
+	"display_name": "MLA Units Addon",
+	"description": "This mod adds new unit, with unique roles and specialization. See forums for more details.",
+	"author": "Anonemous2 BilltheBlueBot CyberPanda",
+	"signature": "not yet implemented",
+	"forum": "https://forums.planetaryannihilation.com/threads/wip-casual-mla-unit-addon.73484/#post-1151453",
+	"priority": 110,
+	"icon": "https://forums.planetaryannihilation.com/data/attachments/28/28542-f484e4ee0a2a39fcb87fdcb8254dff64.jpg",
+	"titansOnly": true,
+	"category": [
+		"balance",
+		"addon",
+		"expansion"
+	],
+	"scenes": {
+		"shared_build": [
+			"coui://ui/mods/mla.unit.addon/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
+		]
+	},
+	"context": "server",
+	"date": "2020-6-27",
+	"build": "114618",
+	"version": "0.0.1"
+}
