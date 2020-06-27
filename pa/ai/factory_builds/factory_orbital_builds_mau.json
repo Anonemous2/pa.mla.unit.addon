@@ -21,12 +21,6 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Orbital & Factory & Advanced",
-            "compare0": "<",
-            "value0": 1
-          },
-          {
-            "test_type": "UnitCountOnPlanet",
             "unit_type_string0": "Orbital & LaserPlatform",
             "compare0": "<",
             "value0": 4
