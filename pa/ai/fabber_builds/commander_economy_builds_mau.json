@@ -5,17 +5,13 @@
       "to_build": "BasicMetalGenerator",
       "instance_count": 1,
       "shared_instance_count": "BasicMetal",
-      "priority": 501,
+      "priority": 500,
       "base_sort": "FromBuilder",
       "builders": ["UberCommander"],
       "build_conditions": [
         [
           {
             "test_type": "DesireMetal"
-          },
-          {
-            "test_type": "CanFindMetalSpotToBuildBasic",
-            "boolean": false
           },
           {
             "test_type": "UnitCountOnPlanet",
@@ -28,10 +24,6 @@
         [
           {
             "test_type": "DesireMetal"
-          },
-          {
-            "test_type": "CanFindMetalSpotToBuildBasic",
-            "boolean": false
           },
           {
             "test_type": "CanDeployNavalFromBase",
