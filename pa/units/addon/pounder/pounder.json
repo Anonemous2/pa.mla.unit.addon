@@ -102,7 +102,7 @@
         {
             "filename": "/pa/units/addon/pounder/pounder.papa",
             "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
-            "skirt_decal": "/pa/effects/specs/skirt_artillery_short.json"
+            "skirt_decal": "/pa/units/addon/pounder/skirt_pounder.json"
         }
     ],
     "nearby_target_tick_update_interval": 15,
@@ -110,7 +110,7 @@
         {
             "spec_id": "/pa/units/addon/pounder/pounder_weapon.json",
             "aim_bone": "bone_pitch",
-            "muzzle_bone": "bone_pitch"
+            "muzzle_bone": "socket_muzzle"
         }
     ],
     "events": {
@@ -135,10 +135,10 @@
         {
             "offset": [
                 0.0,
-                -4.24,
-                1.77
+                -9.241,
+                3.127
             ],
-            "radius": 1.75,
+            "radius": 2,
             "color": [
                 1.0,
                 1.0,
@@ -146,6 +146,36 @@
             ],
             "intensity": 2.0,
             "bone": "bone_pitch"
+        },
+        {
+            "offset": [
+                3.382,
+                -2.807,
+                3.057
+            ],
+            "radius": 2,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0,
+            "bone": "bone_turret"
+        },
+        {
+            "offset": [
+                -3.382,
+                -2.807,
+                3.057
+            ],
+            "radius": 2,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0,
+            "bone": "bone_turret"
         }
     ],
     "selection_icon": {
