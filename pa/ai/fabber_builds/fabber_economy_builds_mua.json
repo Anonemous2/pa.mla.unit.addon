@@ -8,15 +8,56 @@
       "shared_instance_count": "MetalGenerator",
       "priority": 500,
       "base_sort": "FromBuilder",
-      "builders": ["AnyMUABasicFabber"],
+      "builders": [
+        "AnyMUABasicFabber"
+      ],
       "build_conditions": [
         [
           {
             "test_type": "DesireMetal"
           },
           {
+            "test_type": "CurrentEnergyEfficiency",
+            "compare0": ">",
+            "value0": 0.999
+          },
+          {
+            "test_type": "EnergyStorageFrac",
+            "compare0": ">",
+            "value0": 0.5
+          },
+          {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicMetalGenerator"
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fabber & Advanced",
+            "compare0": "<",
+            "value0": 1
+          }
+        ],
+        [
+          {
+            "test_type": "DesireMetal"
+          },
+          {
+            "test_type": "CurrentEnergyEfficiency",
+            "compare0": ">",
+            "value0": 0.999
+          },
+          {
+            "test_type": "EnergyStorageFrac",
+            "compare0": ">",
+            "value0": 0.5
+          },
+          {
+            "test_type": "CanAffordPotentialDrain",
+            "string0": "BasicMetalGenerator"
+          },
+          {
+            "test_type": "CanFindMetalSpotToBuildAdvanced",
+            "boolean": false
           }
         ]
       ],
@@ -39,15 +80,32 @@
       "shared_instance_count": "MetalGenerator",
       "priority": 613,
       "base_sort": "FromBuilder",
-      "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+      "builders": [
+        "AnyMUAAdvancedFabber",
+        "MUASupportCommander"
+      ],
       "build_conditions": [
         [
           {
             "test_type": "DesireMetal"
           },
           {
+            "test_type": "CurrentEnergyEfficiency",
+            "compare0": ">",
+            "value0": 0.999
+          },
+          {
+            "test_type": "EnergyStorageFrac",
+            "compare0": ">",
+            "value0": 0.5
+          },
+          {
             "test_type": "CanAffordPotentialDrain",
             "string0": "AdvancedMetalGenerator"
+          },
+          {
+            "test_type": "CanFindMetalSpotToBuildAdvanced",
+            "boolean": false
           }
         ]
       ],
