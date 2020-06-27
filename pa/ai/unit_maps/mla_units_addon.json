@@ -1,5 +1,29 @@
 {
   "unit_map": {
+    "AnyUberAdvancedFabber": {
+      "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyUberAirFactory": {
+      "unit_types": "(Factory & Air) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyUberBasicFabber": {
+      "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyUberBotFactory": {
+      "unit_types": "(Factory & Bot) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyUberNavalFactory": {
+      "unit_types": "(Factory & Naval) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyUberOrbitalFactory": {
+      "unit_types": "(Factory & Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyUberVehicleFactory": {
+      "unit_types": "(Factory & Tank) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "UberCommander": {
+      "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
+    },
     "AdvancedMetalGenerator": {
       "spec_id": "/pa/units/addon/adv_metal_generator/adv_metal_generator.json"
     },
