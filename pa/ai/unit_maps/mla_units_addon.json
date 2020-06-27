@@ -6,7 +6,7 @@
     "Andreas": {
       "spec_id": "/pa/units/addon/andreas/andreas.json"
     },
-    "AnyMAUBasicFabber": {
+    "AnyMUABasicFabber": {
       "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
     },
     "AnyMUAAdvancedFabber": {
@@ -15,10 +15,10 @@
     "BasicMetalGenerator": {
       "spec_id": "/pa/units/addon/metal_generator/metal_generator.json"
     },
-    "MAUCommander": {
+    "MUACommander": {
       "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
     },
-    "MAUSupportCommander": {
+    "MUASupportCommander": {
       "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
     },
     "Pounder": {
