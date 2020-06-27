@@ -1,25 +1,25 @@
 {
   "unit_map": {
-    "AnyMUAAdvancedFabber": {
-      "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyMAUBasicFabber": {
-      "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "MAUCommander": {
-      "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "MAUSupportCommander": {
-      "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
-    },
     "AdvancedMetalGenerator": {
       "spec_id": "/pa/units/addon/adv_metal_generator/adv_metal_generator.json"
     },
     "Andreas": {
       "spec_id": "/pa/units/addon/andreas/andreas.json"
     },
+    "AnyMAUBasicFabber": {
+      "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "AnyMUAAdvancedFabber": {
+      "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+    },
     "BasicMetalGenerator": {
       "spec_id": "/pa/units/addon/metal_generator/metal_generator.json"
+    },
+    "MAUCommander": {
+      "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
+    },
+    "MAUSupportCommander": {
+      "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
     },
     "Pounder": {
       "spec_id": "/pa/units/addon/pounder/pounder.json"
