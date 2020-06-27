@@ -6,6 +6,7 @@
     "max_health": 150,
     "build_metal_cost": 400,
     "unit_types": [
+        "UNITTYPE_Gunship",
         "UNITTYPE_Mobile",
         "UNITTYPE_Offense",
         "UNITTYPE_Air",
