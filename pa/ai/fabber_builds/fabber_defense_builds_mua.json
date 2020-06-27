@@ -7,7 +7,7 @@
       "min_num_assisters": 2,
       "max_num_assisters": 5,
       "priority": 350,
-      "builders": ["AnyMUAAdvancedFabber", "MAUSupportCommander"],
+      "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
       "build_conditions": [
         [
           {
