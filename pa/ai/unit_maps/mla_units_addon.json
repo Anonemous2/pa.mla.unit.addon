@@ -24,6 +24,9 @@
     "UberCommander": {
       "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
     },
+    "UberSupportCommander": {
+      "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
+    },
     "AdvancedMetalGenerator": {
       "spec_id": "/pa/units/addon/adv_metal_generator/adv_metal_generator.json"
     },
