@@ -4,6 +4,7 @@
 - Replaced changelog.txt with changelog.md 
 ### AI
 - AIs no longer build Swordfishes in non-naval scenarios.
+- AIs now build Metal Generators in sequence instead of in parallel.
 - AIs now more rigorously check their energy-based economy before building Metal Generators.
 - AIs now only build Metal Generators if unable to build Advanced Metal Extractors.
 
