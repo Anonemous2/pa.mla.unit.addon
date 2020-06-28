@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.0.6
+*Dissonant*
+### AI
+- Fixed Swordfish building scenario issue pointed out by Quitch
+
 ## 0.0.5
 *Dissonant*
 ### General
