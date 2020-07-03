@@ -207,8 +207,13 @@
         "/pa/units/addon/pounder/pounder.json",
 
         "/pa/units/addon/andreas/andreas.json",
+
+        "/pa/units/addon/stalker/stalker.json",
+
+        "/pa/units/addon/rex/rex.json",
         
         "/pa/units/addon/metal_generator/metal_generator.json",
-        "/pa/units/addon/adv_metal_generator/adv_metal_generator.json"
+        "/pa/units/addon/adv_metal_generator/adv_metal_generator.json",
+        "/pa/units/addon/solar_cell/solar_cell.json"
     ]
 }

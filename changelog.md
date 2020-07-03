@@ -1,6 +1,38 @@
 # Changelog
 
-### 0.0.6
+## 0.1.0
+*Anonemous2*
+### New Units
+## Models
+*Anonemous2*
+- Rex
+- Stalker (temp)
+*billthebluebot*
+- Solar Cell
+## Unit Implementation
+*Anonemous2*
+- Rex
+- Stalker
+- Solar Cell
+
+### Units
+#### Metal Generator now has a custom skirt
+- Now has a custom 'drill' effect
+- Now has a custom ground skirt
+#### Adv Metal Generator now has a custom skirt
+- Now has a custom 'drill' effect
+- Now has a custom ground skirt
+#### Swordfish
+- Health increased to 210
+- Gun weapon pitch range increased to 90
+- Torpedo damage decreased to 100
+#### Andreas
+- Decreased cost to 2000
+- Increased Rate of fire to 1.25
+- Decreased Damage to 100
+
+
+## 0.0.6
 *Dissonant*
 ### AI
 - Fixed Swordfish building scenario issue pointed out by Quitch

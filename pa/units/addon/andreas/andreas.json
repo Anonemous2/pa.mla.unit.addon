@@ -5,7 +5,7 @@
     "display_name": "!LOC:Andreas Laser Platform",
     "description": "!LOC:Orbital Laser Platform - Rains pains from above.",
     "max_health": 400,
-    "build_metal_cost": 2500,
+    "build_metal_cost": 2000,
     "spawn_layers": "WL_Orbital",
     "gravwell_velocity_multiplier": 8.0,
     "attachable": {

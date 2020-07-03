@@ -3,6 +3,9 @@ var paeiouIcons = [
     "pounder",
     "metal_generator",
     "adv_metal_generator",
-    "andreas"
+    "andreas",
+    "stalker",
+    "rex",
+    "solar_cell"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

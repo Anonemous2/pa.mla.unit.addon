@@ -47,7 +47,8 @@
 				"loop": "/pa/units/addon/metal_generator/metal_generator_loop.papa",
 				"end": "/pa/units/addon/metal_generator/metal_generator.papa"
 			},
-			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
+			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+			"skirt_decal": "/pa/units/addon/metal_generator/skirt/skirt_metal_generator.json"
 		}
 	],
 	"events": {
@@ -65,7 +66,38 @@
 		}
 	},
 	"lamps": [],
-	"fx_offsets": [],
+	"fx_offsets": [
+		{
+			"type": "energy",
+			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
+			"bone": "bone_drill",
+			"offset": [
+				1.7,
+				0,
+				-15
+			],
+			"orientation": [
+				0,
+				90,
+				0
+			]
+		},
+		{
+			"type": "energy",
+			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
+			"bone": "bone_drill",
+			"offset": [
+				-1.7,
+				0,
+				-15
+			],
+			"orientation": [
+				0,
+				90,
+				0
+			]
+		}
+	],
 	"selection_icon": {
 		"diameter": 30.0
 	},

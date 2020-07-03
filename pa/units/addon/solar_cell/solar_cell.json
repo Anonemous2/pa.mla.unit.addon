@@ -1,0 +1,97 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Solar Cell",
+    "si_name": "solar_cell",
+    "display_name": "!LOC:Solar Cell",
+    "description": "!LOC:Basic Economy - Produces energy for little initially metal, but takes up alot of space and is quite easy to destroy.",
+    "max_health": 100,
+    "build_metal_cost": 90,
+    "atrophy_rate": 80,
+    "atrophy_cool_down": 5.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "area_build_type": "Line",
+    "production": {
+        "energy": 150
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_EnergyProduction",
+        "UNITTYPE_Basic",
+        "UNITTYPE_CmdBuild",
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_Economy"
+    ],
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "filename": "/pa/units/addon/solar_cell/solar_cell.papa",
+            "animations": {
+                "idle": "/pa/units/addon/solar_cell/solar_cell_idle.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+            "skirt_decal": "/pa/effects/specs/skirt_energy.json"
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/energy"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Factory",
+            "effect_scale": 0.5
+        }
+    },
+    "audio": {
+        "selection_response": {
+            "cue": "/SE/Selection/structure/energy"
+        }
+    },
+    "fx_offsets": [],
+    "headlights": [],
+    "lamps": [
+        {
+            "offset": [
+                1.711,
+                1.602,
+                2.521
+            ],
+            "radius": 2.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        }
+    ],
+    "selection_icon": {
+        "diameter": 16
+    },
+    "mesh_bounds": [
+        4,
+        8,
+        6
+    ],
+    "placement_size": [
+        8,
+        8
+    ],
+    "TEMP_texelinfo": 15.8224
+}
