@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1
+### Units
+#### Solar Cell
+- updated buildbar icon
+- increased build cost to 100
+- reduced health to 75
+
+
 ## 0.1.0
 *Anonemous2*
 ### New Units
