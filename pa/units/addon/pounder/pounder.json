@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "Pounder",
     "si_name": "pounder",
-    "description": "!LOC:Artillery - Medium range for siege and area denial. Attacks land and sea targets.",
+    "description": "!LOC:Artillery - Long range for siege and area denial. Attacks land and sea targets.",
     "max_health": 2500,
     "build_metal_cost": 2000,
     "atrophy_rate": 25,

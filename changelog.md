@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3
+*Anonemous2*
+### Changes
+- added icon for server browser (probably doesn't work)
+- pounder description updated
+
+
 ## 0.1.2
 *Anonemous2*
 ### New Units
@@ -12,7 +19,6 @@
 - updated swordfish description
 #### Andreas
 - Increased firerate to 2
-
 
 
 ## 0.1.1
