@@ -2,6 +2,7 @@ var newBuild = {
     "/pa/units/addon/swordfish/swordfish.json": ["air", 0, { row: 2, column: 6 }],
 
     "/pa/units/addon/pounder/pounder.json": ["combat", 0, { row: 1, column: 5 }],
+    "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 5 }],
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 9, { row: 2, column: 5 }],
 

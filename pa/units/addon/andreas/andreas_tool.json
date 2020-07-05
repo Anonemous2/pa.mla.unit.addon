@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
     "ammo_id": "/pa/units/addon/andreas/andreas_ammo.json",
-    "rate_of_fire": 1.25,
+    "rate_of_fire": 2,
     "max_range": 100,
     "yaw_rate": 30,
     "pitch_rate": 30,

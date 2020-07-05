@@ -214,6 +214,7 @@
         
         "/pa/units/addon/metal_generator/metal_generator.json",
         "/pa/units/addon/adv_metal_generator/adv_metal_generator.json",
-        "/pa/units/addon/solar_cell/solar_cell.json"
+        "/pa/units/addon/solar_cell/solar_cell.json",
+        "/pa/units/addon/anti_missile_tower/anti_missile_tower.json"
     ]
 }

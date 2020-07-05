@@ -1,0 +1,29 @@
+{
+    "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
+    "ammo_id": "/pa/units/addon/anti_missile_tower/anti_missile_tower_ammo.json",
+    "rate_of_fire": 5,
+    "idle_aim_delay": 0.1,
+    "ammo_source": "energy",
+    "ammo_capacity": 2000,
+    "ammo_demand": 100,
+    "ammo_per_shot": 200,
+    "max_range": 160,
+    "yaw_rate": 3600,
+    "pitch_rate": 3600,
+    "yaw_range": 180,
+    "pitch_range": 180,
+    "spread_fire": true,
+    "auto_attack": true,
+    "manual_fire": true,
+    "auto_task_type": "anti_entity",
+    "anti_entity_targets_units": false,
+    "anti_entity_targets": [
+        "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
+        "/pa/units/air/bomber_adv/bomber_adv_ammo.json",
+        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json"
+    ],
+    "target_layers": [
+        "WL_Air",
+        "WL_Orbital"
+    ]
+}

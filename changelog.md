@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.2
+*Anonemous2*
+### New Units
+*billthebluebot*
+- anti-missile tower
+### Units
+#### Rex
+- updated rex description
+#### Swordfish
+- updated swordfish description
+#### Andreas
+- Increased firerate to 2
+
+
+
 ## 0.1.1
 ### Units
 #### Solar Cell

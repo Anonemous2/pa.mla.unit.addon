@@ -6,6 +6,7 @@ var paeiouIcons = [
     "andreas",
     "stalker",
     "rex",
-    "solar_cell"
+    "solar_cell",
+    "anti_missile_tower"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));
