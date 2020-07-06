@@ -1,9 +1,14 @@
 # Changelog
 
+## 0.1.4
+*Anonemous2*
+### Changes
+- improved browser mod icon
+
 ## 0.1.3
 *Anonemous2*
 ### Changes
-- added icon for server browser (probably doesn't work)
+- added icon for server browser
 - pounder description updated
 
 
