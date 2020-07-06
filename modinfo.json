@@ -15,9 +15,6 @@
 		"titans"
 	],
 	"scenes": {
-		"server_browser": [
-			"coui://ui/mods/mla.unit.addon/server_browser.js"
-		],
 		"shared_build": [
 			"coui://ui/mods/mla.unit.addon/shared_build.js"
 		],
@@ -28,5 +25,5 @@
 	"context": "server",
 	"date": "2020-07-05",
 	"build": "114628",
-	"version": "0.1.3"
+	"version": "0.1.4"
 }
