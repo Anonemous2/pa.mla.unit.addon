@@ -22,7 +22,7 @@ Pushed by **Anonemous2**
 Pushed by **Anonemous2**
 
 ### New Units
-- Anti-missile tower *(billthebluebot)*
+- Anti-missile tower *(billthebluebot)*: T2 Defense
 
 ### Unit Changes
 #### Rex
@@ -47,9 +47,9 @@ Pushed by **Anonemous2**
 Pushed by **Anonemous2**
 
 ### New Units
-- Rex *(Anonemous2)*
-- Stalker *(Anonemous2)*
-- Solar Cell *(billthebluebot)*
+- Rex *(Anonemous2)*: T1 Bot
+- Stalker *(Anonemous2)*: T2 Tank
+- Solar Cell *(billthebluebot)*: T1 Economy
 
 ### Unit Changes
 #### Metal Generator now has a custom skirt
@@ -104,7 +104,7 @@ Pushed by **Anonemous2**
 - Altered Andreas firing effects
 
 ## 0.0.2
-Pushed by **Quitch**
+Pushed by **Anonemous2** and **Quitch**
 
 ### AI
 - AI support added
@@ -115,38 +115,30 @@ Pushed by **Quitch**
 - Added lights to the pounder
 - Added skirt to pounder
 - Fixed muzzle bone
-
 #### Swordfish
-- anti-ground damage increased to 20 from 7
-- firerate decreased from 4 per second to 2
-- anti-naval damage increased from 100 to 150
-- health increased to 190
-- jet pfx moved back
-- added unittype gunship
-- new buildbar icon
-- updated strat icon
+- Anti-ground damage increased to 20 from 7
+- Firerate decreased from 4 per second to 2
+- Anti-naval damage increased from 100 to 150
+- Health increased to 190
+- Jet pfx moved back
+- Added unittype gunship
+- New buildbar icon
+- Updated strat icon
 #### Metal Generator
-- updated buildbar icon
-- updated strategic icon
+- Updated buildbar icon
+- Updated strategic icon
 #### Advanced Metal Generator
-- updated strategic icon
+- Updated strategic icon
 
 ## 0.0.1
-### Models
-#### Swordfish
-*Anonemous2*
-#### Pounder
-*billthebluebot*
-#### Metal Generator
-*billthebluebot*
-#### Advanced Metal Generator
-*billthebluebot*
-#### Andreas
-*CyberPunkPanda*
+Created by **Anonemous2**
+
+### New Units
+- Swordfish *(Anonemous2)*: T1 Air
+- Pounder *(billthebluebot)*: T2 Defense
+- Metal Generator *(billthebluebot)*: T1 Economy
+- Advanced Metal Generator *(billthebluebot)*: T2 Economy
+- Andreas *(CyberPunkPanda)*: T1 Orbital
+
 ### Unit Implementation
-*Anonemous2*
-- Swordfish
-- Pounder
-- Metal Generator
-- Advanced Metal Generator
-- Andreas
+Done by **Anonemous2**
