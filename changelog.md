@@ -1,7 +1,7 @@
 # MLA Addon Changelog
 
 ## 0.1.4
-Pushed by *Anonemous2*
+Pushed by **Anonemous2**
 
 ### General Changes
 - Improved browser mod icon
@@ -52,10 +52,12 @@ Pushed by **Anonemous2**
 - Solar Cell *(billthebluebot)*: T1 Economy
 
 ### Unit Changes
-#### Metal Generator now has a custom skirt
+#### Metal Generator 
+- Now has a custom skirt
 - Added custom 'drill' effect
 - Added custom ground skirt
-#### Adv Metal Generator now has a custom skirt
+#### Adv Metal Generator 
+- Now has a custom skirt
 - Added custom 'drill' effect
 - Added custom ground skirt
 #### Swordfish
