@@ -1,5 +1,8 @@
 # MLA Addon Changelog
 
+## 0.2.1 beastking hotfix
+- made beastking commander useable
+
 ## 0.2.0 'A round of improvement'
 Pushed by **Anonemous2**
 
