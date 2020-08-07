@@ -8,5 +8,13 @@
     "cruise_height": 2,
     "model": {
         "filename": "/pa/units/sea/torpedo_small/torpedo_small.papa"
+    },
+    "fx_trail": {
+        "filename": "/pa/units/addon/swordfish/effect_torps.pfx",
+        "offset": [
+            0.0,
+            0.8,
+            0.0
+        ]
     }
 }

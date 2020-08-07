@@ -4,7 +4,7 @@
     "si_name": "anti_missile_tower",
     "description": "!LOC:Anti-Missile Tower - Dedicated anti-missile defense.",
     "max_health": 1500,
-    "build_metal_cost": 1750,
+    "build_metal_cost": 1200,
     "atrophy_rate": 25,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -18,7 +18,8 @@
         "UNITTYPE_Land",
         "UNITTYPE_SurfaceDefense",
         "UNITTYPE_Defense",
-        "UNITTYPE_FabAdvBuild"
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_CombatFabAdvBuild"
     ],
     "command_caps": [
         "ORDER_Attack"
@@ -72,8 +73,7 @@
             "audio_cue": "/SE/Build_Complete/structure_small"
         },
         "fired": {
-            "audio_cue": "/SE/Weapons/bot/sniper_fire_anti_tac",
-            "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_foward /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_rear /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_left /pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle_right"
+            "audio_cue": "/SE/Weapons/bot/sniper_fire_anti_tac"
         },
         "died": {
             "audio_cue": "/SE/Death/structure_small",

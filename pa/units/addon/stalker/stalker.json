@@ -2,9 +2,9 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Stalker",
     "si_name": "stalker",
-    "description": "!LOC:Stealth Attack Vehicle - Fast, adaptable, and radar stealthed. Attacks surface targets.",
-    "max_health": 1000,
-    "build_metal_cost": 800,
+    "description": "!LOC:Stealth Attack Vehicle - Good vision, fast, adaptable, and radar stealthed. Equiped with a rapid-fire/splash cannon. Attacks surface targets.",
+    "max_health": 500,
+    "build_metal_cost": 600,
     "attachable": {
         "offsets": {
             "root": [
@@ -36,7 +36,7 @@
         "type": "land-small",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 14,
+        "move_speed": 18,
         "turn_speed": 75
     },
     "physics": {
@@ -52,13 +52,13 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 130
+                    "radius": 140
                 },
                 {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 130
+                    "radius": 140
                 }
             ]
         }
@@ -66,7 +66,7 @@
     "model": {
         "filename": "/pa/units/addon/stalker/stalker.papa",
         "animations": {
-            "run": "/pa/units/addon/stalker/stalker_walk.papa"
+            "run": "/pa/units/addon/stalker/stalker_anim_drive.papa"
         },
         "walk_speed": 4.5,
         "animtree": "/pa/units/addon/stalker/stalker_anim_tree.json"
@@ -75,10 +75,9 @@
         {
             "spec_id": "/pa/units/addon/stalker/stalker_weapon.json",
             "aim_bone": "bone_pitch",
-            "projectiles_per_fire": 2,
+            "projectiles_per_fire": 1,
             "muzzle_bone": [
-                "socket_muzzle_left",
-                "socket_muzzle_right"
+                "socket_muzzle"
             ]
         }
     ],
@@ -88,7 +87,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/veh/attack_vehicle_fire",
-            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle02"
+            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
         },
         "died": {
             "audio_cue": "/SE/Death/Veh",
@@ -109,64 +108,15 @@
         }
     },
     "selection_icon": {
-        "diameter": 15.0
+        "diameter": 13.0
     },
-    "headlights": [
-        {
-            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-            "offset": [
-                2.137,
-                -4.283,
-                0.421
-            ],
-            "orientation": [
-                0.0,
-                65.0,
-                0.0
-            ],
-            "near_width": 2.0,
-            "near_height": 2.0,
-            "near_distance": 1.2,
-            "far_distance": 20.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 1.2,
-            "bone": "bone_chaise"
-        },
-        {
-            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-            "offset": [
-                -2.137,
-                -4.283,
-                0.421
-            ],
-            "orientation": [
-                0.0,
-                65.0,
-                0.0
-            ],
-            "near_width": 2.0,
-            "near_height": 2.0,
-            "near_distance": 1.2,
-            "far_distance": 20.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 1.2,
-            "bone": "bone_chaise"
-        }
-    ],
+    "headlights": [],
     "lamps": [
         {
             "offset": [
                 0.0,
-                3.333,
-                0.6628
+                -3.25,
+                1.295
             ],
             "radius": 5,
             "color": [
@@ -174,8 +124,7 @@
                 0.85,
                 0.0
             ],
-            "intensity": 1.0,
-            "bone": "bone_chaise"
+            "intensity": 1.0
         }
     ],
     "TEMP_texelinfo": 6.12932,

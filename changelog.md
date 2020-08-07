@@ -1,5 +1,70 @@
 # MLA Addon Changelog
 
+## 0.2.0 'A round of improvement'
+Pushed by **Anonemous2**
+
+### New Units
+- Adv Energy Storage *(billthebluebot)*: T2 Economy
+
+### Unit Changes
+#### Rex
+- updated description
+- increased anti-orbital range to 150
+- decreased anti-droppod range to 150
+- decreased missile firerate to 0.6
+- increased missile damage to 175
+- increased missile speed to 100 from 60
+- unitcannon buildable now
+- added custom pfx effects
+- updated model *(Anonemous2)*
+- finalized textures
+- new unit animations
+- new buildbar icon
+#### Stalker
+- updated description
+- new strat icon
+- new model *(Anonemous2)*
+- finalized textures
+- unitcannon buildable now
+- reduced health to 500
+- reduced cost to 600
+- increased vision to 140
+- increased damage to 120
+- reduced splash radius to 2
+- increased move speed to 18
+- reduced range to 105
+#### Solar Cell
+- updated description
+#### Andreas
+- updated description
+- added custom pfx effects
+- lowered build cost to 900
+- increased vision to 40
+- lowered health to 180
+- increased pitch and yaw turn rate to 720
+- lowered firerate to 1.5
+#### Anti-missile-tower
+- now buildable by adv combat fabs
+- doubled energy drain
+- reduced build cost to 1200
+- reduced range to 120
+- added custom pfx effects
+#### Metal Generator
+- updated description
+#### Adv Metal Generator
+- updated description
+#### Swordfish
+- updated description
+- added custom pfx effects
+#### Pounder
+- increased damage to 1000
+- increased splash radius to 12
+- increased firing deviation to 0.5
+- increassed energy draw to 400
+- reduced range to 245
+- new strat icon
+
+
 ## 0.1.4
 Pushed by **Anonemous2**
 

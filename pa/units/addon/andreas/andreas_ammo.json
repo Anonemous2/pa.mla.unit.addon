@@ -4,6 +4,6 @@
     "splash_damage": 0,
     "splash_radius": 0,
     "collision_check": "target",
-    "fx_beam_spec": "/pa/units/orbital/defense_satellite/defense_satellite_ammo_ground_beam.pfx",
-    "fx_collision_spec": "/pa/units/orbital/defense_satellite/defense_satellite_ammo_ground_beam_hit.pfx"
+    "fx_beam_spec": "/pa/units/addon/andreas/andreas_beam_effect.pfx",
+    "fx_collision_spec": "/pa/units/addon/andreas/andreas_beam_hit_effect.pfx"
 }
