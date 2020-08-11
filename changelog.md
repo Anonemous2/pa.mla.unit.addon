@@ -1,5 +1,9 @@
 # MLA Addon Changelog
 
+## 0.2.2 fixed hotfix
+- added comma to unitlist
+- increased stalker range
+
 ## 0.2.1 beastking hotfix
 - made beastking commander useable
 
