@@ -10,7 +10,7 @@
 	"atrophy_cool_down": 15.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
 	"consumption": {
-		"energy": 3000,
+		"energy": 1600,
 		"metal": -2
 	},
 	"unit_types": [

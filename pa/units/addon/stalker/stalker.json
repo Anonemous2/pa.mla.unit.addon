@@ -36,7 +36,7 @@
         "type": "land-small",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 18,
+        "move_speed": 20,
         "turn_speed": 75
     },
     "physics": {
@@ -111,22 +111,7 @@
         "diameter": 13.0
     },
     "headlights": [],
-    "lamps": [
-        {
-            "offset": [
-                0.0,
-                -3.25,
-                1.295
-            ],
-            "radius": 5,
-            "color": [
-                1.0,
-                0.85,
-                0.0
-            ],
-            "intensity": 1.0
-        }
-    ],
+    "lamps": [],
     "TEMP_texelinfo": 6.12932,
     "mesh_bounds": [
         5,

@@ -1,6 +1,6 @@
 {
 	"identifier": "pa.mla.unit.addon",
-	"display_name": "MLA Units Addon",
+	"display_name": "Second Wave - Unit Addon",
 	"description": "This mod adds new units and structures, with unique roles and specialization. See forums for more details.",
 	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch, Dissonant",
 	"signature": "not yet implemented",
@@ -23,7 +23,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2020-08-10",
-	"build": "114628",
-	"version": "0.2.2"
+	"date": "2020-08-24",
+	"build": "114823",
+	"version": "0.3.0"
 }

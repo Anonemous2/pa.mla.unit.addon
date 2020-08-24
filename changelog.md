@@ -1,5 +1,29 @@
 # MLA Addon Changelog
 
+## 0.3.0 'legion addon'
+Pushed by **Anonemous2**
+
+### New Units
+- (legion) mass gen *(CyberPunkPanda & billthebluebot)*:T1 Economy
+- (legion) adv mass gen *(CyberPunkPanda & billthebluebot)*:T2 Economy
+- stinger *(Orginal PA Model)*:T1 Bot
+- pegasus *(Anonemous2)*:T2 Air
+
+### General Changes
+- Removed Custom Tags from Fabberbuild
+
+### Unit Changes
+#### Stalker
+- removed lamp
+#### Anti-missile Tower
+- updated textures
+- updated buildbar_icon
+#### Adv metal gen
+- reduced energy draw
+#### Metal gen
+- reduced energy draw
+
+
 ## 0.2.2 fixed hotfix
 - added comma to unitlist
 - increased stalker range
