@@ -1,5 +1,25 @@
 # MLA Addon Changelog
 
+## 0.3.1 'radar jamming'
+Pushed by **Anonemous2**
+
+### Unit Changes
+#### Stalker
+- added radar jamming (15)
+#### Pegasus
+- added radar jamming (10)
+#### Adv metal gen
+- reduced energy draw (5625)
+- updated texures
+- added naval version
+#### metal gen
+- reduced energy draw (1250)
+#### Adv mass gen
+- reduced energy draw (5625)
+#### mass gen
+- reduced energy draw (1250)
+
+
 ## 0.3.0 'legion addon'
 Pushed by **Anonemous2**
 

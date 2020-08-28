@@ -2,7 +2,7 @@
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"display_name": "Pegasus",
 	"si_name": "adv_transport",
-	"description": "!LOC:Interplanetary Air Transport - Load a land unit to transport for snipes or expansions.",
+	"description": "!LOC:Interplanetary Air Transport - Load a land unit to transport for snipes or expansions. Jams radar in a tiny radius around itself.",
 	"max_health": 310,
 	"build_metal_cost": 420,
 	"system_velocity_multiplier": 15.0,
@@ -82,9 +82,6 @@
 		"gravity_scalar": 0.001
 	},
 	"recon": {
-		"observable": {
-            "ignore_radar": true
-        },
 		"observer": {
 			"items": [
 				{
@@ -92,6 +89,13 @@
 					"channel": "sight",
 					"shape": "capsule",
 					"radius": 120
+				},
+				{
+					"layer": "surface_and_air",
+					"channel": "radar_jammer",
+					"shape": "capsule",
+					"radius": 10,
+					"uses_energy": false
 				}
 			]
 		}

@@ -11,7 +11,7 @@
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "consumption": {
-        "energy": 6400,
+        "energy": 5625,
         "metal": -10
     },
     "unit_types": [
@@ -41,7 +41,19 @@
     },
     "model": [
         {
+            "layer": "WL_LandHorizontal",
             "filename": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+            "animations": {
+                "start": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+                "loop": "/pa/units/addon/adv_metal_generator/adv_metal_generator_loop.papa",
+                "end": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+            "skirt_decal": "/pa/units/addon/adv_metal_generator/skirt/skirt_adv_metal_generator.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/adv_metal_generator/naval/adv_metal_generator.papa",
             "animations": {
                 "start": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
                 "loop": "/pa/units/addon/adv_metal_generator/adv_metal_generator_loop.papa",
