@@ -3,14 +3,14 @@
 	"unit_name": "!Metal Generator",
 	"si_name": "metal_generator",
 	"display_name": "!LOC:Metal Generator",
-	"description": "!LOC:Basic Metal Generator - Produces metal, but at the cost of vast amounts of energy.",
+	"description": "!LOC:Basic Metal Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
 	"max_health": 650,
 	"build_metal_cost": 350,
 	"atrophy_rate": 2.5,
 	"atrophy_cool_down": 15.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
 	"consumption": {
-		"energy": 3000,
+		"energy": 1250,
 		"metal": -2
 	},
 	"unit_types": [

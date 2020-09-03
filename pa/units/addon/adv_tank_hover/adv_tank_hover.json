@@ -1,0 +1,217 @@
+{
+	"base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+	"display_name": "Saxon",
+	"si_name": "tank_hover_adv",
+	"description": "!LOC:Adv Hover Tank - Fast. Devastating damage with heavy armor. Vulnerable to flanking. Can cross water and lava. Attacks land and sea targets.",
+	"max_health": 1500,
+	"build_metal_cost": 1200,
+	"armor_type": "AT_Hover",
+	"attachable": {
+		"offsets": {
+			"root": [
+				0,
+				0,
+				0
+			],
+			"head": [
+				0,
+				0,
+				2.7
+			]
+		}
+	},
+	"unit_types": [
+		"UNITTYPE_Tank",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Offense",
+		"UNITTYPE_Land",
+		"UNITTYPE_Advanced",
+		"UNITTYPE_Hover",
+		"UNITTYPE_FactoryBuild"
+	],
+	"transportable": {
+		"size": 1
+	},
+	"guard_layer": "WL_LandHorizontal",
+	"navigation": {
+		"type": "hover",
+		"acceleration": 80,
+		"brake": 80,
+		"move_speed": 14,
+		"turn_speed": 45
+	},
+	"physics": {
+		"radius": 4,
+		"air_friction": 0.5
+	},
+	"recon": {
+		"observer": {
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 120
+				}
+			]
+		}
+	},
+	"model": {
+		"filename": "/pa/units/land/tank_hover/tank_hover.papa",
+		"animations": {
+			"hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
+		},
+		"animtree": "/pa/anim/anim_trees/tank_hover_anim_tree.json"
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/addon/adv_tank_hover/adv_tank_hover_tool_weapon.json",
+			"aim_bone": "socket_aim",
+			"muzzle_bone": "socket_muzzle"
+		}
+	],
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/veh"
+		},
+		"fired": {
+			"audio_cue": "/SE/Weapons/veh/tank_hover_fire",
+			"effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/Veh"
+		}
+	},
+	"fx_offsets": [
+		{
+			"type": "idle",
+			"filename": "/pa/effects/specs/hover_idle_01.pfx",
+			"bone": "bone_root",
+			"offset": [
+				-2.86,
+				-1.9,
+				0.96
+			],
+			"orientation": [
+				0,
+				0,
+				-202.5
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/effects/specs/hover_idle_01.pfx",
+			"bone": "bone_root",
+			"offset": [
+				2.86,
+				-1.9,
+				0.96
+			],
+			"orientation": [
+				0,
+				0,
+				22.5
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/effects/specs/hover_idle_01.pfx",
+			"bone": "bone_root",
+			"offset": [
+				2.13,
+				2.14,
+				2.22
+			],
+			"orientation": [
+				0,
+				0,
+				-15
+			]
+		},
+		{
+			"type": "idle",
+			"filename": "/pa/effects/specs/hover_idle_01.pfx",
+			"bone": "bone_root",
+			"offset": [
+				-2.13,
+				2.14,
+				2.22
+			],
+			"orientation": [
+				0,
+				0,
+				195
+			]
+		}
+	],
+	"audio": {
+		"loops": {
+			"move": {
+				"cue": "/SE/Movement/veh/tank_hover_loop",
+				"flag": "vel_changed",
+				"should_start_func": "is_moving",
+				"should_stop_func": "is_not_moving"
+			}
+		},
+		"selection_response": {
+			"cue": "/SE/Selection/veh/tank_hover"
+		}
+	},
+	"headlights": [
+		{
+			"gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+			"offset": [
+				1.8,
+				-2,
+				1.0
+			],
+			"orientation": [
+				0.0,
+				65.0,
+				0.0
+			],
+			"near_width": 2.0,
+			"near_height": 2.0,
+			"near_distance": 1.2,
+			"far_distance": 20.0,
+			"color": [
+				0.9,
+				0.92,
+				1.0
+			],
+			"intensity": 1.4
+		},
+		{
+			"gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+			"offset": [
+				-1.8,
+				-2,
+				1.0
+			],
+			"orientation": [
+				0.0,
+				65.0,
+				0.0
+			],
+			"near_width": 2.0,
+			"near_height": 2.0,
+			"near_distance": 1.2,
+			"far_distance": 20.0,
+			"color": [
+				0.9,
+				0.92,
+				1.0
+			],
+			"intensity": 1.4
+		}
+	],
+	"selection_icon": {
+		"diameter": 12.0
+	},
+	"mesh_bounds": [
+		4.93769,
+		6.4,
+		2.6835
+	],
+	"TEMP_texelinfo": 5.84968
+}

@@ -3,7 +3,7 @@
     "unit_name": "Advanced Metal Generator",
     "si_name": "adv_metal_generator",
     "display_name": "!LOC:Advanced Metal Generator",
-    "description": "!LOC:Advanced Metal Generator - Produces metal, but at the cost of vast amounts of energy.",
+    "description": "!LOC:Advanced Metal Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
     "strategic_icon_priority": 5,
     "max_health": 4000,
     "build_metal_cost": 2000,
@@ -11,7 +11,7 @@
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "consumption": {
-        "energy": 9000,
+        "energy": 5625,
         "metal": -10
     },
     "unit_types": [
@@ -41,7 +41,19 @@
     },
     "model": [
         {
+            "layer": "WL_LandHorizontal",
             "filename": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+            "animations": {
+                "start": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+                "loop": "/pa/units/addon/adv_metal_generator/adv_metal_generator_loop.papa",
+                "end": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+            "skirt_decal": "/pa/units/addon/adv_metal_generator/skirt/skirt_adv_metal_generator.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/adv_metal_generator/naval/adv_metal_generator.papa",
             "animations": {
                 "start": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
                 "loop": "/pa/units/addon/adv_metal_generator/adv_metal_generator_loop.papa",

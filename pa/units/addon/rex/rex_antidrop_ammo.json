@@ -11,7 +11,7 @@
     "lifetime": 3,
     "turn_rate": 720,
     "fx_trail": {
-        "filename": "/pa/units/orbital/ion_defense/ion_defense_antidrop_ammo_trail.pfx",
+        "filename": "/pa/units/addon/rex/antidrop_trail_effect.pfx",
         "offset": [
             0.0,
             1.4,

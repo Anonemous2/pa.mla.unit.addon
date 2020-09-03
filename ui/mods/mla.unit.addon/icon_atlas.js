@@ -7,6 +7,14 @@ var paeiouIcons = [
     "stalker",
     "rex",
     "solar_cell",
-    "anti_missile_tower"
+    "anti_missile_tower",
+	"tank_hover_adv",
+	"adv_transport",
+    "adv_heavy_bot",
+    "anti_sub_ship",
+    "fab_tower",
+    "adv_fab_tower",
+    "l_mass_generator",
+    "l_adv_mass_generator"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

@@ -1,0 +1,281 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Advanced Energy Storage",
+    "si_name": "energy_storage_adv",
+    "display_name": "!LOC:Advanced Energy Storage",
+    "description": "!LOC:Advanced Storage - Increases maximum Energy storage capacity.",
+    "max_health": 24000,
+    "build_metal_cost": 1200,
+    "atrophy_rate": 7.5,
+    "atrophy_cool_down": 15.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "area_build_type": "Line",
+    "storage": {
+        "energy": 1000000
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Economy"
+    ],
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 120
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 120
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "filename": "/pa/units/addon/adv_energy_storage/adv_energy_storage.papa",
+            "skirt_decal": "/pa/units/addon/adv_energy_storage/skirt/skirt_adv_energy_storage.json"
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/energy"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Factory",
+            "effect_scale": 2
+        }
+    },
+    "audio": {
+        "selection_response": {
+            "cue": "/SE/Selection/structure/energy"
+        }
+    },
+    "headlights": [
+        {
+            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+            "offset": [
+                13.7026,
+                13.7026,
+                4.07
+            ],
+            "orientation": [
+                26.33,
+                -23.93,
+                -50.68
+            ],
+            "near_width": 8,
+            "near_height": 8,
+            "near_distance": 2.5,
+            "far_distance": 50.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+            "offset": [
+                -13.7026,
+                13.7026,
+                4.07
+            ],
+            "orientation": [
+                -26.34,
+                -23.93,
+                50.67
+            ],
+            "near_width": 8,
+            "near_height": 8,
+            "near_distance": 2.5,
+            "far_distance": 50.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+            "offset": [
+                13.7026,
+                -13.7026,
+                4.07
+            ],
+            "orientation": [
+                26.33,
+                23.92,
+                -129.32
+            ],
+            "near_width": 8,
+            "near_height": 8,
+            "near_distance": 2.5,
+            "far_distance": 50.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+            "offset": [
+                -13.7026,
+                -13.7026,
+                4.07
+            ],
+            "orientation": [
+                -26.34,
+                23.92,
+                129.31
+            ],
+            "near_width": 8,
+            "near_height": 8,
+            "near_distance": 2.5,
+            "far_distance": 50.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        }
+    ],
+    "lamps": [
+        {
+            "offset": [
+                -13.7,
+                -13.7,
+                4.071
+            ],
+            "radius": 6.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "offset": [
+                13.7,
+                -13.7,
+                4.071
+            ],
+            "radius": 6.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "offset": [
+                -13.7,
+                13.7,
+                4.071
+            ],
+            "radius": 6.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "offset": [
+                13.7,
+                13.7,
+                4.071
+            ],
+            "radius": 6.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.5
+        },
+        {
+            "offset": [
+                0,
+                -5.931,
+                17.69
+            ],
+            "radius": 4.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                0,
+                5.931,
+                17.69
+            ],
+            "radius": 4.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                5.931,
+                0,
+                17.69
+            ],
+            "radius": 4.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -5.931,
+                0,
+                17.69
+            ],
+            "radius": 4.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        }
+    ],
+    "selection_icon": {
+        "diameter": 54
+    },
+    "mesh_bounds": [
+        40,
+        40,
+        30
+    ],
+    "placement_size": [
+        50,
+        50
+    ],
+    "TEMP_texelinfo": 21.4256
+}

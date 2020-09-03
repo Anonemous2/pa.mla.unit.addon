@@ -1,6 +1,6 @@
 {
 	"identifier": "pa.mla.unit.addon",
-	"display_name": "MLA Units Addon",
+	"display_name": "MLA Units Addon DEV",
 	"description": "This mod adds new units and structures, with unique roles and specialization. See forums for more details.",
 	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch, Dissonant",
 	"signature": "not yet implemented",
@@ -23,7 +23,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2020-07-05",
+	"date": "2020-09-02",
 	"build": "114628",
-	"version": "0.1.5"
+	"version": "0.3.2"
 }

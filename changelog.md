@@ -1,5 +1,130 @@
 # MLA Addon Changelog
 
+##0.3.2 WIP
+
+### Unit Changes
+
+### New Units
+- Fab Tower *(Anonemous2)*:T1 Factory
+- Adv Fab Tower *(Anonemous2)*:T2 Factory
+
+## 0.3.1 'radar jamming'
+Pushed by **Anonemous2**
+
+
+### Unit Changes
+#### Stalker
+- added radar jamming (15)
+#### Pegasus
+- added radar jamming (10)
+#### Adv metal gen
+- reduced energy draw (5625)
+- updated texures
+- added naval version
+#### metal gen
+- reduced energy draw (1250)
+#### Adv mass gen
+- reduced energy draw (5625)
+#### mass gen
+- reduced energy draw (1250)
+
+
+## 0.3.0 'legion addon'
+Pushed by **Anonemous2**
+
+### New Units
+- (legion) mass gen *(CyberPunkPanda & billthebluebot)*:T1 Economy
+- (legion) adv mass gen *(CyberPunkPanda & billthebluebot)*:T2 Economy
+- stinger *(Orginal PA Model)*:T1 Bot
+- pegasus *(Anonemous2)*:T2 Air
+
+### General Changes
+- Removed Custom Tags from Fabberbuild
+
+### Unit Changes
+#### Stalker
+- removed lamp
+#### Anti-missile Tower
+- updated textures
+- updated buildbar_icon
+#### Adv metal gen
+- reduced energy draw
+#### Metal gen
+- reduced energy draw
+
+
+## 0.2.2 fixed hotfix
+- added comma to unitlist
+- increased stalker range
+
+## 0.2.1 beastking hotfix
+- made beastking commander useable
+
+## 0.2.0 'A round of improvement'
+Pushed by **Anonemous2**
+
+### New Units
+- Adv Energy Storage *(billthebluebot)*: T2 Economy
+
+### Unit Changes
+#### Rex
+- updated description
+- increased anti-orbital range to 150
+- decreased anti-droppod range to 150
+- decreased missile firerate to 0.6
+- increased missile damage to 175
+- increased missile speed to 100 from 60
+- unitcannon buildable now
+- added custom pfx effects
+- updated model *(Anonemous2)*
+- finalized textures
+- new unit animations
+- new buildbar icon
+#### Stalker
+- updated description
+- new strat icon
+- new model *(Anonemous2)*
+- finalized textures
+- unitcannon buildable now
+- reduced health to 500
+- reduced cost to 600
+- increased vision to 140
+- increased damage to 120
+- reduced splash radius to 2
+- increased move speed to 18
+- reduced range to 105
+#### Solar Cell
+- updated description
+#### Andreas
+- updated description
+- added custom pfx effects
+- lowered build cost to 900
+- increased vision to 40
+- lowered health to 180
+- increased pitch and yaw turn rate to 720
+- lowered firerate to 1.5
+#### Anti-missile-tower
+- now buildable by adv combat fabs
+- doubled energy drain
+- reduced build cost to 1200
+- reduced range to 120
+- added custom pfx effects
+#### Metal Generator
+- updated description
+#### Adv Metal Generator
+- updated description
+#### Swordfish
+- updated description
+- added custom pfx effects
+#### Pounder
+- increased damage to 1000
+- increased splash radius to 12
+- increased firing deviation to 0.5
+- increassed energy draw to 400
+- reduced range to 245
+- new strat icon
+
+
 ## 0.1.4
 Pushed by **Anonemous2**
 
