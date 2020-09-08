@@ -201,6 +201,7 @@
         "/pa/units/sea/drone_carrier/drone/drone.json",
         "/pa/units/sea/fabrication_barge/fabrication_barge.json",
         "/pa/units/sea/hover_ship/hover_ship.json",
+        "/pa/units/commanders/raptor_beast_king/raptor_beast_king.json",
 
         "/pa/units/addon/swordfish/swordfish.json",
 		"/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json",
@@ -210,6 +211,7 @@
         "/pa/units/addon/andreas/andreas.json",
 
         "/pa/units/addon/anti_sub_ship/anti_sub_ship.json",
+        "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json",
 
         "/pa/units/addon/stalker/stalker.json",
 		"/pa/units/addon/adv_tank_hover/adv_tank_hover.json",

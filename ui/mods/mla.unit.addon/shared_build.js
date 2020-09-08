@@ -8,6 +8,7 @@ var newBuild = {
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 2, column: 5 }],
 
     "/pa/units/addon/anti_sub_ship/anti_sub_ship.json": ["sea", 0, { row: 2, column: 7 }],
+    "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json": ["sea", 0, { row: 2, column: 6 }],
 
     "/pa/units/addon/stalker/stalker.json": ["vehicle", 9, { row: 1, column: 6 }],
     "/pa/units/addon/adv_tank_hover/adv_tank_hover.json": ["vehicle", 9, { row: 1, column: 5 }],

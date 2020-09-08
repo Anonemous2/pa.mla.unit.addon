@@ -3,6 +3,7 @@
     "yaw_rate": 180,
     "pitch_rate": 180,
     "max_range": 75,
+    "auto_patrol": true,
     "construction_demand": {
         "energy": 1000,
         "metal": 18

@@ -3,10 +3,15 @@
 ##0.3.2 WIP
 
 ### Unit Changes
+#### Rex
+- increased missile velocity to 150 from 100
+- decreased firerate to 0.5 from 0.6
+- increased damage to 180 from 175
 
 ### New Units
 - Fab Tower *(Anonemous2)*:T1 Factory
 - Adv Fab Tower *(Anonemous2)*:T2 Factory
+- Anti-Orbital Ship *(Panda, Bill, Anon)*:T1 Naval
 
 ## 0.3.1 'radar jamming'
 Pushed by **Anonemous2**

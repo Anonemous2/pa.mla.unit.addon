@@ -104,12 +104,21 @@
     },
     "model": [
         {
+            "layer": "WL_LandHorizontal",
             "filename": "/pa/units/addon/solar_cell/solar_cell.papa",
             "animations": {
-                "idle": "/pa/units/addon/solar_cell/solar_cell_idle.papa"
+                "idle": "/pa/units/addon/solar_cell/solar_cell_anim_idle.papa"
             },
             "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
             "skirt_decal": "/pa/effects/specs/skirt_energy.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/solar_cell/naval/naval_solar_cell.papa",
+            "animations": {
+                "idle": "/pa/units/addon/solar_cell/naval/naval_solar_cell_anim_idle.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
         }
     ],
     "events": {

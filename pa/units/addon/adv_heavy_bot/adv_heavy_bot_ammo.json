@@ -7,7 +7,7 @@
 	"splash_damages_allies": false,
 	"initial_velocity": 125.0,
 	"max_velocity": 175.0,
-	"lifetime": 1,
+	"lifetime": 2,
 	"physics": {
 		"type": "Projectile",
 		"radius": 1,

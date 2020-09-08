@@ -93,14 +93,14 @@
         "move_speed": 0,
         "turn_speed": 360
     },
-    "guard_layer": "WL_AnySurface",
+    "guard_layer": "WL_AnyHorizontalGroundOrWaterSurface",
     "physics": {
         "allow_pushing": false,
         "shape": "Box",
         "air_friction": 1.0,
         "type": "Structure",
         "radius": 3.75,
-        "collision_layers": "WL_AnySurface",
+        "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
         "allow_underground": false,
         "push_sideways": false
     },

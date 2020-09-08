@@ -1,6 +1,6 @@
 {
-	"identifier": "pa.mla.unit.addon",
-	"display_name": "MLA Units Addon DEV",
+	"identifier": "pa.mla.unit.addon.testbuild",
+	"display_name": "MLA Units Addon",
 	"description": "This mod adds new units and structures, with unique roles and specialization. See forums for more details.",
 	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch, Dissonant",
 	"signature": "not yet implemented",

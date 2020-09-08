@@ -12,6 +12,7 @@ var paeiouIcons = [
 	"adv_transport",
     "adv_heavy_bot",
     "anti_sub_ship",
+    "naval_anti_orbital",
     "fab_tower",
     "adv_fab_tower",
     "l_mass_generator",
