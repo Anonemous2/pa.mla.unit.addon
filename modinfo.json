@@ -1,6 +1,6 @@
 {
 	"identifier": "pa.mla.unit.addon",
-	"display_name": "Second Wave - A units addon",
+	"display_name": "Second Wave - An units addon",
 	"description": "Second Wave is a unit adding mod, for both MLA and legion. New units and structures seek to expand play styles and improve factory interactions, without forcing out old ones. Still under developement. See forums for more details.",
 	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch, Dissonant",
 	"signature": "not yet implemented",
@@ -27,5 +27,5 @@
 	"context": "server",
 	"date": "2020-10-1",
 	"build": "114880",
-	"version": "0.4.0"
+	"version": "0.4.1"
 }

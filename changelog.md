@@ -1,5 +1,8 @@
 # MLA Addon Changelog
 
+## 0.4.1
+- Fixed a typo
+
 ## 0.4.0 'Centaur Bot'
 Pushed by **Anonemous2**
 
