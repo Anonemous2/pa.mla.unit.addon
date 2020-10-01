@@ -1,16 +1,18 @@
 {
 	"identifier": "pa.mla.unit.addon",
-	"display_name": "Second Wave - Unit Addon",
-	"description": "This mod adds new units and structures, with unique roles and specialization. See forums for more details.",
+	"display_name": "Second Wave - A units addon",
+	"description": "Second Wave is a unit adding mod, for both MLA and legion. New units and structures seek to expand play styles and improve factory interactions, without forcing out old ones. Still under developement. See forums for more details.",
 	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch, Dissonant",
 	"signature": "not yet implemented",
 	"forum": "https://forums.planetaryannihilation.com/threads/wip-casual-mla-unit-addon.73484/#post-1151453",
-	"priority": 100,
+	"priority": 110,
 	"icon": "https://github.com/Anonemous2/pa.mla.unit.addon/blob/master/icon.png?raw=true",
 	"titansOnly": true,
 	"category": [
 		"balance",
 		"addon",
+		"unit",
+		"legion",
 		"expansion",
 		"titans"
 	],
@@ -23,7 +25,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2020-08-28",
-	"build": "114823",
-	"version": "0.3.1"
+	"date": "2020-10-1",
+	"build": "114880",
+	"version": "0.4.0"
 }

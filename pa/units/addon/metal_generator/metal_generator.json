@@ -41,6 +41,7 @@
 	},
 	"model": [
 		{
+			"layer": "WL_LandHorizontal",
 			"filename": "/pa/units/addon/metal_generator/metal_generator.papa",
 			"animations": {
 				"start": "/pa/units/addon/metal_generator/metal_generator.papa",
@@ -49,7 +50,17 @@
 			},
 			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
 			"skirt_decal": "/pa/units/addon/metal_generator/skirt/skirt_metal_generator.json"
-		}
+		},
+		{
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/metal_generator/naval/naval_metal_generator.papa",
+			"animations": {
+				"start": "/pa/units/addon/metal_generator/metal_generator.papa",
+				"loop": "/pa/units/addon/metal_generator/metal_generator_loop.papa",
+				"end": "/pa/units/addon/metal_generator/metal_generator.papa"
+			},
+			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
+        }
 	],
 	"events": {
 		"build_complete": {
@@ -70,7 +81,7 @@
 		{
 			"type": "energy",
 			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_drill",
+			"bone": "bone_spinner",
 			"offset": [
 				1.7,
 				0,
@@ -85,7 +96,7 @@
 		{
 			"type": "energy",
 			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_drill",
+			"bone": "bone_spinner",
 			"offset": [
 				-1.7,
 				0,
