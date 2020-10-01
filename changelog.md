@@ -1,6 +1,6 @@
 # MLA Addon Changelog
 
-##0.4.0 'Centaur Bot'
+## 0.4.0 'Centaur Bot'
 Pushed by **Anonemous2**
 
 ### New Units
