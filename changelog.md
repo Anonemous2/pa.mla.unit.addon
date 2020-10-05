@@ -1,5 +1,14 @@
 # MLA Addon Changelog
 
+
+## 0.4.2
+- Fixed the fixed typo
+### Unit Changes
+#### Swordfish
+- updated Model
+- updated Textures
+- increased gun damage to 30 from 15
+
 ## 0.4.1
 - Fixed a typo
 
