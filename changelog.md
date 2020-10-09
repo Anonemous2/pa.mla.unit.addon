@@ -10,6 +10,7 @@
 #### Adv Mass Generator
 - now uses legion select circle
 #### Centaur
+- added effect
 - updated description
 - added recoil animations
 #### Swordfish
