@@ -1,5 +1,10 @@
 # MLA Addon Changelog
 
+## 0.4.4
+#### General Changes
+- fixed titan fabrication
+
+
 ## 0.4.3
 ### New Units
 - Almaz *(Anonemous2)*:l_T1 Orbital
