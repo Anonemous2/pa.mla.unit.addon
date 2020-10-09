@@ -10,7 +10,6 @@ var newBuild = {
     "/pa/units/addon/anti_sub_ship/anti_sub_ship.json": ["sea", 0, { row: 2, column: 7 }],
     "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json": ["sea", 0, { row: 2, column: 6 }],
 
-    "/pa/units/addon/hover_fab/hover_fab.json": ["vehicle", 9, { row: 2, column: 8 }],
     "/pa/units/addon/stalker/stalker.json": ["vehicle", 9, { row: 1, column: 6 }],
     "/pa/units/addon/adv_tank_hover/adv_tank_hover.json": ["vehicle", 9, { row: 1, column: 5 }],
 
@@ -28,7 +27,9 @@ var newBuild = {
     "/pa/units/addon/adv_fab_tower/adv_fab_tower.json": ["factory", 0, { row: 1, column: 5 }],
 
     "/pa/units/l_addon/mass_generator/mass_generator.json": ["L_utility", 0, { row: 1, column: 5, titans: true }],
-    "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json": ["L_utility", 0, { row: 0, column: 5, titans: true }]
+    "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json": ["L_utility", 0, { row: 0, column: 5, titans: true }],
+
+    "/pa/units/l_addon/anti_ground_satellite/almaz.json": ["L_orbital", 0, { row: 2, column: 5 }],
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {
     _.extend(Build.HotkeyModel.SpecIdToGridMap, newBuild);

@@ -1,13 +1,31 @@
 # MLA Addon Changelog
 
+## 0.4.3
+### New Units
+- Almaz *(Anonemous2)*:l_T1 Orbital
 
-## 0.4.2
-- Fixed the fixed typo
 ### Unit Changes
+#### Mass Generator
+- now uses legion select circle
+#### Adv Mass Generator
+- now uses legion select circle
+#### Centaur
+- updated description
+- added recoil animations
 #### Swordfish
-- updated Model
-- updated Textures
-- increased gun damage to 30 from 15
+- updated torpedo targetables to exclude UNITTYPE_WaterHover instead of scout and fabber
+#### Stalker
+- now uses UNITTYPE_Vehicle
+
+#### General Changes
+- updated fabbers - custom tags 
+
+
+## 0.4.2 WIP
+#### Swordfish
+- updated model
+- new textures
+- increased torpedo turn speed to 360 from 180
 
 ## 0.4.1
 - Fixed a typo

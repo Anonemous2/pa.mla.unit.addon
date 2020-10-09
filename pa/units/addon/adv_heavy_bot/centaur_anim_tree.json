@@ -62,15 +62,27 @@
         },
         {
             "type": "recoil",
-            "bone": "bone_leftRecoil",
+            "bone": "bone_left_recoil",
             "recoil_dist": 0.75,
             "restore_time": 0.5
         },
         {
             "type": "recoil",
-            "bone": "bone_rightRecoil",
+            "bone": "bone_left_bolt",
+            "recoil_dist": 3,
+            "restore_time": 0.25
+        },
+        {
+            "type": "recoil",
+            "bone": "bone_right_recoil",
             "recoil_dist": 0.75,
             "restore_time": 0.5
+        },
+        {
+            "type": "recoil",
+            "bone": "bone_right_bolt",
+            "recoil_dist": 3,
+            "restore_time": 0.25
         }
     ]
 }

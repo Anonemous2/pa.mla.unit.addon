@@ -228,6 +228,8 @@
 
 
         "/pa/units/l_addon/mass_generator/mass_generator.json",
-        "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json"
+        "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",
+        
+        "/pa/units/l_addon/anti_ground_satellite/almaz.json"
     ]
 }

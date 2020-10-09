@@ -2,7 +2,7 @@
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
 	"display_name": "Centaur",
 	"si_name": "adv_heavy_bot",
-	"description": "!LOC:Advanced Armored Bot - High health, slow rate of fire. Priorities attacking advanced tanks. Does 200% damage against vehicles.",
+	"description": "!LOC:Advanced Anti-Armor Bot - Does 200% damage against vehicles. High health, slow rate of fire. Priorities attacking advanced tanks.",
 	"max_health": 1900,
 	"build_metal_cost": 1000,
 	"attachable": {
@@ -74,9 +74,8 @@
 			"aim_bone": "socket_aim",
 			"projectiles_per_fire": 1,
 			"muzzle_bone": [
-				"socket_right_muzzle",
-				"socket_left_muzzle"
-			]
+				"socket_left_muzzle", 
+				"socket_right_muzzle"]
 		}
 	],
 	"events": {
@@ -84,8 +83,8 @@
 			"audio_cue": "/SE/Build_Complete/bot"
 		},
 		"fired": {
-			"audio_cue": "/SE/Weapons/bot/assault_fire",
-			"effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
+			"audio_cue": "/SE/Weapons/sea/destroyer_fire",
+			"effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_left_muzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_right_muzzle"
 			}
 	},
 	"audio": {

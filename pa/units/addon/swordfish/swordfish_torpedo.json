@@ -20,5 +20,5 @@
         "WL_Underwater",
         "WL_Seafloor"
     ],
-    "exclude_unit_types": "Hover | Naval & Scout | Naval & Fabber"
+    "exclude_unit_types": "Hover | WaterHover"
 }

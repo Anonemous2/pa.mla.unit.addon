@@ -11,7 +11,7 @@
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "consumption": {
-        "energy": 5625,
+        "energy": 6400,
         "metal": -10
     },
     "unit_types": [
@@ -190,7 +190,7 @@
         }
 	],
     "selection_icon": {
-        "diameter": 45.0
+        "diameter": -45.0
     },
     "mesh_bounds": [
         20,

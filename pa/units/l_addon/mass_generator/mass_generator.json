@@ -10,7 +10,7 @@
 	"atrophy_cool_down": 15.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
 	"consumption": {
-		"energy": 1250,
+		"energy": 1600,
 		"metal": -2
 	},
 	"unit_types": [
@@ -69,7 +69,7 @@
 	"lamps": [],
 	"fx_offsets": [],
 	"selection_icon": {
-		"diameter": 30.0
+		"diameter": -30.0
 	},
 	"mesh_bounds": [
 		13.6,

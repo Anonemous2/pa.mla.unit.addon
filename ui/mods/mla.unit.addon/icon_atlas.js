@@ -19,6 +19,7 @@ var paeiouIcons = [
     "metal_storage_adv",
     "energy_storage_adv",
     "l_mass_generator",
-    "l_adv_mass_generator"
+    "l_adv_mass_generator",
+    "l_almaz"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));
