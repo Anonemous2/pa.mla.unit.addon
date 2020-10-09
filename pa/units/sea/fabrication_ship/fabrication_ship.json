@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "unit_name": "Fabrication Ship",
   "display_name": "!LOC:Fabrication Ship",
-  "description": "!LOC:Basic Fabricator - Builds basic naval structures.",
+  "description": "!LOC:Basic Fabricator - Builds basic naval structures. Water hover.",
   "max_health": 100,
   "build_metal_cost": 200,
   "spawn_layers": "WL_WaterSurface",
@@ -15,7 +15,8 @@
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_WaterHover"
   ],
   "command_caps": [
     "ORDER_Move",
@@ -26,7 +27,7 @@
     "ORDER_Assist"
   ],
   "navigation": {
-    "type": "deepwater",
+    "type": "water-hover",
     "acceleration": 100,
     "brake": 100,
     "move_speed": 10,
@@ -105,7 +106,8 @@
     },
     {
       "type": "moving_forward",
-      "filename": "/pa/units/sea/fabrication_ship/fabrication_ship_wake.pfx"
+      "offset": [0, 3.5, 0.6],
+      "filename": "/pa/units/sea/fabrication_ship/fabrication_ship_thrust.pfx"
     }
   ],
   "selection_icon": { "diameter": 13.0 },
