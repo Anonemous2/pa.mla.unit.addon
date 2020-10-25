@@ -1,0 +1,20 @@
+{
+	"base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
+	"ammo_id": "/pa/units/land/titan_structure/titan_structure_pbaoe.json",
+	"ammo_source": "energy",
+	"ammo_capacity": 60000000,
+	"ammo_demand": 1000000,
+	"ammo_per_shot": 60000000,
+	"start_fully_charged": false,
+	"rate_of_fire": 1.0,
+	"max_range": 0,
+	"yaw_rate": 0,
+	"pitch_rate": 0,
+	"yaw_range": 0,
+	"pitch_range": 0,
+	"firing_arc_yaw": 360,
+	"firing_arc_pitch": 360,
+	"fire_delay": 10.67,
+	"auto_fire_when_charged": true,
+	"only_fire_once": true
+}
