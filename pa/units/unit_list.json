@@ -213,6 +213,7 @@
         "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json",
 
         "/pa/units/addon/stalker/stalker.json",
+		"/pa/units/addon/adv_tank_hover/adv_tank_hover.json",
 
         "/pa/units/addon/rex/rex.json",
         "/pa/units/addon/bot_aa/bot_aa.json",
