@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "Pounder",
     "si_name": "pounder",
-    "description": "!LOC:Artillery - Medium range for siege and area denial. Attacks land and sea targets.",
+    "description": "!LOC:Artillery - Long range for siege and area denial. Attacks land and sea targets.",
     "max_health": 2500,
     "build_metal_cost": 2000,
     "atrophy_rate": 25,
@@ -100,9 +100,15 @@
     },
     "model": [
         {
+            "layer": "WL_LandHorizontal",
             "filename": "/pa/units/addon/pounder/pounder.papa",
             "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
             "skirt_decal": "/pa/units/addon/pounder/skirt_pounder.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/pounder/naval/naval_pounder.papa",
+            "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
         }
     ],
     "nearby_target_tick_update_interval": 15,

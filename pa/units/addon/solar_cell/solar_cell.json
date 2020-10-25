@@ -3,15 +3,78 @@
     "unit_name": "Solar Cell",
     "si_name": "solar_cell",
     "display_name": "!LOC:Solar Cell",
-    "description": "!LOC:Basic Economy - Produces energy for little initially metal, but takes up alot of space and is quite easy to destroy.",
-    "max_health": 100,
-    "build_metal_cost": 90,
+    "description": "!LOC:Basic Economy - Can produce energy for little initial metal, but takes up alot of space and is quite vulnerable.",
+    "max_health": 75,
+    "build_metal_cost": 100,
     "atrophy_rate": 80,
     "atrophy_cool_down": 5.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
+    "alt_area_build_type": "Sphere",
+    "alt_area_build_separation": 0.6,
+    "alt_area_max_radius": 150.0,
+    "alt_area_build_pattern": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
     "production": {
-        "energy": 150
+        "energy": 175
     },
     "unit_types": [
         "UNITTYPE_Structure",
@@ -28,25 +91,34 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
+                    "radius": 50
                 },
                 {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
+                    "radius": 50
                 }
             ]
         }
     },
     "model": [
         {
+            "layer": "WL_LandHorizontal",
             "filename": "/pa/units/addon/solar_cell/solar_cell.papa",
             "animations": {
-                "idle": "/pa/units/addon/solar_cell/solar_cell_idle.papa"
+                "idle": "/pa/units/addon/solar_cell/solar_cell_anim_idle.papa"
             },
             "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
             "skirt_decal": "/pa/effects/specs/skirt_energy.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/solar_cell/naval/naval_solar_cell.papa",
+            "animations": {
+                "idle": "/pa/units/addon/solar_cell/naval/naval_solar_cell_anim_idle.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
         }
     ],
     "events": {
@@ -85,13 +157,13 @@
         "diameter": 16
     },
     "mesh_bounds": [
-        4,
-        8,
-        6
+        6,
+        10,
+        8
     ],
     "placement_size": [
-        8,
-        8
+        6,
+        10
     ],
     "TEMP_texelinfo": 15.8224
 }

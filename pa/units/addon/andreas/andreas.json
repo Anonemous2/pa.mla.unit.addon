@@ -3,9 +3,9 @@
     "unit_name": "Andreas",
     "si_name": "andreas",
     "display_name": "!LOC:Andreas Laser Platform",
-    "description": "!LOC:Orbital Laser Platform - Rains pains from above.",
-    "max_health": 400,
-    "build_metal_cost": 2000,
+    "description": "!LOC:Orbital Attack Platform - Equiped with a rapid-fire beam weapon. Good against weak targets. Low healthed.",
+    "max_health": 180,
+    "build_metal_cost": 900,
     "spawn_layers": "WL_Orbital",
     "gravwell_velocity_multiplier": 8.0,
     "attachable": {
@@ -50,19 +50,19 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 15
+                    "radius": 40
                 },
                 {
                     "layer": "orbital",
                     "channel": "sight",
                     "shape": "sphere",
-                    "radius": 15
+                    "radius": 40
                 },
                 {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 15
+                    "radius": 40
                 }
             ]
         }

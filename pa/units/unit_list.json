@@ -201,19 +201,35 @@
         "/pa/units/sea/drone_carrier/drone/drone.json",
         "/pa/units/sea/fabrication_barge/fabrication_barge.json",
         "/pa/units/sea/hover_ship/hover_ship.json",
+        "/pa/units/commanders/raptor_beast_king/raptor_beast_king.json",
 
         "/pa/units/addon/swordfish/swordfish.json",
+		"/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json",
 
         "/pa/units/addon/pounder/pounder.json",
 
         "/pa/units/addon/andreas/andreas.json",
 
+        "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json",
+
         "/pa/units/addon/stalker/stalker.json",
 
         "/pa/units/addon/rex/rex.json",
+        "/pa/units/addon/bot_aa/bot_aa.json",
+		"/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json",
         
         "/pa/units/addon/metal_generator/metal_generator.json",
+        "/pa/units/addon/fab_tower/fab_tower.json",
+        "/pa/units/addon/adv_fab_tower/adv_fab_tower.json",
         "/pa/units/addon/adv_metal_generator/adv_metal_generator.json",
-        "/pa/units/addon/solar_cell/solar_cell.json"
+        "/pa/units/addon/adv_energy_storage/adv_energy_storage.json",
+        "/pa/units/addon/solar_cell/solar_cell.json",
+        "/pa/units/addon/anti_missile_tower/anti_missile_tower.json",
+
+
+        "/pa/units/l_addon/mass_generator/mass_generator.json",
+        "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",
+        
+        "/pa/units/l_addon/anti_ground_satellite/almaz.json"
     ]
 }
