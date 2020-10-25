@@ -11,7 +11,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     "storage": {
-        "energy": 1000000
+        "energy": 5000000
     },
     "unit_types": [
         "UNITTYPE_Structure",

@@ -69,7 +69,7 @@
 	"lamps": [],
 	"fx_offsets": [],
 	"selection_icon": {
-		"diameter": 30.0
+		"diameter": -30.0
 	},
 	"mesh_bounds": [
 		13.6,

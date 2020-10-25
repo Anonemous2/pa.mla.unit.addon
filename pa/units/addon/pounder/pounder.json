@@ -100,9 +100,15 @@
     },
     "model": [
         {
+            "layer": "WL_LandHorizontal",
             "filename": "/pa/units/addon/pounder/pounder.papa",
             "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
             "skirt_decal": "/pa/units/addon/pounder/skirt_pounder.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/pounder/naval/naval_pounder.papa",
+            "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
         }
     ],
     "nearby_target_tick_update_interval": 15,

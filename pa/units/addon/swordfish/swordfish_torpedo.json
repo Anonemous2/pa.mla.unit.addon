@@ -7,11 +7,11 @@
         }
     ],
     "spawn_layers": "WL_Underwater",
-    "rate_of_fire": 0.8,
+    "rate_of_fire": 0.6,
     "max_range": 100,
     "yaw_rate": 360,
     "pitch_rate": 360,
-    "yaw_range": 90,
+    "yaw_range": 45,
     "pitch_range": 360,
     "auto_attack": true,
     "spread_fire": true,
@@ -20,5 +20,5 @@
         "WL_Underwater",
         "WL_Seafloor"
     ],
-    "exclude_unit_types": "Hover"
+    "exclude_unit_types": "Hover | WaterHover"
 }

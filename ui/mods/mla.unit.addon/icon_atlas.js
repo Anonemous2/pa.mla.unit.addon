@@ -6,6 +6,7 @@ var paeiouIcons = [
     "andreas",
     "stalker",
     "rex",
+    "aa_bot",
     "solar_cell",
     "anti_missile_tower",
 	"tank_hover_adv",
@@ -15,7 +16,12 @@ var paeiouIcons = [
     "naval_anti_orbital",
     "fab_tower",
     "adv_fab_tower",
+    "metal_storage_adv",
+    "energy_storage_adv",
+    "adv_radar_jammer",
+    "system_wide_radar",
     "l_mass_generator",
-    "l_adv_mass_generator"
+    "l_adv_mass_generator",
+    "l_lynx"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

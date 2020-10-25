@@ -9,7 +9,6 @@
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-    "buildable_types": "(Land & Structure & Advanced | Factory & Advanced | Factory & Land & Tank & Advanced | Factory & Advanced & Bot & Land | Factory & Advanced & Air | Naval & Factory & Advanced | FabAdvBuild | FabBuild | Titan & ( Bot | Titan | Naval | Air )) - Custom1 - Custom2 - Custom3 - Custom4",
     "area_build_separation": 5,
     "alt_area_build_type": "Sphere",
     "area_max_radius": 100.0,

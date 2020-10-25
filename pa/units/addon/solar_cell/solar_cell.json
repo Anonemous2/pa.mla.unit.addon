@@ -11,7 +11,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     "alt_area_build_type": "Sphere",
-    "alt_area_build_separation": 1.0,
+    "alt_area_build_separation": 0.6,
     "alt_area_max_radius": 150.0,
     "alt_area_build_pattern": [
         [
@@ -74,7 +74,7 @@
         ]
     ],
     "production": {
-        "energy": 150
+        "energy": 175
     },
     "unit_types": [
         "UNITTYPE_Structure",
@@ -162,7 +162,7 @@
         8
     ],
     "placement_size": [
-        10,
+        6,
         10
     ],
     "TEMP_texelinfo": 15.8224

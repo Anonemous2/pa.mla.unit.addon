@@ -3,8 +3,8 @@
     "si_name": "swordfish",
     "display_name": "Swordfish",
     "description": "!LOC:Basic strafer - Fast. Equiped with two cannons and a torpedo launcher. Attacks land, sea, and undersea targets.",
-    "max_health": 210,
-    "build_metal_cost": 400,
+    "max_health": 300,
+    "build_metal_cost": 500,
     "unit_types": [
         "UNITTYPE_Gunship",
         "UNITTYPE_Mobile",
@@ -22,7 +22,7 @@
     "guard_layer": "WL_AnyLayer",
     "navigation": {
         "type": "air",
-        "acceleration": 70,
+        "acceleration": 50,
         "brake": 15,
         "ignore_overshoot": true,
         "move_speed": 70,

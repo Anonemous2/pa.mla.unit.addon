@@ -1,8 +1,9 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Stinger",
+    "si_name": "aa_bot",
     "description": "!LOC:Anti-Air Bot - Equipped with basic anti-air missiles.",
-    "build_metal_cost": 130,
+    "build_metal_cost": 120,
     "max_health": 80,
     "attachable": {
         "offsets": {
