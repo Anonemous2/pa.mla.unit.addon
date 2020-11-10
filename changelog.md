@@ -1,7 +1,32 @@
 # MLA Addon Changelog
 
+## 0.5.0 'Rectification'
+Pushed by **Reckoner**
+
+### Dependencies
+- Now requires Quitch's "AI Bugfixes and Enhancements" mod as a dependency to handle AI platoon formation.
+
+### AI
+- Removed an edge case where the AI would build a T1 Metal Generator instead of a T2 Metal Generator if there were not enough assisting fabbers available.
+- Build priority for Metal Generators and Advanced Metal Generators lowered.
+- The AI is now more likely to build the Swordfish.
+- The AI can now build:
+    - Solar Cell
+    - Advanced Energy Storage
+    - Anti-Missile Tower
+    - Stinger
+    - Rex
+    - Centaur
+    - Stalker
+    - Kampela
+- Amended `UNITTYPE`s for:
+    - Rex
+    - Kampela
+    - Centaur
+    - Stalker
+
 ## 0.4.4
-#### General Changes
+### General Changes
 - fixed titan fabrication
 
 
@@ -289,14 +314,14 @@ Pushed by **Anonemous2**
 
 
 ## 0.0.6
-Pushed by **Dissonant**
+Pushed by **Reckoner**
 
 ### AI
 - Fixed Swordfish building scenario issue pointed out by Quitch
 
 
 ## 0.0.5
-Pushed by **Dissonant**
+Pushed by **Reckoner**
 
 ### General Changes
 - Replaced changelog.txt with changelog.md 
@@ -309,7 +334,7 @@ Pushed by **Dissonant**
 
 
 ## 0.0.4
-Pushed by **Dissonant** and **Quitch**
+Pushed by **Reckoner** and **Quitch**
 
 ### AI
 - AI Commanders no longer builds Metal Generators after building a Naval Factory if they built a land-based Factory first. (Dissonant)

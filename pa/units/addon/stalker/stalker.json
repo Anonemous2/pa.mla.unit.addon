@@ -21,6 +21,7 @@
     },
     "unit_types": [
         "UNITTYPE_Tank",
+        "UNITTYPE_Vehicle",
         "UNITTYPE_Mobile",
         "UNITTYPE_Land",
         "UNITTYPE_Advanced",
