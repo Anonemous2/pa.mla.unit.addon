@@ -1,14 +1,16 @@
 {
   "build_list": [
     {
-      "name": "Basic Metal Generator - cdr Desire",
-      "to_build": "BasicMetalGenerator",
+      "name": "2w_Basic Metal Generator - cdr Desire",
+      "to_build": "2w_BasicMetalGenerator",
       "instance_count": 1,
       "max_num_assisters": 15,
-      "shared_instance_count": "MetalGenerator",
+      "shared_instance_count": "2w_MetalGenerator",
       "priority": 500,
       "base_sort": "FromBuilder",
-      "builders": ["MUACommander"],
+      "builders": [
+        "MUACommander"
+      ],
       "build_conditions": [
         [
           {
@@ -20,6 +22,10 @@
             "compare0": "<",
             "value0": 1,
             "boolean": true
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "2w_BasicMetalGenerator"
           }
         ],
         [
@@ -36,6 +42,10 @@
             "compare0": "<",
             "value0": 1,
             "boolean": true
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "2w_BasicMetalGenerator"
           }
         ]
       ],
@@ -46,6 +56,44 @@
           "compare_type": "<",
           "radius": 10,
           "value": 50
+        }
+      }
+    },
+    {
+      "name": "2w_Basic Solar Cell - late Desire cdr (Emergency)",
+      "to_build": "2w_SolarCell",
+      "instance_count": 1,
+      "max_num_assisters": 3,
+      "shared_instance_count": "BasicEnergy",
+      "cross_planet_shared_count": true,
+      "priority": 351,
+      "builders": [
+        "MUACommander"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "DesireEnergy"
+          },
+          {
+            "test_type": "CurrentEnergyEfficiency",
+            "compare0": "<",
+            "value0": 0.5
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "2w_SolarCell"
+          }
+        ]
+      ],
+      "placement_rules": {
+        "buffer": 1,
+        "placement_type": "FromBaseCenter",
+        "threat": {
+          "influence_type": "AntiSurface",
+          "compare_type": "<",
+          "radius": 10,
+          "value": 25
         }
       }
     }

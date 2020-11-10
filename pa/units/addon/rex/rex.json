@@ -24,7 +24,7 @@
         "UNITTYPE_Mobile",
         "UNITTYPE_Offense",
         "UNITTYPE_Land",
-        "UNITTYPE_Tactical",
+        "UNITTYPE_OrbitalDefense",
         "UNITTYPE_Basic",
         "UNITTYPE_FactoryBuild",
         "UNITTYPE_CannonBuildable"
