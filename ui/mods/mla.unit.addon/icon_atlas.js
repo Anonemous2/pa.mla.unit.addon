@@ -18,8 +18,14 @@ var paeiouIcons = [
     "adv_fab_tower",
     "metal_storage_adv",
     "energy_storage_adv",
+    "adv_radar_jammer",
+    "system_wide_radar",
+    "l_system_wide_radar",
+    "l_fab_turret",
+    "l_adv_fab_turret",
     "l_mass_generator",
     "l_adv_mass_generator",
+    "l_lynx",
     "l_almaz"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

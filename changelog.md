@@ -1,4 +1,39 @@
-# MLA Addon Changelog
+# Second Wave Changelog
+
+##0.6.0 'Legion Fab Turrets'
+### New Units
+- Lynx *(Anonemous2)*:L_T1 Armor
+- Fab Turret *(billthebluebot)*:L_T1 Factory
+- Adv Fab Turret *(billthebluebot)*:L_T2 Factory
+
+### Unit Changes
+#### Fab Tower
+- decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
+- changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
+#### Adv Fab Tower
+- updated description
+- increased death effect
+- decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
+- changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
+#### Kempela
+- added time ammo bar (to better see firing)
+- increased range to 220 from 210
+- increased firerate to 1 shot every 4 seconds, from 5 seconds
+#### Anti-Missile Tower
+- added Stingray missiles as a target
+- added Kempela missiles as a target
+#### Stalker
+- Increased turret turn rate to 240 from 120
+- Increased turn rate to 250 from 150
+
+### Balance Changes
+#### Gil-E
+- added Kempela missiles as a target
+#### Glata Turret
+- changed alt build to be spherical
+#### Flak Cannon
+- changed alt build to be spherical
+
 
 ## 0.5.0 'Rectification'
 Pushed by **Reckoner**
@@ -24,6 +59,7 @@ Pushed by **Reckoner**
     - Kampela
     - Centaur
     - Stalker
+
 
 ## 0.4.4
 ### General Changes
@@ -58,11 +94,14 @@ Pushed by **Reckoner**
 - new textures
 - increased torpedo turn speed to 360 from 180
 
+
 ## 0.4.1
 - Fixed a typo
 
+
 ## 0.4.0 'Centaur Bot'
 Pushed by **Anonemous2**
+
 
 ### New Units
 - Fab Tower *(Anonemous2)*:T1 Factory
@@ -126,9 +165,9 @@ Pushed by **Anonemous2**
 #### OmniSilo (legion)
 - increased energy storage to 75,000 from 15,000
 
+
 ## 0.3.1 'radar jamming'
 Pushed by **Anonemous2**
-
 
 ### Unit Changes
 #### Stalker
@@ -175,8 +214,10 @@ Pushed by **Anonemous2**
 - added comma to unitlist
 - increased stalker range
 
+
 ## 0.2.1 beastking hotfix
 - made beastking commander useable
+
 
 ## 0.2.0 'A round of improvement'
 Pushed by **Anonemous2**

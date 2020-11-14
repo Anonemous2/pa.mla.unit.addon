@@ -1,0 +1,5 @@
+{
+    "diffuse": "/pa/units/addon/adv_metal_generator/skirt/adv_metal_generator_diffuse.papa",
+    "normal": "/pa/units/addon/adv_metal_generator/skirt/adv_metal_generator_normal.papa",
+    "material": "/pa/units/addon/adv_metal_generator/skirt/adv_metal_generator_material.papa"
+}

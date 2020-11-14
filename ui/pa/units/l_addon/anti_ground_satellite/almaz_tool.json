@@ -1,0 +1,19 @@
+{
+  "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
+  "ammo_id": "/pa/units/l_addon/anti_ground_satellite/almaz_ammo.json",
+  "rate_of_fire": 0.75,
+  "ammo_source": "energy",
+  "ammo_capacity": 4000,
+  "ammo_demand": 250,
+  "ammo_per_shot": 1000,
+  "max_range": 100,
+  "yaw_rate": 720,
+  "pitch_rate": 720,
+  "yaw_range": 180,
+  "pitch_range": 180,
+  "firing_arc_yaw": 1,
+  "firing_arc_pitch": 1,
+  "auto_attack": true,
+  "spread_fire": true,
+  "target_layers": ["WL_Air", "WL_LandHorizontal", "WL_WaterSurface"]
+}

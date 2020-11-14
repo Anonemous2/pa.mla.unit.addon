@@ -1,0 +1,105 @@
+{
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "display_name": "Lynx",
+  "si_name": "l_lynx",
+  "description": "!LOC:Mobile missile launcher - Equipped with homing missiles. Only attacks air and Orbital.",
+  "max_health": 300,
+  "build_metal_cost": 500,
+  "attachable": { "offsets": { "root": [0, 0, 0], "head": [0, 1, 4.1] } },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Vehicle",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_AirDefense",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Custom1"
+  ],
+  "transportable": { "size": 1 },
+  "guard_layer": "WL_Air",
+  "navigation": {
+    "type": "land-small",
+    "acceleration": 100,
+    "brake": 100,
+    "move_speed": 10,
+    "turn_speed": 180
+  },
+  "physics": { "radius": 3.5 },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 150
+        },
+        {
+          "layer": "underwater",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 150
+        }
+      ]
+    }
+  },
+  "model": {
+    "filename": "/pa/units/l_addon/anti_orbital_armor/lynx.papa",
+    "animations": {
+      "drive": "/pa/units/l_addon/anti_orbital_armor/lynx_anim_run.papa"
+    },
+    "walk_speed": 7,
+    "animtree": "/pa/units/l_addon/anti_orbital_armor/lynx_anim_tree.json"
+  },
+  "nearby_target_tick_update_interval": 3,
+  "tools": [
+    {
+      "spec_id": "/pa/units/l_addon/anti_orbital_armor/lynx_weapon.json",
+      "aim_bone": "socket_1",
+      "muzzle_bone": [
+        "socket_1",
+        "socket_2",
+        "socket_3",
+        "socket_4",
+        "socket_5",
+        "socket_6"
+      ]
+    },
+    {
+      "spec_id": "/pa/units/l_addon/anti_orbital_armor/lynx_tool_antidrop.json",
+      "aim_bone": "socket_1",
+      "muzzle_bone": [
+        "socket_1",
+        "socket_2",
+        "socket_3",
+        "socket_4",
+        "socket_5",
+        "socket_6"
+      ]
+    }
+  ],
+  "events": {
+    "build_complete": { "audio_cue": "/SE/Build_Complete/veh" },
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/aa_missile_vehicle_fire",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_1 /pa/effects/specs/default_muzzle_flash.pfx socket_2 /pa/effects/specs/default_muzzle_flash.pfx socket_3 /pa/effects/specs/default_muzzle_flash.pfx socket_4 /pa/effects/specs/default_muzzle_flash.pfx socket_5 /pa/effects/specs/default_muzzle_flash.pfx socket_6"
+    },
+    "died": { "audio_cue": "/SE/Death/Veh", "effect_scale": 1.0 }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/aa_missile_vehicle_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    },
+    "selection_response": { "cue": "/SE/Selection/veh/aa_missile_vehicle" }
+  },
+  "selection_icon": { "diameter": -14.0 },
+  "mesh_bounds": [5, 5, 3]
+}
