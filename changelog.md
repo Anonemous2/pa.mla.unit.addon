@@ -1,5 +1,10 @@
 # Second Wave Changelog
 
+##0.6.1
+### Unit Changes
+#### Stalker
+- Increased splash radius to 5 from 2
+
 ##0.6.0 'Legion Fab Turrets'
 ### New Units
 - Lynx *(Anonemous2)*:L_T1 Armor
