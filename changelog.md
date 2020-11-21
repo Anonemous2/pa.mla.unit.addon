@@ -65,7 +65,6 @@
 #### Flak Cannon
 - changed alt build to be spherical
 
-
 ## 0.5.0 'Rectification'
 Pushed by **Reckoner**
 
