@@ -3,7 +3,7 @@
     "unit_name": "Andreas",
     "si_name": "andreas",
     "display_name": "!LOC:Andreas Laser Platform",
-    "description": "!LOC:Orbital Attack Platform - Equiped with a rapid-fire beam weapon. Good against weak targets. Low healthed.",
+    "description": "!LOC:Orbital Attack Platform - Equipped with a rapid-fire beam weapon. Good against weak targets. Low healthed.",
     "max_health": 180,
     "build_metal_cost": 900,
     "spawn_layers": "WL_Orbital",

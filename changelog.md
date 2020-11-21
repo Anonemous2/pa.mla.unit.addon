@@ -1,5 +1,31 @@
 # Second Wave Changelog
 
+##0.6.2
+### Unit Changes
+#### Stalker
+- Updated Description
+- Decreased speed to 18 from 20
+- Decreased damage to 75 from 120
+#### Mass Generator
+- Now is a mirror of Metal Generator
+#### Adv Mass Generator
+- Now is a mirror of Adv Metal Generator
+#### Stinger
+- Decreased damage to 10 from 25
+- Increased Firerate to 2 from 1
+- Added splash damage (5)
+- Added splash range (0.75)
+#### Kempela
+- Updated Description
+#### Almaz
+- Updated Description
+#### Swordfish
+- Updated Description
+#### Andreas
+- Updated Description
+#### Solar Cell
+- Minor buildbar icon tweak
+
 ##0.6.1
 ### Unit Changes
 #### Stalker

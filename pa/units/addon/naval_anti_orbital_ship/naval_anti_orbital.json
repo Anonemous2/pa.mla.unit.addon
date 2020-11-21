@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Kampela",
     "si_name": "naval_anti_orbital",
-    "description": "!LOC:Anti-Orbital Ship - Long range with radar. Equiped with tactical missiles. Attacks land, sea, and orbital targets.",
+    "description": "!LOC:Anti-Orbital Ship - Long range with radar. Equipped with tactical missiles. Attacks land, sea, and orbital targets.",
     "max_health": 750,
     "build_metal_cost": 550,
     "spawn_layers": "WL_WaterSurface",
