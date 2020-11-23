@@ -65,6 +65,10 @@
 #### Flak Cannon
 - changed alt build to be spherical
 
+## 0.5.1
+Pushed by **Reckoner**
+- Accidentally incremented the version number from 5.0 to 5.1
+
 ## 0.5.0 'Rectification'
 Pushed by **Reckoner**
 
