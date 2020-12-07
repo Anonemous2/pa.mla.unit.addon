@@ -1,5 +1,17 @@
 # Second Wave Changelog
 
+##0.6.3
+### General Changes
+- Removed duplicated files
+### Unit Changes
+#### Mass / Metal Generator
+- Increased metal production to 3
+- Decreased energy consumption to 600
+#### Adv Mass / Metal Generator
+- Increased metal Production to 30
+- Decreased energy consumption to 5000
+
+
 ##0.6.2
 ### Unit Changes
 #### Stalker

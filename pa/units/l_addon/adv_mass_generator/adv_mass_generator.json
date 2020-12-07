@@ -6,13 +6,13 @@
     "description": "!LOC:Advanced Mass Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
     "strategic_icon_priority": 5,
     "max_health": 4000,
-    "build_metal_cost": 2000,
+    "build_metal_cost": 3000,
     "atrophy_rate": 33.3333,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "consumption": {
-        "energy": 5625,
-        "metal": -10
+        "energy": 5000,
+        "metal": -30
     },
     "unit_types": [
         "UNITTYPE_Structure",
