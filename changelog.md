@@ -3,6 +3,7 @@
 ##0.6.3
 ### General Changes
 - Removed duplicated files
+- Changed Mod Prority to load after legion
 ### Unit Changes
 #### Mass / Metal Generator
 - Increased metal production to 3
