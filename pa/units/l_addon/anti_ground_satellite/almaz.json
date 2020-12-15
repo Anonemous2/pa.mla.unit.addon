@@ -3,7 +3,7 @@
     "unit_name": "Almaz",
     "si_name": "l_almaz",
     "display_name": "!LOC:Almaz",
-    "description": "!LOC:Orbital Attack Platform - Equiped with a splash weapon. Good against weak targets. Low healthed.",
+    "description": "!LOC:Orbital Attack Platform - Equipped with a splash weapon. Good against weak targets. Low healthed.",
     "max_health": 210,
     "build_metal_cost": 1200,
     "spawn_layers": "WL_Orbital",

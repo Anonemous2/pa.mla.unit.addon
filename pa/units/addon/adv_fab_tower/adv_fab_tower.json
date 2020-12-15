@@ -3,7 +3,7 @@
     "unit_name": "Advanced Fabrication Tower",
     "si_name": "adv_fab_tower",
     "display_name": "!LOC:Advanced Fabrication Tower",
-    "description": "!LOC:AdvancedFabrication Tower - Can build structures, and assist in construction. Durable. More efficient than other fabricators.",
+    "description": "!LOC:Advanced Fabrication Tower - Can build structures, and assist in construction. Durable. More efficient than other fabricators.",
     "max_health": 5000,
     "build_metal_cost": 2000,
     "atrophy_rate": 7.5,
@@ -86,11 +86,11 @@
         "ORDER_Assist"
     ],
     "navigation": {
-        "type": "land-small",
+        "type": "hover",
         "acceleration": 0,
         "brake": 0,
         "move_speed": 0,
-        "turn_speed": 360
+        "turn_speed": 0
     },
     "guard_layer": "WL_AnyHorizontalGroundOrWaterSurface",
     "physics": {
@@ -187,7 +187,7 @@
         },
         "died": {
             "audio_cue": "/SE/Death/structure_small",
-            "effect_scale": 0.6
+            "effect_scale": 1
         }
     },
     "selection_icon": {

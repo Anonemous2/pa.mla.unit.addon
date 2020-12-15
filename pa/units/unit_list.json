@@ -213,7 +213,7 @@
         "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json",
 
         "/pa/units/addon/stalker/stalker.json",
-		"/pa/units/addon/adv_tank_hover/adv_tank_hover.json",
+        "/pa/units/addon/adv_tank_hover/adv_tank_hover.json",
 
         "/pa/units/addon/rex/rex.json",
         "/pa/units/addon/bot_aa/bot_aa.json",
@@ -229,12 +229,17 @@
         "/pa/units/addon/jammer_titan/jammer_titan.json",
         "/pa/units/addon/system_radar/system_radar.json",
 
-
         "/pa/units/l_addon/mass_generator/mass_generator.json",
         "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",
+        "/pa/units/l_addon/fab_turret/fab_turret.json",
+        "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json",
+        "/pa/units/l_addon/system_radar/system_radar.json",
+        "/pa/units/l_addon/l_jammer_station/l_jammer_station.json",
         
         "/pa/units/l_addon/anti_ground_satellite/almaz.json",
 
-        "/pa/units/l_addon/anti_orbital_armor/lynx.json"
+        "/pa/units/l_addon/anti_orbital_armor/lynx.json",
+
+        "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship.json"
     ]
 }
