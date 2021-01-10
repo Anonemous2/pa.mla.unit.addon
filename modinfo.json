@@ -22,12 +22,15 @@
 		],
 		"icon_atlas": [
 			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
-		]
+		],
+		"live_game": [
+            "coui://ui/mods/mla.unit.addon/fab_tower_patrol.js"
+        ]
 	},
 	"context": "server",
-	"date": "2021-1-10",
+	"date": "2021-1-11",
 	"build": "115050",
-	"version": "0.7.0",
+	"version": "0.7.1",
 	"dependencies": [
 		"com.pa.quitch.AIBugfixEnhancement"
 	]
