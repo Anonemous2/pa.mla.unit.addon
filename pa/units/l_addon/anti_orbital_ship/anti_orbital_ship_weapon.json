@@ -1,0 +1,21 @@
+{
+  "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
+  "ammo_id": "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship_ammo.json",
+  "ammo_source": "time",
+  "carpet_fire": true,
+  "carpet_wait_for_full_ammo": true,
+  "ammo_capacity": 4,
+  "ammo_demand": 4,
+  "ammo_per_shot": 4,
+  "rate_of_fire": 1,
+  "max_range": 200,
+  "yaw_rate": 0,
+  "pitch_rate": 0,
+  "yaw_range": 0,
+  "pitch_range": 0,
+  "firing_arc_yaw": 360,
+  "firing_arc_pitch": 360,
+  "spread_fire": true,
+  "auto_attack": true,
+  "target_layers": ["WL_LandHorizontal", "WL_WaterSurface", "Orbital"]
+}

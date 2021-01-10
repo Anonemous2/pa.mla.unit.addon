@@ -15,5 +15,6 @@
   "firing_arc_pitch": 1,
   "auto_attack": true,
   "spread_fire": true,
+  "firing_standard_deviation": 2,
   "target_layers": ["WL_Air", "WL_LandHorizontal", "WL_WaterSurface"]
 }

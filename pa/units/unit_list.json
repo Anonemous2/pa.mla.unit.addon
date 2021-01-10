@@ -207,6 +207,7 @@
 		"/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json",
 
         "/pa/units/addon/pounder/pounder.json",
+        "/pa/units/addon/basic_missile_defence/basic_missile_defence.json",
 
         "/pa/units/addon/andreas/andreas.json",
 
@@ -225,14 +226,20 @@
         "/pa/units/addon/adv_energy_storage/adv_energy_storage.json",
         "/pa/units/addon/solar_cell/solar_cell.json",
         "/pa/units/addon/anti_missile_tower/anti_missile_tower.json",
+        "/pa/units/addon/jammer_titan/jammer_titan.json",
+        "/pa/units/addon/system_radar/system_radar.json",
 
         "/pa/units/l_addon/mass_generator/mass_generator.json",
         "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",
         "/pa/units/l_addon/fab_turret/fab_turret.json",
         "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json",
+        "/pa/units/l_addon/system_radar/system_radar.json",
+        "/pa/units/l_addon/l_jammer_station/l_jammer_station.json",
         
         "/pa/units/l_addon/anti_ground_satellite/almaz.json",
 
-        "/pa/units/l_addon/anti_orbital_armor/lynx.json"
+        "/pa/units/l_addon/anti_orbital_armor/lynx.json",
+
+        "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship.json"
     ]
 }

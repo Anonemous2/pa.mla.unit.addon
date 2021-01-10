@@ -1,0 +1,139 @@
+{
+    "base_spec": "/pa/units/sea/base_ship/base_ship.json",
+    "display_name": "Malacos",
+    "si_name": "l_anti_orbital_ship",
+    "description": "!LOC:Anti-Orbital Ship - Long range with radar. Equipped with tactical missiles. Attacks land, sea, and orbital targets.",
+    "max_health": 750,
+    "build_metal_cost": 550,
+    "spawn_layers": "WL_WaterSurface",
+    "mesh_bounds": [
+        6,
+        16,
+        7
+    ],
+    "unit_types": [
+        "UNITTYPE_Naval",
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Offense",
+        "UNITTYPE_Basic",
+        "UNITTYPE_Tactical",
+        "UNITTYPE_FactoryBuild",
+        "UNITTYPE_Custom1"
+    ],
+    "physics": {
+        "shape": "sphere",
+        "radius": 3
+    },
+    "guard_layer": "WL_AnySurface",
+    "navigation": {
+        "type": "deepwater",
+        "acceleration": 20,
+        "brake": 80,
+        "move_speed": 12,
+        "turn_speed": 50,
+        "turn_accel": 25
+    },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 200
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 200
+                },
+                {
+                    "layer": "surface_and_air",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 300,
+                    "uses_energy": true
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 300,
+                    "uses_energy": true
+                }
+            ]
+        }
+    },
+    "model": {
+        "filename": "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship.papa",
+        "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
+    },
+    "nearby_target_tick_update_interval": 20,
+    "tools": [
+        {
+            "spec_id": "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship_weapon.json",
+            "aim_bone": "socket_1",
+            "projectiles_per_fire": 8,
+            "fire_event": "fired0",
+            "muzzle_bone": [
+                "socket_1",
+                "socket_2",
+                "socket_3",
+                "socket_4"
+            ]
+        },
+        {
+            "spec_id": "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship_antidrop.json",
+            "aim_bone": "socket_1",
+            "fire_event": "fired1",
+            "muzzle_bone": [
+                "socket_1",
+                "socket_2",
+                "socket_3",
+                "socket_4"
+            ]
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/sea"
+        },
+        "fired0": {
+            "audio_cue": "/SE/Weapons/structure/air_defense_fire",
+            "effect_spec": ""
+        },
+        "fired1": {
+            "audio_cue": "/SE/Weapons/structure/air_defense_fire",
+            "effect_spec": ""
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Sea",
+            "effect_spec": "/pa/effects/specs/default_explosion_naval_t2.pfx",
+            "effect_scale": 1.0
+        }
+    },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/sea/T2_missile_ship_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/sea/sea_large"
+        }
+    },
+    "fx_offsets": [
+        {
+            "type": "moving_forward",
+            "filename": "/pa/units/sea/frigate/frigate_wake.pfx"
+        }
+    ],
+    "selection_icon": {
+        "diameter": -20.0
+    },
+    "TEMP_texelinfo": 30.5603
+}
