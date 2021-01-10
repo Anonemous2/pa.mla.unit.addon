@@ -1,5 +1,11 @@
 # Second Wave Changelog
 
+
+##0.7.1
+### Unit Changes
+- All fab towers will now auto assist
+
+
 ##0.7.0 "Stations"
 ### General Changes
 - All unit shadows are now handled by a buildscript
