@@ -1,5 +1,29 @@
 # Second Wave Changelog
 
+##0.7.0 "Stations"
+### General Changes
+- All unit shadows are now handled by a buildscript
+### New Units
+- Spear *(Anonemous2)*:T1 Combat
+- Radar Jamming Installation *(billthebluebot)*: T2 Utility
+- Stealth Generator Station *(billthebluebot)*: L_T2 Utility
+- Planet-wide Radar *(Orginal PA Model)*: T2 Utility
+- Planet-wide Radar *(billthebluebot)*: L_T2 Utility
+- Malacos *(billthebluebot)*: L_T1 Naval
+### Unit Changes
+#### Centaur
+- Increased weapon range to 140
+- Updated run animation
+#### Rex
+- Attempted to add death animation
+- Updated run animation
+#### Almaz
+- Reduced splash radius to 10 from 40
+- Increased projectile lifetime 10 from 5
+- Decreased projectile speed 120 from 200
+- Added firing deviation of 2
+
+
 ##0.6.3
 ### General Changes
 - Removed duplicated files
