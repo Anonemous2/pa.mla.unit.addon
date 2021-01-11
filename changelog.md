@@ -1,9 +1,15 @@
 # Second Wave Changelog
 
+##0.7.2
+### General Changes
+- New mod icons
+### New Units
+- Metal Cache *(billthebluebot)*: T2 Economy
+
 
 ##0.7.1
 ### Unit Changes
-- All fab towers will now auto assist
+- All fab towers will now auto assist *(ferretmaster)*
 
 
 ##0.7.0 "Stations"
