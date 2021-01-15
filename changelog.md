@@ -1,5 +1,10 @@
 # Second Wave Changelog
 
+##0.7.3
+### General Changes
+- updated fabricator shadows to reflect 115447 changes
+
+
 ##0.7.2
 ### General Changes
 - New mod icons
