@@ -127,68 +127,7 @@
             "intensity": 1.0
         }
     ],
-    "fx_offsets": [
-		{
-			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_drill",
-			"offset": [
-				2,
-				0,
-				-16
-			],
-			"orientation": [
-				0,
-				90,
-				0
-			]
-		},
-		{
-			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_drill",
-			"offset": [
-				-2,
-				0,
-				-16
-			],
-			"orientation": [
-				0,
-				90,
-				0
-			]
-        },
-        {
-            "type": "energy",
-            "filename": "/pa/units/addon/metal_generator/drill_effect.json",
-            "bone": "bone_drill",
-            "offset": [
-                0,
-                2,
-                -16
-            ],
-            "orientation": [
-                0,
-                90,
-                0
-            ]
-        },
-        {
-            "type": "energy",
-            "filename": "/pa/units/addon/metal_generator/drill_effect.json",
-            "bone": "bone_drill",
-            "offset": [
-                0,
-                -2,
-                -16
-            ],
-            "orientation": [
-                0,
-                90,
-                0
-            ]
-        }
-	],
+    "fx_offsets": [],
     "selection_icon": {
         "diameter": -45.0
     },

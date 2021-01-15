@@ -1,5 +1,11 @@
 # Second Wave Changelog
 
+
+##0.7.5
+### Unit Changes
+#### Adv Mass Generator
+- removed old metal generator pfx effect
+
 ##0.7.4
 ### Unit Changes
 #### Metal Generator
