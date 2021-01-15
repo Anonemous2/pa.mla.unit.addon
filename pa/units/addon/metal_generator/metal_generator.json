@@ -80,31 +80,16 @@
 	"fx_offsets": [
 		{
 			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
+			"filename": "/pa/units/addon/metal_generator/drill_effect.pfx",
 			"bone": "bone_spinner",
 			"offset": [
-				1.7,
 				0,
-				-15
-			],
-			"orientation": [
 				0,
-				90,
 				0
-			]
-		},
-		{
-			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_spinner",
-			"offset": [
-				-1.7,
-				0,
-				-15
 			],
 			"orientation": [
 				0,
-				90,
+				0,
 				0
 			]
 		}

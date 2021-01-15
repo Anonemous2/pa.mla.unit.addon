@@ -1,5 +1,14 @@
 # Second Wave Changelog
 
+##0.7.4
+### Unit Changes
+#### Metal Generator
+- new pfx effect
+#### Adv Metal Generator
+- new pfx effect
+- updated buildbar icon
+
+
 ##0.7.3
 ### General Changes
 - updated fabricator shadows to reflect 115447 changes
