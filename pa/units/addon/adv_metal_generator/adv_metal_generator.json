@@ -147,16 +147,6 @@
 				0,
 				0,
 				0
-			]
-		},
-		{
-			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_drill",
-			"offset": [
-				-2,
-				0,
-				-16
 			],
 			"orientation": [
 				0,
