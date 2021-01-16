@@ -76,7 +76,9 @@
     "unit_types": [
         "UNITTYPE_Construction",
         "UNITTYPE_Advanced",
-        "UNITTYPE_FabAdvBuild"
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Structure",
+        "UNITTYPE_Fabber"
     ],
     "command_caps": [
         "ORDER_Build",
@@ -197,5 +199,40 @@
         10,
         8,
         22
-    ]
+    ],
+    "structure": {
+        "cost_stamp": {
+          "shape": "box",
+          "type_data": [
+            {
+              "move_type": "land-small",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "amphibious",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "amphibious-large",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "water-hover",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "hover-large",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "deepwater",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "underwater",
+              "stamp_type": "structure"
+            }
+          ]
+        }
+      }
 }

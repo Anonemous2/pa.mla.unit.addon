@@ -8,7 +8,7 @@
     "build_metal_cost": 400,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15.0,
-    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "spawn_layers": "WL_AnySurface",
     "area_build_separation": 3,
     "alt_area_build_type": "Sphere",
     "area_max_radius": 100.0,
@@ -77,7 +77,9 @@
         "UNITTYPE_Construction",
         "UNITTYPE_Basic",
         "UNITTYPE_FabBuild",
-        "UNITTYPE_CmdBuild"
+        "UNITTYPE_CmdBuild",
+        "UNITTYPE_Structure",
+        "UNITTYPE_Fabber"
     ],
     "command_caps": [
         "ORDER_Build",
@@ -199,5 +201,40 @@
         7.5,
         17.2
     ],
-    "TEMP_texelinfo": 10.2184
+    "TEMP_texelinfo": 10.2184,
+    "structure": {
+        "cost_stamp": {
+          "shape": "box",
+          "type_data": [
+            {
+              "move_type": "land-small",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "amphibious",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "amphibious-large",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "water-hover",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "hover-large",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "deepwater",
+              "stamp_type": "structure"
+            },
+            {
+              "move_type": "underwater",
+              "stamp_type": "structure"
+            }
+          ]
+        }
+      }
 }
