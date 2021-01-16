@@ -1,12 +1,18 @@
 # Second Wave Changelog
+## 0.7.6
+Pushed by **Reckoner**
+### Unit Changes
+#### All Fabrication Towers and Fabrication Turrets
+- Now have UNITTYPE_Structure
+- Now have UNITTYPE_Fabber
+- Now behave better when queueing other structures nearby
 
-
-##0.7.5
+## 0.7.5
 ### Unit Changes
 #### Adv Mass Generator
 - removed old metal generator pfx effect
 
-##0.7.4
+## 0.7.4
 ### Unit Changes
 #### Metal Generator
 - new pfx effect
@@ -15,24 +21,24 @@
 - updated buildbar icon
 
 
-##0.7.3
+## 0.7.3
 ### General Changes
 - updated fabricator shadows to reflect 115447 changes
 
 
-##0.7.2
+## 0.7.2
 ### General Changes
 - New mod icons
 ### New Units
 - Metal Cache *(billthebluebot)*: T2 Economy
 
 
-##0.7.1
+## 0.7.1
 ### Unit Changes
 - All fab towers will now auto assist *(ferretmaster)*
 
 
-##0.7.0 "Stations"
+## 0.7.0 "Stations"
 ### General Changes
 - All unit shadows are now handled by a buildscript
 ### New Units
@@ -56,7 +62,7 @@
 - Added firing deviation of 2
 
 
-##0.6.3
+## 0.6.3
 ### General Changes
 - Removed duplicated files
 - Changed Mod Prority to load after legion
@@ -69,7 +75,7 @@
 - Decreased energy consumption to 5000
 
 
-##0.6.2
+## 0.6.2
 ### Unit Changes
 #### Stalker
 - Updated Description
@@ -95,12 +101,12 @@
 #### Solar Cell
 - Minor buildbar icon tweak
 
-##0.6.1
+## 0.6.1
 ### Unit Changes
 #### Stalker
 - Increased splash radius to 5 from 2
 
-##0.6.0 'Legion Fab Turrets'
+## 0.6.0 'Legion Fab Turrets'
 ### New Units
 - Lynx *(Anonemous2)*:L_T1 Armor
 - Fab Turret *(billthebluebot)*:L_T1 Factory
@@ -136,7 +142,7 @@
 
 ## 0.5.1
 Pushed by **Reckoner**
-- Accidentally incremented the version number from 5.0 to 5.1
+- Accidentally incremented the version number from 0.5.0 to 0.5.1
 
 ## 0.5.0 'Rectification'
 Pushed by **Reckoner**
