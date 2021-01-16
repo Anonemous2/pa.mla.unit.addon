@@ -77,6 +77,8 @@
     "UNITTYPE_Construction",
     "UNITTYPE_Advanced",
     "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Structure",
+    "UNITTYPE_Fabber",
     "UNITTYPE_Custom1"
   ],
   "command_caps": [
@@ -204,5 +206,40 @@
     "diameter": -25.0
   },
   "mesh_bounds": [12, 12, 20],
-  "TEMP_texelinfo": 10.2184
+  "TEMP_texelinfo": 10.2184,
+  "structure": {
+      "cost_stamp": {
+        "shape": "box",
+        "type_data": [
+          {
+            "move_type": "land-small",
+            "stamp_type": "structure"
+          },
+          {
+            "move_type": "amphibious",
+            "stamp_type": "structure"
+          },
+          {
+            "move_type": "amphibious-large",
+            "stamp_type": "structure"
+          },
+          {
+            "move_type": "water-hover",
+            "stamp_type": "structure"
+          },
+          {
+            "move_type": "hover-large",
+            "stamp_type": "structure"
+          },
+          {
+            "move_type": "deepwater",
+            "stamp_type": "structure"
+          },
+          {
+            "move_type": "underwater",
+            "stamp_type": "structure"
+          }
+        ]
+      }
+    }
 }
