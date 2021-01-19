@@ -209,6 +209,151 @@
                     "value": 50
                 }
             }
+        },
+        {
+            "name": "2w_Spear",
+            "to_build": "2w_Spear",
+            "instance_count": 1,
+            "priority": 85,
+            "base_sort": "FromPerimeter",
+            "builders": ["AnyMUABasicFabber"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & Basic & SurfaceDefense",
+                        "compare0": "<",
+                        "value0": 2
+                    },
+                    {
+                        "test_type": "HasPersonalityTag",
+                        "string0": "Tutorial",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & (EnergyProduction | Factory)",
+                        "compare0": ">=",
+                        "value0": 3
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_Spear"
+                    }
+                ],
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "HasPersonalityTag",
+                        "string0": "Tutorial",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & Basic & SurfaceDefense",
+                        "compare0": "<",
+                        "value0": 2
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & (Tactical | Artillery)",
+                        "compare0": ">=",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_Spear"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 2,
+                "placement_type": "FromMainBasePerimeter",
+                "unit_count_rules": [
+                    {
+                        "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)",
+                        "alliance": "Ally",
+                        "compare_type": ">=",
+                        "range": 50,
+                        "count": 1
+                    },
+                    {
+                        "unit_type_string": "Structure & Basic & SurfaceDefense",
+                        "alliance": "Ally",
+                        "compare_type": "<",
+                        "range": 50,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "2w_Spear - Threat",
+            "to_build": "2w_Spear",
+            "instance_count": 1,
+            "priority": 262,
+            "base_sort": "FromPerimeter",
+            "builders": ["AnyMUABasicFabber"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & Basic & SurfaceDefense",
+                        "compare0": "<",
+                        "value0": 4
+                    },
+                    {
+                        "test_type": "HasPersonalityTag",
+                        "string0": "Tutorial",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "PlanetHighestEnemyArmyThreatRatio",
+                        "string0": "Land",
+                        "string1": "AntiSurface",
+                        "compare0": ">",
+                        "value0": 1.0
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & (EnergyProduction | Factory)",
+                        "compare0": ">=",
+                        "value0": 3
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_Spear"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 2,
+                "placement_type": "FromMainBaseCenter",
+                "unit_count_rules": [
+                    {
+                        "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)",
+                        "alliance": "Ally",
+                        "compare_type": ">=",
+                        "range": 50,
+                        "count": 1
+                    },
+                    {
+                        "unit_type_string": "Structure & Basic & SurfaceDefense",
+                        "alliance": "Ally",
+                        "compare_type": "<",
+                        "range": 75,
+                        "count": 2
+                    }
+                ]
+            }
         }
     ]
 }
