@@ -83,7 +83,7 @@
             "min_num_assisters": 2,
             "max_num_assisters": 5,
             "shared_instance_count": "AdvancedMetal",
-            "priority": 608,
+            "priority": 613,
             "base_sort": "FromBuilder",
             "builders": [
                 "AnyLegionFabberAdvanced",
