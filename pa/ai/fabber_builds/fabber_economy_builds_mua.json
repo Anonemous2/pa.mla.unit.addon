@@ -192,6 +192,39 @@
                     "value": 50
                 }
             }
+        },
+        {
+            "name": "2w_MetalCache",
+            "to_build": "2w_MetalCache",
+            "instance_count": 1,
+            "priority": 141,
+            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "MetalStorageToProductionRatio",
+                        "compare0": "<",
+                        "value0": 3.5
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_MetalCache"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 20,
+                "placement_type": "FromBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
         }
     ]
 }
