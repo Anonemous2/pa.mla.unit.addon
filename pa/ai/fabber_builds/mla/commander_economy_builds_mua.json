@@ -31,7 +31,7 @@
                     },
                     {
                         "test_type": "CanDeployLandFromBase",
-                        "boolean": false
+                        "boolean": true
                     },
                     {
                         "test_type": "UnitCountOnPlanet",
