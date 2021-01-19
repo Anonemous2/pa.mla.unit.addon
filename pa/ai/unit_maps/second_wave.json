@@ -114,10 +114,10 @@
         "AnyLegionFactoryVehicle": {
             "unit_types": "(Factory & Tank) & Custom1"
         },
-        "AnyMUAAdvancedFabber": {
+        "AnyMLAAdvancedFabber": {
             "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
         },
-        "AnyMUABasicFabber": {
+        "AnyMLABasicFabber": {
             "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
         },
         "LegionAirAdvancedFabber": {
@@ -186,10 +186,10 @@
         "LegionVehicleBasicFabber": {
             "spec_id": "/pa/units/land/l_fabrication_vehicle/l_fabrication_vehicle.json"
         },
-        "MUACommander": {
+        "MLACommander": {
             "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
         },
-        "MUASupportCommander": {
+        "MLASupportCommander": {
             "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
         }
     }

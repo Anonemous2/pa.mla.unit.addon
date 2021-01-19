@@ -7,7 +7,7 @@
             "min_num_assisters": 2,
             "max_num_assisters": 5,
             "priority": 350,
-            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
             "build_conditions": [
                 [
                     {
@@ -65,7 +65,7 @@
             "instance_count": 1,
             "priority": 255,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
             "build_conditions": [
                 [
                     {
@@ -147,7 +147,7 @@
             "instance_count": 1,
             "priority": 379,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
             "build_conditions": [
                 [
                     {
@@ -216,7 +216,7 @@
             "instance_count": 1,
             "priority": 85,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMUABasicFabber"],
+            "builders": ["AnyMLABasicFabber"],
             "build_conditions": [
                 [
                     {
@@ -298,7 +298,7 @@
             "instance_count": 1,
             "priority": 262,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMUABasicFabber"],
+            "builders": ["AnyMLABasicFabber"],
             "build_conditions": [
                 [
                     {
