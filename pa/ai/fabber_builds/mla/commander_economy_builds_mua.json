@@ -4,7 +4,7 @@
             "name": "2w_Basic Metal Generator - cdr Desire",
             "to_build": "2w_BasicMetalGenerator",
             "instance_count": 1,
-            "shared_instance_count": "2w_MetalGenerator",
+            "shared_instance_count": "BasicMetal",
             "priority": 500,
             "base_sort": "FromBuilder",
             "builders": ["MLACommander"],
