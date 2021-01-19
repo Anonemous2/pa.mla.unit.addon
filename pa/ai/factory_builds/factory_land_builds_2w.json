@@ -277,8 +277,8 @@
                     },
                     {
                         "test_type": "UnitRatioOnPlanet",
-                        "unit_type_string0": "Vehicle - AirDefense - Scout",
-                        "unit_type_string1": "Tank - Vehicle",
+                        "unit_type_string0": "Vehicle & Advanced",
+                        "unit_type_string1": "Tank - Fabber",
                         "compare0": "<",
                         "value0": 0.2
                     }
@@ -303,8 +303,8 @@
                     },
                     {
                         "test_type": "UnitRatioOnPlanet",
-                        "unit_type_string0": "Vehicle - AirDefense - Scout",
-                        "unit_type_string1": "Tank - Vehicle - Heavy",
+                        "unit_type_string0": "Vehicle & Advanced",
+                        "unit_type_string1": "Tank - Fabber",
                         "compare0": "<",
                         "value0": 0.2
                     }
