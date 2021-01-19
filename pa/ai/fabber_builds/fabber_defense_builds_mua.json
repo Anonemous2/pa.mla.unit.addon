@@ -63,6 +63,88 @@
             "name": "2w_AntiMissileTower",
             "to_build": "2w_AntiMissileTower",
             "instance_count": 1,
+            "priority": 255,
+            "base_sort": "FromPerimeter",
+            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & Advanced & SurfaceDefense",
+                        "compare0": "<",
+                        "value0": 4
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & (EnergyProduction | Factory)",
+                        "compare0": ">=",
+                        "value0": 3
+                    },
+                    {
+                        "test_type": "HaveSeenEnemyUnits",
+                        "unit_type_string0": "Mobile & Tactical",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "AdvancedLandDefense"
+                    }
+                ],
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & Advanced & SurfaceDefense",
+                        "compare0": "<",
+                        "value0": 4
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & (Tactical | Artillery)",
+                        "compare0": ">=",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "HaveSeenEnemyUnits",
+                        "unit_type_string0": "Mobile & Tactical",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "AdvancedLandDefense"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 2,
+                "placement_type": "FromMainBaseCenter",
+                "unit_count_rules": [
+                    {
+                        "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)",
+                        "alliance": "Ally",
+                        "compare_type": ">=",
+                        "range": 50,
+                        "count": 1
+                    },
+                    {
+                        "unit_type_string": "Structure & Advanced & SurfaceDefense",
+                        "alliance": "Ally",
+                        "compare_type": "<",
+                        "range": 50,
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "2w_AntiMissileTower - Threat",
+            "to_build": "2w_AntiMissileTower",
+            "instance_count": 1,
             "priority": 379,
             "base_sort": "FromPerimeter",
             "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
@@ -92,7 +174,7 @@
                     },
                     {
                         "test_type": "HaveSeenEnemyUnits",
-                        "unit_type_string0": "Tactical - Structure",
+                        "unit_type_string0": "Mobile & Tactical",
                         "boolean": true
                     },
                     {
