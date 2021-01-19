@@ -9,7 +9,8 @@
         "jquery": true,
         "amd": true
     },
-    "extends": ["eslint:recommended", "prettier"],
+    "extends": ["eslint:recommended", "prettier", "plugin:lodash/v3"],
+    "plugins": ["lodash"],
     "globals": {
         "Build": "readonly",
         "_": "readonly",
