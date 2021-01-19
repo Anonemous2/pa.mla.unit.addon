@@ -1,208 +1,198 @@
 {
-  "build_list": [
-    {
-      "name": "2w_Basic Metal Generator - Desire",
-      "to_build": "2w_BasicMetalGenerator",
-      "instance_count": 1,
-      "max_num_assisters": 15,
-      "shared_instance_count": "2w_MetalGenerator",
-      "priority": 498,
-      "base_sort": "FromBuilder",
-      "builders": [
-        "AnyMUABasicFabber"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "DesireMetal"
-          },
-          {
-            "test_type": "CurrentEnergyEfficiency",
-            "compare0": ">",
-            "value0": 0.999
-          },
-          {
-            "test_type": "EnergyStorageFrac",
-            "compare0": ">",
-            "value0": 0.5
-          },
-          {
-            "test_type": "CanAffordPotentialDrain",
-            "string0": "BasicMetalGenerator"
-          },
-          {
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Advanced",
-            "compare0": "<",
-            "value0": 1
-          },
-          {
-            "test_type": "CanFindPlaceToBuild",
-            "string0": "2w_BasicMetalGenerator"
-          }
-        ],
-        [
-          {
-            "test_type": "DesireMetal"
-          },
-          {
-            "test_type": "CurrentEnergyEfficiency",
-            "compare0": ">",
-            "value0": 0.999
-          },
-          {
-            "test_type": "EnergyStorageFrac",
-            "compare0": ">",
-            "value0": 0.5
-          },
-          {
-            "test_type": "CanAffordPotentialDrain",
-            "string0": "BasicMetalGenerator"
-          },
-          {
-            "test_type": "CanFindMetalSpotToBuildAdvanced",
-            "boolean": false
-          },
-          {
-            "test_type": "CanFindPlaceToBuild",
-            "string0": "2w_BasicMetalGenerator"
-          }
-        ]
-      ],
-      "placement_rules": {
-        "placement_type": "FromMainBaseCenter",
-        "threat": {
-          "influence_type": "AntiSurface",
-          "compare_type": "<",
-          "radius": 10,
-          "value": 50
+    "build_list": [
+        {
+            "name": "2w_Basic Metal Generator - Desire",
+            "to_build": "2w_BasicMetalGenerator",
+            "instance_count": 1,
+            "max_num_assisters": 15,
+            "shared_instance_count": "2w_MetalGenerator",
+            "priority": 498,
+            "base_sort": "FromBuilder",
+            "builders": ["AnyMUABasicFabber"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CurrentEnergyEfficiency",
+                        "compare0": ">",
+                        "value0": 0.999
+                    },
+                    {
+                        "test_type": "EnergyStorageFrac",
+                        "compare0": ">",
+                        "value0": 0.5
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "BasicMetalGenerator"
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Fabber & Advanced",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_BasicMetalGenerator"
+                    }
+                ],
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CurrentEnergyEfficiency",
+                        "compare0": ">",
+                        "value0": 0.999
+                    },
+                    {
+                        "test_type": "EnergyStorageFrac",
+                        "compare0": ">",
+                        "value0": 0.5
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "BasicMetalGenerator"
+                    },
+                    {
+                        "test_type": "CanFindMetalSpotToBuildAdvanced",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_BasicMetalGenerator"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "placement_type": "FromMainBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_Advanced Metal Generator - Desire",
+            "to_build": "2w_AdvancedMetalGenerator",
+            "instance_count": 1,
+            "max_num_assisters": 45,
+            "shared_instance_count": "2w_MetalGenerator",
+            "priority": 608,
+            "base_sort": "FromBuilder",
+            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CurrentEnergyEfficiency",
+                        "compare0": ">",
+                        "value0": 0.999
+                    },
+                    {
+                        "test_type": "EnergyStorageFrac",
+                        "compare0": ">",
+                        "value0": 0.5
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "AdvancedMetalGenerator"
+                    },
+                    {
+                        "test_type": "CanFindMetalSpotToBuildAdvanced",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_AdvancedMetalGenerator"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "placement_type": "FromMainBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_Solar Cell - Desire (Emergency)",
+            "to_build": "2w_SolarCell",
+            "instance_count": 2,
+            "max_num_assisters": 4,
+            "shared_instance_count": "BasicEnergy",
+            "cross_planet_shared_count": false,
+            "priority": 501,
+            "builders": ["AnyMUABasicFabber"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireEnergy"
+                    },
+                    {
+                        "test_type": "CurrentEnergyEfficiency",
+                        "compare0": "<",
+                        "value0": 0.5
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_SolarCell"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 1,
+                "placement_type": "FromBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 25
+                }
+            }
+        },
+        {
+            "name": "2w_AdvEnergyStorage",
+            "to_build": "2w_AdvEnergyStorage",
+            "instance_count": 1,
+            "priority": 141,
+            "builders": ["AnyMUAAdvancedFabber", "MUASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "EnergyStorageToProductionRatio",
+                        "compare0": "<",
+                        "value0": 3
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_AdvEnergyStorage"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 20,
+                "placement_type": "FromBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
         }
-      }
-    },
-    {
-      "name": "2w_Advanced Metal Generator - Desire",
-      "to_build": "2w_AdvancedMetalGenerator",
-      "instance_count": 1,
-      "max_num_assisters": 45,
-      "shared_instance_count": "2w_MetalGenerator",
-      "priority": 608,
-      "base_sort": "FromBuilder",
-      "builders": [
-        "AnyMUAAdvancedFabber",
-        "MUASupportCommander"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "DesireMetal"
-          },
-          {
-            "test_type": "CurrentEnergyEfficiency",
-            "compare0": ">",
-            "value0": 0.999
-          },
-          {
-            "test_type": "EnergyStorageFrac",
-            "compare0": ">",
-            "value0": 0.5
-          },
-          {
-            "test_type": "CanAffordPotentialDrain",
-            "string0": "AdvancedMetalGenerator"
-          },
-          {
-            "test_type": "CanFindMetalSpotToBuildAdvanced",
-            "boolean": false
-          },
-          {
-            "test_type": "CanFindPlaceToBuild",
-            "string0": "2w_AdvancedMetalGenerator"
-          }
-        ]
-      ],
-      "placement_rules": {
-        "placement_type": "FromMainBaseCenter",
-        "threat": {
-          "influence_type": "AntiSurface",
-          "compare_type": "<",
-          "radius": 10,
-          "value": 50
-        }
-      }
-    },
-    {
-      "name": "2w_Solar Cell - Desire (Emergency)",
-      "to_build": "2w_SolarCell",
-      "instance_count": 2,
-      "max_num_assisters": 4,
-      "shared_instance_count": "BasicEnergy",
-      "cross_planet_shared_count": false,
-      "priority": 501,
-      "builders": [
-        "AnyMUABasicFabber"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "DesireEnergy"
-          },
-          {
-            "test_type": "CurrentEnergyEfficiency",
-            "compare0": "<",
-            "value0": 0.5
-          },
-          {
-            "test_type": "CanFindPlaceToBuild",
-            "string0": "2w_SolarCell"
-          }
-        ]
-      ],
-      "placement_rules": {
-        "buffer": 1,
-        "placement_type": "FromBaseCenter",
-        "threat": {
-          "influence_type": "AntiSurface",
-          "compare_type": "<",
-          "radius": 10,
-          "value": 25
-        }
-      }
-    },
-    {
-      "name": "2w_AdvEnergyStorage",
-      "to_build": "2w_AdvEnergyStorage",
-      "instance_count": 1,
-      "priority": 141,
-      "builders": [
-        "AnyMUAAdvancedFabber",
-        "MUASupportCommander"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "EnergyStorageToProductionRatio",
-            "compare0": "<",
-            "value0": 3
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "CanFindPlaceToBuild",
-            "string0": "2w_AdvEnergyStorage"
-          }
-        ]
-      ],
-      "placement_rules": {
-        "buffer": 20,
-        "placement_type": "FromBaseCenter",
-        "threat": {
-          "influence_type": "AntiSurface",
-          "compare_type": "<",
-          "radius": 10,
-          "value": 50
-        }
-      }
-    }
-  ]
+    ]
 }

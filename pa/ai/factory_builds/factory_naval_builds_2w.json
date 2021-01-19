@@ -6,9 +6,7 @@
             "instance_count": -1,
             "max_num_assisters": 10,
             "priority": 97,
-            "builders": [
-                "BasicNavalFactory"
-            ],
+            "builders": ["BasicNavalFactory"],
             "build_conditions": [
                 [
                     {

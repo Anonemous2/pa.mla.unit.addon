@@ -1,56 +1,55 @@
 {
-  "unit_map": {
-    "2w_AdvancedMetalGenerator": {
-      "spec_id": "/pa/units/addon/adv_metal_generator/adv_metal_generator.json"
-    },
-    "2w_Andreas": {
-      "spec_id": "/pa/units/addon/andreas/andreas.json"
-    },
-    "AnyMUABasicFabber": {
-      "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyMUAAdvancedFabber": {
-      "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "2w_BasicMetalGenerator": {
-      "spec_id": "/pa/units/addon/metal_generator/metal_generator.json"
-    },
-    "MUACommander": {
-      "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "MUASupportCommander": {
-      "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
-    },
-    "2w_Pounder": {
-      "spec_id": "/pa/units/addon/pounder/pounder.json"
-    },
-    "2w_Swordfish": {
-      "spec_id": "/pa/units/addon/swordfish/swordfish.json"
-    },
-    "2w_Rex": {
-      "spec_id": "/pa/units/addon/rex/rex.json"
-    },
-    "2w_SolarCell": {
-      "spec_id": "/pa/units/addon/solar_cell/solar_cell.json"
-    },
-    "2w_Centaur": {
-      "spec_id": "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json"
-    },
-    "2w_Kampela": {
-      "spec_id": "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json"
-    },
-    "2w_Stalker": {
-      "spec_id": "/pa/units/addon/stalker/stalker.json"
-    },
-    "2w_Stinger": {
-      "spec_id": "/pa/units/addon/bot_aa/bot_aa.json"
-    },
-    "2w_AntiMissileTower": {
-      "spec_id": "/pa/units/addon/anti_missile_tower/anti_missile_tower.json"
-    },
-    "2w_AdvEnergyStorage": {
-      "spec_id": "/pa/units/addon/adv_energy_storage/adv_energy_storage.json"
+    "unit_map": {
+        "2w_AdvancedMetalGenerator": {
+            "spec_id": "/pa/units/addon/adv_metal_generator/adv_metal_generator.json"
+        },
+        "2w_Andreas": {
+            "spec_id": "/pa/units/addon/andreas/andreas.json"
+        },
+        "AnyMUABasicFabber": {
+            "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+        },
+        "AnyMUAAdvancedFabber": {
+            "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
+        },
+        "2w_BasicMetalGenerator": {
+            "spec_id": "/pa/units/addon/metal_generator/metal_generator.json"
+        },
+        "MUACommander": {
+            "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
+        },
+        "MUASupportCommander": {
+            "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
+        },
+        "2w_Pounder": {
+            "spec_id": "/pa/units/addon/pounder/pounder.json"
+        },
+        "2w_Swordfish": {
+            "spec_id": "/pa/units/addon/swordfish/swordfish.json"
+        },
+        "2w_Rex": {
+            "spec_id": "/pa/units/addon/rex/rex.json"
+        },
+        "2w_SolarCell": {
+            "spec_id": "/pa/units/addon/solar_cell/solar_cell.json"
+        },
+        "2w_Centaur": {
+            "spec_id": "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json"
+        },
+        "2w_Kampela": {
+            "spec_id": "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json"
+        },
+        "2w_Stalker": {
+            "spec_id": "/pa/units/addon/stalker/stalker.json"
+        },
+        "2w_Stinger": {
+            "spec_id": "/pa/units/addon/bot_aa/bot_aa.json"
+        },
+        "2w_AntiMissileTower": {
+            "spec_id": "/pa/units/addon/anti_missile_tower/anti_missile_tower.json"
+        },
+        "2w_AdvEnergyStorage": {
+            "spec_id": "/pa/units/addon/adv_energy_storage/adv_energy_storage.json"
+        }
     }
-
-  }
 }

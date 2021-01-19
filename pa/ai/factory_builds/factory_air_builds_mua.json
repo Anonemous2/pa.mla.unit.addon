@@ -1,75 +1,73 @@
 {
-  "build_list": [
-    {
-      "name": "2w_Swordfish",
-      "to_build": "2w_Swordfish",
-      "instance_count": -1,
-      "max_num_assisters": 10,
-      "priority": 97,
-      "builders": [
-        "BasicAirFactory"
-      ],
-      "build_conditions": [
-        [
-          {
-            "test_type": "AloneOnPlanet",
-            "boolean": false
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "EnemySurfacePresenceOnPlanet",
-            "boolean": true
-          },
-          {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
-          }
-        ],
-        [
-          {
-            "test_type": "AloneOnPlanet",
-            "boolean": false
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "PlanetThreat",
-            "string0": "Naval",
-            "compare0": ">",
-            "value0": 0
-          }
-        ],
-        [
-          {
-            "test_type": "AloneOnPlanet",
-            "boolean": true
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "UnitCountPerPlanetRadius",
-            "unit_type_string0": "Gunships",
-            "compare0": "<",
-            "value0": 20
-          },
-          {
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Bomber",
-            "compare0": ">",
-            "value0": 20
-          },
-          {
-            "test_type": "UnitCountPerPlanetRadius",
-            "unit_type_string0": "Air & Fighter",
-            "compare0": ">",
-            "value0": 20
-          }
-        ]
-      ]
-    }
-  ]
+    "build_list": [
+        {
+            "name": "2w_Swordfish",
+            "to_build": "2w_Swordfish",
+            "instance_count": -1,
+            "max_num_assisters": 10,
+            "priority": 97,
+            "builders": ["BasicAirFactory"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "EnemySurfacePresenceOnPlanet",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanDeployNavalFromBase",
+                        "boolean": true
+                    }
+                ],
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "PlanetThreat",
+                        "string0": "Naval",
+                        "compare0": ">",
+                        "value0": 0
+                    }
+                ],
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountPerPlanetRadius",
+                        "unit_type_string0": "Gunships",
+                        "compare0": "<",
+                        "value0": 20
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Bomber",
+                        "compare0": ">",
+                        "value0": 20
+                    },
+                    {
+                        "test_type": "UnitCountPerPlanetRadius",
+                        "unit_type_string0": "Air & Fighter",
+                        "compare0": ">",
+                        "value0": 20
+                    }
+                ]
+            ]
+        }
+    ]
 }
