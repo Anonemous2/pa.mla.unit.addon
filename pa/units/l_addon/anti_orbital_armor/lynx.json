@@ -11,6 +11,7 @@
     "UNITTYPE_Vehicle",
     "UNITTYPE_Mobile",
     "UNITTYPE_AirDefense",
+    "UNITTYPE_OrbitalDefense",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
