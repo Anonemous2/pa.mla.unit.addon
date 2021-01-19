@@ -1,7 +1,7 @@
 {
     "build_list": [
         {
-            "name": "Andreas",
+            "name": "2w_Andreas",
             "to_build": "2w_Andreas",
             "instance_count": 1,
             "priority": 100,
