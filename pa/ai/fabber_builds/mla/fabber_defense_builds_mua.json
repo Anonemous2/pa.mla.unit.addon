@@ -90,7 +90,7 @@
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
-                        "string0": "AdvancedLandDefense"
+                        "string0": "2w_AntiMissileTower"
                     }
                 ],
                 [
@@ -116,7 +116,7 @@
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
-                        "string0": "AdvancedLandDefense"
+                        "string0": "2w_AntiMissileTower"
                     }
                 ]
             ],
