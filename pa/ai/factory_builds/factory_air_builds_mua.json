@@ -37,33 +37,6 @@
                         "compare0": ">",
                         "value0": 0
                     }
-                ],
-                [
-                    {
-                        "test_type": "AloneOnPlanet",
-                        "boolean": true
-                    },
-                    {
-                        "test_type": "CanAffordBuildDemand"
-                    },
-                    {
-                        "test_type": "UnitCountPerPlanetRadius",
-                        "unit_type_string0": "Gunships",
-                        "compare0": "<",
-                        "value0": 20
-                    },
-                    {
-                        "test_type": "UnitCountOnPlanet",
-                        "unit_type_string0": "Bomber",
-                        "compare0": ">",
-                        "value0": 20
-                    },
-                    {
-                        "test_type": "UnitCountPerPlanetRadius",
-                        "unit_type_string0": "Air & Fighter",
-                        "compare0": ">",
-                        "value0": 20
-                    }
                 ]
             ]
         }
