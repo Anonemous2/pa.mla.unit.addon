@@ -229,11 +229,6 @@
                         "value0": 2
                     },
                     {
-                        "test_type": "HasPersonalityTag",
-                        "string0": "Tutorial",
-                        "boolean": false
-                    },
-                    {
                         "test_type": "UnitCountInBase",
                         "unit_type_string0": "Structure & (EnergyProduction | Factory)",
                         "compare0": ">=",
@@ -247,11 +242,6 @@
                 [
                     {
                         "test_type": "CanAffordBuildDemand"
-                    },
-                    {
-                        "test_type": "HasPersonalityTag",
-                        "string0": "Tutorial",
-                        "boolean": false
                     },
                     {
                         "test_type": "UnitCountInBase",
@@ -309,11 +299,6 @@
                         "unit_type_string0": "Structure & Basic & SurfaceDefense",
                         "compare0": "<",
                         "value0": 4
-                    },
-                    {
-                        "test_type": "HasPersonalityTag",
-                        "string0": "Tutorial",
-                        "boolean": false
                     },
                     {
                         "test_type": "PlanetHighestEnemyArmyThreatRatio",

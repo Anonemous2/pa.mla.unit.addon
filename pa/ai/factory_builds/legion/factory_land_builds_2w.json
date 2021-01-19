@@ -27,11 +27,6 @@
                         "boolean": true
                     },
                     {
-                        "test_type": "HasPersonalityTag",
-                        "string0": "Tutorial",
-                        "boolean": false
-                    },
-                    {
                         "test_type": "UnitRatioOnPlanet",
                         "unit_type_string0": "(Tank | Bot) & OrbitalDefense",
                         "unit_type_string1": "((Tank | Bot) & Offense) - Fabber",
@@ -61,11 +56,6 @@
                         "string0": "Orbital",
                         "compare0": ">",
                         "value0": 0
-                    },
-                    {
-                        "test_type": "HasPersonalityTag",
-                        "string0": "Tutorial",
-                        "boolean": false
                     },
                     {
                         "test_type": "UnitRatioOnPlanet",
