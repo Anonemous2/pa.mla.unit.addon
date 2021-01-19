@@ -1,0 +1,19 @@
+{
+    "parserOptions": {
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "jquery": true,
+        "amd": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "globals": {
+        "Build": "readonly",
+        "_": "readonly",
+        "model": "readonly",
+        "api": "readonly"
+    }
+}
