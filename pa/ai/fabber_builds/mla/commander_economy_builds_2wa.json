@@ -68,7 +68,7 @@
             "name": "2w_Basic Solar Cell - late Desire cdr (Emergency)",
             "to_build": "2w_SolarCell",
             "instance_count": 1,
-            "max_num_assisters": 3,
+            "max_num_assisters": 2,
             "shared_instance_count": "BasicEnergy",
             "cross_planet_shared_count": true,
             "priority": 351,
