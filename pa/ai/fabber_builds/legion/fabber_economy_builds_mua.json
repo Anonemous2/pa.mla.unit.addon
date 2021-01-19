@@ -1,7 +1,7 @@
 {
     "build_list": [
         {
-            "name": "2w_Basic Mass Generator - Desire",
+            "name": "2w_l_Basic Mass Generator - Desire",
             "to_build": "2w_l_BasicMassGenerator",
             "instance_count": 1,
             "shared_instance_count": "BasicMetal",
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "2w_Advanced Mass Generator - Desire",
+            "name": "2w_l_Advanced Mass Generator - Desire",
             "to_build": "2w_l_AdvMassGenerator",
             "instance_count": 1,
             "min_num_assisters": 2,

@@ -1,7 +1,7 @@
 {
     "build_list": [
         {
-            "name": "2w_Basic Mass Generator - cdr Desire",
+            "name": "2w_l_Basic Mass Generator - cdr Desire",
             "to_build": "2w_l_BasicMassGenerator",
             "instance_count": 1,
             "shared_instance_count": "BasicMetal",
