@@ -15,8 +15,8 @@
                     },
                     {
                         "test_type": "CurrentEnergyEfficiency",
-                        "compare0": ">",
-                        "value0": 0.999
+                        "compare0": ">=",
+                        "value0": 1
                     },
                     {
                         "test_type": "EnergyStorageFrac",
@@ -44,8 +44,8 @@
                     },
                     {
                         "test_type": "CurrentEnergyEfficiency",
-                        "compare0": ">",
-                        "value0": 0.999
+                        "compare0": ">=",
+                        "value0": 1
                     },
                     {
                         "test_type": "EnergyStorageFrac",
@@ -93,8 +93,8 @@
                     },
                     {
                         "test_type": "CurrentEnergyEfficiency",
-                        "compare0": ">",
-                        "value0": 0.999
+                        "compare0": ">=",
+                        "value0": 1
                     },
                     {
                         "test_type": "EnergyStorageFrac",
