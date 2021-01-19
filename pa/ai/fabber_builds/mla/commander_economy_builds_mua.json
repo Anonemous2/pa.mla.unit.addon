@@ -14,6 +14,10 @@
                         "test_type": "DesireMetal"
                     },
                     {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_BasicMetalGenerator"
+                    },
+                    {
                         "test_type": "UnitCountOnPlanet",
                         "unit_type_string0": "Fabber - Orbital",
                         "compare0": "<",
@@ -28,6 +32,10 @@
                 [
                     {
                         "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_BasicMetalGenerator"
                     },
                     {
                         "test_type": "CanDeployLandFromBase",
