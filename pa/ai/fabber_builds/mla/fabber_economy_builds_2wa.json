@@ -128,9 +128,10 @@
         {
             "name": "2w_Solar Cell - Stall",
             "to_build": "2w_SolarCell",
-            "instance_count": 2,
+            "instance_count": 1,
             "max_num_assisters": 2,
             "shared_instance_count": "BasicEnergy",
+            "cross_planet_shared_count": true,
             "priority": 501,
             "builders": ["AnyMLABasicFabber"],
             "build_conditions": [
