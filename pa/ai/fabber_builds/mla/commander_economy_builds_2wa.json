@@ -65,7 +65,7 @@
             }
         },
         {
-            "name": "2w_Basic Solar Cell - late Desire cdr (Emergency)",
+            "name": "2w_Basic Solar Cell - Stall",
             "to_build": "2w_SolarCell",
             "instance_count": 1,
             "max_num_assisters": 2,

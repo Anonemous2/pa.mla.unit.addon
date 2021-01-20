@@ -126,7 +126,7 @@
             }
         },
         {
-            "name": "2w_Solar Cell - Desire (Emergency)",
+            "name": "2w_Solar Cell - Stall",
             "to_build": "2w_SolarCell",
             "instance_count": 2,
             "max_num_assisters": 2,
