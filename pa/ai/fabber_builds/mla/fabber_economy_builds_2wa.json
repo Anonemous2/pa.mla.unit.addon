@@ -37,33 +37,6 @@
                         "test_type": "CanFindPlaceToBuild",
                         "string0": "2w_BasicMetalGenerator"
                     }
-                ],
-                [
-                    {
-                        "test_type": "DesireMetal"
-                    },
-                    {
-                        "test_type": "CurrentEnergyEfficiency",
-                        "compare0": ">=",
-                        "value0": 1
-                    },
-                    {
-                        "test_type": "EnergyStorageFrac",
-                        "compare0": ">",
-                        "value0": 0.5
-                    },
-                    {
-                        "test_type": "CanAffordPotentialDrain",
-                        "string0": "2w_BasicMetalGenerator"
-                    },
-                    {
-                        "test_type": "CanFindMetalSpotToBuildAdvanced",
-                        "boolean": false
-                    },
-                    {
-                        "test_type": "CanFindPlaceToBuild",
-                        "string0": "2w_BasicMetalGenerator"
-                    }
                 ]
             ],
             "placement_rules": {
@@ -104,10 +77,6 @@
                     {
                         "test_type": "CanAffordPotentialDrain",
                         "string0": "2w_AdvancedMetalGenerator"
-                    },
-                    {
-                        "test_type": "CanFindMetalSpotToBuildAdvanced",
-                        "boolean": false
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
