@@ -1,9 +1,9 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "unit_name": "System-wide Radar",
+  "unit_name": "Planet-wide Radar",
   "si_name": "system_wide_radar",
-  "display_name": "!LOC:System-wide Radar",
-  "description": "!LOC:System-wide Radar - System-wide radar telemetry.",
+  "display_name": "!LOC:Planet-wide Radar",
+  "description": "!LOC:Planet-wide Radar - Planet-wide radar telemetry with large vision radius.",
   "max_health": 2000,
   "build_metal_cost": 6800,
   "consumption": { "energy": 12000 },

@@ -4,8 +4,12 @@ var newBuild = {
 
     "/pa/units/addon/pounder/pounder.json": ["combat", 0, { row: 1, column: 5 }],
     "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 5 }],
+    "/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 2, column: 5 }],
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 2, column: 5 }],
+
+
+    "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 0 }],
 
     "/pa/units/addon/anti_sub_ship/anti_sub_ship.json": ["sea", 0, { row: 2, column: 7 }],
     "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json": ["sea", 0, { row: 2, column: 6 }],
@@ -20,11 +24,12 @@ var newBuild = {
 
     "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 1, column: 5 }],
     "/pa/units/addon/adv_metal_generator/adv_metal_generator.json": ["utility", 0, { row: 0, column: 5 }],
-    "/pa/units/addon/adv_metal_storage/adv_metal_storage.json": ["utility", 0, { row: 0, column: 6 }],
     "/pa/units/addon/adv_energy_storage/adv_energy_storage.json": ["utility", 0, { row: 1, column: 6 }],
     "/pa/units/addon/solar_cell/solar_cell.json": ["utility", 0, { row: 2, column: 5 }],
-    "/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 0, column: 6 }],
+    "/pa/units/addon/jammer_titan/jammer_titan.json": ["utility", 0, { row: 1, column: 0 }],
     "/pa/units/addon/system_radar/system_radar.json": ["utility", 0, { row: 0, column: 2 }],
+    "/pa/units/addon/metal_cache/metal_cache.json": ["utility", 0, { row: 0, column: 6 }],
+    "/pa/units/addon/jammer/jammer.json": ["utility", 0, { row: 2, column: 6 }],
 
     "/pa/units/addon/fab_tower/fab_tower.json": ["factory", 0, { row: 2, column: 5 }],
     "/pa/units/addon/adv_fab_tower/adv_fab_tower.json": ["factory", 0, { row: 1, column: 5 }],

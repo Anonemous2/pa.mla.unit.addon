@@ -16,7 +16,7 @@
         "UNITTYPE_Mobile",
         "UNITTYPE_Offense",
         "UNITTYPE_Basic",
-        "UNITTYPE_Tactical",
+        "UNITTYPE_OrbitalDefense",
         "UNITTYPE_FactoryBuild"
     ],
     "physics": {

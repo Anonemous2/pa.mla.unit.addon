@@ -1,0 +1,51 @@
+{
+    "emitters": [
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "facing": "EmitterZ",
+                "flipBookColumns": 8,
+                "flipBookRows": 1,
+                "flipBookRandomStart": true,
+                "frameCurve": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "red": 3.0,
+                "green": 7.0,
+                "blue": 0.0,
+                "baseTexture": "/pa/effects/textures/particles/jacobArcs.papa"
+            },
+            "sizeX": [
+                [
+                    0,
+                    4
+                ],
+                [
+                    0.3,
+                    2
+                ]
+            ],
+            "offsetX": -4.4,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "sizeRangeX": 0.2,
+            "sizeY": 6.5,
+            "rotation": 0.1,
+            "emissionRate": 600,
+            "maxParticles": 1,
+            "bLoop": true,
+            "lifetime": 1.25,
+            "emissionBursts": 1,
+            "emitterLifetime": 1.0,
+            "killOnDeactivate": true,
+            "endDistance": 5000
+        }
+    ]
+}

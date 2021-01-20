@@ -1,0 +1,294 @@
+{
+    "emitters": [
+        {
+            "label": "hidden - needed because particles systems with all emitters on delay will cause system to turn off",
+            "spec": {},
+            "sizeX": 0,
+            "emissionBursts": 1,
+            "maxParticles": 1,
+            "lifetime": 14.0,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        },
+        {
+            "label": "bloom early",
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 0.24,
+                "green": 0.95,
+                "blue": 1.0,
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa"
+            },
+            "alpha": [
+                [
+                    0.0,
+                    1
+                ],
+                [
+                    1.0,
+                    0.4
+                ]
+            ],
+            "sizeX": [
+                [
+                    0,
+                    40
+                ],
+                [
+                    1,
+                    30
+                ]
+            ],
+            "emissionRate": 600,
+            "maxParticles": 1,
+            "lifetime": 0.0,
+            "emitterLifetime": 4.0,
+            "delay": 8,
+            "bLoop": false,
+            "killOnDeactivate": true,
+            "sort": "NoSort",
+            "endDistance": -1
+        },
+        {
+            "spec": {
+                "shape": "pointlight",
+                "red": 0.24,
+                "green": 0.95,
+                "blue": 1.0
+            },
+            "alpha": [
+                [
+                    0.0,
+                    200
+                ],
+                [
+                    1.0,
+                    40
+                ]
+            ],
+            "sizeX": [
+                [
+                    0,
+                    20
+                ],
+                [
+                    1,
+                    10.0
+                ]
+            ],
+            "emissionRate": 600,
+            "maxParticles": 1,
+            "lifetime": 0.0,
+            "emitterLifetime": 1.0,
+            "delay": 12,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "facing": "EmitterZ",
+                "flipBookColumns": 8,
+                "flipBookRows": 1,
+                "flipBookRandomStart": true,
+                "frameCurve": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "red": 1.2,
+                "green": 4.75,
+                "blue": 5.0,
+                "baseTexture": "/pa/effects/textures/particles/jacobArcs.papa"
+            },
+            "sizeX": [
+                [
+                    0,
+                    15
+                ],
+                [
+                    0.3,
+                    5.0
+                ]
+            ],
+            "sizeRangeX": 0.2,
+            "sizeY": 15,
+            "rotation": 3.1416,
+            "emissionRate": 600,
+            "lifetime": 0.02,
+            "maxParticles": 1,
+            "emitterLifetime": 4,
+            "delay": 8,
+            "bLoop": false,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        },
+        {
+            "label": "bloom large flare",
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 0.24,
+                "green": 0.95,
+                "blue": 1.0,
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa"
+            },
+            "sizeX": 45,
+            "sizeRangeX": 5,
+            "emissionRate": 600,
+            "maxParticles": 1,
+            "lifetime": 0.05,
+            "rotationRange": 6.48,
+            "emitterLifetime": 1.0,
+            "delay": 12,
+            "killOnDeactivate": true,
+            "sort": "NoSort",
+            "endDistance": -1
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "facing": "EmitterZ",
+                "flipBookColumns": 8,
+                "flipBookRows": 1,
+                "flipBookRandomStart": true,
+                "frameCurve": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "red": 1.2,
+                "green": 4.75,
+                "blue": 5.0,
+                "baseTexture": "/pa/effects/textures/particles/jacobArcs.papa"
+            },
+            "sizeX": [
+                [
+                    0,
+                    15
+                ],
+                [
+                    0.3,
+                    6.0
+                ],
+                [
+                    1,
+                    4.0
+                ]
+            ],
+            "sizeRangeX": [
+                [
+                    0,
+                    0.5
+                ],
+                [
+                    1,
+                    0.2
+                ]
+            ],
+            "sizeY": 15,
+            "rotation": 3.1416,
+            "emissionRate": 600,
+            "lifetime": 0.02,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "delay": 12,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "facing": "EmitterZ",
+                "flipBookColumns": 8,
+                "flipBookRows": 1,
+                "flipBookRandomStart": true,
+                "frameCurve": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1.0,
+                        5.0
+                    ]
+                ],
+                "red": 1.2,
+                "green": 4.75,
+                "blue": 5.0,
+                "baseTexture": "/pa/effects/textures/particles/jacobArcs.papa"
+            },
+            "offsetY": 55,
+            "velocityY": -1,
+            "velocity": 55,
+            "sizeX": 4.0,
+            "sizeRangeX": 0.5,
+            "sizeY": 15,
+            "rotation": 3.1416,
+            "emissionBursts": 1,
+            "lifetime": 1,
+            "emitterLifetime": 1.0,
+            "maxParticles": 2,
+            "delay": 11,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        },
+        {
+            "spec": {
+                "shape": "pointlight",
+                "red": 0.24,
+                "green": 0.95,
+                "blue": 1.0
+            },
+            "alpha": [
+                [
+                    0.0,
+                    200
+                ],
+                [
+                    1.0,
+                    40
+                ]
+            ],
+            "sizeX": 10.0,
+            "emissionRate": 600,
+            "maxParticles": 1,
+            "lifetime": 0.0,
+            "emitterLifetime": 1.0,
+            "delay": 12,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        },
+        {
+            "spec": {
+                "shape": "pointlight",
+                "red": 0.24,
+                "green": 0.95,
+                "blue": 1.0,
+                "alpha": 40
+            },
+            "offsetY": 55,
+            "velocityY": -1,
+            "velocity": 55,
+            "sizeX": 5.0,
+            "emissionBursts": 1,
+            "lifetime": 1.0,
+            "emitterLifetime": 1.0,
+            "maxParticles": 2,
+            "delay": 11,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        }
+    ]
+}

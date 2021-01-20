@@ -1,0 +1,5 @@
+{
+    "diffuse": "/pa/units/addon/metal_cache/skirt/metal_cache_diffuse.papa",
+    "normal": "/pa/effects/textures/skirts/skirt_01_normal.papa",
+    "material": "/pa/effects/textures/skirts/skirt_01_material.papa"
+}

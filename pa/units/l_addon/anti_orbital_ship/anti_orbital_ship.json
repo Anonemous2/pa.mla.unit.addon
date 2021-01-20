@@ -74,6 +74,7 @@
         {
             "spec_id": "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship_weapon.json",
             "aim_bone": "socket_1",
+            "projectiles_per_fire": 8,
             "fire_event": "fired0",
             "muzzle_bone": [
                 "socket_1",

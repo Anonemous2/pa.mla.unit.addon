@@ -1,17 +1,123 @@
 # MLA Addon Changelog
 
-##0.3.2 WIP
+pipe these changes:
+Jammer
+L_Boat
+Rex
+
+
+
+
+
+##
+Updated Stalker description
+Updated Kempela description
+Updated Swordfish description
+Updated Almaz description
+Updated Andreas description
+added splash to stinger
+updated solar cell icon
+
+
+
+
+##0.6?
+### New Units
+- Lynx *(Anonemous2)*:L_T1 Armor
+- Fab Turret *(billthebluebot)*:L_T1 Factory
+
+### Unit Changes
+#### Fab Tower
+- decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
+- changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
+#### Adv Fab Tower
+- updated description
+- increased death effect
+- decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
+- changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
+#### Kempela
+- added time ammo bar (to better see firing)
+- increased range to 220 from 210
+- increased firerate to 1 shot every 4 seconds, from 5 seconds
+#### Anti-Missile Tower
+- added Stingray missiles as a target
+- added Kempela missiles as a target
+#### Stalker
+- Increased turret turn rate to 240 from 120
+- Increased turn rate to 250 from 150
+
+### Balance Changes
+#### Gil-E
+- added Kempela missiles as a target
+
+
+
+
+
+##0.4.0 'Centaur Bot'
+Pushed by **Anonemous2**
+
+### New Units
+- Fab Tower *(Anonemous2)*:T1 Factory
+- Adv Fab Tower *(Anonemous2)*:T2 Factory
+- Kampela *(Panda, Bill, Anon)*:T1 Naval
+- Centaur *(Anonemous2)*:T2 Bot
+
+### General Changes
+- updated mod description
+- added 'unit' and 'legion' to mod catagory
 
 ### Unit Changes
 #### Rex
 - increased missile velocity to 150 from 100
 - decreased firerate to 0.5 from 0.6
 - increased damage to 180 from 175
+- increased missile range to 180 from 150
+#### Swordfish
+- increased cost to 500 from 400
+- increased health to 300 from 210
+- increased torpedo damage to 140 from 100
+- decreased torpedo turnrate to 180 from 360
+- decreased torpedo firearc to 45 from 90
+- decreased torpedo attack rate to 0.6 from 0.8
+- decreased torpedo speed to 30 from 50
+- increased torpedo lifetime to 15 from 10
+- decreased guns pitch range to 30 from 90
+- decreased guns damage to 15 from 20
+- torpedos can no longer target brownwater naval (i.e. naval fabbers or piranhas)
+#### Adv Energy Storage
+- increased energy storage to 5,000,000 from 1,000,000
+#### Pegasus
+- changed jet effect color to blue, removed smoke
+#### Andreas
+- added energy as an ammo source
+- energy draw 200
+- energy per shot 400
+- energy storage 3000
+#### Stinger
+- reduced build cost to 120 from 130
+- updated strat icon
+#### Adv Metal Generator
+- reduced placement size to 30, 38 from 45, 45
+#### Metal Generator
+- new naval model
+- new textures
+- new buildbar icon
+#### Solar Cell
+- new naval model
+- new textures
+- new buildbar icon
+- increased energy production to 175 from 150
+#### Pounder
+- new naval model
+- new textures
+- new buildbar icon
 
-### New Units
-- Fab Tower *(Anonemous2)*:T1 Factory
-- Adv Fab Tower *(Anonemous2)*:T2 Factory
-- Anti-Orbital Ship *(Panda, Bill, Anon)*:T1 Naval
+### Balance Changes
+#### Energy Storage
+- increased energy storage to 500,000 from 100,000
+#### OmniSilo (legion)
+- increased energy storage to 75,000 from 15,000
 
 ## 0.3.1 'radar jamming'
 Pushed by **Anonemous2**

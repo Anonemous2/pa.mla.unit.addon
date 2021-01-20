@@ -5,14 +5,14 @@
     "display_name": "!LOC:Advanced Metal Generator",
     "description": "!LOC:Advanced Metal Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
     "strategic_icon_priority": 5,
-    "max_health": 4000,
-    "build_metal_cost": 2000,
+    "max_health": 6000,
+    "build_metal_cost": 3000,
     "atrophy_rate": 33.3333,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "consumption": {
-        "energy": 5625,
-        "metal": -10
+        "energy": 5000,
+        "metal": -30
     },
     "unit_types": [
         "UNITTYPE_Structure",
@@ -141,62 +141,32 @@
     "fx_offsets": [
 		{
 			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
+			"filename": "/pa/units/addon/adv_metal_generator/drill_effect.pfx",
 			"bone": "bone_drill",
 			"offset": [
-				2,
 				0,
-				-16
-			],
-			"orientation": [
 				0,
-				90,
 				0
-			]
-		},
-		{
-			"type": "energy",
-			"filename": "/pa/units/addon/metal_generator/drill_effect.json",
-			"bone": "bone_drill",
-			"offset": [
-				-2,
-				0,
-				-16
 			],
 			"orientation": [
 				0,
-				90,
+				0,
 				0
 			]
         },
         {
             "type": "energy",
-            "filename": "/pa/units/addon/metal_generator/drill_effect.json",
+            "filename": "/pa/units/addon/adv_metal_generator/drill_effect_forks.pfx",
             "bone": "bone_drill",
             "offset": [
                 0,
-                2,
-                -16
+                0,
+                0
             ],
             "orientation": [
                 0,
-                90,
-                0
-            ]
-        },
-        {
-            "type": "energy",
-            "filename": "/pa/units/addon/metal_generator/drill_effect.json",
-            "bone": "bone_drill",
-            "offset": [
                 0,
-                -2,
-                -16
-            ],
-            "orientation": [
-                0,
-                90,
-                0
+                90
             ]
         }
 	],

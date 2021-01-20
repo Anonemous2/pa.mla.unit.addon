@@ -57,16 +57,16 @@
 		}
 	},
 	"model": {
-		"filename": "/pa/units/land/tank_hover/tank_hover.papa",
+		"filename": "/pa/units/addon/adv_tank_hover/adv_tank_hover.papa",
 		"animations": {
-			"hover": "/pa/units/land/tank_hover/tank_hover_anim_hover.papa"
+			"hover": "/pa/units/addon/adv_tank_hover/adv_tank_hover_anim_idle.papa"
 		},
 		"animtree": "/pa/anim/anim_trees/tank_hover_anim_tree.json"
 	},
 	"tools": [
 		{
 			"spec_id": "/pa/units/addon/adv_tank_hover/adv_tank_hover_tool_weapon.json",
-			"aim_bone": "socket_aim",
+			"aim_bone": "bone_pitch",
 			"muzzle_bone": "socket_muzzle"
 		}
 	],
