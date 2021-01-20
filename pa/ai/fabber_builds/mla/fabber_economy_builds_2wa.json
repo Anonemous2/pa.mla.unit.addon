@@ -150,7 +150,7 @@
                 ]
             ],
             "placement_rules": {
-                "buffer": 1,
+                "buffer": 6,
                 "placement_type": "FromBaseCenter",
                 "threat": {
                     "influence_type": "AntiSurface",
