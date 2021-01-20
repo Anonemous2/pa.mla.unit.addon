@@ -76,12 +76,14 @@
             "build_conditions": [
                 [
                     {
-                        "test_type": "DesireEnergy"
-                    },
-                    {
                         "test_type": "CurrentEnergyEfficiency",
                         "compare0": "<",
-                        "value0": 0.5
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "EnergyStorageFrac",
+                        "compare0": "<=",
+                        "value0": 0
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
