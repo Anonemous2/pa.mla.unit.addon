@@ -1,0 +1,118 @@
+{
+    "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+    "unit_name": "Shade",
+    "si_name": "l_orbital_jammer",
+    "display_name": "!LOC:Shade Orbital Platform",
+    "description": "!LOC:Orbital Radar Jamming Platform - Equipped with a medium radar and radar jammer.",
+    "max_health": 1000,
+    "build_metal_cost": 3000,
+    "spawn_layers": "WL_Orbital",
+    "gravwell_velocity_multiplier": 8.0,
+    "consumption": {
+        "energy": 4000
+    },
+    "attachable": {
+        "offsets": {
+            "root": [
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "unit_types": [
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Orbital",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_Recon",
+        "UNITTYPE_FabOrbBuild",
+        "UNITTYPE_Custom1"
+    ],
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Patrol"
+    ],
+    "guard_layer": "WL_AnySurface",
+    "navigation": {
+        "type": "orbital",
+        "acceleration": 75,
+        "brake": 75,
+        "move_speed": 25,
+        "turn_speed": 90,
+        "hover_time": -1.0
+    },
+    "physics": {
+        "radius": 10,
+        "gravity_scalar": 0.001
+    },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "orbital",
+                    "channel": "sight",
+                    "shape": "sphere",
+                    "radius": 200
+                },
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 200
+                },
+                {
+                    "layer": "surface_and_air",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 250,
+                    "uses_energy": true
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 200
+                },
+                {
+                    "layer": "surface_and_air",
+                    "channel": "radar_jammer",
+                    "shape": "capsule",
+                    "radius": 250,
+                    "uses_energy": true
+                }
+            ]
+        }
+    },
+    "model": {
+        "filename": "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.papa",
+        "animations": {
+            "open": "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer_anim_idle.papa",
+            "closed": "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer_anim_closed.papa",
+            "deploy": "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer_anim_deploy.papa"
+        },
+        "animtree": "/pa/units/l_addon/anti_ground_satellite/almaz_anim_tree.json"
+    },
+    "tools": [],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/orbital"
+        },
+        "fired": {
+            "audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/orbital",
+            "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx",
+            "effect_scale": 1.5
+        }
+    },
+    "selection_icon": {
+        "diameter": -35.0
+    },
+    "mesh_bounds": [
+        30,
+        20,
+        30
+    ],
+    "TEMP_texelinfo": 31.6199
+}

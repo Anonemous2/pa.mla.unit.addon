@@ -1,0 +1,160 @@
+{
+    "emitters": [
+        {
+            "spec": {
+                "label": "LIGHT",
+                "shape": "pointlight",
+                "alpha": [
+                    [
+                        0.0,
+                        1
+                    ],
+                    [
+                        0.3,
+                        0.5
+                    ],
+                    [
+                        1.0,
+                        1
+                    ]
+                ]
+            },
+            "sizeX": 5,
+            "emissionRate": 200,
+            "lifetime": 1.0,
+            "emitterLifetime": 1.0,
+            "maxParticles": 1,
+            "killOnDeactivate": true,
+            "endDistance": 1000,
+            "useArmyColor": 1
+        },
+        {
+            "spec": {
+                "label": "FLARE",
+                "shader": "particle_add_soft",
+                "facing": "axialY",
+                "size": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0.5,
+                        1.2
+                    ],
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "red": 1.1,
+                "green": 1.1,
+                "blue": 1.1,
+                "sizeX": [
+                    [
+                        0,
+                        1.4
+                    ],
+                    [
+                        0.3,
+                        1.8
+                    ],
+                    [
+                        1,
+                        2.2
+                    ]
+                ],
+                "alpha": [
+                    [
+                        0,
+                        0.05
+                    ],
+                    [
+                        0.3,
+                        0.15
+                    ],
+                    [
+                        1,
+                        0.05
+                    ]
+                ],
+                "cameraPush": 1,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa"
+            },
+            "sizeX": 3,
+            "sizeY": 3.0,
+            "delay": 0.0,
+            "delayRange": 0.2,
+            "maxParticles": 1,
+            "emissionRate": 200,
+            "lifetime": 1.0,
+            "endDistance": 1000,
+            "useArmyColor": 2,
+            "killOnDeactivate": true,
+            "sort": "NoSort"
+        },
+        {
+            "spec": {
+                "label": "GROUND RIPPLE",
+                "facing": "emitterZ",
+                "shader": "particle_transparent",
+                "red": 4,
+                "green": 4,
+                "blue": 4,
+                "sizeX": [
+                    [
+                        0,
+                        0.6
+                    ],
+                    [
+                        0.25,
+                        1.0
+                    ],
+                    [
+                        0.5,
+                        1.2
+                    ],
+                    [
+                        0.75,
+                        1.35
+                    ],
+                    [
+                        1,
+                        1.4
+                    ]
+                ],
+                "alpha": [
+                    [
+                        0.0,
+                        0.6
+                    ],
+                    [
+                        0.4,
+                        0.2
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "baseTexture": "/pa/effects/textures/particles/hover_wave_01.papa"
+            },
+            "type": "spheroid",
+            "offsetRangeY": 0.0,
+            "offsetRangeX": 0.5,
+            "sizeX": 5,
+            "sizeRangeX": 0.5,
+            "sizeY": 0.75,
+            "emissionRate": 2,
+            "lifetime": 0.5,
+            "delay": 0.0,
+            "delayRange": 0.2,
+            "velocityX": 1,
+            "velocity": 8,
+            "drag": 0.9,
+            "killOnDeactivate": true,
+            "endDistance": 1000,
+            "useArmyColor": 1
+        }
+    ]
+}

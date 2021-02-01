@@ -1,0 +1,222 @@
+{
+    "emitters": [
+        {
+            "spec": {
+                "label": "FLARE",
+                "facing": "EmitterZ",
+                "shader": "particle_transparent_soft",
+                "sizeX": [
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.1,
+                        0.19
+                    ],
+                    [
+                        0.2,
+                        0.36
+                    ],
+                    [
+                        0.3,
+                        0.51
+                    ],
+                    [
+                        0.4,
+                        0.64
+                    ],
+                    [
+                        0.5,
+                        0.75
+                    ],
+                    [
+                        0.6,
+                        0.84
+                    ],
+                    [
+                        0.7,
+                        0.91
+                    ],
+                    [
+                        0.8,
+                        0.96
+                    ],
+                    [
+                        0.9,
+                        0.99
+                    ],
+                    [
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "rgb": [
+                    [
+                        0.0,
+                        1.0,
+                        [
+                            248,
+                            236,
+                            152,
+                            180
+                        ]
+                    ],
+                    [
+                        1.0,
+                        1.0,
+                        [
+                            207,
+                            179,
+                            102,
+                            0
+                        ]
+                    ]
+                ],
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa"
+            },
+            "sizeX": 20,
+            "sizeRangeX": 1,
+            "emissionBursts": 1,
+            "rotationRange": 3.1416,
+            "snapToSurface": true,
+            "snapToSurfaceOffset": 1,
+            "lifetime": 0.25,
+            "bLoop": false,
+            "endDistance": 3000
+        },
+        {
+            "spec": {
+                "label": "GROUND DUST",
+                "shader": "particle_transparent_soft",
+                "facing": "camera",
+                "size": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0.1,
+                        1
+                    ],
+                    [
+                        1,
+                        0.8
+                    ]
+                ],
+                "rgb": [
+                    [
+                        0.0,
+                        0.3,
+                        [
+                            192,
+                            150,
+                            123,
+                            100
+                        ]
+                    ],
+                    [
+                        0.2,
+                        0.3,
+                        [
+                            184,
+                            138,
+                            114,
+                            100
+                        ]
+                    ],
+                    [
+                        1.0,
+                        0.3,
+                        [
+                            184,
+                            138,
+                            114,
+                            0
+                        ]
+                    ]
+                ],
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa"
+            },
+            "type": "SPHEROID",
+            "snapToSurface": true,
+            "snapToSurfaceOffset": 0.5,
+            "useRadialVelocityDir": true,
+            "velocity": 20,
+            "velocityRange": 10,
+            "sizeX": 7,
+            "sizeRangeX": 2,
+            "gravity": -1,
+            "drag": 0.95,
+            "emissionBursts": 15,
+            "rotationRange": 3.14,
+            "rotationRateRange": 1,
+            "lifetime": 1,
+            "lifetimeRange": 0.25,
+            "endDistance": 1000,
+            "bLoop": false
+        },
+        {
+            "spec": {
+                "label": "ROCKS",
+                "shader": "particle_transparent",
+                "size": [
+                    [
+                        0.7,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "facing": "camera",
+                "rgb": [
+                    [
+                        0.0,
+                        0.7,
+                        [
+                            126,
+                            102,
+                            89,
+                            255
+                        ]
+                    ]
+                ],
+                "rotationRateMult": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "baseTexture": "/pa/effects/textures/particles/debrisChunks.papa",
+                "flipBookColumns": 3,
+                "flipBookRows": 3,
+                "flipBookRandomStart": true,
+                "dataChannelFormat": "PositionColorAndFlipbook"
+            },
+            "type": "CYLINDER_Z",
+            "velocityZ": 1,
+            "velocity": 20,
+            "velocityRange": 7,
+            "useRadialVelocityDir": true,
+            "gravity": -25,
+            "drag": 0.98,
+            "sizeX": 1.3,
+            "sizeRangeX": 0.3,
+            "emissionBursts": 10,
+            "rotationRange": 3.2,
+            "rotationRateRange": 10,
+            "lifetime": 1.5,
+            "lifetimeRange": 0.5,
+            "emitterLifetime": 0.1,
+            "bLoop": false,
+            "endDistance": 3000
+        }
+    ]
+}

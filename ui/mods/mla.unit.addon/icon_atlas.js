@@ -22,6 +22,8 @@ var paeiouIcons = [
     "radar_jammer",
     "system_wide_radar",
     "sw_basic_missile_defence",
+    "sw_orbital_anti_nuke",
+    "sw_demi_titan_bot",
     "l_system_wide_radar",
     "l_fab_turret",
     "l_adv_fab_turret",
@@ -30,6 +32,8 @@ var paeiouIcons = [
     "l_lynx",
     "l_jammer_station",
     "l_almaz",
-    "l_anti_orbital_ship"
+    "l_anti_orbital_ship",
+    "l_orbital_jammer",
+    "l_orbital_power"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

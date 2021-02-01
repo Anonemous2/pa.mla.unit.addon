@@ -1,4 +1,21 @@
 # Second Wave Changelog
+
+## 0.8.0 "First Demi-Titan"
+Pushed by **Anonemous2**
+### New Units
+- Juno *(Anonemous2)*:T3 Titan
+- Saxon *(Anonemous2)*:T2 Vehicle
+- Orbital Anti-Nuke Platform *(billthebluebot)*:T2 Orbital
+- Shade Orbital Platform *(billthebluebot)*:L_T2 Orbital
+- Orbital Power Catalyst *(billthebluebot)*:L_T2 Orbital Structure
+### Unit Changes
+#### Spear
+- Added target priorities ("Artillery & Bot", "Bot")
+- Damage reduced to 64
+- Added Armor type damage of 1.25 against bots
+- Added Armor type damage of 1.50 against orbital
+
+
 ## 0.7.6
 Pushed by **Reckoner**
 ### Unit Changes
@@ -7,10 +24,12 @@ Pushed by **Reckoner**
 - Now have UNITTYPE_Fabber
 - Now behave better when queueing other structures nearby
 
+
 ## 0.7.5
 ### Unit Changes
 #### Adv Mass Generator
 - removed old metal generator pfx effect
+
 
 ## 0.7.4
 ### Unit Changes
@@ -47,7 +66,7 @@ Pushed by **Reckoner**
 - Stealth Generator Station *(billthebluebot)*: L_T2 Utility
 - Planet-wide Radar *(Orginal PA Model)*: T2 Utility
 - Planet-wide Radar *(billthebluebot)*: L_T2 Utility
-- Malacos *(billthebluebot)*: L_T1 Naval
+- Malacos *(Panda)*: L_T1 Naval
 ### Unit Changes
 #### Centaur
 - Increased weapon range to 140

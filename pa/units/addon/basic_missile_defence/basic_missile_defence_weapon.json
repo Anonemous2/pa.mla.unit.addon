@@ -16,5 +16,9 @@
         "WL_LandHorizontal",
         "WL_WaterSurface",
         "Orbital"
+    ],
+    "target_priorities": [
+        "Artillery & Bot",
+        "Bot"
     ]
 }

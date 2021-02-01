@@ -1,0 +1,128 @@
+{
+    "emitters": [
+        {
+            "spec": {
+                "shader": "particle_add_soft",
+                "facing": "axialY",
+                "rgb": [
+                    1,
+                    [
+                        200,
+                        180,
+                        150
+                    ]
+                ],
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa"
+            },
+            "offsetY": 3,
+            "sizeX": 5,
+            "sizeY": 15,
+            "emissionBursts": 1,
+            "lifetime": 15,
+            "maxParticles": 1,
+            "killOnDeactivate": true
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "shape": "string",
+                "size": [
+                    [
+                        0,
+                        0.5
+                    ],
+                    [
+                        1,
+                        0.2
+                    ]
+                ],
+                "rgb": [
+                    [
+                        0.0,
+                        4.0,
+                        [
+                            200,
+                            180,
+                            150
+                        ]
+                    ],
+                    [
+                        0.35,
+                        1.0,
+                        [
+                            200,
+                            180,
+                            150
+                        ]
+                    ],
+                    [
+                        0.75,
+                        1.0,
+                        [
+                            64,
+                            58,
+                            54
+                        ]
+                    ]
+                ],
+                "alpha": [
+                    [
+                        0.15,
+                        0.99
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "baseTexture": "/pa/effects/textures/particles/rocket_trail.papa"
+            },
+            "alpha": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0.1,
+                    1
+                ]
+            ],
+            "velocityY": -1,
+            "velocityRangeX": 0.15,
+            "velocityRangeZ": 0.15,
+            "velocity": 5.0,
+            "gravity": 2,
+            "sizeX": 4,
+            "emissionRate": 20,
+            "emissionBursts": 1,
+            "maxParticles": 80,
+            "lifetime": 0.45,
+            "startLoop": 0.1,
+            "rampV": 180,
+            "rampRangeV": 10,
+            "rampOffsetV": true,
+            "panRate": 1,
+            "useWorldSpace": true,
+            "endDistance": 4800
+        },
+        {
+            "spec": {
+                "shape": "pointlight",
+                "rgb": [
+                    1,
+                    [
+                        200,
+                        180,
+                        150
+                    ]
+                ]
+            },
+            "offsetY": 2,
+            "sizeX": 30,
+            "emissionBursts": 1,
+            "lifetime": 15,
+            "maxParticles": 1,
+            "killOnDeactivate": true
+        }
+    ]
+}

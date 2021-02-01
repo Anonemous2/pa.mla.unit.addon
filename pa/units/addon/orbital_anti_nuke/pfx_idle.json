@@ -1,0 +1,55 @@
+{
+    "emitters": [
+        {
+            "label": "arm center flares",
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 3.0,
+                "green": 7.0,
+                "blue": 0.0,
+                "alpha": [],
+                "baseTexture": "/pa/effects/textures/particles/eclipse.papa"
+            },
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": -4.4,
+            "sizeX": 4,
+            "sizeRangeX": 0,
+            "rotationRange": 360,
+            "rotationRate": -0.25,
+            "rotationRateRange": 360,
+            "lifetime": 1.0,
+            "emissionBursts": 1,
+            "maxParticles": 1,
+            "emitterLifetime": 1.0,
+            "killOnDeactivate": true,
+            "endDistance": 5000
+        },
+        {
+            "label": "arm center bright",
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 3.0,
+                "green": 7.0,
+                "blue": 0.0,
+                "alpha": 1.0,
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/soft_flare.papa"
+            },
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": -4.4,
+            "sizeX": 4,
+            "sizeRangeX": 0,
+            "rotationRange": 360,
+            "rotationRate": -0.25,
+            "rotationRateRange": 360,
+            "lifetime": 1.25,
+            "emissionBursts": 1,
+            "maxParticles": 2,
+            "emitterLifetime": 1.0,
+            "killOnDeactivate": true,
+            "endDistance": 5000
+        }
+    ]
+}

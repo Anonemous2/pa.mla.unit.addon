@@ -1,0 +1,78 @@
+{
+    "emitters": [
+        {
+            "spec": {
+                "label": "GROUND DUST",
+                "shader": "particle_transparent_soft",
+                "facing": "camera",
+                "size": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        0.1,
+                        1
+                    ],
+                    [
+                        1,
+                        0.8
+                    ]
+                ],
+                "rgb": [
+                    [
+                        0.0,
+                        0.3,
+                        [
+                            192,
+                            150,
+                            123,
+                            100
+                        ]
+                    ],
+                    [
+                        0.2,
+                        0.3,
+                        [
+                            184,
+                            138,
+                            114,
+                            100
+                        ]
+                    ],
+                    [
+                        1.0,
+                        0.3,
+                        [
+                            184,
+                            138,
+                            114,
+                            0
+                        ]
+                    ]
+                ],
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa"
+            },
+            "type": "SPHEROID",
+            "offsetRangeX": 0.5,
+            "offsetRangeY": 0.5,
+            "snapToSurface": true,
+            "snapToSurfaceOffset": 0.5,
+            "useRadialVelocityDir": true,
+            "velocity": 10,
+            "velocityRange": 3,
+            "sizeX": 5,
+            "sizeRangeX": 2,
+            "gravity": -1,
+            "drag": 0.95,
+            "emissionBursts": 5,
+            "rotationRange": 3.14,
+            "rotationRateRange": 1,
+            "lifetime": 1,
+            "lifetimeRange": 0.25,
+            "endDistance": 1000,
+            "bLoop": false
+        }
+    ]
+}

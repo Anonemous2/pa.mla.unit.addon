@@ -1,0 +1,97 @@
+{
+  "unit_name": "Orbital Power Catalyst",
+  "si_name": "l_orbital_power",
+  "display_name": "!LOC:Orbital Power Catalyst",
+  "description": "!LOC:Advanced Economy - Fabricates black holes and harnesses their energy.",
+  "TEMP_texelinfo": 32.6108,
+  "area_build_separation": 2,
+  "area_build_type": "Sphere",
+  "atrophy_cool_down": 15,
+  "atrophy_rate": 41,
+  "audio": {
+    "selection_response": {
+      "cue": "/SE/Selection/structure/energy"
+    }
+  },
+  "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
+  "build_metal_cost": 4000,
+  "max_health": 2000,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/energy"
+    },
+    "died": {
+      "effect_spec": "/pa/units/land/l_energy_plant_adv/black_hole_implosion.pfx"
+    }
+  },
+  "fx_offsets": [
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/land/l_energy_plant_adv/black_hole.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "type": "idle"
+    }
+  ],
+  "headlights": [],
+  "model": [
+    {
+      "animations": {
+        "idle": "/pa/units/l_addon/l_orbital_power/l_orbital_power_anim_idle.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+      "filename": "/pa/units/l_addon/l_orbital_power/l_orbital_power.papa"
+    }
+  ],
+  "production": {
+    "energy": 6000
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": -80
+  },
+  "placement_size": [
+    70,
+    70
+  ],
+  "mesh_bounds": [
+    60,
+    60,
+    40
+  ],
+  "physics": {
+    "radius": 20,
+    "collision_layers": "WL_Orbital",
+    "ignore_gravity": true
+  },
+  "spawn_layers": "WL_Orbital",
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_EnergyProduction",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FabOrbBuild",
+    "UNITTYPE_Economy",
+    "UNITTYPE_Custom1"
+  ]
+}
