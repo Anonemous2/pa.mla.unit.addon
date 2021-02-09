@@ -33,6 +33,13 @@
                                     }
                                 },
                                 {
+                                    "time": 0.833,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
                                     "time": 1.333,
                                     "type": "effect",
                                     "parameters": {
@@ -44,6 +51,13 @@
                                             0.0,
                                             10.0
                                         ]
+                                    }
+                                },
+                                {
+                                    "time": 1.333,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
                                     }
                                 },
                                 {
@@ -61,6 +75,13 @@
                                     }
                                 },
                                 {
+                                    "time": 1.833,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
                                     "time": 2.333,
                                     "type": "effect",
                                     "parameters": {
@@ -72,6 +93,13 @@
                                             0.0,
                                             10.0
                                         ]
+                                    }
+                                },
+                                {
+                                    "time": 2.333,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
                                     }
                                 }
                             ]
@@ -418,6 +446,13 @@
                                     }
                                 },
                                 {
+                                    "time": 1.0,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
                                     "time": 1.666,
                                     "type": "effect",
                                     "parameters": {
@@ -429,6 +464,13 @@
                                             1.1,
                                             0.0
                                         ]
+                                    }
+                                },
+                                {
+                                    "time": 1.666,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
                                     }
                                 }
                             ]
@@ -516,6 +558,13 @@
                                                 }
                                             },
                                             {
+                                                "time": 0.6,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            },
+                                            {
                                                 "time": 0.866,
                                                 "type": "effect",
                                                 "parameters": {
@@ -527,6 +576,13 @@
                                                         0,
                                                         0
                                                     ]
+                                                }
+                                            },
+                                            {
+                                                "time": 0.866,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
                                                 }
                                             },
                                             {
@@ -544,6 +600,13 @@
                                                 }
                                             },
                                             {
+                                                "time": 1.066,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            },
+                                            {
                                                 "time": 1.333,
                                                 "type": "effect",
                                                 "parameters": {
@@ -555,6 +618,13 @@
                                                         0,
                                                         0
                                                     ]
+                                                }
+                                            },
+                                            {
+                                                "time": 1.333,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
                                                 }
                                             }
                                         ]
@@ -595,6 +665,13 @@
                                                 }
                                             },
                                             {
+                                                "time": 0.6,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            },
+                                            {
                                                 "time": 0.866,
                                                 "type": "effect",
                                                 "parameters": {
@@ -606,6 +683,13 @@
                                                         0,
                                                         0
                                                     ]
+                                                }
+                                            },
+                                            {
+                                                "time": 0.866,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
                                                 }
                                             },
                                             {
@@ -623,6 +707,13 @@
                                                 }
                                             },
                                             {
+                                                "time": 1.066,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            },
+                                            {
                                                 "time": 1.333,
                                                 "type": "effect",
                                                 "parameters": {
@@ -634,6 +725,13 @@
                                                         0,
                                                         0
                                                     ]
+                                                }
+                                            },
+                                            {
+                                                "time": 1.333,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
                                                 }
                                             }
                                         ]
@@ -694,74 +792,6 @@
                             }
                         ],
                         "reset": "turning_reset"
-                    },
-                    {
-                        "type": "item",
-                        "name": "firing",
-                        "node": {
-                            "type": "playback",
-                            "anim_name": "attack",
-                            "looping": false,
-                            "events": [
-                                {
-                                    "time": 1.33,
-                                    "type": "effect",
-                                    "parameters": {
-                                        "bone": "bone_head",
-                                        "spec": "/pa/units/land/titan_bot/titan_bot_stomp.pfx",
-                                        "effect_scale": 1.0,
-                                        "bone_offset": [
-                                            15.36,
-                                            1.1,
-                                            0.0
-                                        ]
-                                    }
-                                },
-                                {
-                                    "time": 1.33,
-                                    "type": "effect",
-                                    "parameters": {
-                                        "bone": "bone_head",
-                                        "spec": "/pa/units/land/titan_bot/titan_bot_stomp.pfx",
-                                        "effect_scale": 1.0,
-                                        "bone_offset": [
-                                            15.36,
-                                            1.1,
-                                            0.0
-                                        ]
-                                    }
-                                }
-                            ]
-                        },
-                        "transitions": [
-                            {
-                                "transition_forward": {
-                                    "func": "is_moving",
-                                    "target": "walking",
-                                    "anim_complete": true,
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_moving",
-                                    "target": "walking",
-                                    "duration": 0.2
-                                }
-                            },
-                            {
-                                "transition_forward": {
-                                    "func": "not_moving",
-                                    "target": "not_moving",
-                                    "anim_complete": true,
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "not_moving",
-                                    "target": "not_moving",
-                                    "duration": 0.2
-                                }
-                            }
-                        ],
-                        "reset": "playback_reset"
                     }
                 ]
             },

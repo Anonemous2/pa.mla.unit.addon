@@ -1,5 +1,34 @@
 # Second Wave Changelog
 
+## 0.8.1
+Pushed by **Anonemous2**
+### Unit Changes
+#### Spear
+- Damage reduced to 40
+- Reduced firerate to every 1.5 seconds from 1
+- Reduced metal cost to 300 from 400
+- Increased range to 170 from 160
+- Changed Armor type damage of 2 against bots
+- Changed Armor type damage of 2 against orbital
+#### Centaur
+- Reduced rate of fire to 0.4 from 0.5
+#### Stalker
+- Decreased turn speed to 200 from 250
+- Decreased rate of fire to 1.5 from 2
+- Increased damage to 80 from 75
+- Increased splash damage to 80 from 50
+- Increased splash radius to 6 from 5
+#### Juno
+- Updated anim_tree
+#### Obital Anti-Nuke Platform
+- Can now intercept legion nukes
+#### Swordfish
+- Increased turn speed to 200 from 70
+- Increased move speed to 90 from 70
+- Increased brake speed to 45 from 15
+- Decreased aggressive distance to 180 from 200
+
+
 ## 0.8.0 "First Demi-Titan"
 Pushed by **Anonemous2**
 ### New Units

@@ -4,7 +4,7 @@
     "si_name": "sw_basic_missile_defence",
     "description": "!LOC:Basic Missile Launcher - Attacks land, sea, and orbital targets.",
     "max_health": 800,
-    "build_metal_cost": 400,
+    "build_metal_cost": 300,
     "atrophy_rate": 30.0,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -75,6 +75,7 @@
         "UNITTYPE_Tactical",
         "UNITTYPE_Defense",
         "UNITTYPE_Basic",
+        "UNITTYPE_CmdBuild",
         "UNITTYPE_FabBuild"
     ],
     "command_caps": [

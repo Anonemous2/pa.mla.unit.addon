@@ -20,7 +20,8 @@
     "auto_task_type": "anti_entity",
     "anti_entity_targets_units": false,
     "anti_entity_targets": [
-        "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
+        "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
+        "/pa/units/land/l_nuke_launcher/l_nuke_launcher_ammo.json"
     ],
     "target_layers": [
         "WL_Air",

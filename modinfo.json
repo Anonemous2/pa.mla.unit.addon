@@ -28,9 +28,9 @@
         ]
 	},
 	"context": "server",
-	"date": "2021-2-1",
+	"date": "2021-2-9",
 	"build": "115482",
-	"version": "0.8.0",
+	"version": "0.8.1",
 	"dependencies": [
 		"com.pa.quitch.AIBugfixEnhancement"
 	]
