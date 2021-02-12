@@ -7,7 +7,10 @@
             "shared_instance_count": "SystemRadar",
             "cross_planet_shared_count": true,
             "priority": 266,
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -45,7 +48,10 @@
             "instance_count": 1,
             "shared_instance_count": "AdvancedRadar",
             "priority": 266,
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {

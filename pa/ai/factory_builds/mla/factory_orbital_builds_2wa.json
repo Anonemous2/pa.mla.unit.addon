@@ -5,7 +5,10 @@
             "to_build": "2w_Andreas",
             "instance_count": 1,
             "priority": 100,
-            "builders": ["OrbitalLauncher", "OrbitalFactory"],
+            "builders": [
+                "OrbitalLauncher",
+                "OrbitalFactory"
+            ],
             "build_conditions": [
                 [
                     {
