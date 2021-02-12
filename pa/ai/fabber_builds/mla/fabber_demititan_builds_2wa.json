@@ -2,7 +2,7 @@
     "build_list": [
         {
             "name": "2w_Juno",
-            "to_build": "Juno",
+            "to_build": "2w_Juno",
             "instance_count": 1,
             "min_num_assisters": 2,
             "max_num_assisters": 15,
