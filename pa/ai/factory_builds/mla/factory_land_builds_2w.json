@@ -300,6 +300,77 @@
                     }
                 ]
             ]
+        },
+        {
+            "name": "2w_Saxon",
+            "to_build": "2w_Saxon",
+            "instance_count": -1,
+            "max_num_assisters": 15,
+            "priority": 199,
+            "builders": [
+                "AdvancedVehicleFactory"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "CanDeployLandFromBase",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitRatioOnPlanet",
+                        "unit_type_string0": "Tank & Hover",
+                        "unit_type_string1": "((Tank | Bot) & Offense) - Fabber",
+                        "compare0": "<",
+                        "value0": 0.2
+                    }
+                ],
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": false
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanDeployLandFromBase",
+                        "boolean": false
+                    }
+                ],
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "OtherPlanetCanReceiveLandUnitAssistance",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Structure & Teleporter",
+                        "compare0": ">",
+                        "value0": 0
+                    },
+                    {
+                        "test_type": "UnitRatioOnPlanet",
+                        "unit_type_string0": "Tank & Hover",
+                        "unit_type_string1": "((Tank | Bot) & Offense) - Fabber",
+                        "compare0": "<",
+                        "value0": 0.2
+                    }
+                ]
+            ]
         }
     ]
 }
