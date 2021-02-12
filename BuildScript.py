@@ -110,10 +110,9 @@ def update_build(json_files, media_dir):
                     dir_end_index = new_dir_save.find('/')
                 final_dir = save_path + pulled_dir + file_name
                 print(final_dir)
-                new_file = open(final_dir, "w+")
+                with open(final_dir, "w+") as new_file:
+                    json.dump(file_data, new_file)
                 print(json.dumps(file_data))
-                new_file.write(json.dumps(file_data))
-                new_file.close()
             else:
                 print("No buildable_types")
         except UnicodeDecodeError as error:
@@ -182,20 +181,22 @@ def update_shadows(media_dir):
     # attempt to open energy_storage, edit storage
     with open(update_path, 'r') as file:
         file_data = json.load(file)
-        # open damage value, then divide it by 6
-        storage = json.dumps(file_data["storage"]["energy"])
-        storage = int(int(storage) * 5)
-        file_data["storage"]["energy"] = storage
-        # attempt to make the directories required
-        try:
-            os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/energy_storage")
-        except OSError as error:
-            print(error)
-        # save file to pa_ex1
-        file.close()
-        file = open(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/energy_storage/energy_storage.json", 'w')
-        file.write(json.dumps(file_data))
-        file.close()
+    # open damage value, then divide it by 6
+    storage = json.dumps(file_data["storage"]["energy"])
+    storage = int(int(storage) * 5)
+    file_data["storage"]["energy"] = storage
+    # attempt to make the directories required
+    try:
+        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/energy_storage")
+    except OSError as error:
+        print(error)
+
+    # save file to pa_ex1
+    with open(
+        os.path.dirname(os.path.realpath(__file__))
+        + "/pa_ex1/units/land/energy_storage/energy_storage.json", 'w'
+    ) as file:
+        json.dump(file_data, file)
 
     # galata
     # find unit
@@ -212,21 +213,21 @@ def update_shadows(media_dir):
     with open(update_path, 'r') as file:
         file_data = json.load(file)
         # set build separation
-        sep = 50
-        file_data["alt_area_build_separation"] = sep
-        file_data.pop("alt_area_build_pattern", None)
-        # attempt to make the directories required
-        try:
-            os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense/")
-        except OSError as error:
-            print(error)
-        # save file to pa_ex1
-        file.close()
-        file = open(
-            os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense/air_defense.json",
-            'w')
-        file.write(json.dumps(file_data))
-        file.close()
+    sep = 50
+    file_data["alt_area_build_separation"] = sep
+    file_data.pop("alt_area_build_pattern", None)
+    # attempt to make the directories required
+    try:
+        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense/")
+    except OSError as error:
+        print(error)
+    # save file to pa_ex1
+    with open(
+        os.path.dirname(os.path.realpath(__file__))
+        + "/pa_ex1/units/land/air_defense/air_defense.json",
+        'w'
+    ) as file:
+        json.dump(file_data, file)
 
     # flak
     # find unit
@@ -242,22 +243,21 @@ def update_shadows(media_dir):
     # attempt to open air_defense_adv, edit alt build
     with open(update_path, 'r') as file:
         file_data = json.load(file)
-        # set build separation
-        sep = 30
-        file_data["alt_area_build_separation"] = sep
-        file_data.pop("alt_area_build_pattern", None)
-        # attempt to make the directories required
-        try:
-            os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense_adv/")
-        except OSError as error:
-            print(error)
-        # save file to pa_ex1
-        file.close()
-        file = open(
-            os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense_adv/air_defense_adv.json",
-            'w')
-        file.write(json.dumps(file_data))
-        file.close()
+    # set build separation
+    sep = 30
+    file_data["alt_area_build_separation"] = sep
+    file_data.pop("alt_area_build_pattern", None)
+    # attempt to make the directories required
+    try:
+        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense_adv/")
+    except OSError as error:
+        print(error)
+    # save file to pa_ex1
+    with open(
+        os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense_adv/air_defense_adv.json",
+        'w'
+    ) as file:
+        json.dump(file_data, file)
 
     # gile
     # find unit weapon
@@ -273,25 +273,25 @@ def update_shadows(media_dir):
     # attempt to open bot_sniper_beam_tool_weapon, update anti_entity_targets
     with open(update_path, 'r') as file:
         file_data = json.load(file)
-        # set anti missile weapon
-        targets = '/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json', \
-                  '/pa/units/air/bomber_adv/bomber_adv_ammo.json', \
-                  '/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json', \
-                  '/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital_ammo.json', \
-                  '/pa/units/sea/missile_ship/missile_ship_ammo.json'
-        file_data["anti_entity_targets"] = targets
-        # attempt to make the directories required
-        try:
-            os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/bot_sniper/")
-        except OSError as error:
-            print(error)
-        # save file to pa_ex1
-        file.close()
-        file = open(
-            os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/bot_sniper/bot_sniper_beam_tool_weapon.json",
-            'w')
-        file.write(json.dumps(file_data))
-        file.close()
+    # set anti missile weapon
+    targets = '/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json', \
+              '/pa/units/air/bomber_adv/bomber_adv_ammo.json', \
+              '/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json', \
+              '/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital_ammo.json', \
+              '/pa/units/sea/missile_ship/missile_ship_ammo.json'
+    file_data["anti_entity_targets"] = targets
+    # attempt to make the directories required
+    try:
+        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/bot_sniper/")
+    except OSError as error:
+        print(error)
+
+    # save file to pa_ex1
+    with open(
+        os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/bot_sniper/bot_sniper_beam_tool_weapon.json",
+        'w'
+    ) as file:
+        json.dump(file_data, file)
 
     # alt build for pgen
 
