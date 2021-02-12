@@ -133,7 +133,7 @@
     "tools": [
         {
             "spec_id": "/pa/units/addon/demi_titan_bot/demi_titan_bot_weapon.json",
-            "aim_bone": "bone_pitch",
+            "aim_bone": "bone_right_vent",
             "projectiles_per_fire": 2,
             "muzzle_bone": [
                 "socket_left_muzzle",

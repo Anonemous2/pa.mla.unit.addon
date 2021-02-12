@@ -72,7 +72,7 @@
 	"tools": [
 		{
 			"spec_id": "/pa/units/addon/adv_heavy_bot/adv_heavy_bot_weapon.json",
-			"aim_bone": "socket_aim",
+			"aim_bone": "bone_pitch",
 			"projectiles_per_fire": 1,
 			"muzzle_bone": [
 				"socket_left_muzzle", 

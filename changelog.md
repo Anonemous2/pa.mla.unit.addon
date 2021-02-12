@@ -1,5 +1,19 @@
 # Second Wave Changelog
 
+## 0.8.2
+### General Changes
+- Many AI improvements (Quitch)
+- Fab Towers work in multiplanet systems (Ferretmaster)
+Pushed by **Anonemous2**
+### Unit Changes
+#### Centaur
+- Updated Aim Bone
+#### Juno
+- Updated Aim Bone
+#### Spear
+- Added SurfaceDefense Tag
+
+
 ## 0.8.1
 Pushed by **Anonemous2**
 ### Unit Changes
