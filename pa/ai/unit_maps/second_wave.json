@@ -27,6 +27,9 @@
         "2w_JammerTitan": {
             "spec_id": "/pa/units/addon/jammer_titan/jammer_titan.json"
         },
+        "2w_Juno": {
+            "spec_id": "/pa/units/addon/demi_titan_bot/demi_titan_bot.json"
+        },
         "2w_Kampela": {
             "spec_id": "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json"
         },
@@ -41,6 +44,9 @@
         },
         "2w_Rex": {
             "spec_id": "/pa/units/addon/rex/rex.json"
+        },
+        "2w_Saxon": {
+            "spec_id": "/pa/units/addon/adv_tank_hover/adv_tank_hover.json"
         },
         "2w_SolarCell": {
             "spec_id": "/pa/units/addon/solar_cell/solar_cell.json"
