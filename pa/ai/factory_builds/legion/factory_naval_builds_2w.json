@@ -20,6 +20,34 @@
                     {
                         "test_type": "CanAffordBuildDemand"
                     }
+                ],
+                [
+                    {
+                        "test_type": "AloneOnPlanet",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanDeployNavalFromBase",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "SystemThreat",
+                        "string0": "Orbital",
+                        "compare0": ">",
+                        "value0": 0
+                    }
+                ],
+                [
+                    {
+                        "test_type": "BaseThreatRatio",
+                        "string0": "Orbital",
+                        "string1": "AntiOrbital",
+                        "compare0": ">",
+                        "value0": 1.0
+                    }
                 ]
             ]
         }
