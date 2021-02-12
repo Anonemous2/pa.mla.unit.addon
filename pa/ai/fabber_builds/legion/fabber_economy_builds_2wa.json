@@ -1,0 +1,81 @@
+{
+    "build_list": [
+        {
+            "name": "2w_l_Basic Mass Generator - Desire",
+            "to_build": "2w_l_BasicMassGenerator",
+            "instance_count": 1,
+            "shared_instance_count": "BasicMetal",
+            "priority": 498,
+            "base_sort": "FromBuilder",
+            "builders": ["AnyLegionFabberBasic"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_l_BasicMassGenerator"
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Fabber & Advanced",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_BasicMassGenerator"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "placement_type": "FromMainBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_l_Advanced Mass Generator - Desire",
+            "to_build": "2w_l_AdvMassGenerator",
+            "instance_count": 1,
+            "min_num_assisters": 2,
+            "max_num_assisters": 5,
+            "shared_instance_count": "AdvancedMetal",
+            "priority": 613,
+            "base_sort": "FromBuilder",
+            "builders": [
+                "AnyLegionFabberAdvanced",
+                "LegionBotAdvancedSupportCommander"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_l_AdvMassGenerator"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_AdvMassGenerator"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "placement_type": "FromMainBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        }
+    ]
+}

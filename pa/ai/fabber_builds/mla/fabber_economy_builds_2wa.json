@@ -1,0 +1,182 @@
+{
+    "build_list": [
+        {
+            "name": "2w_Basic Metal Generator - Desire",
+            "to_build": "2w_BasicMetalGenerator",
+            "instance_count": 1,
+            "shared_instance_count": "BasicMetal",
+            "priority": 498,
+            "base_sort": "FromBuilder",
+            "builders": ["AnyMLABasicFabber"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_BasicMetalGenerator"
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Fabber & Advanced",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_BasicMetalGenerator"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "placement_type": "FromMainBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_Advanced Metal Generator - Desire",
+            "to_build": "2w_AdvancedMetalGenerator",
+            "instance_count": 1,
+            "min_num_assisters": 2,
+            "max_num_assisters": 5,
+            "shared_instance_count": "AdvancedMetal",
+            "priority": 613,
+            "base_sort": "FromBuilder",
+            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "DesireMetal"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_AdvancedMetalGenerator"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_AdvancedMetalGenerator"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "placement_type": "FromMainBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_Solar Cell - Stall",
+            "to_build": "2w_SolarCell",
+            "instance_count": 1,
+            "max_num_assisters": 2,
+            "shared_instance_count": "BasicEnergy",
+            "cross_planet_shared_count": true,
+            "priority": 501,
+            "builders": ["AnyMLABasicFabber"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CurrentEnergyEfficiency",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "EnergyStorageFrac",
+                        "compare0": "<=",
+                        "value0": 0
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_SolarCell"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 6,
+                "placement_type": "FromBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_AdvEnergyStorage",
+            "to_build": "2w_AdvEnergyStorage",
+            "instance_count": 1,
+            "priority": 141,
+            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "EnergyStorageToProductionRatio",
+                        "compare0": "<",
+                        "value0": 3
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_AdvEnergyStorage"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 10,
+                "placement_type": "FromBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_MetalCache",
+            "to_build": "2w_MetalCache",
+            "instance_count": 1,
+            "priority": 141,
+            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "MetalStorageToProductionRatio",
+                        "compare0": "<",
+                        "value0": 3.6
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_MetalCache"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 10,
+                "placement_type": "FromBaseCenter",
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        }
+    ]
+}

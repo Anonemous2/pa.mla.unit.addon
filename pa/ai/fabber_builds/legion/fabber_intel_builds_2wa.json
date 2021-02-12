@@ -1,0 +1,87 @@
+{
+    "build_list": [
+        {
+            "name": "2w_l_System Radar - Have none",
+            "to_build": "2w_l_SystemRadar",
+            "instance_count": 1,
+            "shared_instance_count": "SystemRadar",
+            "cross_planet_shared_count": true,
+            "priority": 266,
+            "builders": [
+                "AnyLegionFabberAdvanced",
+                "LegionBotAdvancedSupportCommander"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Recon & Structure & Orbital",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_l_SystemRadar"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_SystemRadar"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 2,
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        },
+        {
+            "name": "2w_l_Jammer Station - Have none",
+            "to_build": "2w_l_JammerStation",
+            "instance_count": 1,
+            "shared_instance_count": "AdvancedRadar",
+            "priority": 266,
+            "builders": [
+                "AnyLegionFabberAdvanced",
+                "LegionBotAdvancedSupportCommander"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Recon & Structure & Advanced & Land - Orbital",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_l_JammerStation"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_JammerStation"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 2,
+                "threat": {
+                    "influence_type": "AntiSurface",
+                    "compare_type": "<",
+                    "radius": 10,
+                    "value": 50
+                }
+            }
+        }
+    ]
+}
