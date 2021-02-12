@@ -270,7 +270,7 @@
                         "unit_type_string0": "Vehicle & Advanced & Offense",
                         "unit_type_string1": "(Tank & Offense) - Fabber",
                         "compare0": "<",
-                        "value0": 0.2
+                        "value0": 0.1
                     }
                 ],
                 [
@@ -296,7 +296,7 @@
                         "unit_type_string0": "Vehicle & Advanced & Offense",
                         "unit_type_string1": "(Tank & Offense) - Fabber",
                         "compare0": "<",
-                        "value0": 0.2
+                        "value0": 0.1
                     }
                 ]
             ]
