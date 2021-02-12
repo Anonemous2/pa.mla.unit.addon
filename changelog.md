@@ -1,17 +1,51 @@
 # Second Wave Changelog
 
 ## 0.8.2
-### General Changes
-- Many AI improvements (Quitch)
+### AI
+Pushed by **Quitch**
+#### MLA
+- AI can now build:
+    - Spear
+    - System-Wide Radar
+    - Advanced Metal Storage
+    - Jammer
+
+- Amended build conditions for:
+    - Solar Cell
+    - Metal Generator
+    - Advanced Metal Generator
+    - Swordfish
+    - Kampela
+    - Rex
+    - Stalker
+    - Anti-Missile Tower
+
+- Amended `UNITTYPE`s for:
+    - Spear
+    - Anti-Missile Tower
+
+- Amended build placement for:
+    - Solar Cell
+    - Advanced Energy Storage
+    - Anti-Missile Tower
+
+#### Legion
+- AI can now build:
+    - Mass Generator
+    - Advanced Mass Generator
+    - System-Wide Radar
+    - Radar Jammer
+    - Lynx
+    - Malacos
+    - Almaz
+
+### Bug Fixes
+#### All Fabrication Towers
 - Fab Towers work in multiplanet systems (Ferretmaster)
-Pushed by **Anonemous2**
-### Unit Changes
 #### Centaur
 - Updated Aim Bone
 #### Juno
 - Updated Aim Bone
-#### Spear
-- Added SurfaceDefense Tag
 
 
 ## 0.8.1
