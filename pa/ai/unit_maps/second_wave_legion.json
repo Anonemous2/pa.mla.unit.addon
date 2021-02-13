@@ -1,0 +1,37 @@
+{
+    "unit_map": {
+        "2w_l_AdvFabTurret": {
+            "spec_id": "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json"
+        },
+        "2w_l_AdvMassGenerator": {
+            "spec_id": "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json"
+        },
+        "2w_l_Almaz": {
+            "spec_id": "/pa/units/l_addon/anti_ground_satellite/almaz.json"
+        },
+        "2w_l_BasicFabTurret": {
+            "spec_id": "/pa/units/l_addon/fab_turret/fab_turret.json"
+        },
+        "2w_l_BasicMassGenerator": {
+            "spec_id": "/pa/units/l_addon/mass_generator/mass_generator.json"
+        },
+        "2w_l_JammerStation": {
+            "spec_id": "/pa/units/l_addon/l_jammer_station/l_jammer_station.json"
+        },
+        "2w_l_Lynx": {
+            "spec_id": "/pa/units/l_addon/anti_orbital_armor/lynx.json"
+        },
+        "2w_l_Malacos": {
+            "spec_id": "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship.json"
+        },
+        "2w_l_OrbitalPowerCatalyst": {
+            "spec_id": "/pa/units/l_addon/l_orbital_power/l_orbital_power.json"
+        },
+        "2w_l_Shade": {
+            "spec_id": "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.json"
+        },
+        "2w_l_SystemRadar": {
+            "spec_id": "/pa/units/l_addon/system_radar/system_radar.json"
+        }
+    }
+}

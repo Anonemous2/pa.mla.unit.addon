@@ -7,7 +7,9 @@
             "shared_instance_count": "BasicMetal",
             "priority": 498,
             "base_sort": "FromBuilder",
-            "builders": ["AnyMLABasicFabber"],
+            "builders": [
+                "AnyMLABasicFabber"
+            ],
             "build_conditions": [
                 [
                     {
@@ -48,7 +50,10 @@
             "shared_instance_count": "AdvancedMetal",
             "priority": 613,
             "base_sort": "FromBuilder",
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -82,7 +87,9 @@
             "shared_instance_count": "BasicEnergy",
             "cross_planet_shared_count": true,
             "priority": 501,
-            "builders": ["AnyMLABasicFabber"],
+            "builders": [
+                "AnyMLABasicFabber"
+            ],
             "build_conditions": [
                 [
                     {
@@ -117,7 +124,10 @@
             "to_build": "2w_AdvEnergyStorage",
             "instance_count": 1,
             "priority": 141,
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -150,7 +160,10 @@
             "to_build": "2w_MetalCache",
             "instance_count": 1,
             "priority": 141,
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {

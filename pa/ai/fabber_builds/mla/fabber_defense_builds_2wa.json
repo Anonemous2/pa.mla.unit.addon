@@ -7,7 +7,10 @@
             "min_num_assisters": 2,
             "max_num_assisters": 5,
             "priority": 350,
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -65,7 +68,10 @@
             "instance_count": 1,
             "priority": 255,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -147,7 +153,10 @@
             "instance_count": 1,
             "priority": 379,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMLAAdvancedFabber", "MLASupportCommander"],
+            "builders": [
+                "AnyMLAAdvancedFabber",
+                "MLASupportCommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -216,7 +225,9 @@
             "instance_count": 1,
             "priority": 85,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMLABasicFabber"],
+            "builders": [
+                "AnyMLABasicFabber"
+            ],
             "build_conditions": [
                 [
                     {
@@ -288,7 +299,9 @@
             "instance_count": 1,
             "priority": 262,
             "base_sort": "FromPerimeter",
-            "builders": ["AnyMLABasicFabber"],
+            "builders": [
+                "AnyMLABasicFabber"
+            ],
             "build_conditions": [
                 [
                     {
@@ -339,6 +352,67 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "2w_Orbital_Anti-Nuke",
+            "to_build": "2w_Orbital_Anti-Nuke",
+            "instance_count": 1,
+            "priority": 195,
+            "builders": [
+                "OrbitalFabber"
+            ],
+            "min_num_assisters": 1,
+            "max_num_assisters": 7,
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_Orbital_Anti-Nuke"
+                    },
+                    {
+                        "test_type": "SystemToPlanetThreatRatio",
+                        "string0": "Nuke",
+                        "string1": "AntiNuke",
+                        "compare0": ">",
+                        "value0": 2
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "2w_Orbital_Anti-Nuke - Rush",
+            "to_build": "2w_Orbital_Anti-Nuke",
+            "instance_count": 1,
+            "priority": 210,
+            "builders": [
+                "OrbitalFabber"
+            ],
+            "min_num_assisters": 5,
+            "max_num_assisters": 15,
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_Orbital_Anti-Nuke"
+                    },
+                    {
+                        "test_type": "HaveHadANukeEvent",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & NukeDefense",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Advanced & (Fabber | Factory)",
+                        "compare0": "<",
+                        "value0": 1
+                    }
+                ]
+            ]
         }
     ]
 }

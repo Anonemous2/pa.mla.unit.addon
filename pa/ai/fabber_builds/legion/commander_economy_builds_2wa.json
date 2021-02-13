@@ -7,7 +7,9 @@
             "shared_instance_count": "BasicMetal",
             "priority": 500,
             "base_sort": "FromBuilder",
-            "builders": ["LegionCommander"],
+            "builders": [
+                "LegionCommander"
+            ],
             "build_conditions": [
                 [
                     {

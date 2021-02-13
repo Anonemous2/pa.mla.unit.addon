@@ -7,7 +7,9 @@
             "shared_instance_count": "BasicMetal",
             "priority": 500,
             "base_sort": "FromBuilder",
-            "builders": ["MLACommander"],
+            "builders": [
+                "MLACommander"
+            ],
             "build_conditions": [
                 [
                     {
@@ -72,7 +74,9 @@
             "shared_instance_count": "BasicEnergy",
             "cross_planet_shared_count": true,
             "priority": 351,
-            "builders": ["MLACommander"],
+            "builders": [
+                "MLACommander"
+            ],
             "build_conditions": [
                 [
                     {

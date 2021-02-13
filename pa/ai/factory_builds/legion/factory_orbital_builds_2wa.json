@@ -5,7 +5,9 @@
             "to_build": "2w_l_Almaz",
             "instance_count": 1,
             "priority": 100,
-            "builders": ["AnyLegionFactoryOrbital"],
+            "builders": [
+                "AnyLegionFactoryOrbital"
+            ],
             "build_conditions": [
                 [
                     {
