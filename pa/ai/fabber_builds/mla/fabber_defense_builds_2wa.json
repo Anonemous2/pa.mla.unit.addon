@@ -361,6 +361,8 @@
             "builders": [
                 "OrbitalFabber"
             ],
+            "min_num_assisters": 1,
+            "max_num_assisters": 7,
             "build_conditions": [
                 [
                     {
@@ -385,6 +387,8 @@
             "builders": [
                 "OrbitalFabber"
             ],
+            "min_num_assisters": 5,
+            "max_num_assisters": 15,
             "build_conditions": [
                 [
                     {
