@@ -6,7 +6,7 @@
             "instance_count": 1,
             "min_num_assisters": 2,
             "max_num_assisters": 15,
-            "shared_instance_count": "DemiTitan",
+            "shared_instance_count": "Titan",
             "priority": 481,
             "builders": [
                 "AnyMLAAdvancedFabber",
@@ -34,7 +34,7 @@
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
-                        "string0": "Juno"
+                        "string0": "2w_Juno"
                     }
                 ]
             ],
