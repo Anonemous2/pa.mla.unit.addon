@@ -1,0 +1,114 @@
+{
+    "build_list": [
+        {
+            "name": "2w_l_Shade",
+            "to_build": "2w_l_Shade",
+            "instance_count": 1,
+            "shared_instance_count": "AdvancedRadar",
+            "priority": 379,
+            "builders": [
+                "LegionOrbitalBasicFabber"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "boolean": false,
+                        "test_type": "PlanetIsGasGiant"
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_l_Shade"
+                    },
+                    {
+                        "compare0": "<",
+                        "test_type": "UnitCountPerPlanetRadius",
+                        "unit_type_string0": "Orbital & (Recon | Scout) & Advanced - Structure",
+                        "value0": 250
+                    },
+                    {
+                        "compare0": ">",
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Orbital & Fighter",
+                        "value0": 10
+                    },
+                    {
+                        "compare0": ">",
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Mobile - Orbital",
+                        "value0": 100
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_Shade"
+                    }
+                ],
+                [
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_l_Shade"
+                    },
+                    {
+                        "compare0": ">",
+                        "test_type": "UnitCountOnPlanet",
+                        "unit_type_string0": "Orbital & Fighter",
+                        "value0": 5
+                    },
+                    {
+                        "boolean": true,
+                        "test_type": "OtherPlanetNeedsReconAssistance"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_Shade"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 5
+            }
+        },
+        {
+            "name": "2w_l_OrbitalPowerCatalyst",
+            "to_build": "2w_l_OrbitalPowerCatalyst",
+            "instance_count": 1,
+            "priority": 379,
+            "builders": [
+                "LegionOrbitalBasicFabber"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CurrentEnergyEfficiency",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_OrbitalPowerCatalyst"
+                    }
+                ],
+                [
+                    {
+                        "test_type": "DesireEnergy"
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_OrbitalPowerCatalyst"
+                    }
+                ]
+            ],
+            "placement_rules": {
+                "buffer": 5
+            }
+        }
+    ]
+}
