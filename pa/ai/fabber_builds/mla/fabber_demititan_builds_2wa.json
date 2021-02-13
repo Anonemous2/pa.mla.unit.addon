@@ -9,7 +9,8 @@
             "shared_instance_count": "Titan",
             "priority": 481,
             "builders": [
-                "AnyMLAAdvancedFabber",
+                "AdvancedBotFabber",
+                "OrbitalFabber",
                 "MLASupportCommander"
             ],
             "build_conditions": [
