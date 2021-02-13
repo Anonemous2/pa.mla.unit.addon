@@ -36,6 +36,9 @@
         "2w_MetalCache": {
             "spec_id": "/pa/units/addon/metal_cache/metal_cache.json"
         },
+        "2w_Orbital_Anti-Nuke": {
+            "spec_id": "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json"
+        },
         "2w_Pegasus": {
             "spec_id": "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json"
         },

@@ -30,6 +30,63 @@
                     }
                 ]
             ]
+        },
+        {
+            "name": "2w_Orbital_Anti-Nuke",
+            "to_build": "2w_Orbital_Anti-Nuke",
+            "instance_count": 1,
+            "priority": 195,
+            "builders": [
+                "OrbitalFactory"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_Orbital_Anti-Nuke"
+                    },
+                    {
+                        "test_type": "SystemToPlanetThreatRatio",
+                        "string0": "Nuke",
+                        "string1": "AntiNuke",
+                        "compare0": ">",
+                        "value0": 2
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "2w_Orbital_Anti-Nuke - Rush",
+            "to_build": "2w_Orbital_Anti-Nuke",
+            "instance_count": 1,
+            "priority": 210,
+            "builders": [
+                "OrbitalFactory"
+            ],
+            "build_conditions": [
+                [
+                    {
+                        "test_type": "CanAffordPotentialDrain",
+                        "string0": "2w_Orbital_Anti-Nuke"
+                    },
+                    {
+                        "test_type": "HaveHadANukeEvent",
+                        "boolean": true
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Structure & NukeDefense",
+                        "compare0": "<",
+                        "value0": 1
+                    },
+                    {
+                        "test_type": "UnitCountInBase",
+                        "unit_type_string0": "Advanced & (Fabber | Factory)",
+                        "compare0": "<",
+                        "value0": 1
+                    }
+                ]
+            ]
         }
     ]
 }
