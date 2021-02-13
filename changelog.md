@@ -2,7 +2,7 @@
 
 ## 0.8.3
 ### AI
-Push by **Dissonant**
+Push by **Reckoner**
 
 #### MLA
 - AI can now build:
@@ -30,7 +30,7 @@ Pushed by **Quitch**
     - Spear
     - System-Wide Radar
     - Advanced Metal Storage
-    - Jammer
+    - Radar Jammer
 
 - Amended build conditions for:
     - Solar Cell
@@ -62,8 +62,9 @@ Pushed by **Quitch**
     - Almaz
 
 ### Bug Fixes
-#### All Fabrication Towers
-- Fab Towers work in multiplanet systems (Ferretmaster)
+Push by **Anonemous2**
+#### Fabrication Towers
+- Fab Towers now work in multiplanet systems (Ferretmaster)
 #### Centaur
 - Updated Aim Bone
 #### Juno
@@ -78,8 +79,8 @@ Pushed by **Anonemous2**
 - Reduced firerate to every 1.5 seconds from 1
 - Reduced metal cost to 300 from 400
 - Increased range to 170 from 160
-- Changed Armor type damage of 2 against bots
-- Changed Armor type damage of 2 against orbital
+- Increased armor type multiplier against bots from 1.25 to 2.00
+- Increased armor type multiplier against orbital from 1.50 to 2.00
 #### Centaur
 - Reduced rate of fire to 0.4 from 0.5
 #### Stalker
@@ -102,17 +103,17 @@ Pushed by **Anonemous2**
 ## 0.8.0 "First Demi-Titan"
 Pushed by **Anonemous2**
 ### New Units
-- Juno *(Anonemous2)*:T3 Titan
+- Juno *(Anonemous2)*: Demi-Titan Bot
 - Saxon *(Anonemous2)*:T2 Vehicle
 - Orbital Anti-Nuke Platform *(billthebluebot)*:T2 Orbital
-- Shade Orbital Platform *(billthebluebot)*:L_T2 Orbital
-- Orbital Power Catalyst *(billthebluebot)*:L_T2 Orbital Structure
+- Shade Orbital Platform *(billthebluebot)*:Legion T2 Orbital
+- Orbital Power Catalyst *(billthebluebot)*:Legion T2 Orbital Structure
 ### Unit Changes
 #### Spear
 - Added target priorities ("Artillery & Bot", "Bot")
 - Damage reduced to 64
-- Added Armor type damage of 1.25 against bots
-- Added Armor type damage of 1.50 against orbital
+- Added 1.25x Armor type multiplier against bots
+- Added 1.50x Armor type multiplier against orbital
 
 
 ## 0.7.6
@@ -127,21 +128,21 @@ Pushed by **Reckoner**
 ## 0.7.5
 ### Unit Changes
 #### Adv Mass Generator
-- removed old metal generator pfx effect
+- Removed old metal generator pfx effect
 
 
 ## 0.7.4
 ### Unit Changes
 #### Metal Generator
-- new pfx effect
+- Updated pfx effect
 #### Adv Metal Generator
-- new pfx effect
-- updated buildbar icon
+- Updated pfx effect
+- Updated buildbar icon
 
 
 ## 0.7.3
 ### General Changes
-- updated fabricator shadows to reflect 115447 changes
+- Updated fabricator json shadows to reflect 115447 changes
 
 
 ## 0.7.2
@@ -158,14 +159,14 @@ Pushed by **Reckoner**
 
 ## 0.7.0 "Stations"
 ### General Changes
-- All unit shadows are now handled by a buildscript
+- All unit json shadows are now handled by a buildscript
 ### New Units
 - Spear *(Anonemous2)*:T1 Combat
 - Radar Jamming Installation *(billthebluebot)*: T2 Utility
-- Stealth Generator Station *(billthebluebot)*: L_T2 Utility
+- Stealth Generator Station *(billthebluebot)*: Legion T2 Utility
 - Planet-wide Radar *(Orginal PA Model)*: T2 Utility
-- Planet-wide Radar *(billthebluebot)*: L_T2 Utility
-- Malacos *(Panda)*: L_T1 Naval
+- Planet-wide Radar *(billthebluebot)*: Legion T2 Utility
+- Malacos *(Panda)*: Legion T1 Naval
 ### Unit Changes
 #### Centaur
 - Increased weapon range to 140
@@ -208,7 +209,7 @@ Pushed by **Reckoner**
 - Increased Firerate to 2 from 1
 - Added splash damage (5)
 - Added splash range (0.75)
-#### Kempela
+#### Kampela
 - Updated Description
 #### Almaz
 - Updated Description
@@ -232,31 +233,31 @@ Pushed by **Reckoner**
 
 ### Unit Changes
 #### Fab Tower
-- decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
-- changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
+- Decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
+- Changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
 #### Adv Fab Tower
-- updated description
-- increased death effect
-- decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
-- changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
-#### Kempela
-- added time ammo bar (to better see firing)
-- increased range to 220 from 210
-- increased firerate to 1 shot every 4 seconds, from 5 seconds
+- Updated description
+- Increased death effect
+- Decreased turn rate to 0 (Fixed a bug that let fab towers rotate thier base)
+- Changed nav type to hover (Fixed a bug that made fab towers teleport to shore when in shallow water)
+#### Kampela
+- Added time ammo bar (to better see firing)
+- Increased range to 220 from 210
+- Increased firerate to 1 shot every 4 seconds, from 5 seconds
 #### Anti-Missile Tower
-- added Stingray missiles as a target
-- added Kempela missiles as a target
+- Added Stingray missiles as a target
+- Added Kampela missiles as a target
 #### Stalker
 - Increased turret turn rate to 240 from 120
 - Increased turn rate to 250 from 150
 
 ### Balance Changes
 #### Gil-E
-- added Kempela missiles as a target
+- Added Kampela missiles as a target
 #### Glata Turret
-- changed alt build to be spherical
+- Changed alt build to be spherical
 #### Flak Cannon
-- changed alt build to be spherical
+- Changed alt build to be spherical
 
 ## 0.5.1
 Pushed by **Reckoner**
@@ -290,36 +291,36 @@ Pushed by **Reckoner**
 
 ## 0.4.4
 ### General Changes
-- fixed titan fabrication
+- Fixed titan fabrication
 
 
 ## 0.4.3
 ### New Units
-- Almaz *(Anonemous2)*:l_T1 Orbital
+- Almaz *(Anonemous2)*:Legion T1 Orbital
 
 ### Unit Changes
 #### Mass Generator
-- now uses legion select circle
+- Now uses Legion select circle
 #### Adv Mass Generator
-- now uses legion select circle
+- Now uses Legion select circle
 #### Centaur
-- added effect
-- updated description
-- added recoil animations
+- Added effect
+- Updated description
+- Added recoil animations
 #### Swordfish
-- updated torpedo targetables to exclude UNITTYPE_WaterHover instead of scout and fabber
+- Updated torpedo targetables to exclude UNITTYPE_WaterHover instead of scout and fabber
 #### Stalker
-- now uses UNITTYPE_Vehicle
+- Now uses UNITTYPE_Vehicle
 
 #### General Changes
-- updated fabbers - custom tags 
+- Updated fabbers - custom tags 
 
 
 ## 0.4.2 WIP
 #### Swordfish
-- updated model
-- new textures
-- increased torpedo turn speed to 360 from 180
+- Updated model
+- New textures
+- Increased torpedo turn speed to 360 from 180
 
 
 ## 0.4.1
@@ -337,60 +338,60 @@ Pushed by **Anonemous2**
 - Centaur *(Anonemous2)*:T2 Bot
 
 ### General Changes
-- updated mod description
-- added 'unit' and 'legion' to mod catagory
+- Updated mod description
+- Added 'unit' and 'legion' to mod catagory
 
 ### Unit Changes
 #### Rex
-- increased missile velocity to 150 from 100
-- decreased firerate to 0.5 from 0.6
-- increased damage to 180 from 175
-- increased missile range to 180 from 150
+- Increased missile velocity to 150 from 100
+- Decreased firerate to 0.5 from 0.6
+- Increased damage to 180 from 175
+- Increased missile range to 180 from 150
 #### Swordfish
-- increased cost to 500 from 400
-- increased health to 300 from 210
-- increased torpedo damage to 140 from 100
-- decreased torpedo turnrate to 180 from 360
-- decreased torpedo firearc to 45 from 90
-- decreased torpedo attack rate to 0.6 from 0.8
-- decreased torpedo speed to 30 from 50
-- increased torpedo lifetime to 15 from 10
-- decreased guns pitch range to 30 from 90
-- decreased guns damage to 15 from 20
-- torpedos can no longer target brownwater naval (i.e. naval fabbers or piranhas)
+- Increased cost to 500 from 400
+- Increased health to 300 from 210
+- Increased torpedo damage to 140 from 100
+- Decreased torpedo turnrate to 180 from 360
+- Decreased torpedo firearc to 45 from 90
+- Decreased torpedo attack rate to 0.6 from 0.8
+- Decreased torpedo speed to 30 from 50
+- Increased torpedo lifetime to 15 from 10
+- Decreased guns pitch range to 30 from 90
+- Decreased guns damage to 15 from 20
+- Torpedos can no longer target brownwater naval (i.e. naval fabbers or piranhas)
 #### Adv Energy Storage
-- increased energy storage to 5,000,000 from 1,000,000
+- Increased energy storage to 5,000,000 from 1,000,000
 #### Pegasus
-- changed jet effect color to blue, removed smoke
+- Changed jet effect color to blue, removed smoke
 #### Andreas
-- added energy as an ammo source
-- energy draw 200
-- energy per shot 400
-- energy storage 3000
+- Added energy as an ammo source
+- Energy draw 200
+- Energy per shot 400
+- Energy storage 3000
 #### Stinger
-- reduced build cost to 120 from 130
-- updated strat icon
+- Reduced build cost to 120 from 130
+- Updated strat icon
 #### Adv Metal Generator
-- reduced placement size to 30, 38 from 45, 45
+- Reduced placement size to 30, 38 from 45, 45
 #### Metal Generator
-- new naval model
-- new textures
-- new buildbar icon
+- New naval model
+- New textures
+- New buildbar icon
 #### Solar Cell
-- new naval model
-- new textures
-- new buildbar icon
-- increased energy production to 175 from 150
+- New naval model
+- New textures
+- New buildbar icon
+- Increased energy production to 175 from 150
 #### Pounder
-- new naval model
-- new textures
-- new buildbar icon
+- New naval model
+- New textures
+- New buildbar icon
 
 ### Balance Changes
 #### Energy Storage
-- increased energy storage to 500,000 from 100,000
+- Increased energy storage to 500,000 from 100,000
 #### OmniSilo (legion)
-- increased energy storage to 75,000 from 15,000
+- Increased energy storage to 75,000 from 15,000
 
 
 ## 0.3.1 'radar jamming'
@@ -398,52 +399,52 @@ Pushed by **Anonemous2**
 
 ### Unit Changes
 #### Stalker
-- added radar jamming (15)
+- Added radar jamming (15)
 #### Pegasus
-- added radar jamming (10)
+- Added radar jamming (10)
 #### Adv metal gen
-- reduced energy draw (5625)
-- updated texures
-- added naval version
+- Reduced energy draw (5625)
+- Updated texures
+- Added naval version
 #### metal gen
-- reduced energy draw (1250)
+- Reduced energy draw (1250)
 #### Adv mass gen
-- reduced energy draw (5625)
+- Reduced energy draw (5625)
 #### mass gen
-- reduced energy draw (1250)
+- Reduced energy draw (1250)
 
 
 ## 0.3.0 'legion addon'
 Pushed by **Anonemous2**
 
 ### New Units
-- (legion) mass gen *(CyberPunkPanda & billthebluebot)*:T1 Economy
-- (legion) adv mass gen *(CyberPunkPanda & billthebluebot)*:T2 Economy
-- stinger *(Orginal PA Model)*:T1 Bot
-- pegasus *(Anonemous2)*:T2 Air
+- (Legion) mass gen *(CyberPunkPanda & billthebluebot)*:T1 Economy
+- (Legion) adv mass gen *(CyberPunkPanda & billthebluebot)*:T2 Economy
+- Stinger *(Orginal PA Model)*:T1 Bot
+- Pegasus *(Anonemous2)*:T2 Air
 
 ### General Changes
 - Removed Custom Tags from Fabberbuild
 
 ### Unit Changes
 #### Stalker
-- removed lamp
+- Removed lamp
 #### Anti-missile Tower
-- updated textures
-- updated buildbar_icon
+- Updated textures
+- Updated buildbar_icon
 #### Adv metal gen
-- reduced energy draw
+- Reduced energy draw
 #### Metal gen
-- reduced energy draw
+- Reduced energy draw
 
 
 ## 0.2.2 fixed hotfix
-- added comma to unitlist
-- increased stalker range
+- Added comma to unitlist
+- Increased stalker range
 
 
 ## 0.2.1 beastking hotfix
-- made beastking commander useable
+- Made Beast King commander useable
 
 
 ## 0.2.0 'A round of improvement'
@@ -454,61 +455,61 @@ Pushed by **Anonemous2**
 
 ### Unit Changes
 #### Rex
-- updated description
-- increased anti-orbital range to 150
-- decreased anti-droppod range to 150
-- decreased missile firerate to 0.6
-- increased missile damage to 175
-- increased missile speed to 100 from 60
-- unitcannon buildable now
-- added custom pfx effects
-- updated model *(Anonemous2)*
-- finalized textures
-- new unit animations
-- new buildbar icon
+- Updated description
+- Increased anti-orbital range to 150
+- Decreased anti-droppod range to 150
+- Decreased missile firerate to 0.6
+- Increased missile damage to 175
+- Increased missile speed to 100 from 60
+- Unitcannon buildable now
+- Added custom pfx effects
+- Updated model *(Anonemous2)*
+- Finalized textures
+- New unit animations
+- New buildbar icon
 #### Stalker
-- updated description
-- new strat icon
-- new model *(Anonemous2)*
-- finalized textures
-- unitcannon buildable now
-- reduced health to 500
-- reduced cost to 600
-- increased vision to 140
-- increased damage to 120
-- reduced splash radius to 2
-- increased move speed to 18
-- reduced range to 105
+- Updated description
+- New strat icon
+- New model *(Anonemous2)*
+- Finalized textures
+- Unitcannon buildable now
+- Reduced health to 500
+- Reduced cost to 600
+- Increased vision to 140
+- Increased damage to 120
+- Reduced splash radius to 2
+- Increased move speed to 18
+- Reduced range to 105
 #### Solar Cell
-- updated description
+- Updated description
 #### Andreas
-- updated description
+- Updated description
 - added custom pfx effects
-- lowered build cost to 900
-- increased vision to 40
-- lowered health to 180
-- increased pitch and yaw turn rate to 720
-- lowered firerate to 1.5
+- Lowered build cost to 900
+- Increased vision to 40
+- Lowered health to 180
+- Increased pitch and yaw turn rate to 720
+- Lowered firerate to 1.5
 #### Anti-missile-tower
-- now buildable by adv combat fabs
-- doubled energy drain
-- reduced build cost to 1200
-- reduced range to 120
-- added custom pfx effects
+- Now buildable by adv combat fabs
+- Doubled energy drain
+- Reduced build cost to 1200
+- Reduced range to 120
+- Added custom pfx effects
 #### Metal Generator
-- updated description
+- Updated description
 #### Adv Metal Generator
-- updated description
+- Updated description
 #### Swordfish
-- updated description
-- added custom pfx effects
+- Updated description
+- Added custom pfx effects
 #### Pounder
-- increased damage to 1000
-- increased splash radius to 12
-- increased firing deviation to 0.5
-- increassed energy draw to 400
-- reduced range to 245
-- new strat icon
+- Increased damage to 1000
+- Increased splash radius to 12
+- Increased firing deviation to 0.5
+- Increassed energy draw to 400
+- Reduced range to 245
+- New strat icon
 
 
 ## 0.1.4
