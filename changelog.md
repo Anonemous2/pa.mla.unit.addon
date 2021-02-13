@@ -1,5 +1,27 @@
 # Second Wave Changelog
 
+## 0.8.3
+### AI
+Push by **Dissonant**
+
+#### MLA
+- AI can now build:
+    - Juno
+    - Saxon
+    - Orbital Anti-Nuke
+
+- Amended build conditions for:
+    - Kampela
+    - Stalker
+
+#### Legion
+- AI can now build:
+    - Shade Orbital Stealth Generator
+    - Orbital Power Catalyst
+
+- Amended build conditions for:
+    - Malacos
+
 ## 0.8.2
 ### AI
 Pushed by **Quitch**
