@@ -13,11 +13,12 @@
   "spawn_layers": "WL_AnySurface",
   "mesh_bounds": [29, 29, 15.2],
   "unit_types": [
-    "UNITTYPE_Orbital",
     "UNITTYPE_Structure",
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
     "UNITTYPE_Recon",
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Radar",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Important"
   ],

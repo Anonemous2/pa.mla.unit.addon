@@ -21,6 +21,7 @@
 		"UNITTYPE_Air",
 		"UNITTYPE_Mobile",
 		"UNITTYPE_Transport",
+		"UNITTYPE_Interplanetary",
 		"UNITTYPE_Advanced",
 		"UNITTYPE_FactoryBuild"
 	],

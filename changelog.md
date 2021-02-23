@@ -1,5 +1,22 @@
 # Second Wave Changelog
 
+## 0.8.4
+Push by **Reckoner**
+
+### AI
+#### MLA
+- Added new post-115506 `UNITTYPE`s to:
+    - Pegasus
+    - Radar Jammer
+    - Planetary Radar
+    - Anti-Missile Tower
+
+#### Legion
+- Added new post-115506 `UNITTYPE`s to:
+    - Radar Jammer
+    - Planetary Radar
+    - Shade Orbital Stealth Generator
+
 ## 0.8.3
 ### AI
 Push by **Reckoner**
