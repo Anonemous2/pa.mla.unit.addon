@@ -25,6 +25,7 @@
         "UNITTYPE_Orbital",
         "UNITTYPE_Advanced",
         "UNITTYPE_Recon",
+        "UNITTYPE_RadarJammer",
         "UNITTYPE_FabOrbBuild",
         "UNITTYPE_Custom1"
     ],

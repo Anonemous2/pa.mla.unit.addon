@@ -18,6 +18,7 @@
         "UNITTYPE_Land",
         "UNITTYPE_SurfaceDefense",
         "UNITTYPE_Defense",
+        "UNITTYPE_TacticalDefense",
         "UNITTYPE_FabAdvBuild",
         "UNITTYPE_CombatFabAdvBuild"
     ],
