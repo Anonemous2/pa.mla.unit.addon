@@ -43,7 +43,8 @@
             "animations": {
                 "idle": "/pa/units/addon/adv_metal_storage/adv_metal_storage_anim_idle.papa"
             },
-            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
+            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+            "skirt_decal": "/pa/units/addon/adv_metal_storage/skirt/skirt_adv_metal_storage.json"
         }
     ],
     "events": {
@@ -187,5 +188,5 @@
         47,
         47
     ],
-    "TEMP_texelinfo": 31.4256
+    "TEMP_texelinfo": 52.4256
 }

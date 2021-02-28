@@ -8,7 +8,7 @@
     "ammo_capacity": 2000,
     "ammo_demand": 400,
     "ammo_per_shot": 2000,
-    "max_range": 245,
+    "max_range": 260,
     "yaw_rate": 30,
     "pitch_rate": 30,
     "yaw_range": 180,

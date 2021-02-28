@@ -79,7 +79,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         },
         {
             "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -102,7 +102,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         },
         {
             "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -125,7 +125,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         },
         {
             "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -148,7 +148,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         }
     ],
     "lamps": [

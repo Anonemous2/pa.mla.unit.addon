@@ -1,5 +1,18 @@
 # Second Wave Changelog
 
+## 0.9.1
+Pushed by **Anonemous2**
+### Unit Changes
+#### Adv Energy Storage
+- Updated buildbar icon
+#### Adv metal storage
+- Updated texture
+- Added custom ground decal
+#### Spear
+- Updated description
+- Added ground decal
+#### Pounder
+- Increased range to 260 from 245
 
 ## 0.9.0
 Pushed by **Anonemous2**
