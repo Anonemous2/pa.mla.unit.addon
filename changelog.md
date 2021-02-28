@@ -1,7 +1,25 @@
 # Second Wave Changelog
 
-## 0.8.4
-Push by **Reckoner**
+
+## 0.9.0
+Pushed by **Anonemous2**
+### New Units
+- Adv Metal Storage *(Anonemous2)*: T2 Economy
+- Radar Jammer Station *(billthebluebot)*: T2 Utility
+- Anti nuke Cannon *(Anonemous2 w/billthebluebot)*: T2 Orbital
+### Unit Changes
+#### Adv Energy Storage
+- Replaced model
+- Updated ground decal
+#### Metal Cache
+- Removed (Replaced with Adv metal storage)
+#### Solar Cell
+- Removed (Replacement unit coming out later)
+#### Juno
+- Updated animation tree (removed studder when firing)
+#### Andreas
+- Increased ammo cap to 5000 from 3000
+- Decreased firing range to 50 from 100
 
 ### AI
 #### MLA

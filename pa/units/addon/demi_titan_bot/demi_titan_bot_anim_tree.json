@@ -134,19 +134,6 @@
                             },
                             {
                                 "transition_forward": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "anim_complete": true,
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                }
-                            },
-                            {
-                                "transition_forward": {
                                     "func": "is_turning_faster_than",
                                     "turn_rate": 15.0,
                                     "target": "turning",
@@ -184,18 +171,6 @@
                                     "func": "is_moving_faster_than",
                                     "speed": 0.1,
                                     "target": "walking",
-                                    "duration": 0.5
-                                }
-                            },
-                            {
-                                "transition_forward": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_firing",
-                                    "target": "firing",
                                     "duration": 0.5
                                 }
                             },
@@ -407,18 +382,6 @@
                                     "target": "walk_stop",
                                     "duration": 0.5
                                 }
-                            },
-                            {
-                                "transition_forward": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                }
                             }
                         ],
                         "reset": "playback_reset"
@@ -497,18 +460,6 @@
                                     "func": "is_moving_faster_than",
                                     "speed": 0.1,
                                     "target": "walking",
-                                    "duration": 0.5
-                                }
-                            },
-                            {
-                                "transition_forward": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_firing",
-                                    "target": "firing",
                                     "duration": 0.5
                                 }
                             },
@@ -768,18 +719,6 @@
                             },
                             {
                                 "transition_forward": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_firing",
-                                    "target": "firing",
-                                    "duration": 0.5
-                                }
-                            },
-                            {
-                                "transition_forward": {
                                     "func": "not_turning",
                                     "target": "not_moving",
                                     "duration": 0.5
@@ -792,74 +731,6 @@
                             }
                         ],
                         "reset": "turning_reset"
-                    },
-                    {
-                        "type": "item",
-                        "name": "firing",
-                        "node": {
-                            "type": "playback",
-                            "anim_name": "attack",
-                            "looping": false,
-                            "events": [
-                                {
-                                    "time": 1.33,
-                                    "type": "effect",
-                                    "parameters": {
-                                        "bone": "bone_head",
-                                        "spec": "/pa/units/land/titan_bot/titan_bot_stomp.pfx",
-                                        "effect_scale": 1.0,
-                                        "bone_offset": [
-                                            15.36,
-                                            1.1,
-                                            0.0
-                                        ]
-                                    }
-                                },
-                                {
-                                    "time": 1.33,
-                                    "type": "effect",
-                                    "parameters": {
-                                        "bone": "bone_head",
-                                        "spec": "/pa/units/land/titan_bot/titan_bot_stomp.pfx",
-                                        "effect_scale": 1.0,
-                                        "bone_offset": [
-                                            15.36,
-                                            1.1,
-                                            0.0
-                                        ]
-                                    }
-                                }
-                            ]
-                        },
-                        "transitions": [
-                            {
-                                "transition_forward": {
-                                    "func": "is_moving",
-                                    "target": "walking",
-                                    "anim_complete": true,
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "is_moving",
-                                    "target": "walking",
-                                    "duration": 0.2
-                                }
-                            },
-                            {
-                                "transition_forward": {
-                                    "func": "not_moving",
-                                    "target": "not_moving",
-                                    "anim_complete": true,
-                                    "duration": 0.5
-                                },
-                                "transition_reverse": {
-                                    "func": "not_moving",
-                                    "target": "not_moving",
-                                    "duration": 0.2
-                                }
-                            }
-                        ],
-                        "reset": "playback_reset"
                     }
                 ]
             },
