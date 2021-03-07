@@ -1,4 +1,5 @@
-# Second Wave Companion Changelog
+# Second Wave Client Changelog
 
 ## 1.0.0
-- server textures offloaded to the companion (this mod)
+- high resolution textures
+- alt build
