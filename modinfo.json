@@ -1,11 +1,11 @@
 {
-	"identifier": "pa.mla.unit.addon",
-	"display_name": "Second Wave Expansion",
-	"description": "Second Wave is a expansion mod that adds new units to both MLA and Legion. --(Enable MERGE to play with legion or other unit mods when installed!)-- New units and structures seek to expand play styles and improve factory interactions, without forcing out old ones. Still under development. See forums for more details.",
-	"author": "Anonemous2, billthebluebot, CyberPunkPanda, Quitch, Reckoner, Ferretmaster",
+	"identifier": "pa.mla.unit.addon.companion",
+	"display_name": "Second Wave Expansion - Companion",
+	"description": "Second Wave Companion, contains units textures/effects",
+	"author": "Anonemous2",
 	"signature": "not yet implemented",
 	"forum": "https://forums.planetaryannihilation.com/threads/wip-casual-mla-unit-addon.73484/#post-1151453",
-	"priority": 95,
+	"priority": 110,
 	"icon": "https://github.com/Anonemous2/pa.mla.unit.addon/blob/master/icon.png?raw=true",
 	"titansOnly": true,
 	"category": [
@@ -16,22 +16,11 @@
 		"expansion",
 		"titans"
 	],
-	"scenes": {
-		"shared_build": [
-			"coui://ui/mods/mla.unit.addon/shared_build.js"
-		],
-		"icon_atlas": [
-			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
-		],
-		"live_game": [
-            "coui://ui/mods/mla.unit.addon/fab_tower_patrol.js"
-        ]
-	},
-	"context": "server",
-	"date": "2021-02-28",
+	"scenes": {},
+	"context": "client",
+	"date": "2021-03-06",
 	"build": "115546",
-	"version": "0.9.1",
-	"dependencies": [
-		"com.pa.quitch.AIBugfixEnhancement"
-	]
+	"version": "1.0.0",
+	"dependencies": [],
+	"hidden": true
 }
