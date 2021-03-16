@@ -53,7 +53,7 @@
                 "closed": "/pa/units/addon/anti_missile_tower/anti_missile_tower_closed.papa"
             },
             "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-            "skirt_decal": "/pa/anim/anim_trees/defense_turret_adv_anim_tree.json"
+            "skirt_decal": "/pa/units/addon/anti_missile_tower/skirt_anti_missile_tower.json"
         }
     ],
     "nearby_target_tick_update_interval": 15,

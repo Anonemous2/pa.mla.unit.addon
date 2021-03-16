@@ -3,8 +3,8 @@
 	"display_name": "Centaur",
 	"si_name": "adv_heavy_bot",
 	"description": "!LOC:Advanced Anti-Armor Bot - Does 200% damage against vehicles. High health, slow rate of fire. Priorities attacking advanced tanks.",
-	"max_health": 1900,
-	"build_metal_cost": 1000,
+	"max_health": 1300,
+	"build_metal_cost": 800,
 	"attachable": {
 		"offsets": {
 			"root": [
@@ -33,11 +33,11 @@
 	},
 	"guard_layer": "WL_AnySurface",
 	"navigation": {
-		"type": "amphibious",
+		"type": "land-small",
 		"acceleration": 50,
 		"brake": -1,
 		"move_speed": 12,
-		"turn_speed": 60
+		"turn_speed": 100
 	},
 	"physics": {
 		"radius": 2.0
