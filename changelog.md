@@ -12,6 +12,10 @@ Pushed by **Anonemous2**
 - Reduced health to 1300 from 1900
 - Reduced metal cost to 800 from 1000
 - Increased turn_speed to 100 from 60
+#### Anti-Missile Tower
+- Updated Model
+- Updated Animations
+- New Textures
 #### Rex
 - Updated Model
 - New Textures
