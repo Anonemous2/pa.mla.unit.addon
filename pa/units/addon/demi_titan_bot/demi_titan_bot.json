@@ -8,7 +8,7 @@
     "atrophy_rate": 200.0,
     "atrophy_cool_down": 15.0,
     "wreckage_health_frac": 0.7,
-    "guard_radius": 300,
+    "guard_radius": 40,
     "has_death_effects": true,
     "attachable": {
         "offsets": {
@@ -117,7 +117,6 @@
     "model": {
         "filename": "/pa/units/addon/demi_titan_bot/demi_titan_bot.papa",
         "animations": {
-            "closed": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_closed.papa",
             "walk": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_run.papa",
             "idle": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_idle.papa",
             "deploy": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_deploy.papa",
@@ -142,7 +141,7 @@
             ]
         }
     ],
-    "attack_range_frac": 0.9,
+    "attack_range_frac": 0.3,
     "teleportable": null,
     "events": {
         "build_complete": {
