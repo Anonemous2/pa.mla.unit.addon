@@ -120,6 +120,13 @@
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 100
+                },
+                {
+                    "layer": "surface_and_air",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 75,
+                    "uses_energy": false
                 }
             ]
         }
@@ -201,7 +208,7 @@
         7.5,
         17.2
     ],
-    "TEMP_texelinfo": 10.2184,
+    "TEMP_texelinfo": 13.2184,
     "structure": {
         "cost_stamp": {
           "shape": "box",

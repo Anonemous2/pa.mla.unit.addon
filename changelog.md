@@ -1,5 +1,43 @@
 # Second Wave Changelog
 
+## 0.9.2
+Pushed by **Anonemous2**
+### Unit Changes
+#### Juno
+- Increased attack range to .9 from .3
+#### Centaur
+- Removed Amphibios type
+- Reduced health to 1300 from 1900
+- Reduced metal cost to 800 from 1000
+- Increased turn_speed to 100 from 60
+#### Anti-Missile Tower
+- Updated Model
+- Updated Animations
+- New Textures
+#### Rex
+- Updated Model
+- New Textures
+#### Stalker
+- Updated Model
+- New Textures
+#### Saxon
+- Now will show placement outlines
+#### Fab Tower
+- Updated Model
+- New Textures
+- Now shows build radius
+#### Adv Fab Tower
+- Now shows build radius
+- Now will show placement outlines
+#### Fab Turret
+- Now shows build radius
+#### Adv Fab Turret
+- Now shows build radius
+### Balance Changes
+#### Mend
+- Mend gun made functional
+
+
 ## 0.9.1
 Pushed by **Anonemous2**
 ### Unit Changes

@@ -25,7 +25,8 @@
                         "node": {
                             "type": "playback",
                             "anim_name": "death",
-                            "looping": false
+                            "looping": false,
+                            "events": []
                         },
                         "transitions": [
                             {
