@@ -1,11 +1,5 @@
 # Second Wave Changelog
 
-
-## 0.10.1
-Pushed by **Anonemous2**
-### General Changes
-- Made compainion mod a dependency
-
 ## 0.10.0
 Pushed by **Anonemous2**
 ### General Changes

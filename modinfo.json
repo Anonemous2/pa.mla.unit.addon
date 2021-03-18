@@ -33,9 +33,8 @@
 	"context": "server",
 	"date": "2021-03-16",
 	"build": "115546",
-	"version": "0.10.1",
+	"version": "0.10.0",
 	"dependencies": [
-		"com.pa.quitch.AIBugfixEnhancement",
-		"com.pa.anonemous2.alienworlds.released.companion"
+		"com.pa.quitch.AIBugfixEnhancement"
 	]
 }
