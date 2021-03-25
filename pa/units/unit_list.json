@@ -227,7 +227,6 @@
         "/pa/units/addon/adv_fab_tower/adv_fab_tower.json",
         "/pa/units/addon/adv_metal_generator/adv_metal_generator.json",
         "/pa/units/addon/adv_energy_storage/adv_energy_storage.json",
-        "/pa/units/addon/solar_cell/bonus_energy.json",
         "/pa/units/addon/anti_missile_tower/anti_missile_tower.json",
         "/pa/units/addon/jammer_titan/jammer_titan.json",
         "/pa/units/addon/jammer/jammer.json",
@@ -235,7 +234,6 @@
         "/pa/units/addon/adv_metal_storage/adv_metal_storage.json",
 
         "/pa/units/addon/demi_titan_bot/demi_titan_bot.json",
-        "/pa/units/addon/demi_titan_vehicle/demi_titan_vehicle.json",
 
         "/pa/units/l_addon/mass_generator/mass_generator.json",
         "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",

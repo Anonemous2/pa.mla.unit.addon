@@ -1,8 +1,6 @@
 var newBuild = {
 
-
     "/pa/units/addon/demi_titan_bot/demi_titan_bot.json": ["factory", 0, { row: 0, column: 5 }],
-    "/pa/units/addon/demi_titan_vehicle/demi_titan_vehicle.json": ["factory", 0, { row: 0, column: 1 }],
 
     "/pa/units/addon/swordfish/swordfish.json": ["air", 0, { row: 2, column: 6 }],
     "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json": ["air", 0, { row: 1, column: 6 }],
@@ -12,7 +10,6 @@ var newBuild = {
     "/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 2, column: 5 }],
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 2, column: 5 }],
-
 
     "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 0 }],
 
@@ -57,6 +54,7 @@ var newBuild = {
     "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["L_factory", 0, { row: 1, column: 5, titans: true }],
 
     "/pa/units/addon/avatar.json": ["factory", 0, { row: 2, column: 6 }]
+    
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {
     _.extend(Build.HotkeyModel.SpecIdToGridMap, newBuild);

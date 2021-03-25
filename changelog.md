@@ -1,5 +1,10 @@
 # Second Wave Changelog
 
+## 0.10.0
+Pushed by **Anonemous2**
+### General Changes
+- Now uses companion system, should greatly improve the speed to join a modded lobby.
+
 ## 0.9.2
 Pushed by **Anonemous2**
 ### Unit Changes
