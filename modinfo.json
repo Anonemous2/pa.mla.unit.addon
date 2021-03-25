@@ -1,7 +1,7 @@
 {
 	"identifier": "pa.mla.unit.addon.companion",
 	"display_name": "Second Wave Expansion - Companion",
-	"description": "Second Wave Companion, contains units textures/effects",
+	"description": "Second Wave Companion, contains units textures",
 	"author": "Anonemous2",
 	"signature": "not yet implemented",
 	"forum": "https://forums.planetaryannihilation.com/threads/wip-casual-mla-unit-addon.73484/#post-1151453",
@@ -18,9 +18,9 @@
 	],
 	"scenes": {},
 	"context": "client",
-	"date": "2021-03-06",
+	"date": "2021-03-25",
 	"build": "115546",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"dependencies": [],
 	"hidden": true
 }
