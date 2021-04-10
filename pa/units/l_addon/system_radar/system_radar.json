@@ -11,7 +11,7 @@
   "atrophy_rate": 5,
   "atrophy_cool_down": 15.0,
   "spawn_layers": "WL_AnySurface",
-  "mesh_bounds": [29, 29, 15.2],
+  "mesh_bounds": [25, 31, 35],
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_Land",
@@ -74,8 +74,130 @@
     "build_complete": { "audio_cue": "/SE/Build_Complete/radar" },
     "died": { "audio_cue": "/SE/Death/radar", "effect_scale": 1.25 }
   },
-  "fx_offsets": [],
+  "fx_offsets": [
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on.json",
+      "bone": "socket_radar",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights.json",
+      "bone": "bone_main_antenna_top",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights_secondary.json",
+      "bone": "bone_side_antenna",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights_secondary.json",
+      "bone": "bone_side_antenna",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights_secondary.json",
+      "bone": "bone_side_antenna",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        120
+      ]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights_secondary.json",
+      "bone": "bone_side_antenna",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        180
+      ]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights_secondary.json",
+      "bone": "bone_side_antenna",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        240
+      ]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/l_addon/system_radar/radar_on_lights_secondary.json",
+      "bone": "bone_side_antenna",
+      "offset": [
+        0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        300
+      ]
+    }
+  ],
   "audio": { "selection_response": { "cue": "/SE/Selection/structure/radar" } },
   "selection_icon": { "diameter": -55.0 },
-  "TEMP_texelinfo": 46.4947
+  "TEMP_texelinfo": 20
 }

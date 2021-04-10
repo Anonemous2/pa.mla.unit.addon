@@ -85,7 +85,7 @@
     },
     "tools": [
         {
-            "spec_id": "/pa/units/l_addon/orbital_anti_nuke/orbital_anti_nuke_weapon_orbital.json",
+            "spec_id": "/pa/units/l_addon/orbital_anti_nuke/orbital_anti_nuke_weapon_land.json",
             "aim_bone": "socket_muzzle",
             "fire_event": "fired",
             "projectiles_per_fire": 1,
@@ -122,9 +122,19 @@
     "audio": {},
     "lamps": [],
     "fx_offsets": [
+        {
+            "bone": "socket_muzzle",
+            "filename": "/pa/units/land/l_energy_plant_adv/black_hole.pfx",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "type": "idle"
+        }
     ],
     "selection_icon": {
-        "diameter": 50.0,
+        "diameter": -50.0,
         "vertical_offset": -10
     },
     "mesh_bounds": [

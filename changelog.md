@@ -1,5 +1,41 @@
 # Second Wave Changelog
 
+## 0.10.1
+Pushed by **Anonemous2**
+### Unit Changes
+#### Rex
+- Can target legion droppods
+#### Spear
+- Can target legion droppods
+#### Lynx
+- Can target legion droppods
+#### Almaz
+- Updated pfx effects
+- Added target prorities
+- Now does 'burn' damage
+- Less shots per second
+- Projectile speed increased
+#### Jammer Station
+- Updated Texture
+- Fixed Death Animation
+#### Legion Orbital Anti-nuke
+- Added pfx effects
+- Can now shoot ground
+- Updated selection circle
+#### Pounder
+- Increased firerate to 0.3 from 0.2
+- Increased splash damage to 1000 from 800
+- Increased splash radius to 15 from 10
+- Increased fulldamage range to 3 from 2
+- Decreased health to 1500 from 2500
+- Increased energy demand to 1200 from 400
+- Increased energy capacity to 4000 from 2000
+- Increased energy per shot to 4000 from 2000
+#### Legion Orbital Power
+- Updated model
+- Updated textures
+- Added more pfx effects
+
 ## 0.10.0
 Pushed by **Anonemous2**
 ### General Changes

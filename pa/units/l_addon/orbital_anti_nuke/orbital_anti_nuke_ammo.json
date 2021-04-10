@@ -5,8 +5,8 @@
     "splash_radius": 0,
     "collision_check": "target",
     "collision_response": "destroy",
-    "fx_beam_spec": "/pa/units/addon/orbital_anti_nuke/pfx_anti_nuke_beam.json",
-    "fx_collision_spec": "/pa/units/addon/orbital_anti_nuke/pfx_anti_nuke_beam_hit.json",
+    "fx_beam_spec": "/pa/units/l_addon/orbital_anti_nuke/pfx_beam.json",
+    "fx_collision_spec": "/pa/units/l_addon/orbital_anti_nuke/pfx_beam_hit.json",
     "events": {
         "died": {
             "audio_cue": "/SE/Impacts/missile_antinuke",

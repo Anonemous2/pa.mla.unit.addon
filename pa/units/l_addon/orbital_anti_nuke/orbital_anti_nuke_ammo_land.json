@@ -1,0 +1,9 @@
+{
+    "base_spec": "/pa/ammo/base_beam/base_beam.json",
+    "damage": 200,
+    "splash_damage": 200,
+    "splash_radius": 10,
+    "collision_check": "enemies",
+    "fx_beam_spec": "/pa/units/l_addon/orbital_anti_nuke/pfx_beam.json",
+    "fx_collision_spec": "/pa/units/l_addon/orbital_anti_nuke/pfx_beam_hit.json"
+}

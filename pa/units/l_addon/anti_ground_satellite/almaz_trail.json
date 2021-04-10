@@ -3,48 +3,21 @@
         {
             "spec": {
                 "shader": "particle_add_soft",
-                "red": [
-                    [
-                        0.0,
-                        0.5
-                    ],
-                    [
-                        1.0,
-                        0.0
-                    ]
-                ],
-                "green": [
-                    [
-                        0.0,
-                        0.5
-                    ],
-                    [
-                        1.0,
-                        0.0
-                    ]
-                ],
-                "blue": [
-                    [
-                        0.0,
-                        1.0
-                    ],
-                    [
-                        1.0,
-                        0.5
-                    ]
-                ],
+                "red": 1,
+                "green": 1,
+                "blue": 1,
                 "sizeX": [
                     [
                         0.0,
-                        1.0
+                        2.0
                     ],
                     [
                         0.1,
-                        6.0
+                        12.0
                     ],
                     [
                         1.0,
-                        1.0
+                        2.0
                     ]
                 ],
                 "cameraPush": 0.5,
@@ -56,6 +29,7 @@
             "lifetime": 3,
             "emitterLifetime": 0.1,
             "endDistance": 1400,
+            "useArmyColor": 2,
             "sort": "NoSort"
         },
         {
@@ -66,55 +40,28 @@
                 "baseTexture": "/pa/effects/textures/particles/tesla_muzzle_flash_a.papa",
                 "dataChannelFormat": "PositionAndColor"
             },
-            "red": [
-                [
-                    0.0,
-                    1
-                ],
-                [
-                    0.2,
-                    0.0
-                ]
-            ],
-            "green": [
-                [
-                    0.0,
-                    1
-                ],
-                [
-                    0.2,
-                    0.0
-                ]
-            ],
-            "blue": [
+            "red": 1,
+            "green": 1,
+            "blue": 1,
+            "sizeX": [
                 [
                     0.0,
                     2
                 ],
                 [
                     0.2,
-                    0.5
-                ]
-            ],
-            "sizeX": [
-                [
-                    0.0,
-                    1
-                ],
-                [
-                    0.2,
-                    1.75
+                    3.5
                 ]
             ],
             "sizeRangeX": 0.0,
             "sizeY": [
                 [
                     0.0,
-                    12
+                    24
                 ],
                 [
                     0.2,
-                    1
+                    2
                 ]
             ],
             "sizeRangeY": 1.5,
@@ -122,6 +69,7 @@
             "maxParticles": 1,
             "lifetime": 0.4,
             "emitterLifetime": 0.2,
+            "useArmyColor": 2,
             "endDistance": 1400
         },
         {
@@ -132,36 +80,9 @@
                 "baseTexture": "/pa/effects/textures/particles/tesla_muzzle_flash_b.papa",
                 "dataChannelFormat": "PositionAndColor"
             },
-            "red": [
-                [
-                    0.0,
-                    1
-                ],
-                [
-                    0.15,
-                    0.0
-                ]
-            ],
-            "green": [
-                [
-                    0.0,
-                    1
-                ],
-                [
-                    0.15,
-                    0.0
-                ]
-            ],
-            "blue": [
-                [
-                    0.0,
-                    2
-                ],
-                [
-                    0.15,
-                    0.5
-                ]
-            ],
+            "red": 1,
+            "green": 1,
+            "blue": 1,
             "alpha": [
                 [
                     0.5,
@@ -175,22 +96,22 @@
             "sizeX": [
                 [
                     0.0,
-                    1.5
+                    3.0
                 ],
                 [
                     0.15,
-                    1.7
+                    3.4
                 ]
             ],
             "sizeRangeX": 0.0,
             "sizeY": [
                 [
                     0.0,
-                    1.0
+                    2.0
                 ],
                 [
                     0.15,
-                    2.5
+                    5.0
                 ]
             ],
             "sizeRangeY": 0.25,
@@ -200,6 +121,7 @@
             "maxParticles": 1,
             "lifetime": 0.4,
             "emitterLifetime": 0.15,
+            "useArmyColor": 2,
             "endDistance": 1400
         },
         {
@@ -217,48 +139,9 @@
                         0.0
                     ]
                 ],
-                "red": [
-                    [
-                        0.0,
-                        1.0
-                    ],
-                    [
-                        0.2,
-                        0.5
-                    ],
-                    [
-                        1,
-                        0.0
-                    ]
-                ],
-                "green": [
-                    [
-                        0.0,
-                        8.0
-                    ],
-                    [
-                        0.2,
-                        2.0
-                    ],
-                    [
-                        1,
-                        0.5
-                    ]
-                ],
-                "blue": [
-                    [
-                        0.0,
-                        10.0
-                    ],
-                    [
-                        0.2,
-                        3.0
-                    ],
-                    [
-                        1,
-                        2.0
-                    ]
-                ],
+                "red": 1,
+                "green": 1,
+                "blue": 1,
                 "alpha": [
                     [
                         0.75,
@@ -279,21 +162,22 @@
             "velocityRange": 40,
             "gravity": 10.0,
             "drag": 0.9,
-            "sizeX": 0.4,
-            "sizeY": 0.6,
+            "sizeX": 0.8,
+            "sizeY": 1.2,
             "lifetime": 4,
             "lifetimeRange": 0.35,
             "emissionBursts": 20,
             "useWorldSpace": true,
+            "useArmyColor": 2,
             "endDistance": 3000
         },
         {
             "spec": {
                 "label": "LIGHT",
                 "shape": "pointlight",
-                "red": 0.2,
-                "green": 0.4,
-                "blue": 1.0,
+                "red": 1,
+                "green": 1,
+                "blue": 1,
                 "alpha": {
                     "keys": [
                         [
@@ -308,10 +192,11 @@
                     "stepped": false
                 }
             },
-            "sizeX": 40,
+            "sizeX": 80,
             "emissionBursts": 1,
             "lifetime": 1.5,
             "emitterLifetime": 0.1,
+            "useArmyColor": 2,
             "endDistance": 1400
         }
     ]
