@@ -1,5 +1,62 @@
 # Second Wave Changelog
 
+## 0.11.0 'Metal Generator & legion textures Update'
+Pushed by **Anonemous2**
+### General Changes
+#### Metal generators
+- No longer consume power (Are now effected by econ rate)
+- Have a death explosion (Not enough 1 hit kill other gens)
+- Lower metal output
+### Unit Changes
+#### Adv Metal Gen
+- New land/naval textures
+- Fixed skit normal texture
+- Metal output reduced to 22
+- 1800 damage on death (2x Stucture damage)
+- Damage radius 40
+- Updated drill effect
+#### Metal Gen
+- Metal output reduced to 2
+- 200 damage on death (2x Stucture damage)
+- Damage radius 25
+- Updated drill effect
+#### Adv Mass Gen
+- New model and textures
+- Added custom ground skirt
+- Metal output reduced to 22
+- 1800 damage on death (2x Stucture damage)
+- Damage radius 40
+- Added drill effect
+#### Mass Gen
+- New model and textures
+- Added custom ground skirt
+- Metal output reduced to 22
+- 200 damage on death (2x Stucture damage)
+- Damage radius 25
+- Added drill effect
+#### Spear
+- Reduced health to 500 from 800
+#### Stinger
+- Now priorties Icarus first
+#### Radar Jamming Instalation
+- Increased health to 40000 from 20000
+- Increased metal cost to 15000 form 7500
+#### Stealth Generator
+- Increased health to 40000 from 20000
+- Increased metal cost to 15000 form 7500
+#### Shade Platform
+- New Textures
+#### Shade Platform
+- New Textures
+#### Orbital Power Catalyst
+- New Textures
+- Added more effects
+#### Orbital Anti-nuke Cannon
+- Added more effects
+### New Units
+- Phalanx *(Anonemous2 & billthebluebot)*: L_T1 Defense
+
+
 ## 0.10.1
 Pushed by **Anonemous2**
 ### Unit Changes

@@ -1,0 +1,204 @@
+{
+	"emitters": [
+		{
+			"spec": {
+				"shader": "particle_transparent",
+				"size": [
+					[
+						0,
+						1.0
+					],
+					[
+						1,
+						5.0
+					]
+				],
+				"red": 0.01,
+				"green": 0.01,
+				"blue": 0.01,
+				"alpha": [
+					[
+						0,
+						0
+					],
+					[
+						0.1,
+						0.5
+					],
+					[
+						1,
+						0
+					]
+				],
+				"baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa",
+				"dataChannelFormat": "PositionAndColor"
+			},
+			"sizeX": 1.25,
+			"sizeRangeX": 0.25,
+			"offsetX": 4.5,
+			"offsetY": 4.5,
+			"offsetZ": 20,
+			"velocityRangeX": 0.1,
+			"velocityZ": 2,
+			"velocityRangeY": 0.1,
+			"velocity": 25,
+			"drag": 0.97,
+			"rotationRange": 0.15,
+			"rotationRateRange": 2,
+			"lifetime": 1,
+			"lifetimeRange": 0.1,
+			"useWorldSpace": true,
+			"endDistance": 3000
+		},
+		{
+			"spec": {
+				"shader": "particle_transparent",
+				"size": [
+					[
+						0,
+						1.0
+					],
+					[
+						1,
+						5.0
+					]
+				],
+				"red": 0.01,
+				"green": 0.01,
+				"blue": 0.01,
+				"alpha": [
+					[
+						0,
+						0
+					],
+					[
+						0.1,
+						0.5
+					],
+					[
+						1,
+						0
+					]
+				],
+				"baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa",
+				"dataChannelFormat": "PositionAndColor"
+			},
+			"sizeX": 1.25,
+			"sizeRangeX": 0.25,
+			"offsetX": -4.5,
+			"offsetY": 4.5,
+			"offsetZ": 20,
+			"velocityRangeX": 0.1,
+			"velocityZ": 2,
+			"velocityRangeY": 0.1,
+			"velocity": 25,
+			"drag": 0.97,
+			"rotationRange": 0.15,
+			"rotationRateRange": 2,
+			"lifetime": 1,
+			"lifetimeRange": 0.1,
+			"useWorldSpace": true,
+			"endDistance": 3000
+		},
+		{
+			"spec": {
+				"shader": "particle_transparent",
+				"size": [
+					[
+						0,
+						1.0
+					],
+					[
+						1,
+						5.0
+					]
+				],
+				"red": 0.01,
+				"green": 0.01,
+				"blue": 0.01,
+				"alpha": [
+					[
+						0,
+						0
+					],
+					[
+						0.1,
+						0.5
+					],
+					[
+						1,
+						0
+					]
+				],
+				"baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa",
+				"dataChannelFormat": "PositionAndColor"
+			},
+			"sizeX": 1.25,
+			"sizeRangeX": 0.25,
+			"offsetX": 4.5,
+			"offsetY": -4.5,
+			"offsetZ": 20,
+			"velocityRangeX": 0.1,
+			"velocityZ": 2,
+			"velocityRangeY": 0.1,
+			"velocity": 25,
+			"drag": 0.97,
+			"rotationRange": 0.15,
+			"rotationRateRange": 2,
+			"lifetime": 1,
+			"lifetimeRange": 0.1,
+			"useWorldSpace": true,
+			"endDistance": 3000
+		},
+		{
+			"spec": {
+				"shader": "particle_transparent",
+				"size": [
+					[
+						0,
+						1.0
+					],
+					[
+						1,
+						5.0
+					]
+				],
+				"red": 0.01,
+				"green": 0.01,
+				"blue": 0.01,
+				"alpha": [
+					[
+						0,
+						0
+					],
+					[
+						0.1,
+						0.5
+					],
+					[
+						1,
+						0
+					]
+				],
+				"baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa",
+				"dataChannelFormat": "PositionAndColor"
+			},
+			"sizeX": 1.25,
+			"sizeRangeX": 0.25,
+			"offsetX": -4.5,
+			"offsetY": -4.5,
+			"offsetZ": 20,
+			"velocityRangeX": 0.1,
+			"velocityZ": 2,
+			"velocityRangeY": 0.1,
+			"velocity": 25,
+			"drag": 0.97,
+			"rotationRange": 0.15,
+			"rotationRateRange": 2,
+			"lifetime": 1,
+			"lifetimeRange": 0.1,
+			"useWorldSpace": true,
+			"endDistance": 3000
+		}
+	]
+}

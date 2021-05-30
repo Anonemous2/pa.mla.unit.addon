@@ -1,0 +1,81 @@
+{
+    "emitters": [
+        {
+            "label": "arm center glow",
+            "spec": {
+                "shader": "particle_transparent_soft",
+                "red": 6.0,
+                "green": 1.75,
+                "blue": 0.0,
+                "alpha": 0.75,
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa"
+            },
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "sizeX": 1.5,
+            "sizeRangeX": 0,
+            "rotationRange": 360,
+            "rotationRate": -0.25,
+            "rotationRateRange": 360,
+            "lifetime": 1.25,
+            "emissionBursts": 1,
+            "maxParticles": 2,
+            "emitterLifetime": 1.0,
+            "killOnDeactivate": true,
+            "endDistance": 5000
+        },
+        {
+            "label": "arm laser",
+            "spec": {
+                "shader": "particle_transparent_soft",
+                "shape": "beam",
+                "red": 6.0,
+                "green": 1.75,
+                "blue": 0.0,
+                "alpha": 1,
+                "baseTexture": "/pa/effects/textures/particles/energy_beam_tinted.papa"
+            },
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    -2.35
+                ]
+            ],
+            "sizeX": [
+                [
+                    0,
+                    0.8
+                ],
+                [
+                    1,
+                    0.6
+                ]
+            ],
+            "alpha": [
+                [
+                    0.05,
+                    1
+                ]
+            ],
+            "emissionBursts": 1,
+            "rampV": 60,
+            "rampOffsetV": true,
+            "maxParticles": 15,
+            "rotation": -1.69,
+            "emissionRate": 600,
+            "lifetime": 1.05,
+            "emitterLifetime": 1.0,
+            "bLoop": true,
+            "killOnDeactivate": true,
+            "endDistance": -1
+        }
+    ]
+}

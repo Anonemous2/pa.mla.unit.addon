@@ -3,15 +3,14 @@
 	"unit_name": "!Metal Generator",
 	"si_name": "metal_generator",
 	"display_name": "!LOC:Metal Generator",
-	"description": "!LOC:Basic Metal Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
-	"max_health": 600,
-	"build_metal_cost": 300,
-	"atrophy_rate": 2.5,
+	"description": "!LOC:Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself.",
+	"max_health": 500,
+	"build_metal_cost": 500,
+	"atrophy_rate": 5.0,
 	"atrophy_cool_down": 15.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-	"consumption": {
-		"energy": 600,
-		"metal": -3
+	"production": {
+		"metal": 2
 	},
 	"unit_types": [
 		"UNITTYPE_Structure",
@@ -61,6 +60,16 @@
 			},
 			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
         }
+	],
+	"death_weapon": {
+		"ground_ammo_spec": "/pa/units/addon/metal_generator/metal_generator_boom_ammo.json"
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/addon/metal_generator/death_range.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root"
+		}
 	],
 	"events": {
 		"build_complete": {

@@ -39,6 +39,7 @@ var newBuild = {
     "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json": ["L_utility", 0, { row: 0, column: 5, titans: true }],
     "/pa/units/l_addon/system_radar/system_radar.json": ["L_utility", 0, { row: 0, column: 2 }],
     "/pa/units/l_addon/l_jammer_station/l_jammer_station.json": ["L_utility", 0, { row: 0, column: 6 }],
+    "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.json": ["L_combat", 0, { row: 2, column: 5 }],
 
     "/pa/units/l_addon/anti_orbital_armor/lynx.json": ["L_vehicle", 0, { row: 2, column: 6, titans: true }],
 
@@ -51,10 +52,7 @@ var newBuild = {
     "/pa/units/l_addon/orbital_anti_nuke/orbital_anti_nuke.json": ["L_orbital_structure", 6, { row: 1, column: 3 }],
         
     "/pa/units/l_addon/fab_turret/fab_turret.json": ["L_factory", 0, { row: 2, column: 5, titans: true }],
-    "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["L_factory", 0, { row: 1, column: 5, titans: true }],
-
-    "/pa/units/addon/avatar.json": ["factory", 0, { row: 2, column: 6 }]
-    
+    "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["L_factory", 0, { row: 1, column: 5, titans: true }]
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {
     _.extend(Build.HotkeyModel.SpecIdToGridMap, newBuild);

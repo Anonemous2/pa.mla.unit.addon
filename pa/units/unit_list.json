@@ -236,6 +236,7 @@
         "/pa/units/addon/demi_titan_bot/demi_titan_bot.json",
 
         "/pa/units/l_addon/mass_generator/mass_generator.json",
+        "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.json",
         "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",
         "/pa/units/l_addon/fab_turret/fab_turret.json",
         "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json",

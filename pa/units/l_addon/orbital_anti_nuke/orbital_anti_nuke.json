@@ -131,6 +131,36 @@
                 0
             ],
             "type": "idle"
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/l_addon/orbital_anti_nuke/radar_on.json",
+            "bone": "bone_radar_1_top",
+            "offset": [
+                0,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/l_addon/orbital_anti_nuke/radar_on.json",
+            "bone": "bone_radar_2_top",
+            "offset": [
+                0,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                0,
+                0,
+                180
+            ]
         }
     ],
     "selection_icon": {

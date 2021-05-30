@@ -1,10 +1,10 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "Spear",
-    "si_name": "sw_basic_missile_defence",
+    "display_name": "Phalanx",
+    "si_name": "sw_l_basic_missile_defence",
     "description": "!LOC:Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots",
-    "max_health": 500,
-    "build_metal_cost": 300,
+    "max_health": 600,
+    "build_metal_cost": 400,
     "atrophy_rate": 30.0,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -77,7 +77,8 @@
         "UNITTYPE_SurfaceDefense",
         "UNITTYPE_Basic",
         "UNITTYPE_CmdBuild",
-        "UNITTYPE_FabBuild"
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_Custom1"
     ],
     "command_caps": [
         "ORDER_Attack"
@@ -90,36 +91,35 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 80
+                    "radius": 100
                 },
                 {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 80
+                    "radius": 100
                 }
             ]
         }
     },
     "model": {
-        "filename": "/pa/units/addon/basic_missile_defence/basic_missile_defence.papa",
+        "filename": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.papa",
         "animations": {
-            "start": "/pa/units/addon/basic_missile_defence/basic_missile_defence_anim_open.papa",
-            "end": "/pa/units/addon/basic_missile_defence/basic_missile_defence_anim_close.papa"
+            "attack": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence_anim_attack.papa"
         },
-        "animtree": "/pa/anim/anim_trees/missile_ship_anim_tree.json",
+        "animtree": "/pa/anim/anim_trees/titan_bot_anim_tree.json",
         "skirt_decal": "/pa/units/addon/basic_missile_defence/skirt_basic_missile_defence.json"
     },
     "tools": [
         {
-            "spec_id": "/pa/units/addon/basic_missile_defence/basic_missile_defence_weapon.json",
-            "aim_bone": "muzzle_socket",
-            "muzzle_bone": "muzzle_socket"
+            "spec_id": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence_weapon.json",
+            "aim_bone": "socket_muzzle",
+            "muzzle_bone": "socket_muzzle"
         },
         {
-            "spec_id": "/pa/units/addon/basic_missile_defence/basic_missile_defence_antidrop.json",
-            "aim_bone": "muzzle_socket",
-            "muzzle_bone": "muzzle_socket"
+            "spec_id": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence_antidrop.json",
+            "aim_bone": "socket_muzzle",
+            "muzzle_bone": "socket_muzzle"
         }
     ],
     "events": {

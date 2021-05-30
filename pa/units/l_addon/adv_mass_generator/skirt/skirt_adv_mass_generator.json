@@ -1,0 +1,22 @@
+{
+    "base_spec": "/pa/effects/specs/dynamic_decal_base.json",
+    "layer": 0,
+    "bias": 200,
+    "simplex_range": [
+        0.0,
+        1.0
+    ],
+    "pos_range": [
+        0,
+        0
+    ],
+    "scale": [
+        38.3,
+        38.3,
+        1
+    ],
+    "scale_range": 0,
+    "count": 1,
+    "fixed_orient": true,
+    "material_spec": "/pa/units/l_addon/adv_mass_generator/skirt/adv_mass_generator_spec.json"
+}

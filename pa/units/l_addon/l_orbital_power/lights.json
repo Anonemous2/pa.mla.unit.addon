@@ -1,0 +1,410 @@
+{
+    "emitters": [
+        {
+            "spec": {
+                "shader": "particle_add",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetX": -14.2638,
+            "offsetY": -16.2937,
+            "offsetZ": 21.0,
+            "sizeX": 0.4,
+            "emissionRate": 300,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 800,
+            "useArmyColor": 1,
+            "delay": 0.375
+        },
+        {
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "alpha": [
+                    [
+                        0,
+                        0.25
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetX": -14.2638,
+            "offsetY": -16.2937,
+            "offsetZ": 21.0,
+            "sizeX": 15,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "sort": "NoSort",
+            "endDistance": 2500,
+            "useArmyColor": 1,
+            "delay": 0.375
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "red": 2.0,
+                "green": 2.0,
+                "blue": 2.0,
+                "alpha": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "size": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0.5
+                    ]
+                ],
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetX": -14.2638,
+            "offsetY": -16.2937,
+            "offsetZ": 21.0,
+            "sizeX": 1.25,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 1500,
+            "useArmyColor": 1,
+            "delay": 0.375
+        },
+
+
+        {
+            "spec": {
+                "shader": "particle_add",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetX": -14.8455,
+            "offsetY": -12.8157,
+            "offsetZ": 21.0,
+            "sizeX": 0.4,
+            "emissionRate": 300,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 800,
+            "useArmyColor": 1,
+            "delay": 0.375
+        },
+        {
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "alpha": [
+                    [
+                        0,
+                        0.25
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetX": -14.8455,
+            "offsetY": -12.8157,
+            "offsetZ": 21.0,
+            "sizeX": 15,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "sort": "NoSort",
+            "endDistance": 2500,
+            "useArmyColor": 1,
+            "delay": 0.375
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "red": 2.0,
+                "green": 2.0,
+                "blue": 2.0,
+                "alpha": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "size": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0.5
+                    ]
+                ],
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetX": -14.8455,
+            "offsetY": -12.8157,
+            "offsetZ": 21.0,
+            "sizeX": 1.25,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 1500,
+            "useArmyColor": 1,
+            "delay": 0.375
+        },
+
+
+        {
+            "spec": {
+                "shader": "particle_add",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetY": -14.2638,
+            "offsetX": -16.2937,
+            "offsetZ": 21.0,
+            "sizeX": 0.4,
+            "emissionRate": 300,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 800,
+            "useArmyColor": 1,
+            "delay": 0.0
+        },
+        {
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "alpha": [
+                    [
+                        0,
+                        0.25
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetY": -14.2638,
+            "offsetX": -16.2937,
+            "offsetZ": 21.0,
+            "sizeX": 15,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "sort": "NoSort",
+            "endDistance": 2500,
+            "useArmyColor": 1,
+            "delay": 0.0
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "red": 2.0,
+                "green": 2.0,
+                "blue": 2.0,
+                "alpha": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "size": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0.5
+                    ]
+                ],
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetY": -14.2638,
+            "offsetX": -16.2937,
+            "offsetZ": 21.0,
+            "sizeX": 1.25,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 1500,
+            "useArmyColor": 1,
+            "delay": 0.0
+        },
+
+
+        {
+            "spec": {
+                "shader": "particle_add",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetY": -14.8455,
+            "offsetX": -12.8157,
+            "offsetZ": 21.0,
+            "sizeX": 0.4,
+            "emissionRate": 300,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 800,
+            "useArmyColor": 1,
+            "delay": 0.0
+        },
+        {
+            "spec": {
+                "shader": "particle_add_soft",
+                "red": 0.75,
+                "green": 0.75,
+                "blue": 0.75,
+                "alpha": [
+                    [
+                        0,
+                        0.25
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "cameraPush": 0.5,
+                "baseTexture": "/pa/effects/textures/particles/softdot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetY": -14.8455,
+            "offsetX": -12.8157,
+            "offsetZ": 21.0,
+            "sizeX": 15,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "sort": "NoSort",
+            "endDistance": 2500,
+            "useArmyColor": 1,
+            "delay": 0.0
+        },
+        {
+            "spec": {
+                "shader": "particle_transparent",
+                "red": 2.0,
+                "green": 2.0,
+                "blue": 2.0,
+                "alpha": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "size": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0.5
+                    ]
+                ],
+                "cameraPush": 2,
+                "baseTexture": "/pa/effects/textures/particles/dot.papa",
+                "dataChannelFormat": "PositionAndColor"
+            },
+            "offsetY": -14.8455,
+            "offsetX": -12.8157,
+            "offsetZ": 21.0,
+            "sizeX": 1.25,
+            "emissionBursts": 1,
+            "lifetime": 0.75,
+            "maxParticles": 1,
+            "emitterLifetime": 1,
+            "killOnDeactivate": true,
+            "endDistance": 1500,
+            "useArmyColor": 1,
+            "delay": 0.0
+        }
+    ]
+}

@@ -3,15 +3,14 @@
 	"unit_name": "!Mass Generator",
 	"si_name": "l_mass_generator",
 	"display_name": "!LOC:Mass Generator",
-	"description": "!LOC:Basic Mass Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
-	"max_health": 650,
-	"build_metal_cost": 350,
-	"atrophy_rate": 2.5,
+	"description": "!LOC:Basic Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.",
+	"max_health": 500,
+	"build_metal_cost": 500,
+	"atrophy_rate": 5.0,
 	"atrophy_cool_down": 15.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-	"consumption": {
-		"energy": 600,
-		"metal": -3
+	"production": {
+		"metal": 2
 	},
 	"unit_types": [
 		"UNITTYPE_Structure",
@@ -49,7 +48,17 @@
 				"end": "/pa/units/l_addon/mass_generator/mass_generator.papa"
 			},
 			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-			"skirt_decal": "/pa/units/addon/metal_generator/skirt/skirt_metal_generator.json"
+			"skirt_decal": "/pa/units/l_addon/mass_generator/skirt/skirt_mass_generator.json"
+		}
+	],
+	"death_weapon": {
+		"ground_ammo_spec": "/pa/units/l_addon/mass_generator/mass_generator_boom_ammo.json"
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/l_addon/mass_generator/death_range.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root"
 		}
 	],
 	"events": {
@@ -66,8 +75,53 @@
 			"cue": "/SE/Selection/structure/metal"
 		}
 	},
-	"lamps": [],
-	"fx_offsets": [],
+	"lamps": [],"fx_offsets": [
+		{
+			"type": "energy",
+			"filename": "/pa/units/l_addon/mass_generator/pfx_main_laser.json",
+			"bone": "socket_center",
+			"offset": [
+				0,
+				0,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"type": "energy",
+			"filename": "/pa/units/l_addon/mass_generator/pfx_laser.json",
+			"bone": "socket_drill_1",
+			"offset": [
+				0,
+				0,
+				0
+			],
+			"orientation": [
+				-90,
+				0,
+				0
+			]
+		},
+		{
+			"type": "energy",
+			"filename": "/pa/units/l_addon/mass_generator/pfx_laser.json",
+			"bone": "socket_drill_2",
+			"offset": [
+				0,
+				0,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		}
+	],
 	"selection_icon": {
 		"diameter": -30.0
 	},
@@ -80,5 +134,5 @@
 		20,
 		20
 	],
-	"TEMP_texelinfo": 15.0973
+	"TEMP_texelinfo": 45.0
 }

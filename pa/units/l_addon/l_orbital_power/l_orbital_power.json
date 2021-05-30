@@ -3,7 +3,7 @@
   "si_name": "l_orbital_power",
   "display_name": "!LOC:Orbital Power Catalyst",
   "description": "!LOC:Advanced Economy - Fabricates black holes and harnesses their energy.",
-  "TEMP_texelinfo": 32.6108,
+  "TEMP_texelinfo": 10.6108,
   "area_build_separation": 2,
   "area_build_type": "Sphere",
   "atrophy_cool_down": 15,
@@ -28,12 +28,109 @@
     {
       "bone": "bone_root",
       "filename": "/pa/units/land/l_energy_plant_adv/black_hole.pfx",
-      "offset": [
+      "type": "idle"
+    },
+
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "orientation": [
         0,
         0,
         0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "orientation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "orientation": [
+        0,
+        0,
+        180
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "orientation": [
+        0,
+        0,
+        270
+      ]
+    },
+
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "offset": [
+        0,
+        0.0,
+        -42.1
       ],
-      "type": "idle"
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "offset": [
+        0,
+        0.0,
+        -42.1
+      ],
+      "orientation": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "offset": [
+        0,
+        0.0,
+        -42.1
+      ],
+      "orientation": [
+        0,
+        0,
+        180
+      ]
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/l_addon/l_orbital_power/lights.json",
+      "type": "idle",
+      "offset": [
+        0,
+        0.0,
+        -42.1
+      ],
+      "orientation": [
+        0,
+        0,
+        270
+      ]
     }
   ],
   "headlights": [],
