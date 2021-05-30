@@ -44,12 +44,6 @@ Pushed by **Anonemous2**
 #### Stealth Generator
 - Increased health to 40000 from 20000
 - Increased metal cost to 15000 form 7500
-#### Shade Platform
-- New Textures
-#### Shade Platform
-- New Textures
-#### Orbital Power Catalyst
-- New Textures
 - Added more effects
 #### Orbital Anti-nuke Cannon
 - Added more effects
