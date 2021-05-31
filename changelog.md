@@ -1,5 +1,9 @@
 # Second Wave Companion Changelog
 
+
+## 1.1.3
+- fixed textures for several units
+
 ## 1.1.2
 - updated textures for several units
 

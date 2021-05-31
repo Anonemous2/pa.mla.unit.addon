@@ -18,9 +18,9 @@
 	],
 	"scenes": {},
 	"context": "client",
-	"date": "2021-05-30",
+	"date": "2021-05-31",
 	"build": "115626",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"dependencies": [],
 	"hidden": true
 }
