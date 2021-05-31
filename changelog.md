@@ -1,5 +1,10 @@
 # Second Wave Changelog
 
+## 0.11.1
+Pushed by **Anonemous2**
+### General Changes
+- Fixed textures on several units
+
 ## 0.11.0 'Metal Generator & legion textures Update'
 Pushed by **Anonemous2**
 ### General Changes
