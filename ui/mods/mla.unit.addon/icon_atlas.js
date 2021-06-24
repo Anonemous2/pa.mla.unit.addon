@@ -38,6 +38,8 @@ var paeiouIcons = [
     "sw_l_orbital_anti_nuke",
     "sw_demi_titan_vehicle",
     "sw_l_bill",
-    "sw_l_basic_missile_defence"
+    "sw_l_basic_missile_defence",
+    "sw_fabrication_sub",
+    "sw_l_demi_titan_bot"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

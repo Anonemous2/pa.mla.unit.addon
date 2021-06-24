@@ -1,5 +1,20 @@
 # Second Wave Changelog
 
+## 0.11.2
+Pushed by **Anonemous2**
+### General Changes
+- Removed Stinger from Second Wave (Now is base game)
+- Override Stinger buildbar icon
+### Unit Changes
+#### Juno
+- Reduced splash radius to 6 from 12
+- Reduced full-damage splash radius from 8 to 4
+- Set Commander armor type damage to 1.0 (Normal)
+- Increased range to 340 from 300
+### New Units
+- Beowulf *(Anonemous2)*: L_Demi-Titan Bot
+- Fabrication Sub *(Anonemous2)*: T1 Naval
+
 ## 0.11.1
 Pushed by **Anonemous2**
 ### General Changes

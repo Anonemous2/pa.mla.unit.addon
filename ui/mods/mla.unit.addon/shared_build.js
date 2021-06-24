@@ -13,7 +13,7 @@ var newBuild = {
 
     "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 0 }],
 
-    "/pa/units/addon/anti_sub_ship/anti_sub_ship.json": ["sea", 0, { row: 2, column: 7 }],
+    "/pa/units/addon/fabrication_sub/fabrication_sub.json": ["sea", 0, { row: 2, column: 7 }],
     "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json": ["sea", 0, { row: 2, column: 6 }],
 
     "/pa/units/addon/hover_fab/hover_fab.json": ["vehicle", 9, { row: 2, column: 8 }],
@@ -21,7 +21,7 @@ var newBuild = {
     "/pa/units/addon/adv_tank_hover/adv_tank_hover.json": ["vehicle", 9, { row: 1, column: 5 }],
 
     "/pa/units/addon/rex/rex.json": ["bot", 0, { row: 2, column: 6 }],
-    "/pa/units/addon/bot_aa/bot_aa.json": ["bot", 0, { row: 2, column: 7 }],
+    "/pa/units/land/bot_aa/bot_aa.json": ["bot", 0, { row: 2, column: 7 }],
     "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json": ["bot", 0, { row: 1, column: 6 }],
 
     "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 1, column: 5 }],
@@ -50,7 +50,9 @@ var newBuild = {
     "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.json": ["L_orbital_structure", 0, { row: 1, column: 1 }],
     "/pa/units/l_addon/l_orbital_power/l_orbital_power.json": ["L_orbital_structure", 0, { row: 1, column: 2 }],
     "/pa/units/l_addon/orbital_anti_nuke/orbital_anti_nuke.json": ["L_orbital_structure", 6, { row: 1, column: 3 }],
-        
+
+    "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.json": ["L_factory", 0, { row: 0, column: 5 }],
+
     "/pa/units/l_addon/fab_turret/fab_turret.json": ["L_factory", 0, { row: 2, column: 5, titans: true }],
     "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["L_factory", 0, { row: 1, column: 5, titans: true }]
 }

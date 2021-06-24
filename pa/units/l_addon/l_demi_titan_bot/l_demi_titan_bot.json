@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "display_name": "Juno",
-    "si_name": "sw_demi_titan_bot",
+    "display_name": "Beowulf",
+    "si_name": "sw_l_demi_titan_bot",
     "description": "!LOC:Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.",
     "max_health": 35000,
     "build_metal_cost": 15000,
@@ -33,7 +33,8 @@
         "UNITTYPE_Titan",
         "UNITTYPE_Important",
         "UNITTYPE_FabOrbBuild",
-        "UNITTYPE_Amphibious"
+        "UNITTYPE_Amphibious",
+        "UNITTYPE_Custom1"
     ],
     "command_caps": [
         "ORDER_Move",
@@ -112,33 +113,32 @@
         }
     },
     "death_weapon": {
-        "ground_ammo_spec": "/pa/units/addon/demi_titan_bot/demi_titan_bot_ammo_death.json"
+        "ground_ammo_spec": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_ammo_death.json"
     },
     "model": {
-        "filename": "/pa/units/addon/demi_titan_bot/demi_titan_bot.papa",
+        "filename": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.papa",
         "animations": {
-            "closed": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_closed.papa",
-            "walk": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_run.papa",
-            "idle": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_idle.papa",
-            "deploy": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_deploy.papa",
-            "build": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_closed.papa",
-            "turn_right": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_turn_right.papa",
-            "turn_left": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_turn_left.papa",
-            "walk_stop": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_stop.papa",
-            "death": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_death.papa",
-            "dead": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_dead.papa"
+            "closed": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_closed.papa",
+            "walk": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_walk.papa",
+            "idle": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_idle.papa",
+            "deploy": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_deploy.papa",
+            "build": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_closed.papa",
+            "turn_right": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_turn_right.papa",
+            "turn_left": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_turn_left.papa",
+            "death": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_death.papa",
+            "dead": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_dead.papa"
         },
-        "animtree": "/pa/units/addon/demi_titan_bot/demi_titan_bot_anim_tree.json",
-        "walk_speed": 3
+        "animtree": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_tree.json",
+        "walk_speed": 9
     },
     "tools": [
         {
-            "spec_id": "/pa/units/addon/demi_titan_bot/demi_titan_bot_weapon.json",
-            "aim_bone": "socket_left_muzzle",
+            "spec_id": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_weapon.json",
+            "aim_bone": "bone_head",
             "projectiles_per_fire": 2,
             "muzzle_bone": [
-                "socket_left_muzzle",
-                "socket_right_muzzle"
+                "socket_muzzle_left",
+                "socket_muzzle_right"
             ]
         }
     ],
@@ -150,7 +150,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-            "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_main_muzzle_flash.pfx socket_left_muzzle /pa/units/land/titan_vehicle/titan_vehicle_main_muzzle_flash.pfx socket_right_muzzle"
+            "effect_spec": ""
         },
         "died": {
             "audio_cue": "",
@@ -177,17 +177,17 @@
         ]
     },
     "selection_icon": {
-        "diameter": 50.0
+        "diameter": -50.0
     },
     "mesh_bounds": [
         33,
-        40,
-        35
+        33,
+        38
     ],
     "wreckage_mesh_bounds": [
         33,
         40,
-        30
+        15
     ],
     "TEMP_texelinfo": 113.291
 }

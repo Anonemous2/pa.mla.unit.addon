@@ -1,0 +1,752 @@
+{
+    "blend_root": {
+        "type": "unit_state",
+        "nodes": {
+            "being_built": {
+                "type": "playback",
+                "looping": false,
+                "anim_name": "build"
+            },
+            "living": {
+                "type": "sequence",
+                "entries": [
+                    {
+                        "type": "item",
+                        "name": "deploy",
+                        "node": {
+                            "type": "playback",
+                            "anim_name": "deploy",
+                            "looping": false,
+                            "events": []
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "anim_complete",
+                                    "target": "not_moving",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "anim_complete",
+                                    "target": "not_moving",
+                                    "duration": 0.5
+                                }
+                            },
+                            {
+                                "transition_forward": {
+                                    "func": "is_moving_faster_than",
+                                    "speed": 0.1,
+                                    "target": "walking",
+                                    "anim_complete": true,
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_moving_faster_than",
+                                    "speed": 0.1,
+                                    "target": "walking",
+                                    "duration": 0.5
+                                }
+                            },
+                            {
+                                "transition_forward": {
+                                    "func": "is_turning_faster_than",
+                                    "turn_rate": 15.0,
+                                    "target": "turning",
+                                    "anim_complete": true,
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_turning_faster_than",
+                                    "turn_rate": 15.0,
+                                    "target": "turning",
+                                    "duration": 0.5
+                                }
+                            }
+                        ],
+                        "reset": "playback_reset"
+                    },
+                    {
+                        "type": "item",
+                        "name": "not_moving",
+                        "node": {
+                            "type": "playback",
+                            "anim_name": "idle",
+                            "looping": true,
+                            "events": []
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "is_moving_faster_than",
+                                    "speed": 0.1,
+                                    "target": "walking",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_moving_faster_than",
+                                    "speed": 0.1,
+                                    "target": "walking",
+                                    "duration": 0.5
+                                }
+                            },
+                            {
+                                "transition_forward": {
+                                    "func": "is_turning_faster_than",
+                                    "turn_rate": 15.0,
+                                    "target": "turning",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_turning_faster_than",
+                                    "turn_rate": 15.0,
+                                    "target": "turning",
+                                    "duration": 0.5
+                                }
+                            }
+                        ],
+                        "reset": "playback_reset"
+                    },
+                    {
+                        "type": "item",
+                        "name": "walking",
+                        "scale_to_move_speed": true,
+                        "node": {
+                            "type": "playback",
+                            "anim_name": "walk",
+                            "looping": true,
+                            "events": [
+                                {
+                                    "time": 0.5,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 1.25,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 0.5,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_right_foot",
+                                        "spec": "/pa/units/addon/demi_titan_bot/pfx/footstep_01.json",
+                                        "effect_scale": 1.5,
+                                        "bone_offset": [
+                                            0.0,
+                                            0.0,
+                                            10.0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 1.25,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_left_foot",
+                                        "spec": "/pa/units/addon/demi_titan_bot/pfx/footstep_01.json",
+                                        "effect_scale": 1.5,
+                                        "bone_offset": [
+                                            0.0,
+                                            0.0,
+                                            10.0
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "not_moving",
+                                    "target": "walk_stop",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "not_moving",
+                                    "target": "walk_stop",
+                                    "duration": 0.5
+                                }
+                            }
+                        ],
+                        "reset": "playback_reset"
+                    },
+                    {
+                        "type": "item",
+                        "name": "walk_stop",
+                        "node": {
+                            "type": "playback",
+                            "anim_name": "walk_stop",
+                            "looping": false,
+                            "events": [
+                                {
+                                    "time": 1,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_front_left",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_footstep_01.pfx",
+                                        "effect_scale": 1.0,
+                                        "bone_offset": [
+                                            15.36,
+                                            1.1,
+                                            0.0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 1.0,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 1.666,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_front_left",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_footstep_01.pfx",
+                                        "effect_scale": 1.0,
+                                        "bone_offset": [
+                                            15.36,
+                                            1.1,
+                                            0.0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 1.666,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                }
+                            ]
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "anim_complete",
+                                    "target": "not_moving"
+                                },
+                                "transition_reverse": {
+                                    "func": "anim_complete",
+                                    "target": "not_moving"
+                                }
+                            },
+                            {
+                                "transition_forward": {
+                                    "func": "is_moving_faster_than",
+                                    "speed": 0.1,
+                                    "target": "walking",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_moving_faster_than",
+                                    "speed": 0.1,
+                                    "target": "walking",
+                                    "duration": 0.5
+                                }
+                            },
+                            {
+                                "transition_forward": {
+                                    "func": "is_turning_faster_than",
+                                    "turn_rate": 15.0,
+                                    "target": "turning",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_turning_faster_than",
+                                    "turn_rate": 15.0,
+                                    "target": "turning",
+                                    "duration": 0.5
+                                }
+                            }
+                        ],
+                        "reset": "playback_reset"
+                    },
+                    {
+                        "type": "item",
+                        "name": "turning",
+                        "node": {
+                            "type": "sequence",
+                            "entries": [
+                                {
+                                    "type": "item",
+                                    "name": "turn_left",
+                                    "node": {
+                                        "type": "playback",
+                                        "anim_name": "turn_left",
+                                        "looping": true,
+                                        "events": [
+                                            {
+                                                "time": 1,
+                                                "type": "effect",
+                                                "parameters": {
+                                                    "bone": "socket_right_foot",
+                                                    "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                                    "effect_scale": 1.5,
+                                                    "bone_offset": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "time": 1,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            },
+                                            {
+                                                "time": 2,
+                                                "type": "effect",
+                                                "parameters": {
+                                                    "bone": "socket_left_foot",
+                                                    "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                                    "effect_scale": 1.5,
+                                                    "bone_offset": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "time": 2,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "transitions": [
+                                        {
+                                            "transition_forward": {
+                                                "func": "is_turning_right",
+                                                "target": "turn_right"
+                                            },
+                                            "transition_reverse": {
+                                                "func": "is_turning_right",
+                                                "target": "turn_right"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "turn_right",
+                                    "node": {
+                                        "type": "playback",
+                                        "anim_name": "turn_right",
+                                        "looping": true,
+                                        "events": [
+                                            {
+                                                "time": 1.67,
+                                                "type": "effect",
+                                                "parameters": {
+                                                    "bone": "socket_right_foot",
+                                                    "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                                    "effect_scale": 1.5,
+                                                    "bone_offset": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "time": 1.67,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            },
+                                            {
+                                                "time": 0.67,
+                                                "type": "effect",
+                                                "parameters": {
+                                                    "bone": "socket_left_foot",
+                                                    "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                                    "effect_scale": 1.5,
+                                                    "bone_offset": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "time": 0.67,
+                                                "type": "audio",
+                                                "parameters": {
+                                                    "cue": "/SE/Movement/titan/bot_step_big"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "transitions": [
+                                        {
+                                            "transition_forward": {
+                                                "func": "is_turning_left",
+                                                "target": "turn_left"
+                                            },
+                                            "transition_reverse": {
+                                                "func": "is_turning_left",
+                                                "target": "turn_left"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "is_moving_faster_than",
+                                    "target": "walking",
+                                    "speed": 0.1,
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "is_moving_faster_than",
+                                    "target": "walking",
+                                    "speed": 0.1,
+                                    "duration": 0.5
+                                }
+                            },
+                            {
+                                "transition_forward": {
+                                    "func": "not_turning",
+                                    "target": "not_moving",
+                                    "duration": 0.5
+                                },
+                                "transition_reverse": {
+                                    "func": "not_turning",
+                                    "target": "not_moving",
+                                    "duration": 0.5
+                                }
+                            }
+                        ],
+                        "reset": "turning_reset"
+                    }
+                ]
+            },
+            "dead": {
+                "type": "sequence",
+                "entries": [
+                    {
+                        "type": "item",
+                        "name": "death",
+                        "node": {
+                            "type": "playback",
+                            "anim_name": "death",
+                            "looping": false,
+                            "events": [
+                                {
+                                    "time": 1.4,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_right_foot",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                        "effect_scale": 1.5,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 1.4,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 3.15,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_right_foot",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                        "effect_scale": 1.5,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 3.15,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 0.47,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_left_foot",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                        "effect_scale": 1.5,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 0.47,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 2.17,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_left_foot",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_footstep_02.pfx",
+                                        "effect_scale": 1.5,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 2.17,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Movement/titan/bot_step_big"
+                                    }
+                                },
+                                {
+                                    "time": 0,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "bone_spine3",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_death.pfx",
+                                        "effect_scale": 1.0,
+                                        "attached": true,
+                                        "death_effect": true,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": "death",
+                                    "time": 0.1,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Death/Titan_Bot"
+                                    }
+                                },
+                                {
+                                    "label": "death",
+                                    "time": 2.9,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Death/Titan_2"
+                                    }
+                                },
+                                {
+                                    "label": "death",
+                                    "time": 4.67,
+                                    "type": "audio",
+                                    "parameters": {
+                                        "cue": "/SE/Death/Titan_3"
+                                    }
+                                },
+                                {
+                                    "time": 0,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "bone_root",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_death_world.pfx",
+                                        "effect_scale": 0.7,
+                                        "attached": false,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            30
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 2,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "bone_right_knee",
+                                        "spec": "/pa/effects/specs/titan_smoke_01.pfx",
+                                        "effect_scale": 0.7,
+                                        "attached": true,
+                                        "death_effect": true,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            2
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 2.1,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "socket_reactor",
+                                        "spec": "/pa/effects/specs/titan_smoke_01.pfx",
+                                        "effect_scale": 1.4,
+                                        "attached": true,
+                                        "death_effect": true,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 2.6,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "bone_right_arm",
+                                        "spec": "/pa/effects/specs/titan_smoke_01.pfx",
+                                        "effect_scale": 1.2,
+                                        "attached": true,
+                                        "death_effect": true,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 2.4,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "bone_head",
+                                        "spec": "/pa/effects/specs/titan_smoke_01.pfx",
+                                        "effect_scale": 1,
+                                        "attached": true,
+                                        "death_effect": true,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            -0
+                                        ]
+                                    }
+                                },
+                                {
+                                    "time": 4.4,
+                                    "type": "effect",
+                                    "parameters": {
+                                        "bone": "bone_pitch",
+                                        "spec": "/pa/units/land/titan_bot/titan_bot_death_fall.pfx",
+                                        "effect_scale": 0.6,
+                                        "attached": false,
+                                        "bone_offset": [
+                                            0,
+                                            0,
+                                            -15
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "anim_complete",
+                                    "target": "dead"
+                                },
+                                "transition_reverse": {
+                                    "func": "anim_complete",
+                                    "target": "dead"
+                                }
+                            }
+                        ],
+                        "reset": "playback_reset"
+                    },
+                    {
+                        "type": "item",
+                        "name": "dead",
+                        "node": {
+                            "type": "playback",
+                            "anim_name": "dead",
+                            "looping": false
+                        },
+                        "transitions": [
+                            {
+                                "transition_forward": {
+                                    "func": "false_func",
+                                    "target": "death"
+                                },
+                                "transition_reverse": {
+                                    "func": "anim_complete",
+                                    "target": "death"
+                                }
+                            }
+                        ],
+                        "reset": "playback_reset"
+                    }
+                ]
+            },
+            "ghost": {
+                "type": "playback",
+                "looping": false,
+                "anim_name": "build"
+            }
+        }
+    },
+    "skeleton_controls": [
+        {
+            "type": "fader",
+            "lerp_func": "not_being_built",
+            "child": {
+                "type": "procedural_aim",
+                "rotation_bone": "bone_turret",
+                "rotation_axis": "z"
+            }
+        },
+        {
+            "type": "fader",
+            "lerp_func": "not_being_built",
+            "child": {
+                "type": "procedural_aim",
+                "rotation_bone": "bone_pitch",
+                "rotation_axis": "x"
+            }
+        },
+        {
+            "type": "recoil",
+            "bone": "bone_left_recoil",
+            "recoil_dist": 3.0,
+            "restore_time": 4.0,
+            "unit_event": "fired"
+        },
+        {
+            "type": "recoil",
+            "bone": "bone_right_recoil",
+            "recoil_dist": 3.0,
+            "restore_time": 4.0,
+            "unit_event": "fired"
+        }
+    ]
+}
