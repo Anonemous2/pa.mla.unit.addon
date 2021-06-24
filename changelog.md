@@ -1,5 +1,8 @@
 # Second Wave Companion Changelog
 
+## 1.1.4
+- textures for legion demi titan bot
+- textures for sub fabber
 
 ## 1.1.3
 - fixed textures for several units
