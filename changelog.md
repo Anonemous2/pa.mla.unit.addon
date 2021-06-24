@@ -1,5 +1,9 @@
 # Second Wave Changelog
 
+
+## 0.11.3
+- Fixed Titan units not being in play
+
 ## 0.11.2
 Pushed by **Anonemous2**
 ### General Changes
