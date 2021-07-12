@@ -2,6 +2,7 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Rex",
     "si_name": "rex",
+    "strategic_icon_priority": 2,
     "description": "!LOC:Mobile Anti-orbital launcher - Fires slow-moving homing missiles at orbital targets or drop-pods. Adorable but incapable of protecting itself.",
     "build_metal_cost": 300,
     "max_health": 150,

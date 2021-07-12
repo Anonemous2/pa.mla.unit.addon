@@ -1,5 +1,12 @@
 # Second Wave Changelog
 
+## 0.11.4
+#### Rex
+- Strat icon has a higher prority
+#### Lynx
+- Strat icon has a higher prority
+#### Beowulf
+- Projectile lifetime increased to 1 form 0.75
 
 ## 0.11.3
 - Fixed Titan units not being in play
