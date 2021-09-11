@@ -52,11 +52,11 @@
 		}
 	],
 	"death_weapon": {
-		"ground_ammo_spec": "/pa/units/l_addon/mass_generator/mass_generator_boom_ammo.json"
+		"ground_ammo_spec": "/pa/units/addon/metal_generator/metal_generator_boom_ammo.json"
 	},
 	"tools": [
 		{
-			"spec_id": "/pa/units/l_addon/mass_generator/death_range.json",
+			"spec_id": "/pa/units/addon/metal_generator/death_range.json",
 			"aim_bone": "bone_root",
 			"muzzle_bone": "bone_root"
 		}
@@ -133,6 +133,69 @@
 	"placement_size": [
 		20,
 		20
+	],
+	"area_build_separation": 15.0,
+	"alt_area_build_type": "Sphere",
+	"alt_area_build_separation": 2,
+	"alt_area_build_pattern": [
+		[
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		]
 	],
 	"TEMP_texelinfo": 45.0
 }

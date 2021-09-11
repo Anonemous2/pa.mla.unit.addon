@@ -209,6 +209,64 @@
             "intensity": 1.5
         }
     ],
+    "fx_offsets": [
+        {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                90
+            ]
+        },
+        {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                180
+            ]
+        },
+        {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                270
+            ]
+        }
+    ],
     "selection_icon": {
         "diameter": 60
     },

@@ -40,6 +40,7 @@ var paeiouIcons = [
     "sw_l_bill",
     "sw_l_basic_missile_defence",
     "sw_fabrication_sub",
-    "sw_l_demi_titan_bot"
+    "sw_l_demi_titan_bot",
+    "sw_orbital_nuke_launcher"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

@@ -176,6 +176,22 @@
             "intensity": 1.0
         }
     ],
+    "fx_offsets": [
+        {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_metal_storage/primary_lights.json",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
     "selection_icon": {
         "diameter": 60
     },

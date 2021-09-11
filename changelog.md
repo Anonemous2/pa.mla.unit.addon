@@ -1,6 +1,30 @@
 # Second Wave Changelog
 
+## 0.11.5
+### Unit Changes
+#### Adv Energy Storage
+- Added more visual effects
+#### Adv Metal Storage
+- Added more visual effects
+#### Metal Generators
+- Death damage range increased to 35
+- Added Alt-build pattern
+- Changed default build pattern to be spaced out.
+- Death damage now only damages structures
+- Increased damage to 750 from 200 (Metal gens can now chain on 
+#### Adv Metal Generators
+- Added Alt-build pattern
+- Changed default build pattern to be spaced out.
+- Death damage now only damages structures
+- Increased damage to 5000 from 750 (Metal gens can now chain on death)
+#### System-wide radars
+- Updated strat icon
+#### Radar jammers
+- Updated strat icon
+
+
 ## 0.11.4
+### Unit Changes
 #### Rex
 - Strat icon has a higher prority
 #### Lynx

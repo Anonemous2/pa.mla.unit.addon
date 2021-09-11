@@ -116,19 +116,19 @@
                 "size": [
                     [
                         0,
-                        1
+                        5
                     ],
                     [
                         1,
-                        0.5
+                        0.25
                     ]
                 ],
                 "cameraPush": 2,
                 "baseTexture": "/pa/effects/textures/particles/dot.papa",
                 "dataChannelFormat": "PositionAndColor"
             },
-            "offsetX": 0,
-            "offsetZ": 0.0,
+            "offsetX": -3.95,
+            "offsetZ": 1.1,
             "sizeX": 0.01,
             "emissionBursts": 1,
             "lifetime": 0.75,
