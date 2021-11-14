@@ -2,6 +2,7 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Rex",
     "si_name": "rex",
+    "strategic_icon_priority": 2,
     "description": "!LOC:Mobile Anti-orbital launcher - Fires slow-moving homing missiles at orbital targets or drop-pods. Adorable but incapable of protecting itself.",
     "build_metal_cost": 300,
     "max_health": 150,
@@ -65,12 +66,13 @@
     "model": {
         "filename": "/pa/units/addon/rex/rex.papa",
         "animations": {
-            "death01": "/pa/units/addon/rex/rex.papa",
+            "dead": "/pa/units/addon/rex/rex_anim_death_1.papa",
+            "death": "/pa/units/addon/rex/rex_anim_death_1.papa",
             "run": "/pa/units/addon/rex/rex_anim_run.papa",
             "fire": "/pa/units/addon/rex/rex.papa",
             "idle": "/pa/units/addon/rex/rex_anim_idle.papa"
         },
-        "animtree": "/pa/anim/anim_trees/bot_tactical_missile_anim_tree.json",
+        "animtree": "/pa/units/addon/rex/rex_anim_tree.json",
         "walk_speed": 3.5
     },
     "nearby_target_tick_update_interval": 3,
@@ -120,7 +122,7 @@
     "selection_icon": {
         "diameter": 9.0
     },
-    "TEMP_texelinfo": 5.47132,
+    "TEMP_texelinfo": 4.47132,
     "mesh_bounds": [
         6,
         5,

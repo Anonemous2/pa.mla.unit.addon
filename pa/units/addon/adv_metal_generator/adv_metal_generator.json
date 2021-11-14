@@ -3,16 +3,15 @@
     "unit_name": "Advanced Metal Generator",
     "si_name": "adv_metal_generator",
     "display_name": "!LOC:Advanced Metal Generator",
-    "description": "!LOC:Advanced Metal Generator - Produces metal, but drains vast amounts of energy. Not worth building if you can't provide the energy.",
+    "description": "!LOC:Advanced Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself.",
     "strategic_icon_priority": 5,
-    "max_health": 6000,
-    "build_metal_cost": 3000,
-    "atrophy_rate": 33.3333,
+    "max_health": 5000,
+    "build_metal_cost": 5000,
+    "atrophy_rate": 55.0,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-    "consumption": {
-        "energy": 5000,
-        "metal": -30
+    "production": {
+        "metal": 20
     },
     "unit_types": [
         "UNITTYPE_Structure",
@@ -63,8 +62,15 @@
             "skirt_decal": "/pa/units/addon/adv_metal_generator/skirt/skirt_adv_metal_generator.json"
         }
     ],
-    "replaceable_units": [
-        "/pa/units/land/metal_extractor/metal_extractor.json"
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/units/addon/adv_metal_generator/adv_metal_generator_boom_ammo.json"
+    },
+    "tools": [
+        {
+            "spec_id": "/pa/units/addon/adv_metal_generator/death_range.json",
+            "aim_bone": "bone_root",
+            "muzzle_bone": "bone_root"
+        }
     ],
     "events": {
         "build_complete": {
@@ -181,6 +187,69 @@
     "placement_size": [
         30,
         38
+    ],
+    "area_build_separation": 15.0,
+    "alt_area_build_type": "Sphere",
+    "alt_area_build_separation": 2,
+    "alt_area_build_pattern": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
     ],
     "TEMP_texelinfo": 24.4307
 }

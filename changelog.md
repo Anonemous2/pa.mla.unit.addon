@@ -1,7 +1,223 @@
 # Second Wave Changelog
 
-## 0.8.4
-Push by **Reckoner**
+## 0.11.5
+### Unit Changes
+#### Adv Energy Storage
+- Added more visual effects
+#### Adv Metal Storage
+- Added more visual effects
+#### Metal Generators
+- Death damage range increased to 35
+- Added Alt-build pattern
+- Changed default build pattern to be spaced out.
+- Death damage now only damages structures
+- Increased damage to 750 from 200 (Metal gens can now chain on 
+#### Adv Metal Generators
+- Added Alt-build pattern
+- Changed default build pattern to be spaced out.
+- Death damage now only damages structures
+- Increased damage to 5000 from 750 (Metal gens can now chain on death)
+#### System-wide radars
+- Updated strat icon
+#### Radar jammers
+- Updated strat icon
+
+
+## 0.11.4
+### Unit Changes
+#### Rex
+- Strat icon has a higher prority
+#### Lynx
+- Strat icon has a higher prority
+#### Beowulf
+- Projectile lifetime increased to 1 form 0.75
+
+## 0.11.3
+- Fixed Titan units not being in play
+
+## 0.11.2
+Pushed by **Anonemous2**
+### General Changes
+- Removed Stinger from Second Wave (Now is base game)
+- Override Stinger buildbar icon
+### Unit Changes
+#### Juno
+- Reduced splash radius to 6 from 12
+- Reduced full-damage splash radius from 8 to 4
+- Set Commander armor type damage to 1.0 (Normal)
+- Increased range to 340 from 300
+### New Units
+- Beowulf *(Anonemous2)*: L_Demi-Titan Bot
+- Fabrication Sub *(Anonemous2)*: T1 Naval
+
+## 0.11.1
+Pushed by **Anonemous2**
+### General Changes
+- Fixed textures on several units
+
+## 0.11.0 'Metal Generator & legion textures Update'
+Pushed by **Anonemous2**
+### General Changes
+#### Metal generators
+- No longer consume power (Are now effected by econ rate)
+- Have a death explosion (Not enough 1 hit kill other gens)
+- Lower metal output
+### Unit Changes
+#### Adv Metal Gen
+- New land/naval textures
+- Fixed skit normal texture
+- Metal output reduced to 22
+- 1800 damage on death (2x Stucture damage)
+- Damage radius 40
+- Updated drill effect
+#### Metal Gen
+- Metal output reduced to 2
+- 200 damage on death (2x Stucture damage)
+- Damage radius 25
+- Updated drill effect
+#### Adv Mass Gen
+- New model and textures
+- Added custom ground skirt
+- Metal output reduced to 22
+- 1800 damage on death (2x Stucture damage)
+- Damage radius 40
+- Added drill effect
+#### Mass Gen
+- New model and textures
+- Added custom ground skirt
+- Metal output reduced to 22
+- 200 damage on death (2x Stucture damage)
+- Damage radius 25
+- Added drill effect
+#### Spear
+- Reduced health to 500 from 800
+#### Stinger
+- Now priorties Icarus first
+#### Radar Jamming Instalation
+- Increased health to 40000 from 20000
+- Increased metal cost to 15000 form 7500
+#### Stealth Generator
+- Increased health to 40000 from 20000
+- Increased metal cost to 15000 form 7500
+- Added more effects
+#### Orbital Anti-nuke Cannon
+- Added more effects
+### New Units
+- Phalanx *(Anonemous2 & billthebluebot)*: L_T1 Defense
+
+
+## 0.10.1
+Pushed by **Anonemous2**
+### Unit Changes
+#### Rex
+- Can target legion droppods
+#### Spear
+- Can target legion droppods
+#### Lynx
+- Can target legion droppods
+#### Almaz
+- Updated pfx effects
+- Added target prorities
+- Now does 'burn' damage
+- Less shots per second
+- Projectile speed increased
+#### Jammer Station
+- Updated Texture
+- Fixed Death Animation
+#### Legion Orbital Anti-nuke
+- Added pfx effects
+- Can now shoot ground
+- Updated selection circle
+#### Pounder
+- Increased firerate to 0.3 from 0.2
+- Increased splash damage to 1000 from 800
+- Increased splash radius to 15 from 10
+- Increased fulldamage range to 3 from 2
+- Decreased health to 1500 from 2500
+- Increased energy demand to 1200 from 400
+- Increased energy capacity to 4000 from 2000
+- Increased energy per shot to 4000 from 2000
+#### Legion Orbital Power
+- Updated model
+- Updated textures
+- Added more pfx effects
+
+## 0.10.0
+Pushed by **Anonemous2**
+### General Changes
+- Now uses companion system, should greatly improve the speed to join a modded lobby.
+
+## 0.9.2
+Pushed by **Anonemous2**
+### Unit Changes
+#### Juno
+- Increased attack range to .9 from .3
+#### Centaur
+- Removed Amphibios type
+- Reduced health to 1300 from 1900
+- Reduced metal cost to 800 from 1000
+- Increased turn_speed to 100 from 60
+#### Anti-Missile Tower
+- Updated Model
+- Updated Animations
+- New Textures
+#### Rex
+- Updated Model
+- New Textures
+#### Stalker
+- Updated Model
+- New Textures
+#### Saxon
+- Now will show placement outlines
+#### Fab Tower
+- Updated Model
+- New Textures
+- Now shows build radius
+#### Adv Fab Tower
+- Now shows build radius
+- Now will show placement outlines
+#### Fab Turret
+- Now shows build radius
+#### Adv Fab Turret
+- Now shows build radius
+### Balance Changes
+#### Mend
+- Mend gun made functional
+
+
+## 0.9.1
+Pushed by **Anonemous2**
+### Unit Changes
+#### Adv Energy Storage
+- Updated buildbar icon
+#### Adv metal storage
+- Updated texture
+- Added custom ground decal
+#### Spear
+- Updated description
+- Added ground decal
+#### Pounder
+- Increased range to 260 from 245
+
+## 0.9.0
+Pushed by **Anonemous2**
+### New Units
+- Adv Metal Storage *(Anonemous2)*: T2 Economy
+- Radar Jammer Station *(billthebluebot)*: T2 Utility
+- Anti nuke Cannon *(Anonemous2 w/billthebluebot)*: T2 Orbital
+### Unit Changes
+#### Adv Energy Storage
+- Replaced model
+- Updated ground decal
+#### Metal Cache
+- Removed (Replaced with Adv metal storage)
+#### Solar Cell
+- Removed (Replacement unit coming out later)
+#### Juno
+- Updated animation tree (removed studder when firing)
+#### Andreas
+- Increased ammo cap to 5000 from 3000
+- Decreased firing range to 50 from 100
 
 ### AI
 #### MLA

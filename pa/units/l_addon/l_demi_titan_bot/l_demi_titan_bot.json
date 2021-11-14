@@ -1,0 +1,193 @@
+{
+    "base_spec": "/pa/units/land/base_bot/base_bot.json",
+    "display_name": "Beowulf",
+    "si_name": "sw_l_demi_titan_bot",
+    "description": "!LOC:Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.",
+    "max_health": 35000,
+    "build_metal_cost": 15000,
+    "atrophy_rate": 200.0,
+    "atrophy_cool_down": 15.0,
+    "wreckage_health_frac": 0.7,
+    "guard_radius": 300,
+    "has_death_effects": true,
+    "attachable": {
+        "offsets": {
+            "root": [
+                0,
+                0,
+                0
+            ],
+            "head": [
+                0,
+                0,
+                3.5
+            ]
+        }
+    },
+    "unit_types": [
+        "UNITTYPE_Bot",
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Offense",
+        "UNITTYPE_Land",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_Titan",
+        "UNITTYPE_Important",
+        "UNITTYPE_FabOrbBuild",
+        "UNITTYPE_Amphibious",
+        "UNITTYPE_Custom1"
+    ],
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Patrol",
+        "ORDER_Attack",
+        "ORDER_Assist"
+    ],
+    "guard_layer": "WL_AnySurface",
+    "navigation": {
+        "type": "amphibious-large",
+        "acceleration": 260,
+        "brake": -1.0,
+        "move_speed": 14,
+        "turn_speed": 60,
+        "turn_accel": 80,
+        "turn_in_place": true,
+        "park_stamp": {
+            "shape": "sphere",
+            "cost": 10,
+            "type_data": [
+                {
+                    "move_type": "land-small",
+                    "stamp_type": "structure"
+                },
+                {
+                    "move_type": "amphibious",
+                    "stamp_type": "structure"
+                },
+                {
+                    "move_type": "amphibious-large",
+                    "stamp_type": "simple"
+                },
+                {
+                    "move_type": "hover",
+                    "stamp_type": "structure"
+                },
+                {
+                    "move_type": "water-hover",
+                    "stamp_type": "structure"
+                },
+                {
+                    "move_type": "hover-large",
+                    "stamp_type": "simple"
+                },
+                {
+                    "move_type": "deepwater",
+                    "stamp_type": "structure"
+                },
+                {
+                    "move_type": "underwater",
+                    "stamp_type": "structure"
+                }
+            ]
+        }
+    },
+    "physics": {
+        "radius": 4,
+        "orient_interp_rate": 120.0
+    },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 200
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 200
+                }
+            ]
+        }
+    },
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_ammo_death.json"
+    },
+    "model": {
+        "filename": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.papa",
+        "animations": {
+            "closed": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_closed.papa",
+            "walk": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_walk.papa",
+            "idle": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_idle.papa",
+            "deploy": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_deploy.papa",
+            "build": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_closed.papa",
+            "turn_right": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_turn_right.papa",
+            "turn_left": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_turn_left.papa",
+            "death": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_death.papa",
+            "dead": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_dead.papa"
+        },
+        "animtree": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_anim_tree.json",
+        "walk_speed": 9
+    },
+    "tools": [
+        {
+            "spec_id": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot_weapon.json",
+            "aim_bone": "bone_head",
+            "projectiles_per_fire": 2,
+            "muzzle_bone": [
+                "socket_muzzle_left",
+                "socket_muzzle_right"
+            ]
+        }
+    ],
+    "attack_range_frac": 0.9,
+    "teleportable": null,
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/Titan_Complete"
+        },
+        "fired": {
+            "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
+            "effect_spec": ""
+        },
+        "died": {
+            "audio_cue": "",
+            "effect_spec": "",
+            "effect_scale": 0.5
+        }
+    },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/titan/bot"
+        }
+    },
+    "death": {
+        "decals": [
+            "/pa/effects/specs/scorch_titan_01.json"
+        ]
+    },
+    "selection_icon": {
+        "diameter": -50.0
+    },
+    "mesh_bounds": [
+        33,
+        33,
+        38
+    ],
+    "wreckage_mesh_bounds": [
+        33,
+        40,
+        15
+    ],
+    "TEMP_texelinfo": 113.291
+}

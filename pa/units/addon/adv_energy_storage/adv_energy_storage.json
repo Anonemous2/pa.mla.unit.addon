@@ -4,8 +4,8 @@
     "si_name": "energy_storage_adv",
     "display_name": "!LOC:Advanced Energy Storage",
     "description": "!LOC:Advanced Storage - Increases maximum Energy storage capacity.",
-    "max_health": 24000,
-    "build_metal_cost": 1200,
+    "max_health": 25000,
+    "build_metal_cost": 1500,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -79,7 +79,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         },
         {
             "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -102,7 +102,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         },
         {
             "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -125,7 +125,7 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         },
         {
             "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
@@ -148,17 +148,17 @@
                 1.0,
                 1.0
             ],
-            "intensity": 1.5
+            "intensity": 3
         }
     ],
     "lamps": [
         {
             "offset": [
-                -13.7,
-                -13.7,
-                4.071
+                -12.85,
+                -12.85,
+                14.43
             ],
-            "radius": 6.0,
+            "radius": 9.0,
             "color": [
                 1.0,
                 1.0,
@@ -168,11 +168,11 @@
         },
         {
             "offset": [
-                13.7,
-                -13.7,
-                4.071
+                12.85,
+                -12.85,
+                14.43
             ],
-            "radius": 6.0,
+            "radius": 9.0,
             "color": [
                 1.0,
                 1.0,
@@ -182,11 +182,11 @@
         },
         {
             "offset": [
-                -13.7,
-                13.7,
-                4.071
+                12.85,
+                12.85,
+                14.43
             ],
-            "radius": 6.0,
+            "radius": 9.0,
             "color": [
                 1.0,
                 1.0,
@@ -196,86 +196,88 @@
         },
         {
             "offset": [
-                13.7,
-                13.7,
-                4.071
+                -12.85,
+                12.85,
+                14.43
             ],
-            "radius": 6.0,
+            "radius": 9.0,
             "color": [
                 1.0,
                 1.0,
                 1.0
             ],
             "intensity": 1.5
-        },
+        }
+    ],
+    "fx_offsets": [
         {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
             "offset": [
                 0,
-                -5.931,
-                17.69
+                0,
+                0
             ],
-            "radius": 4.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 1.0
+            "orientation": [
+                0,
+                0,
+                0
+            ]
         },
         {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
             "offset": [
                 0,
-                5.931,
-                17.69
+                0,
+                0
             ],
-            "radius": 4.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 1.0
+            "orientation": [
+                0,
+                0,
+                90
+            ]
         },
         {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
             "offset": [
-                5.931,
                 0,
-                17.69
+                0,
+                0
             ],
-            "radius": 4.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 1.0
+            "orientation": [
+                0,
+                0,
+                180
+            ]
         },
         {
+            "type": "idle",
+            "filename": "/pa/units/addon/adv_energy_storage/primary_lights.json",
             "offset": [
-                -5.931,
                 0,
-                17.69
+                0,
+                0
             ],
-            "radius": 4.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 1.0
+            "orientation": [
+                0,
+                0,
+                270
+            ]
         }
     ],
     "selection_icon": {
-        "diameter": 54
+        "diameter": 60
     },
     "mesh_bounds": [
         40,
         40,
-        30
+        20
     ],
     "placement_size": [
-        50,
-        50
+        47,
+        47
     ],
     "TEMP_texelinfo": 21.4256
 }

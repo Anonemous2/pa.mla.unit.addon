@@ -3,7 +3,7 @@
     "ammo_id": "/pa/units/addon/demi_titan_bot/demi_titan_bot_ammo.json",
     "rate_of_fire": 0.2,
     "idle_aim_delay": 3,
-    "max_range": 300,
+    "max_range": 340,
     "yaw_rate": 90,
     "pitch_rate": 30,
     "yaw_range": 180,

@@ -2,8 +2,8 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "Spear",
     "si_name": "sw_basic_missile_defence",
-    "description": "!LOC:Basic Missile Launcher - Attacks land, sea, and orbital targets.",
-    "max_health": 800,
+    "description": "!LOC:Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots",
+    "max_health": 500,
     "build_metal_cost": 300,
     "atrophy_rate": 30.0,
     "atrophy_cool_down": 15.0,
@@ -107,7 +107,8 @@
             "start": "/pa/units/addon/basic_missile_defence/basic_missile_defence_anim_open.papa",
             "end": "/pa/units/addon/basic_missile_defence/basic_missile_defence_anim_close.papa"
         },
-        "animtree": "/pa/anim/anim_trees/missile_ship_anim_tree.json"
+        "animtree": "/pa/anim/anim_trees/missile_ship_anim_tree.json",
+        "skirt_decal": "/pa/units/addon/basic_missile_defence/skirt_basic_missile_defence.json"
     },
     "tools": [
         {

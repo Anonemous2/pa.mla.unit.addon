@@ -107,6 +107,53 @@
             "effect_scale": 1.5
         }
     },
+    "fx_offsets": [
+        {
+            "bone": "bone_antenna_3",
+            "type": "energy",
+            "filename": "/pa/units/l_addon/l_orbital_jammer/lights.json",
+            "offset": [
+                0.0,
+                0.0,
+                1.2
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "bone": "bone_antenna_1",
+            "type": "energy",
+            "filename": "/pa/units/l_addon/l_orbital_jammer/lights.json",
+            "offset": [
+                0.0,
+                0.0,
+                1.2
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "bone": "bone_antenna_2",
+            "type": "energy",
+            "filename": "/pa/units/l_addon/l_orbital_jammer/lights.json",
+            "offset": [
+                0.0,
+                0.0,
+                1.2
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
     "selection_icon": {
         "diameter": -35.0
     },
@@ -115,5 +162,5 @@
         20,
         30
     ],
-    "TEMP_texelinfo": 31.6199
+    "TEMP_texelinfo": 15.6199
 }

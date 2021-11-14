@@ -11,12 +11,12 @@
         0
     ],
     "scale": [
-        53.4,
-        53.4,
+        60,
+        60,
         1
     ],
     "scale_range": 0,
     "count": 1,
     "fixed_orient": true,
-    "material_spec": "/pa/units/addon/adv_energy_storage/skirt/adv_energy_storage_spec.json"
+    "material_spec": "/pa/effects/decals/skirt_decal_06.json"
 }

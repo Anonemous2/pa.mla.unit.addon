@@ -28,10 +28,14 @@
         ]
 	},
 	"context": "server",
-	"date": "2021-02-22",
-	"build": "115546",
-	"version": "0.8.4",
+	"date": "2021-09-11",
+	"build": "115958",
+	"version": "0.11.5",
 	"dependencies": [
-		"com.pa.quitch.AIBugfixEnhancement"
+		"com.pa.quitch.AIBugfixEnhancement",
+		"pa.mla.unit.addon.companion"
+	],
+	"companions": [
+		"pa.mla.unit.addon.companion"
 	]
 }

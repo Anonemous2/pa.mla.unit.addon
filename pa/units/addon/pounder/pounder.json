@@ -3,7 +3,7 @@
     "display_name": "Pounder",
     "si_name": "pounder",
     "description": "!LOC:Artillery - Long range for siege and area denial. Attacks land and sea targets.",
-    "max_health": 2500,
+    "max_health": 1500,
     "build_metal_cost": 2000,
     "atrophy_rate": 25,
     "atrophy_cool_down": 15.0,

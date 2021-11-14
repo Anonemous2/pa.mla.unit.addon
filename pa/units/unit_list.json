@@ -23,6 +23,7 @@
         "/pa/units/commanders/imperial_delta/imperial_delta.json",
         "/pa/units/commanders/imperial_enzomatrix/imperial_enzomatrix.json",
         "/pa/units/commanders/imperial_fiveleafclover/imperial_fiveleafclover.json",
+        "/pa/units/commanders/imperial_fusion/imperial_fusion.json",
         "/pa/units/commanders/imperial_gamma/imperial_gamma.json",
         "/pa/units/commanders/imperial_gnugfur/imperial_gnugfur.json",
         "/pa/units/commanders/imperial_invictus/imperial_invictus.json",
@@ -66,6 +67,7 @@
         "/pa/units/commanders/quad_zancrowe/quad_zancrowe.json",
         "/pa/units/commanders/raptor_base/raptor_base.json",
         "/pa/units/commanders/raptor_beast/raptor_beast.json",
+        "/pa/units/commanders/raptor_beast_king/raptor_beast_king.json",
         "/pa/units/commanders/raptor_beniesk/raptor_beniesk.json",
         "/pa/units/commanders/raptor_betadyne/raptor_betadyne.json",
         "/pa/units/commanders/raptor_centurion/raptor_centurion.json",
@@ -201,7 +203,6 @@
         "/pa/units/sea/drone_carrier/drone/drone.json",
         "/pa/units/sea/fabrication_barge/fabrication_barge.json",
         "/pa/units/sea/hover_ship/hover_ship.json",
-        "/pa/units/commanders/raptor_beast_king/raptor_beast_king.json",
 
         "/pa/units/addon/swordfish/swordfish.json",
 		"/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json",
@@ -214,6 +215,7 @@
         "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json",
 
         "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json",
+        "/pa/units/addon/fabrication_sub/fabrication_sub.json",
 
         "/pa/units/addon/stalker/stalker.json",
         "/pa/units/addon/adv_tank_hover/adv_tank_hover.json",
@@ -226,16 +228,16 @@
         "/pa/units/addon/adv_fab_tower/adv_fab_tower.json",
         "/pa/units/addon/adv_metal_generator/adv_metal_generator.json",
         "/pa/units/addon/adv_energy_storage/adv_energy_storage.json",
-        "/pa/units/addon/solar_cell/solar_cell.json",
         "/pa/units/addon/anti_missile_tower/anti_missile_tower.json",
         "/pa/units/addon/jammer_titan/jammer_titan.json",
         "/pa/units/addon/jammer/jammer.json",
         "/pa/units/addon/system_radar/system_radar.json",
-        "/pa/units/addon/metal_cache/metal_cache.json",
+        "/pa/units/addon/adv_metal_storage/adv_metal_storage.json",
 
         "/pa/units/addon/demi_titan_bot/demi_titan_bot.json",
 
         "/pa/units/l_addon/mass_generator/mass_generator.json",
+        "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.json",
         "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json",
         "/pa/units/l_addon/fab_turret/fab_turret.json",
         "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json",
@@ -248,6 +250,9 @@
 
         "/pa/units/l_addon/anti_orbital_ship/anti_orbital_ship.json",
         "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.json",
-        "/pa/units/l_addon/l_orbital_power/l_orbital_power.json"
+        "/pa/units/l_addon/l_orbital_power/l_orbital_power.json",
+        "/pa/units/l_addon/orbital_anti_nuke/orbital_anti_nuke.json",
+
+        "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.json"
     ]
 }

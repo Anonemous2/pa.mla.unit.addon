@@ -1,0 +1,22 @@
+{
+    "ammo_type": "PBAOE",
+    "damage": 5000,
+    "splash_radius": 40,
+    "splash_damages_allies": true,
+    "sim_fire_effect": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion_ent.json",
+    "impact_decals": [
+        "/pa/effects/specs/scorch_b_01.json"
+    ],
+    "damage_volume": {
+        "initial_radius": 5.0
+    },
+    "effect_spec": "/pa/units/addon/metal_generator/metal_gen_death_effect.json",
+    "armor_damage_map": {
+        "AT_Orbital": 0.0,
+        "AT_Vehicle": 0.0,
+        "AT_Bot": 0.0,
+        "AT_Air": 0.0,
+        "AT_Commander": 0.0,
+        "AT_Structure": 1.0
+    }
+}

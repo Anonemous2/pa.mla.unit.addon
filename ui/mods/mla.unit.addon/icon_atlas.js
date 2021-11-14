@@ -34,6 +34,13 @@ var paeiouIcons = [
     "l_almaz",
     "l_anti_orbital_ship",
     "l_orbital_jammer",
-    "l_orbital_power"
+    "l_orbital_power",
+    "sw_l_orbital_anti_nuke",
+    "sw_demi_titan_vehicle",
+    "sw_l_bill",
+    "sw_l_basic_missile_defence",
+    "sw_fabrication_sub",
+    "sw_l_demi_titan_bot",
+    "sw_orbital_nuke_launcher"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

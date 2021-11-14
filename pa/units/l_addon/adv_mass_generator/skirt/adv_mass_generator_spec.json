@@ -1,0 +1,5 @@
+{
+    "diffuse": "/pa/units/l_addon/adv_mass_generator/skirt/skirt_diffuse.papa",
+    "normal": "/pa/units/l_addon/adv_mass_generator/skirt/skirt_normal.papa",
+    "material": "/pa/units/l_addon/adv_mass_generator/skirt/skirt_material.papa"
+}
