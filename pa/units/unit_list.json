@@ -205,7 +205,7 @@
         "/pa/units/sea/hover_ship/hover_ship.json",
 
         "/pa/units/addon/swordfish/swordfish.json",
-		"/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json",
+        "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json",
 
         "/pa/units/addon/pounder/pounder.json",
         "/pa/units/addon/basic_missile_defence/basic_missile_defence.json",
@@ -221,8 +221,7 @@
         "/pa/units/addon/adv_tank_hover/adv_tank_hover.json",
 
         "/pa/units/addon/rex/rex.json",
-        "/pa/units/addon/bot_aa/bot_aa.json",
-		"/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json",
+        "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json",
         
         "/pa/units/addon/metal_generator/metal_generator.json",
         "/pa/units/addon/fab_tower/fab_tower.json",
