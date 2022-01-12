@@ -1,5 +1,9 @@
 # Second Wave Changelog
 
+## 0.11.6
+- Removed buildbar icons from server mod
+- Changed author name CyberPunkPanda to Taiga
+
 ## 0.11.5
 ### Unit Changes
 #### Adv Energy Storage
