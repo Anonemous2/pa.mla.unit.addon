@@ -1,5 +1,8 @@
 # Second Wave Companion Changelog
 
+## 1.1.5
+- companion now holds buildbar icons
+
 ## 1.1.4
 - textures for legion demi titan bot
 - textures for sub fabber
