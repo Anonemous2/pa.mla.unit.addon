@@ -51,9 +51,6 @@
         "2w_Saxon": {
             "spec_id": "/pa/units/addon/adv_tank_hover/adv_tank_hover.json"
         },
-        "2w_SolarCell": {
-            "spec_id": "/pa/units/addon/solar_cell/solar_cell.json"
-        },
         "2w_Spear": {
             "spec_id": "/pa/units/addon/basic_missile_defence/basic_missile_defence.json"
         },

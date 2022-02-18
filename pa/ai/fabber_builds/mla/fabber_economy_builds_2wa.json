@@ -77,44 +77,6 @@
             }
         },
         {
-            "name": "2w_Solar Cell - Stall",
-            "to_build": "2w_SolarCell",
-            "instance_count": 1,
-            "max_num_assisters": 2,
-            "shared_instance_count": "BasicEnergy",
-            "cross_planet_shared_count": true,
-            "priority": 501,
-            "builders": ["AnyMLABasicFabber"],
-            "build_conditions": [
-                [
-                    {
-                        "test_type": "CurrentEnergyEfficiency",
-                        "compare0": "<",
-                        "value0": 1
-                    },
-                    {
-                        "test_type": "EnergyStorageFrac",
-                        "compare0": "<=",
-                        "value0": 0
-                    },
-                    {
-                        "test_type": "CanFindPlaceToBuild",
-                        "string0": "2w_SolarCell"
-                    }
-                ]
-            ],
-            "placement_rules": {
-                "buffer": 6,
-                "placement_type": "FromBaseCenter",
-                "threat": {
-                    "influence_type": "AntiSurface",
-                    "compare_type": "<",
-                    "radius": 10,
-                    "value": 50
-                }
-            }
-        },
-        {
             "name": "2w_AdvEnergyStorage",
             "to_build": "2w_AdvEnergyStorage",
             "instance_count": 1,
