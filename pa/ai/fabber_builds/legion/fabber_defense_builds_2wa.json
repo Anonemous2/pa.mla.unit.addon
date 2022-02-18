@@ -150,6 +150,10 @@
                         "string1": "AntiNuke",
                         "compare0": ">",
                         "value0": 2
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_OrbitalAntiNuke"
                     }
                 ]
             ]
@@ -183,6 +187,10 @@
                         "unit_type_string0": "Advanced & (Fabber | Factory)",
                         "compare0": "<",
                         "value0": 1
+                    },
+                    {
+                        "test_type": "CanFindPlaceToBuild",
+                        "string0": "2w_l_OrbitalAntiNuke"
                     }
                 ]
             ]
