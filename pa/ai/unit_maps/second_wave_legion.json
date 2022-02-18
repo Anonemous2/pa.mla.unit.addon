@@ -27,6 +27,9 @@
         "2w_l_OrbitalPowerCatalyst": {
             "spec_id": "/pa/units/l_addon/l_orbital_power/l_orbital_power.json"
         },
+        "2w_l_Phalanx": {
+            "spec_id": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.json"
+        },
         "2w_l_Shade": {
             "spec_id": "/pa/units/l_addon/l_orbital_jammer/l_orbital_jammer.json"
         },
