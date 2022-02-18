@@ -34,6 +34,18 @@
                         "boolean": true
                     },
                     {
+                        "test_type": "PlanetHighestEnemyArmyThreat",
+                        "string0": "Land",
+                        "compare0": ">",
+                        "value0": 50000
+                    },
+                    {
+                        "test_type": "PlanetHighestEnemyArmyThreat",
+                        "string0": "AntiSurface",
+                        "compare0": ">",
+                        "value0": 1600
+                    },
+                    {
                         "test_type": "CanFindPlaceToBuild",
                         "string0": "2w_Juno"
                     }
