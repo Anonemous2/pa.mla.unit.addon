@@ -15,6 +15,9 @@
         "2w_l_BasicMassGenerator": {
             "spec_id": "/pa/units/l_addon/mass_generator/mass_generator.json"
         },
+        "2w_l_Beowulf": {
+            "spec_id": "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.json"
+        },
         "2w_l_JammerStation": {
             "spec_id": "/pa/units/l_addon/l_jammer_station/l_jammer_station.json"
         },
