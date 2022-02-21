@@ -33,9 +33,6 @@
         "2w_Kampela": {
             "spec_id": "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json"
         },
-        "2w_MetalCache": {
-            "spec_id": "/pa/units/addon/metal_cache/metal_cache.json"
-        },
         "2w_Orbital_Anti-Nuke": {
             "spec_id": "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json"
         },
@@ -51,17 +48,11 @@
         "2w_Saxon": {
             "spec_id": "/pa/units/addon/adv_tank_hover/adv_tank_hover.json"
         },
-        "2w_SolarCell": {
-            "spec_id": "/pa/units/addon/solar_cell/solar_cell.json"
-        },
         "2w_Spear": {
             "spec_id": "/pa/units/addon/basic_missile_defence/basic_missile_defence.json"
         },
         "2w_Stalker": {
             "spec_id": "/pa/units/addon/stalker/stalker.json"
-        },
-        "2w_Stinger": {
-            "spec_id": "/pa/units/addon/bot_aa/bot_aa.json"
         },
         "2w_Swordfish": {
             "spec_id": "/pa/units/addon/swordfish/swordfish.json"
