@@ -180,8 +180,8 @@
         "diameter": -50.0
     },
     "mesh_bounds": [
-        33,
-        33,
+        27,
+        27,
         38
     ],
     "wreckage_mesh_bounds": [

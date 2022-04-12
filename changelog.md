@@ -1,5 +1,43 @@
 # Second Wave Changelog
 
+## 0.11.7
+### General
+- Regenerated Base Unit overrides
+### Unit Changes
+#### Centaur
+- Reduced weapon range to 120 (was 140)
+#### Saxon
+- Reduced weapon range to 130 (was 150)
+#### Juno
+- Reduced hit box size
+#### Swordfish
+#### New bomb weapon
+- 1 Attack every 5 seconds
+- 200 Damage
+- 100 Splash Damage
+- 6 Splash Range
+- 2 Full Splash Range
+- 2 Firing deviation
+#### Torpedo
+- Reduced damage to 100 (was 140)
+- Now Consumes Energy
+- Fires a burst of 2 torpedos
+- 8 Seconds to fully recharges
+#### Cannons
+- Reduced damage to 15 (was 30)
+- Added 2 Firing deviation
+- Increased firerate to 4 (was 2)
+#### Stat changes
+- Decreased health to 280 (was 300)
+- Increased cost to 510 (was 500)
+- Decreased braking to 30 (was 45)
+- Decreased move speed to 80 (was 90)
+- Decreased turn speed to 100 (was 200)
+#### Phalanx
+- Changed to use legion selection circle
+#### Beowulf
+- Reduced hit box size
+
 ## 0.11.6
 - Removed buildbar icons from server mod
 - Changed author name CyberPunkPanda to Taiga

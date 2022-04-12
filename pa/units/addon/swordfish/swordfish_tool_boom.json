@@ -1,0 +1,32 @@
+{
+    "base_spec": "/pa/tools/base_turret/base_turret.json",
+    "ammo_id": "/pa/units/addon/swordfish/swordfish_bomb_ammo.json",
+    "ammo_source": "energy",
+    "rate_of_fire": 1,
+    "ammo_capacity": 500,
+    "ammo_demand": 100,
+    "ammo_per_shot": 500,
+    "max_range": 80,
+    "yaw_rate": 360,
+    "pitch_rate": 180,
+    "yaw_range": 30,
+    "pitch_range": 90,
+    "auto_attack": true,
+    "spread_fire": true,
+    "firing_standard_deviation": 2,
+    "target_layers": [
+        "WL_LandHorizontal"
+    ],
+    "target_priorities": [
+        "AirDefense & Land",
+        "Artillery & Advanced & Land",
+        "Nuke | NukeDefense",
+        "Titan & Land"
+    ],
+    "events": {
+        "died": {
+            "audio_cue": "/SE/Impacts/shell_artillery",
+            "effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
+        }
+    }
+}

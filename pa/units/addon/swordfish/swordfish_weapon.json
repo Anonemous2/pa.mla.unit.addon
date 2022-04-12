@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
     "ammo_id": "/pa/units/addon/swordfish/swordfish_ammo.json",
-    "rate_of_fire": 2.0,
+    "rate_of_fire": 4.0,
     "idle_aim_delay": 0,
     "max_range": 120,
     "yaw_rate": 360,
@@ -9,6 +9,7 @@
     "yaw_range": 30,
     "pitch_range": 30,
     "auto_attack": true,
+    "firing_standard_deviation": 2,
     "target_layers": [
         "WL_LandHorizontal",
         "WL_WaterSurface"

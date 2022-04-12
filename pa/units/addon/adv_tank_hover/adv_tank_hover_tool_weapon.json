@@ -3,7 +3,7 @@
 	"ammo_id": "/pa/units/addon/adv_tank_hover/adv_tank_hover_ammo.json",
 	"rate_of_fire": 0.75,
 	"idle_aim_delay": 1,
-	"max_range": 150,
+	"max_range": 130,
 	"yaw_rate": 20,
 	"pitch_rate": 20,
 	"yaw_range": 180,

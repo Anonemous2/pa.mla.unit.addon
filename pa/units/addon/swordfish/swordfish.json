@@ -3,8 +3,8 @@
     "si_name": "swordfish",
     "display_name": "Swordfish",
     "description": "!LOC:Basic strafer - Fast. Equipped with two cannons and a torpedo launcher. Attacks land, sea, and undersea targets.",
-    "max_health": 300,
-    "build_metal_cost": 500,
+    "max_health": 280,
+    "build_metal_cost": 510,
     "unit_types": [
         "UNITTYPE_Gunship",
         "UNITTYPE_Mobile",
@@ -23,10 +23,10 @@
     "navigation": {
         "type": "air",
         "acceleration": 50,
-        "brake": 45,
+        "brake": 30,
         "ignore_overshoot": true,
-        "move_speed": 90,
-        "turn_speed": 200,
+        "move_speed": 80,
+        "turn_speed": 100,
         "dodge_radius": 0,
         "dodge_multiplier": 0.0,
         "aggressive_behavior": "line",
@@ -100,6 +100,16 @@
             "muzzle_bone": [
                 "bone_root"
             ]
+        },
+        {
+            "spec_id": "/pa/units/addon/swordfish/swordfish_tool_boom.json",
+            "aim_bone": "bone_root",
+            "record_index": 3,
+            "fire_event": "fired3",
+            "projectiles_per_fire": 1,
+            "muzzle_bone": [
+                "bone_root"
+            ]
         }
     ],
     "events": {
@@ -114,6 +124,12 @@
             "audio_cue": "/SE/Weapons/air/gunship_fire",
             "effect_spec": "/pa/units/air/strafer/strafer_muzzle_flash.pfx socket_right"
         },
+        "fired2": {
+            "audio_cue": "/SE/Weapons/air/bomber_fire"
+        },
+        "fired3": {
+            "audio_cue": "/SE/Weapons/air/bomber_fire"
+        },
         "died": {
             "audio_cue": "/SE/Death/Air",
             "effect_scale": 0.75
@@ -123,7 +139,7 @@
         {
             "type": "moving_forward",
             "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
-            "bone": "socket_engine",
+            "bone": "socket_thruster",
             "offset": [
                 0,
                 0.8,

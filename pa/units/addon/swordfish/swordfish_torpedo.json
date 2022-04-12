@@ -7,7 +7,11 @@
         }
     ],
     "spawn_layers": "WL_Underwater",
-    "rate_of_fire": 0.6,
+    "ammo_source": "energy",
+    "rate_of_fire": 8,
+    "ammo_capacity": 400,
+    "ammo_demand": 50,
+    "ammo_per_shot": 200,
     "max_range": 100,
     "yaw_rate": 360,
     "pitch_rate": 360,
