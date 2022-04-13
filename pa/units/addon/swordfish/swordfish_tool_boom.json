@@ -1,11 +1,7 @@
 {
     "base_spec": "/pa/tools/base_turret/base_turret.json",
     "ammo_id": "/pa/units/addon/swordfish/swordfish_bomb_ammo.json",
-    "ammo_source": "energy",
-    "rate_of_fire": 1,
-    "ammo_capacity": 500,
-    "ammo_demand": 100,
-    "ammo_per_shot": 500,
+    "rate_of_fire": 0.2,
     "max_range": 80,
     "yaw_rate": 360,
     "pitch_rate": 180,

@@ -67,6 +67,16 @@
                 "socket_muzzle_right",
                 "socket_muzzle_rear"
             ]
+        },
+        {
+            "spec_id": "/pa/units/addon/anti_missile_tower/anti_missile_tower_tool_2.json",
+            "aim_bone": "bone_spinner",
+            "muzzle_bone": [
+                "socket_muzzle_foward",
+                "socket_muzzle_left",
+                "socket_muzzle_right",
+                "socket_muzzle_rear"
+            ]
         }
     ],
     "events": {

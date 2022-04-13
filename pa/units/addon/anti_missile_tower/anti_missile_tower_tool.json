@@ -1,12 +1,12 @@
 {
     "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
     "ammo_id": "/pa/units/addon/anti_missile_tower/anti_missile_tower_ammo.json",
-    "rate_of_fire": 5,
+    "rate_of_fire": 4,
     "idle_aim_delay": 0.1,
     "ammo_source": "energy",
-    "ammo_capacity": 4000,
-    "ammo_demand": 200,
-    "ammo_per_shot": 400,
+    "ammo_capacity": 12000,
+    "ammo_demand": 600,
+    "ammo_per_shot": 800,
     "max_range": 120,
     "yaw_rate": 3600,
     "pitch_rate": 3600,
@@ -19,7 +19,6 @@
     "anti_entity_targets_units": false,
     "anti_entity_targets": [
         "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
-        "/pa/units/air/bomber_adv/bomber_adv_ammo.json",
         "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
         "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital_ammo.json",
         "/pa/units/sea/missile_ship/missile_ship_ammo.json"

@@ -1,5 +1,37 @@
 # Second Wave Changelog
 
+## 0.11.8
+### Unit Changes
+#### Juno
+- Reduced health to 22000 (was 35000)
+- Reduced full_damage splash to 1 (was 4)
+#### Beowulf
+- Reduced health to 22000 (was 35000)
+- Reduced full_damage splash to 1 (was 5)
+#### Anti-missile Tower
+- Now has two weapons (new weapon targets hornet missiles)
+##### Old Weapon
+- Removed Hornet missiles as a target
+- Decreased firerate to 4 (was 5)
+- Increased energy capacity to 12000 (was 4000)
+- Increased energy draw to 600 (was 200)
+- Increased energy per shot to 800 (was 400)
+##### New Weapon
+- Targets Hornet missiles
+- Rate of fire of 8
+- Max range of 150
+#### Swordfish
+##### bomb weapon
+- No longer uses energy
+- Increased damage to 300 (was 200)
+- Reduced full_damage splash to 1 (was 2)
+##### Torpedo
+- Reduced damage to 100 (was 140)
+- Increased energy demand to 100 (was 50)
+- Now limited to 90* aiming
+##### Cannons
+- Reverted weapon pfx
+
 ## 0.11.7
 ### General
 - Regenerated Base Unit overrides
@@ -11,23 +43,23 @@
 #### Juno
 - Reduced hit box size
 #### Swordfish
-#### New bomb weapon
+##### New bomb weapon
 - 1 Attack every 5 seconds
 - 200 Damage
 - 100 Splash Damage
 - 6 Splash Range
 - 2 Full Splash Range
 - 2 Firing deviation
-#### Torpedo
+##### Torpedo
 - Reduced damage to 100 (was 140)
 - Now Consumes Energy
 - Fires a burst of 2 torpedos
 - 8 Seconds to fully recharges
-#### Cannons
+##### Cannons
 - Reduced damage to 15 (was 30)
 - Added 2 Firing deviation
 - Increased firerate to 4 (was 2)
-#### Stat changes
+##### Stat changes
 - Decreased health to 280 (was 300)
 - Increased cost to 510 (was 500)
 - Decreased braking to 30 (was 45)

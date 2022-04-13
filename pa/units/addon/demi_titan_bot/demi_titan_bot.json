@@ -3,7 +3,7 @@
     "display_name": "Juno",
     "si_name": "sw_demi_titan_bot",
     "description": "!LOC:Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.",
-    "max_health": 35000,
+    "max_health": 22000,
     "build_metal_cost": 15000,
     "atrophy_rate": 200.0,
     "atrophy_cool_down": 15.0,
@@ -142,7 +142,7 @@
             ]
         }
     ],
-    "attack_range_frac": 0.9,
+    "attack_range_frac": 0.8,
     "teleportable": null,
     "events": {
         "build_complete": {
