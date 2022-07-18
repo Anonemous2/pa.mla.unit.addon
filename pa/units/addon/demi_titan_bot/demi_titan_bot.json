@@ -46,8 +46,8 @@
         "type": "amphibious-large",
         "acceleration": 260,
         "brake": -1.0,
-        "move_speed": 14,
-        "turn_speed": 60,
+        "move_speed": 12,
+        "turn_speed": 40,
         "turn_accel": 80,
         "turn_in_place": true,
         "park_stamp": {
@@ -134,7 +134,7 @@
     "tools": [
         {
             "spec_id": "/pa/units/addon/demi_titan_bot/demi_titan_bot_weapon.json",
-            "aim_bone": "socket_left_muzzle",
+            "aim_bone": "bone_pitch",
             "projectiles_per_fire": 2,
             "muzzle_bone": [
                 "socket_left_muzzle",

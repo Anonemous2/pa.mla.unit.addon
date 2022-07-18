@@ -8,5 +8,13 @@
   "armor_damage_map": { 
     "AT_Orbital": 2.0,
     "AT_Structure":1.0
+  },
+  "fx_trail": {
+    "filename": "/pa/units/l_addon/anti_orbital_armor/lynx_missile.pfx",
+    "offset": [
+      0.0,
+      1.5,
+      0.0
+    ]
   }
 }

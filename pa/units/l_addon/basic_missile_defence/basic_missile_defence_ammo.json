@@ -13,7 +13,7 @@
         "filename": "/pa/units/air/missile/missile.papa"
     },
     "fx_trail": {
-        "filename": "/pa/units/addon/basic_missile_defence/missile_trail.json",
+        "filename": "/pa/units/l_addon/basic_missile_defence/phalanx_missile.pfx",
         "offset": [
             0.0,
             1.5,

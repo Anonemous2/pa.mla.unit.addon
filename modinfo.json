@@ -30,7 +30,7 @@
 	"context": "server",
 	"date": "2022-04-13",
 	"build": "115444-dev",
-	"version": "0.11.8",
+	"version": "0.12.0",
 	"dependencies": [
 		"com.pa.quitch.AIBugfixEnhancement",
 		"pa.mla.unit.addon.companion"
