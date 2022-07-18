@@ -1,5 +1,8 @@
 # Second Wave Companion Changelog
 
+## 1.1.6
+- added new shell textures
+
 ## 1.1.5
 - companion now holds buildbar icons
 
