@@ -1,5 +1,30 @@
 # Second Wave Changelog
 
+## 0.12.0
+### Unit Changes
+#### Juno
+- Reduced speed to 12 (was 14)
+- Reduced turn speed to 40 (was 60)
+- Increased damage to 5200 (was 4500)
+- Decreased splash radius to 4 (was 8)
+- Decreased firerate to 0.125 (was 0.2)
+- New Projectile model
+- Fixed projectiles shooting out at the wrong location.
+#### Beowulf
+- Reduced speed to 12 (was 14)
+- Reduced turn speed to 40 (was 60)
+- Increased damage to 3500 (was 2000)
+- Decreased firerate to 0.2 (was 0.5)
+- Now has firing delay
+- new projectile physics
+- New collection of unit effects
+#### Rex
+- Updated projectile trail
+#### Lynx
+- New projectile trail
+#### Phalanx
+- Updated projectile trail
+
 ## 0.11.8
 ### Unit Changes
 #### Juno
