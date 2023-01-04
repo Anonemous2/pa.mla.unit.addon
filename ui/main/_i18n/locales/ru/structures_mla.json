@@ -30,7 +30,7 @@
         "message": "Защищает от ракет в радиусе действия. Требует энергию для функционирования."
     },
     "Spear": {
-        "message": "Копье"
+        "message": "Спир"
     },
     "Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots": {
         "message": "Стандартная ракетная установка. Атакует наземные, морские и орбитальные цели. Очень эффективна против хрупких целей."
@@ -60,7 +60,7 @@
         "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
     },
     "Pounder": {
-        "message": "Гаубица"
+        "message": "Пандер"
     },
     "Artillery - Long range for siege and area denial. Attacks land and sea targets.": {
         "message": "Артиллерийская установка для подавления территории и осады. Атакует наземные и морские цели."
