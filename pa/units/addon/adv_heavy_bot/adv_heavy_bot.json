@@ -1,6 +1,6 @@
 {
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
-	"display_name": "Centaur",
+	"display_name": "!LOC:Centaur",
 	"si_name": "adv_heavy_bot",
 	"description": "!LOC:Advanced Anti-Armor Bot - Does 200% damage against vehicles. High health, slow rate of fire. Priorities attacking advanced tanks.",
 	"max_health": 1300,
