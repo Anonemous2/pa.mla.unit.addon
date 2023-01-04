@@ -1,0 +1,74 @@
+{
+    "Advanced Energy Storage": {
+        "message": "Продвинутое Хранилище Энергии"
+    },
+    "Advanced Storage - Increases maximum Energy storage capacity.": {
+        "message": "Увеличивает максимальное количество хранимой энергии."
+    },
+    "Advanced Fabrication Tower": {
+        "message": "Продвинутая Строительная Башня"
+    },
+    "Advanced Fabrication Tower - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "Помогает строить новые сооружения. Чинит союзные постройки и юнитов. Ускоряет производство техники в заводах. Намного эффективнее мобильных фабрикаторов."
+    },
+    "Advanced Metal Generator": {
+        "message": "Продвинутый Генератор Металла"
+    },
+    "Advanced Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself.": {
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+    },
+    "Advanced Metal Storage": {
+        "message": "Продвинутое Хранилище Металла"
+    },
+    "Advanced Storage - Increases maximum metal storage capacity.": {
+        "message": "Увеличивает максимальное количество складируемого металла."
+    },
+    "Anti-Missile Tower": {
+        "message": "Противоракетная Башня"
+    },
+    "Anti-Missile Tower - Dedicated anti-missile defense.": {
+        "message": "Защищает от ракет в радиусе действия. Требует энергию для функционирования."
+    },
+    "Spear": {
+        "message": "Копье"
+    },
+    "Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots": {
+        "message": "Стандартная ракетная установка. Атакует наземные, морские и орбитальные цели. Очень эффективна против хрупких целей."
+    },
+    "Fabrication Tower": {
+        "message": "Строительная Башня"
+    },
+    "Fabrication Tower - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "Помогает строить новые сооружения. Чинит союзные постройки и юнитов. Ускоряет производство техники в заводах. Намного эффективнее мобильных фабрикаторов."
+    },
+    "Radar Jamming Station": {
+        "message": "Стационарный Генератор Помех"
+    },
+    "Radar Jammer - Globally visible. Hides radar blips in a radius around itself. Consumes power.": {
+        "message": "Виден для всех. Скрывает юнитов и постройки вокруг себя от радаров противника. Потребляет большое количество энергии."
+    },
+    "Radar Jamming Installation": {
+        "message": "Продвинутый Генератор Помех"
+    },
+    "Advanced Radar Jammer - Globally visible. Hides radar blips in a large radius around itself. Consumes a large amount of power.": {
+        "message": "Виден для всех. Скрывает юнитов и постройки вокруг себя от радаров противника. Потребляет большое количество энергии."
+    },
+    "Metal Generator": {
+        "message": "Генератор Металла"
+    },
+    "Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself. If destroyed, it will damage nearby structures.": {
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+    },
+    "Pounder": {
+        "message": "Гаубица"
+    },
+    "Artillery - Long range for siege and area denial. Attacks land and sea targets.": {
+        "message": "Артиллерийская установка для подавления территории и осады. Атакует наземные и морские цели."
+    },
+    "Planet-wide Radar": {
+        "message": "Радар Планетарного Действия"
+    },
+    "Planet-wide Radar - Planet-wide radar telemetry with large vision radius.": {
+        "message": "Собирает данные с большей площади планеты. Потребляет много энергии."
+    }
+}

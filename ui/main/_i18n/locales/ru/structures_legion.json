@@ -1,0 +1,50 @@
+{
+    "Advanced Fabrication Turret": {
+        "message": "Продвинутая Строительная Башня"
+    },
+    "Advanced Fabrication Turret - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "Помогает строить новые сооружения. Чинит союзные постройки и юнитов. Ускоряет производство техники в заводах. Намного эффективнее мобильных фабрикаторов."
+    },
+    "Advanced Mass Generator": {
+        "message": "Продвинутый Генератор Металла"
+    },
+    "Advanced Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+    },
+    "Phalanx": {
+        "message": "Фаланкс"
+    },
+    "Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots": {
+        "message": "Стандартная ракетная установка. Атакует наземные, морские и орбитальные цели. Очень эффективна против хрупких целей."
+    },
+    "Fabrication Turret": {
+        "message": "Строительная Башня"
+    },
+    "Fabrication Turret - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "Помогает строить новые сооружения. Чинит союзные постройки и юнитов. Ускоряет производство техники в заводах. Намного эффективнее мобильных фабрикаторов."
+    },
+    "Stealth Generator Station": {
+        "message": "Стационарный Генератор Помех"
+    },
+    "Advanced Radar Jammer - Globally visible. Hides radar blips in a large radius around itself. Consumes a large amount of power.": {
+        "message": "Виден для всех. Скрывает юнитов и постройки вокруг себя от радаров противника. Потребляет большое количество энергии."
+    },
+    "Orbital Power Catalyst": {
+        "message": "Орбитальный Энергетический Катализатор"
+    },
+    "Advanced Economy - Fabricates black holes and harnesses their energy.": {
+        "message": "Создает контроллируемые черные дыры и использует их энергию."
+    },
+    "Mass Generator": {
+        "message": "Генератор Металла"
+    },
+    "Basic Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+    },
+    "Planet-wide Radar": {
+        "message": "Радар Планетарного Действия"
+    },
+    "Planet-wide Radar - Planet-wide radar telemetry with large vision radius.": {
+        "message": "Собирает данные с большей площади планеты. Потребляет много энергии."
+    }
+}

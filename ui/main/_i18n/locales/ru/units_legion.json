@@ -1,0 +1,38 @@
+{
+    "Almaz": {
+        "message": "Алмаз"
+    },
+    "Orbital Attack Platform - Equipped with a splash weapon. Good against weak targets. Low healthed.": {
+        "message": "Орбитальная атакующая платформа - оснащена оружием массового поражения. Хороша против хрупких целей. Малое количество здоровья."
+    },
+    "Lynx": {
+        "message": "Рысь"
+    },
+    "Mobile missile launcher - Equipped with homing missiles. Only attacks air and Orbital.": {
+        "message": "Подвижная ракетная установка - оснащена самонаводящимися ракетами. Атакует только воздушные и орбитальные цели."
+    },
+    "Malacos": {
+        "message": "Малакос"
+    },
+    "Anti-Orbital Ship - Long range with radar. Equipped with tactical missiles. Attacks land, sea, and orbital targets.": {
+        "message": "Противо-орбитальный корабль - оснащен дальнобойным вооружением и тактическими ракетами. Атакует орибтальные, морские и наземные цели."
+    },
+    "Beowulf": {
+        "message": "Беовульф"
+    },
+    "Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.": {
+        "message": "Полу-Титан - противодействует юнитам класса Титан. Разрушительный урон с низкой скорострельностью. Не имеет вспомогательного вооружения. Амфибия. Атакует наземные и морские цели."
+    },
+    "Shade Orbital Platform": {
+        "message": "Скрывающая Орбитальная Платформа"
+    },
+    "Orbital Radar Jamming Platform - Equipped with a medium radar and radar jammer.": {
+        "message": "Платформа оснащена средним радаром и генератором помех."
+    },
+    "Orbital Anti-Nuke Cannon": {
+        "message": "Противоядерная Орбитальная Пушка"
+    },
+    "Orbital Anti-Nuke - Consumes metal to intercept nukes. Can move. Fires at ground targets.": {
+        "message": "Орбитальное противоядерное оружие - потребляет металл для перехвата ядерных ракет. Может двигаться. Стреляет по наземным целям."
+    }
+}
