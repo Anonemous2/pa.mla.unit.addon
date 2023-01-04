@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "Pounder",
+    "display_name": "!LOC:Pounder",
     "si_name": "pounder",
     "description": "!LOC:Artillery - Long range for siege and area denial. Attacks land and sea targets.",
     "max_health": 1500,

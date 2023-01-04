@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "display_name": "Juno",
+    "display_name": "!LOC:Juno",
     "si_name": "sw_demi_titan_bot",
     "description": "!LOC:Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.",
     "max_health": 22000,

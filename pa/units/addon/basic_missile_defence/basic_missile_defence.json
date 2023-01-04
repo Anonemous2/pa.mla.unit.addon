@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "Spear",
+    "display_name": "!LOC:Spear",
     "si_name": "sw_basic_missile_defence",
     "description": "!LOC:Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots",
     "max_health": 500,

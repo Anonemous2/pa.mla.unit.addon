@@ -1,6 +1,6 @@
 {
 	"base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-	"display_name": "Saxon",
+	"display_name": "!LOC:Saxon",
 	"si_name": "tank_hover_adv",
 	"description": "!LOC:Adv Hover Tank - Fast. Devastating damage with heavy armor. Vulnerable to flanking. Can cross water and lava. Attacks land and sea targets.",
 	"max_health": 1500,

@@ -1,0 +1,68 @@
+{
+    "Centaur": {
+        "message": "Кентавр"
+    },
+    "Advanced Anti-Armor Bot - Does 200% damage against vehicles. High health, slow rate of fire. Priorities attacking advanced tanks.": {
+        "message": "Наносит 200% урона танковым целям. Имеет большую прочность и малую скорострельность. Приоритетная цель - продвинутые танки."
+    },
+    "Pegasus": {
+        "message": "Пегас"
+    },
+    "Interplanetary Air Transport - Load a land unit to transport for snipes or expansions. Jams radar in a tiny radius around itself.": {
+        "message": "Межпланетный воздушный транспортник. Генерирует помехи в небольшом радиусе вокруг себя."
+    },
+    "Saxon": {
+        "message": "Саксон"
+    },
+    "Adv Hover Tank - Fast. Devastating damage with heavy armor. Vulnerable to flanking. Can cross water and lava. Attacks land and sea targets.": {
+        "message": "Парящий продвинутый танк. Может пересекать воду и лаву. Атакует наземные и морские цели."
+    },
+    "Andreas Laser Platform": {
+        "message": "Лазерная Платформа Андреас"
+    },
+    "Orbital Attack Platform - Equipped with a rapid-fire beam weapon. Good against weak targets. Low healthed.": {
+        "message": "Оснащена скорострельным лучевым оружием. Хороша против хрупких целей."
+    },
+    "Juno": {
+        "message": "Джуно"
+    },
+    "Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.": {
+        "message": "Полу-Титан - противодействует юнитам класса Титан. Разрушительный урон с низкой скорострельностью. Не имеет вспомогательного вооружения. Амфибия. Атакует наземные и морские цели."
+    },
+    "Fabrication Sub": {
+        "message": "Подводный Фабрикатор"
+    },
+    "Basic Fabricator - Radar stealthed. Cannot be targeted by cannons. Builds basic naval structures.": {
+        "message": "Фабрикатор с личным генератором помех. Артиллерия не может стрелять по нему. Строит базовые морские сооружения."
+    },
+    "Kampela": {
+        "message": "Кампела"
+    },
+    "Anti-Orbital Ship - Long range with radar. Equipped with tactical missiles. Attacks land, sea, and orbital targets.": {
+        "message": "Противо-орбитальный корабль - оснащен дальнобойным вооружением и тактическими ракетами. Атакует орибтальные, морские и наземные цели."
+    },
+    "Orbital Anti-Nuke Platform": {
+        "message": "Противоядерная Орбитальная Платформа"
+    },
+    "Orbital Anti-Nuke - Consumes metal to intercept nukes. Can move. Fires at orbital targets.": {
+        "message": "Орбитальное противоядерное оружие - потребляет металл для перехвата ядерных ракет. Может двигаться. Стреляет по наземным целям."
+    },
+    "Rex": {
+        "message": "Рэкс"
+    },
+    "Mobile Anti-orbital launcher - Fires slow-moving homing missiles at orbital targets or drop-pods. Adorable but incapable of protecting itself.": {
+        "message": "Мобильная противоорбитальная ракетная установка. Запускает медленно движущиеся самонаводящиеся ракеты по орбитальным целям или десантным капсулам."
+    },
+    "Stalker": {
+        "message": "Сталкер"
+    },
+    "Stealth Attack Vehicle - Good vision, fast, adaptable, and equipped with small radar jammer. Has a rapid-fire/splash cannon. Attacks surface targets.": {
+        "message": "Легкая атакующая машина со встроенным генератором помех. Быстрая. Имеет скорострельную пушку с фугасным снарядами."
+    },
+    "Swordfish": {
+        "message": "Сворд-фиш"
+    },
+    "Basic strafer - Fast. Equipped with two cannons and a torpedo launcher. Attacks land, sea, and undersea targets.": {
+        "message": "Оснащен двумя пушками и торпедной установкой. Атакует наземные, морские и подводные цели."
+    }
+}

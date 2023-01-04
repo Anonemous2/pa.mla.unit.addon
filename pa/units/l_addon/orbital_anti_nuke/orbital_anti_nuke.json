@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-    "display_name": "Orbital Anti-Nuke Cannon",
+    "display_name": "!LOC:Orbital Anti-Nuke Cannon",
     "description": "!LOC:Orbital Anti-Nuke - Consumes metal to intercept nukes. Can move. Fires at ground targets.",
     "max_health": 5000,
     "build_metal_cost": 20000,

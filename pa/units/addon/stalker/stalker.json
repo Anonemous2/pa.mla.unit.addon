@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "Stalker",
+    "display_name": "!LOC:Stalker",
     "si_name": "stalker",
     "description": "!LOC:Stealth Attack Vehicle - Good vision, fast, adaptable, and equipped with small radar jammer. Has a rapid-fire/splash cannon. Attacks surface targets.",
     "max_health": 500,
