@@ -15,7 +15,7 @@
         "message": "Продвинутый Генератор Металла"
     },
     "Advanced Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself.": {
-        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. НЕ требует энергию для функционирования."
     },
     "Advanced Metal Storage": {
         "message": "Продвинутое Хранилище Металла"
@@ -57,7 +57,7 @@
         "message": "Генератор Металла"
     },
     "Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself. If destroyed, it will damage nearby structures.": {
-        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. НЕ требует энергию для функционирования."
     },
     "Pounder": {
         "message": "Пандер"

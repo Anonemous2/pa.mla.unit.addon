@@ -9,7 +9,7 @@
         "message": "Продвинутый Генератор Металла"
     },
     "Advanced Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
-        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. НЕ требует энергию для функционирования."
     },
     "Phalanx": {
         "message": "Фаланкс"
@@ -39,7 +39,7 @@
         "message": "Генератор Металла"
     },
     "Basic Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
-        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. Требует энергию для функционирования."
+        "message": "Производит металл, однако окупает себя намного дольше добывающих шахт. НЕ требует энергию для функционирования."
     },
     "Planet-wide Radar": {
         "message": "Радар Планетарного Действия"
