@@ -1,5 +1,22 @@
 # Second Wave Changelog
 
+## 0.12.3
+Pushed by **Quildtide**
+
+### Unit Changes
+#### Energy Storage
+- Energy storage reverted to vanilla value of 300,000 (was 1,500,000)
+
+#### OmniSilo Storage Device
+- Energy storage reverted to Legion value of 225,000 (was 75,000)
+- Metal storage reverted to Legion value of 15,000 (was 75,000)
+
+#### Stinger
+- Build bar location reverted to vanilla positon
+
+#### Rex
+- Build bar location shifted to make way for the Stinger
+
 ## 0.12.0
 ### Unit Changes
 #### Juno
