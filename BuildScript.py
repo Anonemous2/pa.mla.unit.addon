@@ -167,37 +167,6 @@ def remove_dev_buildables():
 
 # this function makes changes to any units Second Wave edits; energy storages, galata, and flak.
 def update_shadows(media_dir):
-    # energy_storage
-    # find unit
-    if os.path.exists(media_dir + "/pa_ex1/units/land/energy_storage/energy_storage.json"):
-        update_path = media_dir + "/pa_ex1/units/land/energy_storage/energy_storage.json"
-        print(update_path)
-    elif os.path.exists(media_dir + "/pa/units/land/energy_storage/energy_storage.json"):
-        update_path = media_dir + "/pa/units/land/energy_storage/energy_storage.json"
-        print(update_path)
-    else:
-        print("EER1")
-        update_path = ""
-    # attempt to open energy_storage, edit storage
-    with open(update_path, 'r') as file:
-        file_data = json.load(file)
-    # open damage value, then divide it by 6
-    storage = json.dumps(file_data["storage"]["energy"])
-    storage = int(int(storage) * 5)
-    file_data["storage"]["energy"] = storage
-    # attempt to make the directories required
-    try:
-        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/energy_storage")
-    except OSError as error:
-        print(error)
-
-    # save file to pa_ex1
-    with open(
-        os.path.dirname(os.path.realpath(__file__))
-        + "/pa_ex1/units/land/energy_storage/energy_storage.json", 'w'
-    ) as file:
-        json.dump(file_data, file)
-
     # galata
     # find unit
     if os.path.exists(media_dir + "/pa_ex1/units/land/air_defense/air_defense.json"):
