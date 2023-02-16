@@ -17,6 +17,24 @@ Pushed by **Quildtide**
 #### Rex
 - Build bar location shifted to make way for the Stinger
 
+
+## 0.12.2
+Pushed by **Tatarstan**
+
+### Translations
+#### Russian
+- Fixed errors in translations for:
+  - Basic Metal Generator
+  - Advanced Metal Generator
+  - Basic Mass Generator
+  - Advanced Mass Generator
+
+## 0.12.1
+Pushed by **Tatarstan**
+
+### Translations
+- Added a Russian translation
+
 ## 0.12.0
 ### Unit Changes
 #### Juno
