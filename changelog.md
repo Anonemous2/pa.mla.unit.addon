@@ -36,6 +36,7 @@ Pushed by **Tatarstan**
 - Added a Russian translation
 
 ## 0.12.0
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Juno
 - Reduced speed to 12 (was 14)
@@ -61,6 +62,7 @@ Pushed by **Tatarstan**
 - Updated projectile trail
 
 ## 0.11.8
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Juno
 - Reduced health to 22000 (was 35000)
@@ -93,6 +95,7 @@ Pushed by **Tatarstan**
 - Reverted weapon pfx
 
 ## 0.11.7
+Pushed by **Anonemous2**
 ### General
 - Regenerated Base Unit overrides
 ### Unit Changes
@@ -131,10 +134,12 @@ Pushed by **Tatarstan**
 - Reduced hit box size
 
 ## 0.11.6
+Pushed by **Anonemous2**
 - Removed buildbar icons from server mod
 - Changed author name CyberPunkPanda to Taiga
 
 ## 0.11.5
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Adv Energy Storage
 - Added more visual effects
@@ -158,6 +163,7 @@ Pushed by **Tatarstan**
 
 
 ## 0.11.4
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Rex
 - Strat icon has a higher prority
