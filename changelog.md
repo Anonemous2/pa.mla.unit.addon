@@ -369,7 +369,7 @@ Pushed by **Anonemous2**
 
 ## 0.8.3
 ### AI
-Push by **Reckoner**
+Push by **Quildtide**
 
 #### MLA
 - AI can now build:
@@ -484,7 +484,7 @@ Pushed by **Anonemous2**
 
 
 ## 0.7.6
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 ### Unit Changes
 #### All Fabrication Towers and Fabrication Turrets
 - Now have UNITTYPE_Structure
@@ -627,11 +627,11 @@ Pushed by **Reckoner**
 - Changed alt build to be spherical
 
 ## 0.5.1
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 - Accidentally incremented the version number from 0.5.0 to 0.5.1
 
 ## 0.5.0 'Rectification'
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 
 ### Dependencies
 - Now requires Quitch's "AI Bugfixes and Enhancements" mod as a dependency to handle AI platoon formation.
@@ -950,14 +950,14 @@ Pushed by **Anonemous2**
 
 
 ## 0.0.6
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 
 ### AI
 - Fixed Swordfish building scenario issue pointed out by Quitch
 
 
 ## 0.0.5
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 
 ### General Changes
 - Replaced changelog.txt with changelog.md 
@@ -970,7 +970,7 @@ Pushed by **Reckoner**
 
 
 ## 0.0.4
-Pushed by **Reckoner** and **Quitch**
+Pushed by **Quildtide** and **Quitch**
 
 ### AI
 - AI Commanders no longer builds Metal Generators after building a Naval Factory if they built a land-based Factory first. (Dissonant)
