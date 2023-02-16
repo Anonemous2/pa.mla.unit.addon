@@ -17,6 +17,9 @@ Pushed by **Quildtide**
 #### Rex
 - Build bar location shifted to make way for the Stinger
 
+#### Shade Stealth Platform
+- Renamed from "Shade Orbital Platform"
+
 
 ## 0.12.2
 Pushed by **Tatarstan**
