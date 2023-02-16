@@ -1,6 +1,45 @@
 # Second Wave Changelog
 
+## 0.12.3
+Pushed by **Quildtide**
+
+### Unit Changes
+#### Energy Storage
+- Energy storage reverted to vanilla value of 300,000 (was 1,500,000)
+
+#### OmniSilo Storage Device
+- Energy storage reverted to Legion value of 225,000 (was 75,000)
+- Metal storage reverted to Legion value of 15,000 (was 75,000)
+
+#### Stinger
+- Build bar location reverted to vanilla positon
+
+#### Rex
+- Build bar location shifted to make way for the Stinger
+
+#### Shade Stealth Platform
+- Renamed from "Shade Orbital Platform"
+
+
+## 0.12.2
+Pushed by **Tatarstan**
+
+### Translations
+#### Russian
+- Fixed errors in translations for:
+  - Basic Metal Generator
+  - Advanced Metal Generator
+  - Basic Mass Generator
+  - Advanced Mass Generator
+
+## 0.12.1
+Pushed by **Tatarstan**
+
+### Translations
+- Added a Russian translation
+
 ## 0.12.0
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Juno
 - Reduced speed to 12 (was 14)
@@ -26,6 +65,7 @@
 - Updated projectile trail
 
 ## 0.11.8
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Juno
 - Reduced health to 22000 (was 35000)
@@ -58,6 +98,7 @@
 - Reverted weapon pfx
 
 ## 0.11.7
+Pushed by **Anonemous2**
 ### General
 - Regenerated Base Unit overrides
 ### Unit Changes
@@ -96,10 +137,12 @@
 - Reduced hit box size
 
 ## 0.11.6
+Pushed by **Anonemous2**
 - Removed buildbar icons from server mod
 - Changed author name CyberPunkPanda to Taiga
 
 ## 0.11.5
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Adv Energy Storage
 - Added more visual effects
@@ -123,6 +166,7 @@
 
 
 ## 0.11.4
+Pushed by **Anonemous2**
 ### Unit Changes
 #### Rex
 - Strat icon has a higher prority
@@ -334,7 +378,7 @@ Pushed by **Anonemous2**
 
 ## 0.8.3
 ### AI
-Push by **Reckoner**
+Push by **Quildtide**
 
 #### MLA
 - AI can now build:
@@ -449,7 +493,7 @@ Pushed by **Anonemous2**
 
 
 ## 0.7.6
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 ### Unit Changes
 #### All Fabrication Towers and Fabrication Turrets
 - Now have UNITTYPE_Structure
@@ -592,11 +636,11 @@ Pushed by **Reckoner**
 - Changed alt build to be spherical
 
 ## 0.5.1
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 - Accidentally incremented the version number from 0.5.0 to 0.5.1
 
 ## 0.5.0 'Rectification'
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 
 ### Dependencies
 - Now requires Quitch's "AI Bugfixes and Enhancements" mod as a dependency to handle AI platoon formation.
@@ -915,14 +959,14 @@ Pushed by **Anonemous2**
 
 
 ## 0.0.6
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 
 ### AI
 - Fixed Swordfish building scenario issue pointed out by Quitch
 
 
 ## 0.0.5
-Pushed by **Reckoner**
+Pushed by **Quildtide**
 
 ### General Changes
 - Replaced changelog.txt with changelog.md 
@@ -935,7 +979,7 @@ Pushed by **Reckoner**
 
 
 ## 0.0.4
-Pushed by **Reckoner** and **Quitch**
+Pushed by **Quildtide** and **Quitch**
 
 ### AI
 - AI Commanders no longer builds Metal Generators after building a Naval Factory if they built a land-based Factory first. (Dissonant)

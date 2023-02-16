@@ -20,8 +20,8 @@ var newBuild = {
     "/pa/units/addon/stalker/stalker.json": ["vehicle", 9, { row: 1, column: 6 }],
     "/pa/units/addon/adv_tank_hover/adv_tank_hover.json": ["vehicle", 9, { row: 1, column: 5 }],
 
-    "/pa/units/addon/rex/rex.json": ["bot", 0, { row: 2, column: 6 }],
-    "/pa/units/land/bot_aa/bot_aa.json": ["bot", 0, { row: 2, column: 7 }],
+    "/pa/units/land/bot_aa/bot_aa.json": ["bot", 0, { row: 2, column: 6 }],
+    "/pa/units/addon/rex/rex.json": ["bot", 0, { row: 2, column: 7 }],
     "/pa/units/addon/adv_heavy_bot/adv_heavy_bot.json": ["bot", 0, { row: 1, column: 6 }],
 
     "/pa/units/addon/metal_generator/metal_generator.json": ["utility", 0, { row: 1, column: 5 }],

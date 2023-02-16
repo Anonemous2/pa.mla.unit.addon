@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
     "unit_name": "Shade",
     "si_name": "l_orbital_jammer",
-    "display_name": "!LOC:Shade Orbital Platform",
+    "display_name": "!LOC:Shade Stealth Platform",
     "description": "!LOC:Orbital Radar Jamming Platform - Equipped with a medium radar and radar jammer.",
     "max_health": 1000,
     "build_metal_cost": 3000,
