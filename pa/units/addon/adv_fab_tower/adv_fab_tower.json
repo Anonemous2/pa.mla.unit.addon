@@ -78,7 +78,8 @@
         "UNITTYPE_Advanced",
         "UNITTYPE_FabAdvBuild",
         "UNITTYPE_Structure",
-        "UNITTYPE_Fabber"
+        "UNITTYPE_Fabber",
+        "UNITTYPE_Custom58"
     ],
     "command_caps": [
         "ORDER_Build",

@@ -27,7 +27,8 @@
 		"UNITTYPE_Land",
 		"UNITTYPE_Advanced",
 		"UNITTYPE_Hover",
-		"UNITTYPE_FactoryBuild"
+		"UNITTYPE_FactoryBuild",
+        "UNITTYPE_Custom58"
 	],
 	"transportable": {
 		"size": 1

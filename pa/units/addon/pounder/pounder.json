@@ -74,7 +74,8 @@
         "UNITTYPE_Artillery",
         "UNITTYPE_Defense",
         "UNITTYPE_FabAdvBuild",
-        "UNITTYPE_Advanced"
+        "UNITTYPE_Advanced",
+        "UNITTYPE_Custom58"
     ],
     "command_caps": [
         "ORDER_Attack"

@@ -28,11 +28,10 @@
         ]
 	},
 	"context": "server",
-	"date": "2023-02-15",
-	"build": "116400",
-	"version": "0.12.3",
+	"date": "2023-06-13",
+	"build": "116982",
+	"version": "0.13.0",
 	"dependencies": [
-		"com.pa.quitch.AIBugfixEnhancement",
 		"pa.mla.unit.addon.companion"
 	],
 	"companions": [

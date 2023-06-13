@@ -23,7 +23,8 @@
         "UNITTYPE_Orbital",
         "UNITTYPE_LaserPlatform",
         "UNITTYPE_Basic",
-        "UNITTYPE_FactoryBuild"
+        "UNITTYPE_FactoryBuild",
+        "UNITTYPE_Custom58"
     ],
     "command_caps": [
         "ORDER_Move",

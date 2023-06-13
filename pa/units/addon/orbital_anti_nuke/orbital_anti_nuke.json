@@ -28,7 +28,8 @@
         "UNITTYPE_Advanced",
         "UNITTYPE_FabOrbBuild",
         "UNITTYPE_NukeDefense",
-        "UNITTYPE_Important"
+        "UNITTYPE_Important",
+        "UNITTYPE_Custom58"
     ],
     "command_caps": [
         "ORDER_Move",

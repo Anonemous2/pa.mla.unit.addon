@@ -33,7 +33,8 @@
         "UNITTYPE_Titan",
         "UNITTYPE_Important",
         "UNITTYPE_FabOrbBuild",
-        "UNITTYPE_Amphibious"
+        "UNITTYPE_Amphibious",
+        "UNITTYPE_Custom58"
     ],
     "command_caps": [
         "ORDER_Move",

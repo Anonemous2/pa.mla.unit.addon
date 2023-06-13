@@ -26,7 +26,8 @@
 		"UNITTYPE_Land",
 		"UNITTYPE_Advanced",
 		"UNITTYPE_FactoryBuild",
-		"UNITTYPE_Heavy"
+		"UNITTYPE_Heavy",
+        "UNITTYPE_Custom58"
 	],
 	"transportable": {
 		"size": 1

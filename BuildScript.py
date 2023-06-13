@@ -29,141 +29,16 @@ def main():
     create_dir("/pa", home_dir)
     create_dir("/pa/units", home_dir)
 
-    # start creating modified units
-    # must create a list off all unit jsons first
-    print("---Find---")
-    # create a list of files
-    found_files = []
-    print("The following files have been found:")
-    for root, dirs, files in os.walk(media_dir + "/pa/units"):
-        for name in files:
-            file = os.path.join(root, name)
-            file = file.replace('\\', '/')
-            # print(file)
-            found_files.append(file)
-    json_files = remove_other(found_files)
-    update_build(json_files, media_dir)
-    # use remove_other method
-    found_files = []
-    # use remove_dev_buildables
-    remove_dev_buildables()
-    for root, dirs, files in os.walk(media_dir + "/pa_ex1/units"):
-        for name in files:
-            file = os.path.join(root, name)
-            file = file.replace('\\', '/')
-            # print(file)
-            found_files.append(file)
-    # use remove_other method
-    json_files = remove_other(found_files)
-    update_build(json_files, media_dir)
-    # use update_shadow method
     update_shadows(media_dir)
-
-
-def update_build(json_files, media_dir):
-    print("--Build Update--")
-    # find current directory to save changes to it
-    save_path = os.path.dirname(os.path.realpath(__file__))
-    save_path = save_path.replace('\\', '/')
-    total = len(json_files)
-    index = 0
-    while index < total:
-        try:
-            with open(json_files[index]) as file:
-                file_data = json.load(file)
-            # print(file_data)
-            if "buildable_types" in file_data:
-                print("Build json: " + json_files[index])
-                # save buildtype info
-                file_data_prebuild = json.dumps(file_data["buildable_types"])
-                print(file_data_prebuild)
-
-                # append build types
-                # if they do exist, add brackets to append, and strip target_priorities
-                data_to_append = file_data["buildable_types"]
-                print("LLL4")
-                updated_data = json.dumps(data_to_append)
-                updated_data = "(" + updated_data[1:]
-                updated_data = updated_data[:-1] + ") - Custom1 - Custom2 - Custom3 - Custom4"
-
-                # update buildtypes
-                print(updated_data)
-                file_data["buildable_types"] = updated_data
-                print(file_data)
-
-                # save to new directory
-                new_dir_save = json_files[index]
-                new_dir_save = new_dir_save.replace(media_dir, "")
-                file_name = new_dir_save[new_dir_save.rfind('/') + 1:]
-                # attempt to create directories
-                # loop through file until no more sub directories exist
-                pulled_dir = ""
-                dir_end_index = new_dir_save.find('/')
-                while dir_end_index != -1:
-                    new_dir = new_dir_save[:dir_end_index]
-                    try:
-                        os.mkdir(save_path + pulled_dir + new_dir)
-                    except OSError as error:
-                        print(error)
-                    pulled_dir += new_dir + "/"
-                    new_dir_save = new_dir_save[(dir_end_index + 1):]
-                    dir_end_index = new_dir_save.find('/')
-                final_dir = save_path + pulled_dir + file_name
-                print(final_dir)
-                with open(final_dir, "w+") as new_file:
-                    json.dump(file_data, new_file)
-                print(json.dumps(file_data))
-            else:
-                print("No buildable_types")
-        except UnicodeDecodeError as error:
-            print(error)
-        except JSONDecodeError as error:
-            print(error)
-        index += 1
-
-
-def remove_other(found_files):
-    json_files = []
-
-    for file in found_files:
-        if file.find('.json') != -1:
-            json_files.append(file)
-    print("--Final--")
-    # for item in json_files:
-    # print(item)
-    print(json_files)
-    return json_files
 
 
 def create_dir(new_dir, home_dir):
     print("--Create Dir--")
     final_dir = home_dir + new_dir
     try:
-        os.mkdir(final_dir)
+        os.makedirs(final_dir)
     except OSError as error:
         print(error)
-
-# this function deletes the shadow for the avatar and avatar_factory, so they can still build everything
-def remove_dev_buildables():
-    remove_path = os.path.dirname(os.path.realpath(__file__))
-    remove_path = remove_path.replace('\\', '/')
-    # delete avatar from the updated jsons
-    try:
-        avatar = remove_path + "/pa/units/commanders/avatar/avatar.json"
-        os.remove(avatar)
-        os.rmdir(remove_path + "/pa/units/commanders/avatar")
-    except OSError as error:
-        print("EEE1")
-        print(error)
-    # delete avatar_factory from the updated jsons
-    try:
-        avatar = remove_path + "/pa/units/land/avatar_factory/avatar_factory.json"
-        os.remove(avatar)
-        os.rmdir(remove_path + "/pa/units/land/avatar_factory")
-    except OSError as error:
-        print("EEE1")
-        print(error)
-
 
 # this function makes changes to any units Second Wave edits; energy storages, galata, and flak.
 def update_shadows(media_dir):
@@ -187,7 +62,7 @@ def update_shadows(media_dir):
     file_data.pop("alt_area_build_pattern", None)
     # attempt to make the directories required
     try:
-        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense/")
+        os.makedirs(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense/")
     except OSError as error:
         print(error)
     # save file to pa_ex1
@@ -218,7 +93,7 @@ def update_shadows(media_dir):
     file_data.pop("alt_area_build_pattern", None)
     # attempt to make the directories required
     try:
-        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense_adv/")
+        os.makedirs(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/air_defense_adv/")
     except OSError as error:
         print(error)
     # save file to pa_ex1
@@ -251,7 +126,7 @@ def update_shadows(media_dir):
     file_data["anti_entity_targets"] = targets
     # attempt to make the directories required
     try:
-        os.mkdir(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/bot_sniper/")
+        os.makedirs(os.path.dirname(os.path.realpath(__file__)) + "/pa_ex1/units/land/bot_sniper/")
     except OSError as error:
         print(error)
 
