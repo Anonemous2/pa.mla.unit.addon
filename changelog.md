@@ -1,5 +1,10 @@
 # Second Wave Changelog
 
+## 0.13.0
+Pushed by **Quildtide**
+
+- Support added for `Custom58` unit tag.
+
 ## 0.12.3
 Pushed by **Quildtide**
 
