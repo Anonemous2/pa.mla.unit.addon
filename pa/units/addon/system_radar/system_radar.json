@@ -20,7 +20,8 @@
     "UNITTYPE_Interplanetary",
     "UNITTYPE_Radar",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_Important"
+    "UNITTYPE_Important",
+    "UNITTYPE_Custom58"
   ],
   "physics": { "collision_layers": "WL_AnySurface" },
   "recon": {

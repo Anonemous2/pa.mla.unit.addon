@@ -17,7 +17,8 @@
         "UNITTYPE_Offense",
         "UNITTYPE_Basic",
         "UNITTYPE_OrbitalDefense",
-        "UNITTYPE_FactoryBuild"
+        "UNITTYPE_FactoryBuild",
+        "UNITTYPE_Custom58"
     ],
     "physics": {
         "shape": "sphere",

@@ -79,7 +79,8 @@
         "UNITTYPE_FabBuild",
         "UNITTYPE_CmdBuild",
         "UNITTYPE_Structure",
-        "UNITTYPE_Fabber"
+        "UNITTYPE_Fabber",
+        "UNITTYPE_Custom58"
     ],
     "command_caps": [
         "ORDER_Build",

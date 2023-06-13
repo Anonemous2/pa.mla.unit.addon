@@ -19,7 +19,8 @@
     "UNITTYPE_Advanced",
     "UNITTYPE_Recon",
     "UNITTYPE_RadarJammer",
-    "UNITTYPE_FabAdvBuild"
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Custom58"
   ],
   "physics": { "collision_layers": "WL_AnySurface" },
   "recon": {

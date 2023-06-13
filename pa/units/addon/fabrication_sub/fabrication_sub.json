@@ -14,12 +14,13 @@
         "UNITTYPE_Mobile",
         "UNITTYPE_Basic",
         "UNITTYPE_FactoryBuild",
-        "UNITTYPE_Sub"
+        "UNITTYPE_Sub",
+        "UNITTYPE_Custom58"
     ],
     "transportable": {
         "size": 1
     },
-    "buildable_types": "(Naval & Structure & Basic | Naval & Factory & Advanced | Air & Factory & Basic | FabBuild) - Custom1 - Custom2 - Custom3 - Custom4",
+    "buildable_types": "(Naval & Structure & Basic | Naval & Factory & Advanced | Air & Factory & Basic | FabBuild) & Custom58",
     "guard_layer": "WL_AnyWater",
     "navigation": {
         "type": "underwater",
