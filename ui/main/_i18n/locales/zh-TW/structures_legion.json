@@ -9,7 +9,7 @@
         "message": "高級質量生成器"
     },
     "Advanced Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
-        "message": "高級質量生成器 - 生産金屬, 但相比質量提取器需要極長的時候回本。"
+        "message": "高級質量生成器 - 生産金屬, 但相比質量提取器需要多得多的時間回本。"
     },
     "Phalanx": {
         "message": "Phalanx"
@@ -39,7 +39,7 @@
         "message": "質量生成器"
     },
     "Basic Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
-        "message": "初級質量生成器 - 生産金屬, 但相比質量提取器需要極長的時候回本。"
+        "message": "初級質量生成器 - 生産金屬, 但相比質量提取器需要多得多的時間回本。"
     },
     "Planet-wide Radar": {
         "message": "全球雷達"

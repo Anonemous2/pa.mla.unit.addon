@@ -57,7 +57,7 @@
         "message": "金属生成器"
     },
     "Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself. If destroyed, it will damage nearby structures.": {
-        "message": "初级金属生成器 - 生产金属, 但相比质量提取器需要极长的时候回本。被摧毁时伤害附近建筑。"
+        "message": "初级金属生成器 - 生产金属, 但相比质量提取器需要多得多的时间回本。被摧毁时伤害附近建筑。"
     },
     "Pounder": {
         "message": "Pounder"
