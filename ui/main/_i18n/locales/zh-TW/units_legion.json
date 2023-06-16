@@ -1,0 +1,38 @@
+{
+    "Almaz": {
+        "message": "Almaz"
+    },
+    "Orbital Attack Platform - Equipped with a splash weapon. Good against weak targets. Low healthed.": {
+        "message": "軌道攻擊平台 - 裝備有濺射武器。適合對抗脆弱目標。 血量低。"
+    },
+    "Lynx": {
+        "message": "Lynx"
+    },
+    "Mobile missile launcher - Equipped with homing missiles. Only attacks air and Orbital.": {
+        "message": "移動導彈發射器 - 裝備有追踪導彈。 只攻擊空中和軌道目標。"
+    },
+    "Malacos": {
+        "message": "Malacos"
+    },
+    "Anti-Orbital Ship - Long range with radar. Equipped with tactical missiles. Attacks land, sea, and orbital targets.": {
+        "message": "反軌道船 - 長射程, 裝有雷達。裝備有戰術導彈。 攻擊地面、海上和軌道目標。"
+    },
+    "Beowulf": {
+        "message": "Beowulf"
+    },
+    "Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.": {
+        "message": "亞泰坦 - 反泰坦單位。 毀滅性的傷害, 射速極低。 沒有次要武器。 水陸兩棲。 攻擊地面和海上單位。"
+    },
+    "Shade Stealth Platform": {
+        "message": "軌道遮蔽平台"
+    },
+    "Orbital Radar Jamming Platform - Equipped with a medium radar and radar jammer.": {
+        "message": "軌道雷達干擾平台 - 裝備有中距離雷達和雷達干擾器。"
+    },
+    "Orbital Anti-Nuke Cannon": {
+        "message": "軌道反核加農砲"
+    },
+    "Orbital Anti-Nuke - Consumes metal to intercept nukes. Can move. Fires at ground targets.": {
+        "message": "軌道反核 - 消耗金屬攔截核彈。可以移動。攻擊地面目標。"
+    }
+}
