@@ -1,0 +1,50 @@
+{
+    "Advanced Fabrication Turret": {
+        "message": "高級建造塔"
+    },
+    "Advanced Fabrication Turret - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "高級建造塔 - 可以輔助建造,維修與回收。結實。比其他建造兵更有效率。"
+    },
+    "Advanced Mass Generator": {
+        "message": "高級質量生成器"
+    },
+    "Advanced Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
+        "message": "高級質量生成器 - 生産金屬, 但相比質量提取器需要多得多的時間回本。"
+    },
+    "Phalanx": {
+        "message": "Phalanx"
+    },
+    "Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots": {
+        "message": "初級導彈發射器 - 攻擊地面、海上和軌道目標。 對機器人更有效率。"
+    },
+    "Fabrication Turret": {
+        "message": "建造塔"
+    },
+    "Fabrication Turret - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "建造塔 - 可以輔助建造,維修與回收。結實。比其他建造兵更有效率。"
+    },
+    "Stealth Generator Station": {
+        "message": "雷達干擾站"
+    },
+    "Advanced Radar Jammer - Globally visible. Hides radar blips in a large radius around itself. Consumes a large amount of power.": {
+        "message": "高級雷達干擾站 - 永遠對敵人可見。干擾大範圍內敵人的雷達視野。消耗大量電力。"
+    },
+    "Orbital Power Catalyst": {
+        "message": "軌道電力催化劑"
+    },
+    "Advanced Economy - Fabricates black holes and harnesses their energy.": {
+        "message": "高級經濟 - 建造微型黑洞並收獲能量。"
+    },
+    "Mass Generator": {
+        "message": "質量生成器"
+    },
+    "Basic Mass Generator - Produces metal, but takes much longer than mass extractors to pay for itself.": {
+        "message": "初級質量生成器 - 生産金屬, 但相比質量提取器需要多得多的時間回本。"
+    },
+    "Planet-wide Radar": {
+        "message": "全球雷達"
+    },
+    "Planet-wide Radar - Planet-wide radar telemetry with large vision radius.": {
+        "message": "全球雷達 - 全球雷達視野, 且有大範圍直接視野。"
+    }
+}

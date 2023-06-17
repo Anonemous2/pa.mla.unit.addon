@@ -1,0 +1,74 @@
+{
+    "Advanced Energy Storage": {
+        "message": "高级能量储存"
+    },
+    "Advanced Storage - Increases maximum Energy storage capacity.": {
+        "message": "高级能量储存 - 极大提升能量储存上限。"
+    },
+    "Advanced Fabrication Tower": {
+        "message": "高级建造塔"
+    },
+    "Advanced Fabrication Tower - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "高级建造塔 - 可以辅助建造,维修与回收。结实。比其他建造兵更有效率。"
+    },
+    "Advanced Metal Generator": {
+        "message": "高级金属生成器"
+    },
+    "Advanced Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself.": {
+        "message": "高级金属生成器 - 生产金属, 但相比金属开采装置需要多得多的时间回本。"
+    },
+    "Advanced Metal Storage": {
+        "message": "高级金属储存"
+    },
+    "Advanced Storage - Increases maximum metal storage capacity.": {
+        "message": "高级金属储存 - 极大提升金属储存上限。"
+    },
+    "Anti-Missile Tower": {
+        "message": "导弹拦截塔"
+    },
+    "Anti-Missile Tower - Dedicated anti-missile defense.": {
+        "message": "导弹拦截塔 - 专门的反导防御。"
+    },
+    "Spear": {
+        "message": "Spear"
+    },
+    "Basic Missile Launcher - Attacks land, sea, and orbital targets. More effective against bots": {
+        "message": "初级导弹发射器 - 攻击地面、海上和轨道目标。对机器人更有效率。"
+    },
+    "Fabrication Tower": {
+        "message": "建造塔"
+    },
+    "Fabrication Tower - Can build structures, and assist in construction. Durable. More efficient than other fabricators.": {
+        "message": "建造塔 - 可以辅助建造,维修与回收。结实。比其他建造兵更有效率。"
+    },
+    "Radar Jamming Station": {
+        "message": "初级雷达干扰器"
+    },
+    "Radar Jammer - Globally visible. Hides radar blips in a radius around itself. Consumes power.": {
+        "message": "雷达干扰器 - 永远对敌人可见。干扰范围内的敌人雷达视野。消耗电力。"
+    },
+    "Radar Jamming Installation": {
+        "message": "高级雷达干扰器"
+    },
+    "Advanced Radar Jammer - Globally visible. Hides radar blips in a large radius around itself. Consumes a large amount of power.": {
+        "message": "高级雷达干扰站 - 永远对敌人可见。干扰大范围内敌人的雷达视野。消耗大量电力。"
+    },
+    "Metal Generator": {
+        "message": "金属生成器"
+    },
+    "Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself. If destroyed, it will damage nearby structures.": {
+        "message": "初级金属生成器 - 生产金属, 但相比质量提取器需要多得多的时间回本。被摧毁时伤害附近建筑。"
+    },
+    "Pounder": {
+        "message": "Pounder"
+    },
+    "Artillery - Long range for siege and area denial. Attacks land and sea targets.": {
+        "message": "火炮 - 用于远距离围攻和区域封锁。攻击地面和海上目标。"
+    },
+    "Planet-wide Radar": {
+        "message": "全球雷达"
+    },
+    "Planet-wide Radar - Planet-wide radar telemetry with large vision radius.": {
+        "message": "全球雷达 - 全球雷达视野, 且有大范围直接视野。"
+    }
+}

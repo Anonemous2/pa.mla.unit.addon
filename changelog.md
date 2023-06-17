@@ -1,5 +1,12 @@
 # Second Wave Changelog
 
+## 0.13.1
+Pushed by **Dr.Wondertainment™**
+
+### Translations
+- Added 3 kinds of Chinese translations - Chinese 
+(Simplified), Chinese (Traditional), Chinese (Hong Kong)
+
 ## 0.13.0
 Pushed by **Quildtide**
 

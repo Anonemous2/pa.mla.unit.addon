@@ -1,0 +1,68 @@
+{
+    "Centaur": {
+        "message": "Centaur"
+    },
+    "Advanced Anti-Armor Bot - Does 200% damage against vehicles. High health, slow rate of fire. Priorities attacking advanced tanks.": {
+        "message": "高級反裝甲機器人 - 對載具造成200%傷害。高血量,低射速。優先攻擊高級坦克。"
+    },
+    "Pegasus": {
+        "message": "Pegasus"
+    },
+    "Interplanetary Air Transport - Load a land unit to transport for snipes or expansions. Jams radar in a tiny radius around itself.": {
+        "message": "跨行星空中運輸機 - 可以運輸一個地面單位以擴張或狙擊。干擾自身周圍極小範圍的雷達。"
+    },
+    "Saxon": {
+        "message": "Saxon"
+    },
+    "Adv Hover Tank - Fast. Devastating damage with heavy armor. Vulnerable to flanking. Can cross water and lava. Attacks land and sea targets.": {
+        "message": "高級懸浮坦克 - 快速。毀滅性的傷害並有重甲。 易受側翼攻擊。 可以跨越水面和熔岩。 攻擊地面和海上單位。"
+    },
+    "Andreas Laser Platform": {
+        "message": "Andreas激光平台"
+    },
+    "Orbital Attack Platform - Equipped with a rapid-fire beam weapon. Good against weak targets. Low healthed.": {
+        "message": "軌道攻擊平台 - 裝備有速射光束武器。 適合對抗脆弱目標。 低生命值。"
+    },
+    "Juno": {
+        "message": "Juno"
+    },
+    "Demi Titan - Anti-titan unit. Devastating damage, very slow firerate. No Secondary Weapons. Amphibious. Attacks land and sea targets.": {
+        "message": "亞泰坦 - 反泰坦單位。 毀滅性的傷害, 射速極低。 沒有次要武器。 水陸兩棲。 攻擊地面和海上單位。"
+    },
+    "Fabrication Sub": {
+        "message": "建造潛艇"
+    },
+    "Basic Fabricator - Radar stealthed. Cannot be targeted by cannons. Builds basic naval structures.": {
+        "message": "初級建造者 - 雷達隱身。 不能被砲彈攻擊。 可以建造初級海軍建築。"
+    },
+    "Kampela": {
+        "message": "Kampela"
+    },
+    "Anti-Orbital Ship - Long range with radar. Equipped with tactical missiles. Attacks land, sea, and orbital targets.": {
+        "message": "反軌道船 - 長射程, 裝有雷達。裝備有戰術導彈。 攻擊地面、海上和軌道目標。"
+    },
+    "Orbital Anti-Nuke Platform": {
+        "message": "軌道反核平台"
+    },
+    "Orbital Anti-Nuke - Consumes metal to intercept nukes. Can move. Fires at orbital targets.": {
+        "message": "軌道反核 - 消耗金屬攔截核彈。可以移動。攻擊軌道目標。"
+    },
+    "Rex": {
+        "message": "Rex"
+    },
+    "Mobile Anti-orbital launcher - Fires slow-moving homing missiles at orbital targets or drop-pods. Adorable but incapable of protecting itself.": {
+        "message": "移動反軌道發射器 - 對軌道單位或空投艙發射慢速追踪導彈。可愛但無法保護它自身。"
+    },
+    "Stalker": {
+        "message": "Stalker"
+    },
+    "Stealth Attack Vehicle - Good vision, fast, adaptable, and equipped with small radar jammer. Has a rapid-fire/splash cannon. Attacks surface targets.": {
+        "message": "隱身攻擊載具 - 良好視野,快速,適應性強, 裝備小型雷達干擾器。 裝有高射速濺射砲。 攻擊表面目標。"
+    },
+    "Swordfish": {
+        "message": "Swordfish"
+    },
+    "Basic strafer - Fast. Equipped with two cannons and a torpedo launcher. Attacks land, sea, and undersea targets.": {
+        "message": "基礎魚雷機 - 快速。裝有兩門砲台和一個魚雷發射器。 攻擊地面、海面和海下目標。"
+    }
+}
