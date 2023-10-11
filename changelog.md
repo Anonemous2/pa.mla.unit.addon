@@ -1,5 +1,14 @@
 # Second Wave Changelog
 
+## 0.13.2
+Pushed by **Anonemous2**
+### Bugs Support
+- Can now build Spears, Metal gens, Fab towers, and global radar
+
+### Unit Changes
+#### Juno
+- Projectile model now visable
+
 ## 0.13.1
 Pushed by **Dr.Wondertainment™**
 

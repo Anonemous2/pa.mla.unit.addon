@@ -54,7 +54,17 @@ var newBuild = {
     "/pa/units/l_addon/l_demi_titan_bot/l_demi_titan_bot.json": ["L_factory", 0, { row: 0, column: 5 }],
 
     "/pa/units/l_addon/fab_turret/fab_turret.json": ["L_factory", 0, { row: 2, column: 5, titans: true }],
-    "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["L_factory", 0, { row: 1, column: 5, titans: true }]
+    "/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json": ["L_factory", 0, { row: 1, column: 5, titans: true }],
+
+
+    "/pa/units/b_addon/basic_missile_defence/basic_missile_defence.json": ["bug_combat", 0, { row: 2, column: 5 }],
+    "/pa/units/b_addon/metal_generator/metal_generator.json": ["bug_utility", 0, { row: 1, column: 5 }],
+    "/pa/units/b_addon/adv_metal_generator/adv_metal_generator.json": ["bug_utility", 0, { row: 0, column: 5 }],
+    "/pa/units/b_addon/system_radar/system_radar.json": ["bug_utility", 0, { row: 2, column: 5 }],
+    "/pa/units/b_addon/fab_tower/fab_tower.json": ["bug_factory", 0, { row: 2, column: 5 }],
+    "/pa/units/b_addon/adv_fab_tower/adv_fab_tower.json": ["bug_factory", 0, { row: 1, column: 5 }]
+
+
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {
     _.extend(Build.HotkeyModel.SpecIdToGridMap, newBuild);

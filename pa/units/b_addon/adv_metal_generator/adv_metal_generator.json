@@ -1,0 +1,256 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Advanced Metal Generator",
+    "si_name": "adv_metal_generator",
+    "display_name": "!LOC:Advanced Metal Generator",
+    "description": "!LOC:Advanced Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself.",
+    "strategic_icon_priority": 5,
+    "max_health": 5000,
+    "build_metal_cost": 5000,
+    "atrophy_rate": 55.0,
+    "atrophy_cool_down": 15.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "production": {
+        "metal": 20
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_MetalProduction",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Economy",
+        "UNITTYPE_Custom2"
+    ],
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "layer": "WL_LandHorizontal",
+            "filename": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+            "animations": {
+                "start": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+                "loop": "/pa/units/addon/adv_metal_generator/adv_metal_generator_loop.papa",
+                "end": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+            "skirt_decal": "/pa/units/addon/adv_metal_generator/skirt/skirt_adv_metal_generator.json"
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/adv_metal_generator/naval/adv_metal_generator.papa",
+            "animations": {
+                "start": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa",
+                "loop": "/pa/units/addon/adv_metal_generator/adv_metal_generator_loop.papa",
+                "end": "/pa/units/addon/adv_metal_generator/adv_metal_generator.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+            "skirt_decal": "/pa/units/addon/adv_metal_generator/skirt/skirt_adv_metal_generator.json"
+        }
+    ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/units/addon/adv_metal_generator/adv_metal_generator_boom_ammo.json"
+    },
+    "tools": [
+        {
+            "spec_id": "/pa/units/addon/adv_metal_generator/death_range.json",
+            "aim_bone": "bone_root",
+            "muzzle_bone": "bone_root"
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/metal"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Factory",
+            "effect_scale": 0.8
+        }
+    },
+    "audio": {
+        "selection_response": {
+            "cue": "/SE/Selection/structure/metal"
+        }
+    },
+    "lamps": [
+        {
+            "offset": [
+                9.80749,
+                -10.7691,
+                4.3127
+            ],
+            "radius": 7.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -9.80749,
+                -10.7691,
+                4.3127
+            ],
+            "radius": 7.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                10.7073,
+                -5.2324,
+                9.98054
+            ],
+            "radius": 6.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -10.7073,
+                -5.2324,
+                9.98054
+            ],
+            "radius": 6.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        }
+    ],
+    "fx_offsets": [
+		{
+			"type": "energy",
+			"filename": "/pa/units/addon/adv_metal_generator/drill_effect.pfx",
+			"bone": "bone_drill",
+			"offset": [
+				0,
+				0,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+        },
+        {
+            "type": "energy",
+            "filename": "/pa/units/addon/adv_metal_generator/drill_effect_forks.pfx",
+            "bone": "bone_drill",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                90
+            ]
+        }
+	],
+    "selection_icon": {
+        "diameter": 45.0
+    },
+    "mesh_bounds": [
+        20,
+        35,
+        26
+    ],
+    "placement_size": [
+        30,
+        38
+    ],
+    "area_build_separation": 15.0,
+    "alt_area_build_type": "Sphere",
+    "alt_area_build_separation": 2,
+    "alt_area_build_pattern": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "TEMP_texelinfo": 24.4307
+}

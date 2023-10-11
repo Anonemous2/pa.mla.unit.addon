@@ -1,0 +1,120 @@
+{
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "unit_name": "Planet-wide Radar",
+  "si_name": "system_wide_radar",
+  "display_name": "!LOC:Planet-wide Radar",
+  "description": "!LOC:Planet-wide Radar - Planet-wide radar telemetry with large vision radius.",
+  "max_health": 2000,
+  "build_metal_cost": 6800,
+  "consumption": { "energy": 12000 },
+  "energy_efficiency_requirement": 0.9,
+  "atrophy_rate": 5,
+  "atrophy_cool_down": 15.0,
+  "spawn_layers": "WL_AnySurface",
+  "mesh_bounds": [29, 29, 15.2],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_Recon",
+    "UNITTYPE_Interplanetary",
+    "UNITTYPE_Radar",
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Important",
+    "UNITTYPE_Custom2"
+  ],
+  "physics": { "collision_layers": "WL_AnySurface" },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 500,
+          "uses_energy": true
+        },
+        {
+          "layer": "surface_and_air",
+          "channel": "radar",
+          "shape": "sphere",
+          "radius": 10000000,
+          "uses_energy": true
+        },
+        {
+          "layer": "celestial",
+          "channel": "radar",
+          "shape": "capsule",
+          "radius": 10000000,
+          "uses_energy": true
+        },
+        {
+          "layer": "underwater",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 500,
+          "uses_energy": true
+        }
+      ]
+    }
+  },
+  "model": [
+    {
+      "layer": "WL_LandHorizontal",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar.papa",
+      "animations": {
+        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa",
+        "loop": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_loop.papa",
+        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+      "skirt_decal": "/pa/effects/specs/skirt_orbital_radar.json"
+    },
+    {
+      "layer": "WL_WaterSurface",
+      "filename": "/pa/units/sea/deep_space_radar/deep_space_radar.papa",
+      "animations": {
+        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa",
+        "loop": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_loop.papa",
+        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
+    }
+  ],
+  "events": {
+    "build_complete": { "audio_cue": "/SE/Build_Complete/radar" },
+    "died": { "audio_cue": "/SE/Death/radar", "effect_scale": 1.25 }
+  },
+  "fx_offsets": [
+    {
+      "type": "energy",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_on.pfx",
+      "bone": "bone_antenna",
+      "offset": [14.0, 0.0, 0.0],
+      "orientation": [-90, 0, 0]
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+      "bone": "bone_door01"
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+      "bone": "bone_door02"
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+      "bone": "bone_door03"
+    },
+    {
+      "type": "energy",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+      "bone": "bone_door04"
+    }
+  ],
+  "audio": { "selection_response": { "cue": "/SE/Selection/structure/radar" } },
+  "selection_icon": { "diameter": 55.0 },
+  "TEMP_texelinfo": 46.4947
+}

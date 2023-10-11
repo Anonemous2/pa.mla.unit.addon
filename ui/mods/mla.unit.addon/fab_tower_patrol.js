@@ -88,19 +88,24 @@
 							var army = this.result
 			
 						
-							if(army.hasOwnProperty('/pa/units/addon/adv_fab_tower/adv_fab_tower.json')){
-							doCommand(worldView, army['/pa/units/addon/adv_fab_tower/adv_fab_tower.json'],chosenPlanet,advancedIdArray).then(function(result){advancedIdArray = result})
-							
+							if (army.hasOwnProperty('/pa/units/addon/adv_fab_tower/adv_fab_tower.json')) {
+								doCommand(worldView, army['/pa/units/addon/adv_fab_tower/adv_fab_tower.json'], chosenPlanet, advancedIdArray).then(function (result) { advancedIdArray = result })
 							}
-							if(army.hasOwnProperty('/pa/units/addon/fab_tower/fab_tower.json')){
-							doCommand(worldView, army['/pa/units/addon/fab_tower/fab_tower.json'],chosenPlanet,idArray).then(function(result){idArray = result})
+							if (army.hasOwnProperty('/pa/units/addon/fab_tower/fab_tower.json')) {
+								doCommand(worldView, army['/pa/units/addon/fab_tower/fab_tower.json'], chosenPlanet, idArray).then(function (result) { idArray = result })
 							}
-							if(army.hasOwnProperty('/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json')){
-								doCommand(worldView, army['/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json'],chosenPlanet,advancedLegionIdArray).then(function(result){advancedLegionIdArray = result})
-								}
-							if(army.hasOwnProperty('/pa/units/l_addon/fab_turret/fab_turret.json')){
-								doCommand(worldView, army['/pa/units/l_addon/fab_turret/fab_turret.json'],chosenPlanet,legionIdArray).then(function(result){legionIdArray = result})
-								}
+							if (army.hasOwnProperty('/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json')) {
+								doCommand(worldView, army['/pa/units/l_addon/adv_fab_turret/adv_fab_turret.json'], chosenPlanet, advancedLegionIdArray).then(function (result) { advancedLegionIdArray = result })
+							}
+							if (army.hasOwnProperty('/pa/units/l_addon/fab_turret/fab_turret.json')) {
+								doCommand(worldView, army['/pa/units/l_addon/fab_turret/fab_turret.json'], chosenPlanet, legionIdArray).then(function (result) { legionIdArray = result })
+							}
+							if (army.hasOwnProperty('/pa/units/b_addon/adv_fab_tower/adv_fab_tower.json')) {
+								doCommand(worldView, army['/pa/units/b_addon/adv_fab_tower/adv_fab_tower.json'], chosenPlanet, advancedIdArray).then(function (result) { advancedIdArray = result })
+							}
+							if (army.hasOwnProperty('/pa/units/b_addon/fab_tower/fab_tower.json')) {
+								doCommand(worldView, army['/pa/units/b_addon/fab_tower/fab_tower.json'], chosenPlanet, idArray).then(function (result) { idArray = result })
+							}
 							
 						});
 	

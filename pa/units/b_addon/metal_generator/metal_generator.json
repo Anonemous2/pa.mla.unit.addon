@@ -1,0 +1,183 @@
+{
+	"base_spec": "/pa/units/land/base_structure/base_structure.json",
+	"unit_name": "!Metal Generator",
+	"si_name": "metal_generator",
+	"display_name": "!LOC:Metal Generator",
+	"description": "!LOC:Basic Metal Generator - Produces metal, but takes much longer than metal extractors to pay for itself. If destroyed, it will damage nearby structures.",
+	"max_health": 500,
+	"build_metal_cost": 500,
+	"atrophy_rate": 5.0,
+	"atrophy_cool_down": 15.0,
+	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+	"production": {
+		"metal": 2
+	},
+	"unit_types": [
+		"UNITTYPE_Structure",
+		"UNITTYPE_Basic",
+		"UNITTYPE_MetalProduction",
+		"UNITTYPE_CmdBuild",
+		"UNITTYPE_FabBuild",
+		"UNITTYPE_Economy",
+        "UNITTYPE_Custom2"
+	],
+	"recon": {
+		"observer": {
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 100
+				},
+				{
+					"layer": "underwater",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 100
+				}
+			]
+		}
+	},
+	"model": [
+		{
+			"layer": "WL_LandHorizontal",
+			"filename": "/pa/units/addon/metal_generator/metal_generator.papa",
+			"animations": {
+				"start": "/pa/units/addon/metal_generator/metal_generator.papa",
+				"loop": "/pa/units/addon/metal_generator/metal_generator_loop.papa",
+				"end": "/pa/units/addon/metal_generator/metal_generator.papa"
+			},
+			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+			"skirt_decal": "/pa/units/addon/metal_generator/skirt/skirt_metal_generator.json"
+		},
+		{
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/addon/metal_generator/naval/naval_metal_generator.papa",
+			"animations": {
+				"start": "/pa/units/addon/metal_generator/metal_generator.papa",
+				"loop": "/pa/units/addon/metal_generator/metal_generator_loop.papa",
+				"end": "/pa/units/addon/metal_generator/metal_generator.papa"
+			},
+			"animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
+        }
+	],
+	"death_weapon": {
+		"ground_ammo_spec": "/pa/units/addon/metal_generator/metal_generator_boom_ammo.json"
+	},
+	"tools": [
+		{
+			"spec_id": "/pa/units/addon/metal_generator/death_range.json",
+			"aim_bone": "bone_root",
+			"muzzle_bone": "bone_root"
+		}
+	],
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/metal"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/Factory",
+			"effect_scale": 0.75
+		}
+	},
+	"audio": {
+		"selection_response": {
+			"cue": "/SE/Selection/structure/metal"
+		}
+	},
+	"lamps": [],
+	"fx_offsets": [
+		{
+			"type": "energy",
+			"filename": "/pa/units/addon/metal_generator/drill_effect.pfx",
+			"bone": "bone_spinner",
+			"offset": [
+				0,
+				0,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		}
+	],
+	"selection_icon": {
+		"diameter": 30.0
+	},
+	"mesh_bounds": [
+		13.6,
+		13.6,
+		19
+	],
+	"placement_size": [
+		20,
+		20
+	],
+	"area_build_separation": 15.0,
+	"alt_area_build_type": "Sphere",
+	"alt_area_build_separation": 2,
+	"alt_area_build_pattern": [
+		[
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		]
+	],
+	"TEMP_texelinfo": 15.0973
+}
