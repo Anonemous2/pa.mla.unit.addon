@@ -18,9 +18,9 @@
 	],
 	"scenes": {},
 	"context": "client",
-	"date": "2022-07-18",
-	"build": "115958",
-	"version": "1.1.6",
+	"date": "2023-11-12",
+	"build": "116982",
+	"version": "1.1.7",
 	"dependencies": ["pa.mla.unit.addon"],
 	"hidden": true
 }

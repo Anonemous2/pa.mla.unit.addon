@@ -1,5 +1,19 @@
 # Second Wave Companion Changelog
 
+## 1.1.7
+- centuar
+- centuar shell added
+- legion adv fab turret
+- legion fab turret
+- legion adv mass gen icon 
+- legion mass gen icon
+- lynx
+- legion spear
+- legion jammer station
+- beowulf icon
+- legion orbital power icon
+- legion system radar icon
+
 ## 1.1.6
 - added new shell textures
 
