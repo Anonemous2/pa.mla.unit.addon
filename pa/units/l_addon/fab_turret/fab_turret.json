@@ -4,8 +4,8 @@
     "si_name": "l_fab_turret",
     "display_name": "!LOC:Fabrication Turret",
     "description": "!LOC:Fabrication Turret - Can build structures, and assist in construction. Durable. More efficient than other fabricators.",
-    "max_health": 2000,
-    "build_metal_cost": 600,
+    "max_health": 2500,
+    "build_metal_cost": 900,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -126,7 +126,7 @@
                     "layer": "surface_and_air",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 80,
+                    "radius": 45,
                     "uses_energy": false
                 }
             ]

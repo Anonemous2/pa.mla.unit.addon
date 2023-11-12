@@ -16,5 +16,8 @@
 	"splash_radius": 3,
 	"initial_velocity": 120.0,
 	"max_velocity": 120.0,
-	"lifetime": 3
+	"lifetime": 3,
+	"physics": {
+		"add_to_spatial_db": true
+	}
 }

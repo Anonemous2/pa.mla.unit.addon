@@ -29,9 +29,9 @@
         ]
 	},
 	"context": "server",
-	"date": "2023-10-11",
+	"date": "2023-11-12",
 	"build": "116982",
-	"version": "0.13.2",
+	"version": "0.14.0",
 	"dependencies": [
 		"pa.mla.unit.addon.companion"
 	],

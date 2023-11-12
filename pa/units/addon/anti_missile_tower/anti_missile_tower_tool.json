@@ -5,7 +5,7 @@
     "idle_aim_delay": 0.1,
     "ammo_source": "energy",
     "ammo_capacity": 12000,
-    "ammo_demand": 600,
+    "ammo_demand": 800,
     "ammo_per_shot": 800,
     "max_range": 120,
     "yaw_rate": 3600,
@@ -21,7 +21,8 @@
         "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
         "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
         "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital_ammo.json",
-        "/pa/units/sea/missile_ship/missile_ship_ammo.json"
+        "/pa/units/sea/missile_ship/missile_ship_ammo.json",
+        "/pa/units/air/bomber_adv/bomber_adv_ammo.json"
     ],
     "target_layers": [
         "WL_Air",

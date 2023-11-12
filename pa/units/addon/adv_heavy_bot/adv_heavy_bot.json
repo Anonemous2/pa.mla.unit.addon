@@ -2,9 +2,10 @@
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
 	"display_name": "!LOC:Centaur",
 	"si_name": "adv_heavy_bot",
-	"description": "!LOC:Advanced Anti-Armor Bot - Does 200% damage against vehicles. High health, slow rate of fire. Priorities attacking advanced tanks.",
-	"max_health": 1300,
+	"description": "!LOC:Advanced Shock Bot -  Fast radar-stealthed bot. Good health, but slow rate of fire for a bot. Does 100% more damage against vehicles. Attacks tanks first.",
+	"max_health": 820,
 	"build_metal_cost": 800,
+	"has_death_effects": true,
 	"attachable": {
 		"offsets": {
 			"root": [
@@ -35,28 +36,31 @@
 	"guard_layer": "WL_AnySurface",
 	"navigation": {
 		"type": "land-small",
-		"acceleration": 50,
+		"acceleration": 200,
 		"brake": -1,
-		"move_speed": 12,
-		"turn_speed": 100
+		"move_speed": 20,
+		"turn_speed": 120
 	},
 	"physics": {
-		"radius": 2.0
+		"radius": 1.0
 	},
 	"recon": {
+		"observable": {
+			"ignore_radar": true
+		},
 		"observer": {
 			"items": [
 				{
 					"layer": "surface_and_air",
 					"channel": "sight",
 					"shape": "capsule",
-					"radius": 120
+					"radius": 100
 				},
 				{
 					"layer": "underwater",
 					"channel": "sight",
 					"shape": "capsule",
-					"radius": 120
+					"radius": 100
 				}
 			]
 		}
@@ -65,19 +69,20 @@
 		"filename": "/pa/units/addon/adv_heavy_bot/centaur.papa",
 		"animations": {
 			"walk": "/pa/units/addon/adv_heavy_bot/centaur_run.papa",
-			"idle": "/pa/units/addon/adv_heavy_bot/centaur_idle.papa"
+			"idle": "/pa/units/addon/adv_heavy_bot/centaur_idle.papa",
+			"death": "/pa/units/addon/adv_heavy_bot/centaur_death.papa",
+			"dead": "/pa/units/addon/adv_heavy_bot/centaur_dead.papa"
 		},
 		"animtree": "/pa/units/addon/adv_heavy_bot/centaur_anim_tree.json",
-		"walk_speed": 2
+		"walk_speed": 14
 	},
 	"tools": [
 		{
 			"spec_id": "/pa/units/addon/adv_heavy_bot/adv_heavy_bot_weapon.json",
-			"aim_bone": "bone_pitch",
+			"aim_bone": "socket_aim",
 			"projectiles_per_fire": 1,
 			"muzzle_bone": [
-				"socket_left_muzzle", 
-				"socket_right_muzzle"]
+				"bone_recoil"]
 		}
 	],
 	"events": {
@@ -86,7 +91,7 @@
 		},
 		"fired": {
 			"audio_cue": "/SE/Weapons/sea/destroyer_fire",
-			"effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_left_muzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_right_muzzle"
+			"effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx bone_recoil"
 			}
 	},
 	"audio": {
@@ -99,7 +104,7 @@
 			}
 		},
 		"selection_response": {
-			"cue": "/SE/Selection/bot/assault"
+			"cue": "/SE/Selection/bot/T2_fab_combat"
 		}
 	},
 	"selection_icon": {

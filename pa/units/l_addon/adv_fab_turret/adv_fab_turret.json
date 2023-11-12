@@ -4,8 +4,8 @@
   "si_name": "l_adv_fab_turret",
   "display_name": "!LOC:Advanced Fabrication Turret",
   "description": "!LOC:Advanced Fabrication Turret - Can build structures, and assist in construction. Durable. More efficient than other fabricators.",
-  "max_health": 7000,
-  "build_metal_cost": 3000,
+  "max_health": 9000,
+  "build_metal_cost": 4500,
   "atrophy_rate": 7.5,
   "atrophy_cool_down": 15.0,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -125,7 +125,7 @@
           "layer": "surface_and_air",
           "channel": "radar",
           "shape": "capsule",
-          "radius": 110,
+          "radius": 55,
           "uses_energy": false
         }
       ]
@@ -176,20 +176,6 @@
       "type": "build",
       "filename": "/pa/effects/specs/legion_fab_spray.pfx",
       "bone": "socket_muzzle_left_top",
-      "offset": [0, -0, 0],
-      "orientation": [0, 0, 0]
-    },
-    {
-      "type": "build",
-      "filename": "/pa/effects/specs/legion_fab_spray.pfx",
-      "bone": "socket_muzzle_right_bottom",
-      "offset": [0, -0, 0],
-      "orientation": [0, 0, 0]
-    },
-    {
-      "type": "build",
-      "filename": "/pa/effects/specs/legion_fab_spray.pfx",
-      "bone": "socket_muzzle_left_bottom",
       "offset": [0, -0, 0],
       "orientation": [0, 0, 0]
     }

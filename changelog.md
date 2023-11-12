@@ -1,5 +1,83 @@
 # Second Wave Changelog
 
+## 0.14.0
+Pushed by **Anonemous2**
+
+### Unit Changes
+### Orbital anti-nukes
+- Added assist order; you can now order mobile anti-nuked to follow units.
+
+### Legion buildbars
+- Most updated to fit legion 2.0 style
+
+### Legion shields
+- Now intercept all non-titan SW projectiles.
+
+### Fabrication Towers
+- Changed to make factions more unquie, and build with each faction's strengths.
+
+#### MLA Advanced Fab Tower
+- Increased fab range to 130 (was 100)
+- Increased vision range to 130 (was 100)
+
+#### MLA Fab Tower
+- Increased fab range to 120 (was 75)
+- Increased vision range to 120 (was 100)
+
+#### Legion Adv Fab Turret
+- New model; now matches new legion style
+- Increased health to 9000 (was 7000)
+- Increased cost to 4500 (was 3000)
+- Decreased fab range to 55 (was 110)
+- Decreased vision range to 55 (was 110)
+- Increased metal draw to 120 (was 90)
+- Increased energy draw to 4000 (was 3000)
+
+#### Legion Fab Turret
+- New model; now matches new legion style
+- Increased health to 2500 (was 2000)
+- Increased cost to 900 (was 600)
+- Increased fab range to 45 (was 80)
+- Increased vision range to 130 (was 100)
+- Increased metal draw to 35 (was 22)
+- Increased energy draw to 2500 (was 1500)
+
+#### Centaur
+- New model/anims and role, the Centaur is now a fast shock unit.
+- Decreased health to 820 (was 1300)
+- Increased speed to 20 (was 12)
+- Increased turn speed to 120 (was 100)
+- Increased acceleration to 200 (was 50)
+- Is now radar-stealthed
+- Decreased vision range to 100 (was 120)
+- Decreased damage to 150 (was 380)
+- Increased firerate to 1 (was 0.4)
+- Decreased weapon range to 100 (was 120)
+- Increased aim speed to 240 (was 180)
+- Updated target priorities (no longer focuses structures)
+- Added custom projectile model
+
+#### Anti-missile Tower
+- Increased energy demand to 800 (was 600)
+- Hornet missiles now take energy to be shot down
+- Spears' missiles now are intercepted for free
+
+#### Juno
+- Slightly increased accuracy to 1.25 (was 1.5)
+
+#### Beowulf
+- Fixed issue where beowulf couldn't shoot at max range
+- Tweaked pfx effects
+
+#### Legion Jammer Station
+- Updated model/anims
+
+#### Lynx
+- Updated model/anims
+
+#### Phalanx
+- Updated model/anims
+
 ## 0.13.2
 Pushed by **Anonemous2**
 ### Bugs Support

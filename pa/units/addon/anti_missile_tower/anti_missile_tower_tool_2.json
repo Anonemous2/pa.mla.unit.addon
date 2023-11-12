@@ -14,7 +14,8 @@
     "auto_task_type": "anti_entity",
     "anti_entity_targets_units": false,
     "anti_entity_targets": [
-        "/pa/units/air/bomber_adv/bomber_adv_ammo.json"
+        "/pa/units/addon/basic_missile_defence/basic_missile_defence_ammo.json",
+        "/pa/units/l_addon/basic_missile_defence/basic_missile_defence_ammo.json"
     ],
     "target_layers": [
         "WL_Air",

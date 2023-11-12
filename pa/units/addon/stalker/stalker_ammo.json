@@ -15,5 +15,8 @@
             0.0,
             0.0
         ]
+    },
+    "physics": {
+        "add_to_spatial_db": true
     }
 }

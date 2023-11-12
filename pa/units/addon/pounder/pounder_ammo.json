@@ -17,5 +17,8 @@
             "audio_cue": "/SE/Impacts/missile_artillery_short",
             "effect_spec": "/pa/effects/specs/default_explosion.pfx"
         }
+    },
+    "physics": {
+        "add_to_spatial_db": true
     }
 }

@@ -34,6 +34,7 @@
     "command_caps": [
         "ORDER_Move",
         "ORDER_Patrol",
+        "ORDER_Assist",
         "ORDER_Attack"
     ],
     "guard_layer": "WL_AnySurface",
