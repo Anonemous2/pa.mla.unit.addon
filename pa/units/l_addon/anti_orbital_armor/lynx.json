@@ -3,9 +3,9 @@
   "display_name": "!LOC:Lynx",
   "si_name": "l_lynx",
   "strategic_icon_priority": 2,
-  "description": "!LOC:Mobile missile launcher - Equipped with homing missiles. Only attacks air and Orbital.",
-  "max_health": 300,
-  "build_metal_cost": 500,
+  "description": "!LOC:Burst missile launcher - Equipped with long-range homing missiles. Attacks air and Orbital.",
+  "max_health": 200,
+  "build_metal_cost": 300,
   "attachable": { "offsets": { "root": [0, 0, 0], "head": [0, 1, 4.1] } },
   "unit_types": [
     "UNITTYPE_Tank",

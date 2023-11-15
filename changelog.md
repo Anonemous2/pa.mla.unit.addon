@@ -1,5 +1,17 @@
 # Second Wave Changelog
 
+## 0.14.1
+Pushed by **Anonemous2**
+
+### Lynx
+- Overhaul; old Lynx was too pricey and weak to be usable as AA, new Lynx can provide early aa for vehicles, while still being different from the patriot.
+- Decreased health to 200 (was 300)
+- Decreased metal cost to 300 (was 500)
+- Increased range to 200 (was 180)
+- Increased damage to 40 (was 20)
+- 3 round burst about every 3 seconds
+- Changed firing angle (shoots straight up, like a kraken)
+
 ## 0.14.0
 Pushed by **Anonemous2**
 
