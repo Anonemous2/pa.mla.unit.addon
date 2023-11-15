@@ -1,5 +1,8 @@
 # Second Wave Companion Changelog
 
+## 1.1.8
+- Fixed legion adv fab turret textures
+
 ## 1.1.7
 - centuar
 - centuar shell added
