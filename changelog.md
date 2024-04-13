@@ -1,5 +1,17 @@
 # Second Wave Changelog
 
+## 0.14.2
+Pushed by **Anonemous2**
+
+### Radar Jammer
+- Removed (Now base game)
+
+### Radar Jammer Titan
+- No longer globally visable
+
+### Legion Radar Jammer Titan
+- No longer globally visable
+
 ## 0.14.1
 Pushed by **Anonemous2**
 

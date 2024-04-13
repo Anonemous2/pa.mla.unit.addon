@@ -3,7 +3,7 @@
   "si_name": "l_jammer_station",
   "unit_name": "Stealth Generator Station",
   "display_name": "!LOC:Stealth Generator Station",
-  "description": "!LOC:Advanced Radar Jammer - Globally visible. Hides radar blips in a large radius around itself. Consumes a large amount of power.",
+  "description": "!LOC:Advanced Radar Jammer -  Hides radar blips in a large radius around itself. Consumes a large amount of power.",
   "max_health": 40000,
   "build_metal_cost": 15000,
   "consumption": { "energy": 8000 },
@@ -24,7 +24,6 @@
   ],
   "physics": { "collision_layers": "WL_AnySurface" },
   "recon": {
-    "observable": { "always_visible": true },
     "observer": {
       "items": [
         {
