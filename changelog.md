@@ -1,5 +1,8 @@
 # Second Wave Companion Changelog
 
+## 1.1.9
+- Removed Jammer
+
 ## 1.1.8
 - Fixed legion adv fab turret textures
 
