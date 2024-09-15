@@ -1,5 +1,11 @@
 # Second Wave Changelog
 
+## 0.14.3
+Pushed by **Anonemous2**
+
+### Legion Advanced Storage
+- Added
+
 ## 0.14.2
 Pushed by **Anonemous2**
 

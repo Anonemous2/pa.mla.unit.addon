@@ -38,6 +38,7 @@ var newBuild = {
     "/pa/units/l_addon/adv_mass_generator/adv_mass_generator.json": ["L_utility", 0, { row: 0, column: 5, titans: true }],
     "/pa/units/l_addon/system_radar/system_radar.json": ["L_utility", 0, { row: 0, column: 2 }],
     "/pa/units/l_addon/l_jammer_station/l_jammer_station.json": ["L_utility", 0, { row: 0, column: 6 }],
+    "/pa/units/l_addon/l_adv_storage/l_adv_storage.json": ["L_utility", 0, { row: 2, column: 4 }],
     "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.json": ["L_combat", 0, { row: 2, column: 5 }],
 
     "/pa/units/l_addon/anti_orbital_armor/lynx.json": ["L_vehicle", 0, { row: 2, column: 6, titans: true }],

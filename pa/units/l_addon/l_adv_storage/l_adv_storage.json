@@ -1,0 +1,78 @@
+{
+  "display_name": "!LOC:GigaSilo Storage Device",
+  "si_name": "l_adv_storage",
+  "description": "!LOC:Advanced Storage - Increases maximum energy and metal storage capacity. Explodes on death, damaging friend and foe.",
+  "TEMP_texelinfo": 27.2827,
+  "area_build_type": "Line",
+  "atrophy_cool_down": 15,
+  "atrophy_rate": 8.33,
+  "audio": {
+    "selection_response": {
+      "cue": "/SE/Selection/structure/energy"
+    }
+  },
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 1500,
+  "death_weapon": {
+    "ground_ammo_spec": "/pa/units/land/l_adv_storage/l_adv_storage_death_weapon.json"
+  },
+  "energy_efficiency_requirement": 0.9,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/energy"
+    },
+    "died": {
+      "effect_spec": "/pa/units/land/l_storage/black_hole_implosion.pfx"
+    }
+  },
+  "fx_offsets": [
+    {
+      "bone": "bone_ring001",
+      "filename": "/pa/units/land/l_energy_plant_adv/black_hole.pfx",
+      "offset": [0, 0, 0],
+      "type": "energy"
+    }
+  ],
+  "max_health": 15000,
+  "mesh_bounds": [27, 27, 35],
+  "model": [
+    {
+      "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+      "filename": "/pa/units/l_addon/l_adv_storage/l_adv_storage.papa",
+      "skirt_decal": "/pa/effects/specs/skirt_energy_adv.json"
+    }
+  ],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": -47
+  },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "storage": {
+    "energy": 1000000,
+    "metal": 75000
+  },
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Economy",
+    "UNITTYPE_Custom1"
+  ]
+}
