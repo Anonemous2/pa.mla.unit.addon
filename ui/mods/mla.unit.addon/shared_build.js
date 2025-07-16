@@ -19,6 +19,7 @@ var newBuild = {
     "/pa/units/addon/hover_fab/hover_fab.json": ["vehicle", 9, { row: 2, column: 8 }],
     "/pa/units/addon/stalker/stalker.json": ["vehicle", 9, { row: 1, column: 6 }],
     "/pa/units/addon/adv_tank_hover/adv_tank_hover.json": ["vehicle", 9, { row: 1, column: 5 }],
+    "/pa/units/land/tank_jammer/tank_jammer.json": ["vehicle", 11, { row: 0, column: 2 }],
 
     "/pa/units/land/bot_aa/bot_aa.json": ["bot", 0, { row: 2, column: 6 }],
     "/pa/units/addon/rex/rex.json": ["bot", 0, { row: 2, column: 7 }],
