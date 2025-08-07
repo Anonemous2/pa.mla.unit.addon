@@ -11,7 +11,7 @@ var newBuild = {
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 2, column: 5 }],
 
-    "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 0 }],
+    "/pa/units/addon/orbital_anti_nuke/orbital_anti_nuke.json": ["orbital_structure", 6, { row: 0, column: 1 }],
 
     "/pa/units/addon/fabrication_sub/fabrication_sub.json": ["sea", 0, { row: 2, column: 7 }],
     "/pa/units/addon/naval_anti_orbital_ship/naval_anti_orbital.json": ["sea", 0, { row: 2, column: 6 }],

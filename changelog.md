@@ -1,5 +1,13 @@
 # Second Wave Changelog
 
+## 0.14.5
+Pushed by **Anonemous2**
+- Updated buildbar locations for the orbital anti-nuke.
+
+## 0.14.4
+Pushed by **Anonemous2**
+- Updated buildbar locations for a few units.
+
 ## 0.14.3
 Pushed by **Anonemous2**
 
