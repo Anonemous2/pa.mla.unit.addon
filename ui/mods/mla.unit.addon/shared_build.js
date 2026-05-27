@@ -4,9 +4,11 @@ var newBuild = {
 
     "/pa/units/addon/swordfish/swordfish.json": ["air", 0, { row: 2, column: 6 }],
     "/pa/units/addon/adv_stealth_transport/adv_stealth_transport.json": ["air", 0, { row: 1, column: 6 }],
+    
+    "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 1 }],
 
+    "/pa/units/orbital/deep_space_radar/deep_space_radar.json": ["combat", 0, { row: 0, column: 5 }],
     "/pa/units/addon/pounder/pounder.json": ["combat", 0, { row: 1, column: 5 }],
-    "/pa/units/addon/anti_missile_tower/anti_missile_tower.json": ["combat", 0, { row: 0, column: 5 }],
     "/pa/units/addon/basic_missile_defence/basic_missile_defence.json": ["combat", 0, { row: 2, column: 5 }],
 
     "/pa/units/addon/andreas/andreas.json": ["orbital", 0, { row: 2, column: 5 }],
@@ -64,7 +66,6 @@ var newBuild = {
     "/pa/units/b_addon/system_radar/system_radar.json": ["bug_utility", 0, { row: 2, column: 5 }],
     "/pa/units/b_addon/fab_tower/fab_tower.json": ["bug_factory", 0, { row: 2, column: 5 }],
     "/pa/units/b_addon/adv_fab_tower/adv_fab_tower.json": ["bug_factory", 0, { row: 1, column: 5 }]
-
 
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {

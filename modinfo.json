@@ -25,17 +25,17 @@
 			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
 		],
 		"live_game": [
-            "coui://ui/mods/mla.unit.addon/fab_tower_patrol.js"
-        ]
+			"coui://ui/mods/mla.unit.addon/fab_tower_patrol.js"
+		]
 	},
 	"context": "server",
-	"date": "2026-01-15",
-	"build": "124627",
-	"version": "0.14.5",
 	"dependencies": [
 		"pa.mla.unit.addon.companion"
 	],
 	"companions": [
 		"pa.mla.unit.addon.companion"
-	]
+	],
+	"date": "2026-05-27",
+	"build": "124644",
+	"version": "0.15.0"
 }
