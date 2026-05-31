@@ -42,6 +42,7 @@ var paeiouIcons = [
     "sw_fabrication_sub",
     "sw_l_demi_titan_bot",
     "sw_orbital_nuke_launcher",
-    "l_adv_storage"
+    "l_adv_storage",
+    "sw_shield_gen"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

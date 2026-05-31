@@ -236,6 +236,7 @@
         "/pa/units/addon/jammer_titan/jammer_titan.json",
         "/pa/units/addon/system_radar/system_radar.json",
         "/pa/units/addon/adv_metal_storage/adv_metal_storage.json",
+        "/pa/units/addon/shield_gen/shield_gen.json",
 
         "/pa/units/addon/demi_titan_bot/demi_titan_bot.json",
 

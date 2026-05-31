@@ -1,0 +1,5 @@
+{
+    "diffuse": "/pa/units/addon/adv_energy_storage/skirt/adv_energy_storage_diffuse.papa",
+    "normal": "/pa/units/addon/adv_energy_storage/skirt/adv_energy_storage_normal.papa",
+    "material": "/pa/effects/textures/skirts/skirt_01_material.papa"
+}
