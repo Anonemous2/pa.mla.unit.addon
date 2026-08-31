@@ -1,0 +1,6 @@
+TODO List for source branch:
+- Move all raw resources into 'art' folders within each unit.
+	- ADD ALL OTHER UNITS.
+- Add buildscript to create master branch (with only server mod content)
+- Add buildscript to create compainion branch (with only client mod content)
+- build/push content to source only.
