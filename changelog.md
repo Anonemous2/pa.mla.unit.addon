@@ -1,5 +1,9 @@
 # Second Wave Changelog
 
+## 0.16.0
+Pushed by **Anonemous2**
+- Updated buildbar locations, and buildbar icons for most legion units.
+
 ## 0.14.5
 Pushed by **Anonemous2**
 - Updated buildbar locations for the orbital anti-nuke.
