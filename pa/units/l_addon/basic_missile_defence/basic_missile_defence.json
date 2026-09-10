@@ -105,6 +105,8 @@
     "model": {
         "filename": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.papa",
         "animations": {
+            "dead": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.papa",
+            "build": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence.papa",
             "attack": "/pa/units/l_addon/basic_missile_defence/basic_missile_defence_anim_attack.papa"
         },
         "animtree": "/pa/anim/anim_trees/titan_bot_anim_tree.json",
