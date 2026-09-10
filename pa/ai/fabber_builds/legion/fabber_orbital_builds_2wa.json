@@ -84,9 +84,12 @@
             "build_conditions": [
                 [
                     {
-                        "test_type": "CurrentEnergyEfficiency",
+                        "test_type": "PotentialEnergyEfficiency",
                         "compare0": "<",
                         "value0": 1
+                    },
+                    {
+                        "test_type": "CanAffordBuildDemand"
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
