@@ -1,15 +1,14 @@
 {
     "build_list": [
         {
-            "name": "2w_System Radar",
-            "to_build": "2w_SystemRadar",
+            "name": "2w_b_System Radar",
+            "to_build": "2w_b_SystemRadar",
             "instance_count": 1,
             "shared_instance_count": "SystemRadar",
             "cross_planet_shared_count": true,
             "priority": 92,
             "builders": [
-                "AnyMLAAdvancedFabber",
-                "MLASupportCommander"
+                "AnyBugFabberAdvanced"
             ],
             "build_conditions": [
                 [
@@ -29,11 +28,11 @@
                     },
                     {
                         "test_type": "CanAffordPotentialDrain",
-                        "string0": "2w_SystemRadar"
+                        "string0": "2w_b_SystemRadar"
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
-                        "string0": "2w_SystemRadar"
+                        "string0": "2w_b_SystemRadar"
                     }
                 ]
             ],
@@ -48,15 +47,14 @@
             }
         },
         {
-            "name": "2w_System Radar - Alone",
-            "to_build": "2w_SystemRadar",
+            "name": "2w_b_System Radar - Alone",
+            "to_build": "2w_b_SystemRadar",
             "instance_count": 1,
             "shared_instance_count": "SystemRadar",
             "cross_planet_shared_count": true,
             "priority": 266,
             "builders": [
-                "AnyMLAAdvancedFabber",
-                "MLASupportCommander"
+                "AnyBugFabberAdvanced"
             ],
             "build_conditions": [
                 [
@@ -80,58 +78,11 @@
                     },
                     {
                         "test_type": "CanAffordPotentialDrain",
-                        "string0": "2w_SystemRadar"
+                        "string0": "2w_b_SystemRadar"
                     },
                     {
                         "test_type": "CanFindPlaceToBuild",
-                        "string0": "2w_SystemRadar"
-                    }
-                ]
-            ],
-            "placement_rules": {
-                "buffer": 2,
-                "threat": {
-                    "influence_type": "AntiSurface",
-                    "compare_type": "<",
-                    "radius": 10,
-                    "value": 50
-                }
-            }
-        },
-        {
-            "name": "2w_Jammer Titan",
-            "to_build": "2w_JammerTitan",
-            "instance_count": 1,
-            "shared_instance_count": "AdvancedRadar",
-            "priority": 91,
-            "builders": [
-                "AnyMLAAdvancedFabber",
-                "MLASupportCommander"
-            ],
-            "build_conditions": [
-                [
-                    {
-                        "test_type": "CanAffordBuildDemand"
-                    },
-                    {
-                        "test_type": "UnitCountOnPlanet",
-                        "unit_type_string0": "Structure & RadarJammer & Recon",
-                        "compare0": "<",
-                        "value0": 1
-                    },
-                    {
-                        "test_type": "UnitCountInBase",
-                        "unit_type_string0": "Structure & ((EnergyProduction & Advanced) | Factory)",
-                        "compare0": ">=",
-                        "value0": 3
-                    },
-                    {
-                        "test_type": "CanAffordPotentialDrain",
-                        "string0": "2w_JammerTitan"
-                    },
-                    {
-                        "test_type": "CanFindPlaceToBuild",
-                        "string0": "2w_JammerTitan"
+                        "string0": "2w_b_SystemRadar"
                     }
                 ]
             ],
