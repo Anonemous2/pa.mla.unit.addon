@@ -15,7 +15,7 @@
                     },
                     {
                         "test_type": "UnitCountInBase",
-                        "unit_type_string0": "Structure & Artillery",
+                        "unit_type_string0": "Structure & Advanced & Artillery",
                         "compare0": "<",
                         "value0": 2
                     },
@@ -44,7 +44,7 @@
                 "placement_type": "FromMainBasePerimeter",
                 "unit_count_rules": [
                     {
-                        "unit_type_string": "Structure & Artillery",
+                        "unit_type_string": "Structure & Advanced & Artillery",
                         "alliance": "Ally",
                         "compare_type": "<",
                         "range": 75,
