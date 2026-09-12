@@ -2,15 +2,17 @@
 
 ## Unreleased
 
+## 0.16.1
+Pushed by **Quitch and Claude Fable 5.1**
+
 ### AI
-- Added AI build lists for the Bugs units (metal generators, Spear, System Radar).
-- The Jammer Titan and Legion Jammer Station are no longer the first advanced intel structure built, and are built once an advanced base exists.
-- The System Radar waits for a multi-planet system and no longer outranks the advanced radar unless the AI is alone on its planet.
-- The Pounder is built again once two Pelters exist.
-- The Stalker is built again (its ratio no longer counts Strykers and Spinners).
-- The Legion Orbital Power Catalyst is only built when the AI can afford it.
-- Exiles commanders and fabbers no longer pick up MLA-only builds.
-- Removed the copy of Legion's builder definitions from the Second Wave unit map.
+- Bugs AI can now build Bugs units
+- Exiles AI no longer attempts (and fails) to build MLA-only units
+- Jammer Titan build checks no longer conflict with Advanced Radar
+- Legion Orbital Power Catalyst is only built when the AI can afford it.
+- Stalkers are built more often now.
+- Pounders are built more often now.
+- System Radar is only built when appropriate.
 
 ## 0.16.0
 Pushed by **Anonemous2**
