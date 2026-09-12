@@ -1,7 +1,5 @@
 # Second Wave Changelog
 
-## Unreleased
-
 ## 0.16.1
 Pushed by **Quitch and Claude Fable 5.1**
 
