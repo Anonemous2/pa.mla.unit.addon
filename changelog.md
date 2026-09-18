@@ -1,5 +1,9 @@
 # Second Wave Companion Changelog
 
+## Unreleased
+- Now ships the animations, particle effects, strategic icons, and build-bar icons that used to be in the server mod, so modded lobbies join faster.
+- Icon files are smaller (metadata stripped, pixels unchanged).
+
 ## 1.1.12
 - Updated Legion buildbar icons.
 
