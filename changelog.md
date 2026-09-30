@@ -3,6 +3,9 @@
 ## 0.16.1
 Pushed by **Quitch and Claude Fable 5.1**
 
+### General
+- Animations, effects, and icons now ship in the companion mod, so the server mod is about 45% smaller and modded lobbies join faster.
+
 ### AI
 - Bugs AI can now build Bugs units
 - Exiles AI no longer attempts (and fails) to build MLA-only units
